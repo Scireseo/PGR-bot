@@ -32,7 +32,7 @@ client.on('message', message => {
     if(message.content.startsWith("write")){
         let editedMessage = message.content.slice(6);
         client.messages[message.author.username] = {
-            message: message.content
+            message: editedMessage
         }
         fs.writeFile("./msgs.json", JSON.stringify(client.msgs, null, 4), err => {
             if (err) throw err;
