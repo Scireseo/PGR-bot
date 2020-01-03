@@ -1,55 +1,6 @@
 {
     "breakthrough": {
         "memories": {
-            "2": {
-
-            },
-            "3": {
-                "0": {
-                    "nuts": 4000,
-                    "memory_low": 1,
-                    "memory_high": 0,
-                    "alloy_low": 0,
-                    "alloy_high": 0
-                },
-                "1": {
-                    "nuts": 8000,
-                    "memory_low": 1,
-                    "memory_high": 0,
-                    "alloy_low": 1,
-                    "alloy_high": 0
-                }
-            },
-            "4": {
-                "0": {
-                    "nuts": 6000,
-                    "memory_low": 2,
-                    "memory_high": 0,
-                    "alloy_low": 0,
-                    "alloy_high": 0
-                },
-                "1": {
-                    "nuts": 12000,
-                    "memory_low": 2,
-                    "memory_high": 0,
-                    "alloy_low": 2,
-                    "alloy_high": 0
-                },
-                "2": {
-                    "nuts": 18000,
-                    "memory_low": 1,
-                    "memory_high": 1,
-                    "alloy_low": 1,
-                    "alloy_high": 1
-                },
-                "3": {
-                    "nuts": 24000,
-                    "memory_low": 1,
-                    "memory_high": 2,
-                    "alloy_low": 1,
-                    "alloy_high": 2
-                }
-            },
             "5": {
                 "0": {
                     "nuts": 8000,
@@ -112,7 +63,66 @@
             } 
         },
         "weapons": {
-            
+            "5": {
+                "0": {
+                    "nuts": 8000,
+                    "weapon_low": 6,
+                    "weapon_high": 0,
+                    "alloy_low": 0,
+                    "alloy_high": 0
+                },
+                "1": {
+                    "nuts": 16000,
+                    "weapon_low": 6,
+                    "weapon_high": 0,
+                    "alloy_low": 6,
+                    "alloy_high": 0
+                },
+                "2": {
+                    "nuts": 24000,
+                    "weapon_low": 4,
+                    "weapon_high": 4,
+                    "alloy_low": 4,
+                    "alloy_high": 4
+                },
+                "3": {
+                    "nuts": 32000,
+                    "weapon_low": 4,
+                    "weapon_high": 8,
+                    "alloy_low": 4,
+                    "alloy_high": 8
+                }
+            },
+            "6": {
+                "0": {
+                    "nuts": 10000,
+                    "weapon_low": 8,
+                    "weapon_high": 0,
+                    "alloy_low": 0,
+                    "alloy_high": 0
+                },
+                "1": {
+                    "nuts": 20000,
+                    "weapon_low": 8,
+                    "weapon_high": 0,
+                    "alloy_low": 8,
+                    "alloy_high": 0
+                },
+                "2": {
+                    "nuts": 30000,
+                    "weapon_low": 6,
+                    "weapony_high": 6,
+                    "alloy_low": 6,
+                    "alloy_high": 6
+                },
+                "3": {
+                    "nuts": 40000,
+                    "weapon_low": 6,
+                    "weapon_high": 10,
+                    "alloy_low": 6,
+                    "alloy_high": 10
+                }
+            } 
         }
     }
 }

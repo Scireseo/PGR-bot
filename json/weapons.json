@@ -1,0 +1,236 @@
+{
+    "0": {
+        "name": "Kageuchi - Break",
+        "rarity": 6,
+        "effect": "Increase elemental damage by 5% for every orb consumed, lasts for 4s, up to 4 stacks. Increase all damage by 10% for 10s after ultimate is unleashed",
+        "base_ATK": 48,
+        "base_CRIT": 23,
+        "max_ATK": 445,
+        "max_CRIT": 226 
+    },
+    "1": {
+        "name": "Sirius",
+        "rarity": 6,
+        "effect": "Increase all damage by 5%. When destroying balls, accumulate energy based on the number of balls destroyed. At 50 energy, summon Sirius for 45 seconds. CD: 60s",
+        "base_ATK": 52,
+        "base_CRIT": 21,
+        "max_ATK": 458,
+        "max_CRIT": 221 
+    },
+    "2": {
+        "name": "Red Sakura",
+        "rarity": 6,
+        "effect": "Gain 2% increase in physical damage for every orb consumed for 4s, stackable up to 10 times. Gain 1 additional sword wave orb in sword wave mode, CD: 10s",
+        "base_ATK": 51,
+        "base_CRIT": 23,
+        "max_ATK": 447,
+        "max_CRIT": 239 
+    },
+    "3": {
+        "name": "Red Lotus Fanatic",
+        "rarity": 6,
+        "effect": "10% damage increase to basic attacks. Every basic attack increases physical damage by 5% for 2s, stackable up to 5 times",
+        "base_ATK": 49,
+        "base_CRIT": 23,
+        "max_ATK": 428,
+        "max_CRIT": 234 
+    },
+    "4": {
+        "name": "Zero-Degree Target",
+        "rarity": 6,
+        "effect": "The skill 空间领主 deals 10% more damage, increase physical damage by 15% after a 3 orb skill for 5s",
+        "base_ATK": 51,
+        "base_CRIT": 25,
+        "max_ATK": 445,
+        "max_CRIT": 254 
+    },
+    "5": {
+        "name": "Wolf Eater",
+        "rarity": 6,
+        "effect": "All damage increases by 20% when attacking enemies within the burning area",
+        "base_ATK": 52,
+        "base_CRIT": 25,
+        "max_ATK": 458,
+        "max_CRIT": 249 
+    },
+    "6": {
+        "name": "God Giver",
+        "rarity": 6,
+        "effect": "10% damage increase to allies within 5m of range for every 12 orbs you consume. Deal 10% more damage to rooted enemies",
+        "base_ATK": 48,
+        "base_CRIT": 24,
+        "max_ATK": 423,
+        "max_CRIT": 245 
+    },
+    "7": {
+        "name": "Sky Wind Dragon",
+        "rarity": 6,
+        "effect": "Basic attacks have a 10% chance to weaken enemies decreasing their damage by 10% for 5s. 10% chance to recover an orb when attacking weakened enemies, CD: 6s",
+        "base_ATK": 46,
+        "base_CRIT": 25,
+        "max_ATK": 406,
+        "max_CRIT": 253 
+    },
+    "8": {
+        "name": "Type Zero",
+        "rarity": 6,
+        "effect": "Damage of 激光炮伤害 is increased by 50%. Increase damage by 15% after using a 3 orb skill for 5s",
+        "base_ATK": 47,
+        "base_CRIT": 25,
+        "max_ATK": 415,
+        "max_CRIT": 249 
+    },
+    "9": {
+        "name": "Ramiel",
+        "rarity": 6,
+        "effect": "15% increase to ultimate damage. Increase physical damage received by enemies by 2% everytime your ultimate hits them for 5s, stackable up to 8 times",
+        "base_ATK": 54,
+        "base_CRIT": 25,
+        "max_ATK": 471,
+        "max_CRIT": 254 
+    },
+    "10": {
+        "name": "Chimera - Break",
+        "rarity": 6,
+        "effect": "20% chance to cause target to enter damaged status when attacking, dealing 2% of physical damage every second for 3s, stackkable up to 10 times. Chances are double on enemies with defense down. 10% increase to physical damage when attacking damaged enemies",
+        "base_ATK": 48,
+        "base_CRIT": 23,
+        "max_ATK": 425,
+        "max_CRIT": 235 
+    },
+    "11": {
+        "name": "Verve",
+        "rarity": 6,
+        "effect": "10% chance to decrease enemy's fire resistance by 5% when attacking, CD: 8s for each enemy. Fire damage increased by 20% after ultimate and doubles the chance of decreasing enemy's fire resistance",
+        "base_ATK": 50,
+        "base_CRIT": 22,
+        "max_ATK": 436,
+        "max_CRIT": 230 
+    },
+    "12": {
+        "name": "Big Kamui",
+        "rarity": 6,
+        "effect": "Increase physical damage by 15%. Next skill damage is increased by 30% when you successfully counter an enemy",
+        "base_ATK": 50,
+        "base_CRIT": 22,
+        "max_ATK": 436,
+        "max_CRIT": 230 
+    },
+    "13": {
+        "name": "Pitch Black",
+        "rarity": 6,
+        "effect": "20% increase to physical damage and dark damage by 20% after consuming 3 orbs, lasts for 5s",
+        "base_ATK": 48,
+        "base_CRIT": 23,
+        "max_ATK": 425,
+        "max_CRIT": 235 
+    },
+    "14": {
+        "name": "Frenzy Fusion Cannon",
+        "rarity": 6,
+        "effect": "Increase physical damage by 10%. After consuming 3 orbs at once, basic attacks damage is increased by 30%",
+        "base_ATK": 52,
+        "base_CRIT": 25,
+        "max_ATK": 458,
+        "max_CRIT": 249 
+    },
+    "15": {
+        "name": "Nuclear Dragon",
+        "rarity": 6,
+        "effect": "Increase fire damage by 10%. When consuming a red orb, fire damage increases by 10% for 5s",
+        "base_ATK": 51,
+        "base_CRIT": 25,
+        "max_ATK": 450,
+        "max_CRIT": 253 
+    },
+    "16": {
+        "name": "Soul Slayer",
+        "rarity": 6,
+        "effect": "When you deal a crit from behind, the target is Damaged, receiving 50% physical damage every second for 3s. When attacking damaged enemies, physical damage increases by 20%",
+        "base_ATK": 52,
+        "base_CRIT": 26,
+        "max_ATK": 458,
+        "max_CRIT": 261 
+    },
+    "17": {
+        "name": "Kuji no Ken",
+        "rarity": 5,
+        "effect": "Attacks have a 20% chance of causing lightning strike, dealing 50% physical damage, CD: 3s",
+        "base_ATK": 45,
+        "base_CRIT": 20,
+        "max_ATK": 354,
+        "max_CRIT": 186 
+    },
+    "18": {
+        "name": "Shadow Violet",
+        "rarity": 5,
+        "effect": "After consecutive red, blue, and yellow orb consumption for 5s, increase all damage by 15% for 5s",
+        "base_ATK": 47,
+        "base_CRIT": 22,
+        "max_ATK": 372,
+        "max_CRIT": 201 
+    },
+    "19": {
+        "name": "Guardian Mount",
+        "rarity": 5,
+        "effect": "Obtain a random orb for increasing your combo by 30, CD: 8s",
+        "base_ATK": 42,
+        "base_CRIT": 22,
+        "max_ATK": 336,
+        "max_CRIT": 201 
+    },
+    "20": {
+        "name": "Saker E-3320",
+        "rarity": 5,
+        "effect": "Critical chance and Critical damage increases by 10% when there are no enemies within 2m",
+        "base_ATK": 48,
+        "base_CRIT": 23,
+        "max_ATK": 382,
+        "max_CRIT": 206 
+    },
+    "21": {
+        "name": "Tourmaline Fire",
+        "rarity": 5,
+        "effect": "30% chance to let enemies enter defense break status when attacking, decrease defense by 5% for 3s, stackable up to 5 times",
+        "base_ATK": 43,
+        "base_CRIT": 20,
+        "max_ATK": 345,
+        "max_CRIT": 190 
+    },
+    "22": {
+        "name": "Star of Bethlehem",
+        "rarity": 5,
+        "effect": "Create a christmas halo when you do a 3 orb combo. Attack and movement speed is increased by 8% within the halo. The halo lasts for 15s, CD: 30s",
+        "base_ATK": 43,
+        "base_CRIT": 20,
+        "max_ATK": 345,
+        "max_CRIT": 190 
+    },
+    "23": {
+        "name": "Accel Greatsword",
+        "rarity": 5,
+        "effect": "Attacks have a 10% chance to release a shockwave, dealing 100% physical damage to enemies within range",
+        "base_ATK": 45,
+        "base_CRIT": 20,
+        "max_ATK": 354,
+        "max_CRIT": 186 
+    },
+    "24": {
+        "name": "Pillar of Lava",
+        "rarity": 5,
+        "effect": "Damage is increased by 12% after consuming 3 orbs at once for 4s",
+        "base_ATK": 47,
+        "base_CRIT": 22,
+        "max_ATK": 372,
+        "max_CRIT": 201 
+    },
+    "25": {
+        "name": "Heartstone",
+        "rarity": 5,
+        "effect": "After consecutive 3 orb combo, 15% increase to all damage for 5s",
+        "base_ATK": 47,
+        "base_CRIT": 23,
+        "max_ATK": 372,
+        "max_CRIT": 209 
+    },
+}
