@@ -17,7 +17,12 @@
             "13": "Clear war zone 3 times"
         },
         "dorm": {
-
+            "0": "Place a unit on dorm duty",
+            "1": "Trigger and complete dormitory events 3 times",
+            "2": "Pet units 5 times",
+            "3": "Recycle furniture once",
+            "4": "Make furniture 3 times",
+            "5": "Complete all dormitory tasks"
         }
     },
     "weekly": {

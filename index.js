@@ -63,63 +63,56 @@ client.on('message', msg => {
         msg.channel.send({ embed: embed });
     }
     if(msg.content.toLowerCase().startsWith(prefix + "mission")){
-        let bullet_point = "•";
         let embed = {};
-        let mission_name = titleCase(msg.content.replace(prefix + "mission", "").trim());
-        let selected_mission = Object.keys(client.missions).find(missions => missions.includes(mission_name));
-        let mission_index = Object.keys(client.missions).findIndex(missions => missions.includes(mission_name));
-        mission_name = selected_mission;
+        let mission_name = msg.content.replace(prefix + "mission", "").trim().toLowerCase();
+        let list_of_missions = Object.keys(client.missions);
+        let selected_mission = list_of_missions.find(mission => mission.includes(mission_name));
+        if("list".includes(mission_name.toLowerCase())){
+            list_of_missions = list_of_missions.map((mission, index) => `${index + 1}.) ${mission}`).join("\r\n");
+            embed = {
+                title: "mission list",
+                fields: [{ name: "commands", value: list_of_missions }]
+            }
+            return msg.channel.send({ embed: embed });
+        }
+        else if(selected_mission === undefined)
+            return msg.channel.send("The mission that you're looking for does not exist. Be sure to check the list by typing the command `~mission list`");
+        mission_name = titleCase(selected_mission);
         selected_mission = client.missions[selected_mission];
-        console.log("[checking]", mission_name, selected_mission);
-        // let embed = {
-        //     title: "Daily missions",
-        //     fields: [{ 
-        //         name: "Standard", 
-        //         value: `
-        //             • Login in 1 time
-        //             • Clear any battle once
-        //             • Enhance weapon
-        //             • Enhance stigma
-        //             • Enhance character
-        //             • Purchase any item in the shop
-        //             • Exchange black cards for stamina once
-        //             • Consume 100 stamina
-        //             • Consume 200 stamina
-        //             • Consume 300 stamina
-        //             • Talk to character in the home page once
-        //             • Visit dorm once
-        //             • Clear pain cage 3 times
-        //             • Clear war zone 3 times
-        //         `
-        //     }]
-        // }
-        // msg.channel.send({ embed: embed });
+        embed = {
+            title: `${mission_name} missions`,
+            fields: Object.keys(selected_mission).map(mission => {
+                return {
+                    name: mission,
+                    value: Object.values(selected_mission[mission]).map(details => `• ${details}`).join("\r\n")
+                }
+            })
+        }; 
+        msg.channel.send({ embed: embed });
     }
     if(msg.content.toLowerCase().startsWith(prefix + "memory")){
         let embed = {};
+        let rarity = "";
         let memory_name = titleCase(msg.content.replace(prefix + "memory", "").trim());
-        let selected_memory = Object.keys(client.memories["memory"]).find(memory => memory.includes(memory_name));
-        let memory_index = Object.keys(client.memories["memory"]).findIndex(memory => memory.includes(memory_name));
-        memory_name = selected_memory;
-        selected_memory = client.memories["memory"][selected_memory];
-        if(memory_name.toLowerCase() === "list"){
-            let listOfmemory = Object.keys(client.memories["memory"]).map((memory, index) => `${index + 1}.) ${memory}`)
-            listOfmemory = listOfmemory.join("\r\n");
+        let list_of_memories = Object.values(client.memories);
+        let selected_memory = list_of_memories.find(memory => memory.name.includes(memory_name));
+        let memory_index = list_of_memories.findIndex(memory => memory.name.includes(memory_name));
+        if("list".includes(memory_name.toLowerCase())){
+            list_of_memories = list_of_memories.map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
             embed = {
                 title: "memory list",
-                fields: [{ name: "Names", value: listOfmemory }]
+                fields: [{ name: "names", value: list_of_memories }]
             }
             return msg.channel.send({ embed: embed });
         }
         else if(selected_memory === undefined)
             return msg.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`");
-            let attachment = ("0" + memory_index).slice(-2).concat(".png");
-        let rarity = "";
+        let attachment = ("0" + memory_index).slice(-2).concat(".png");
         for(x = 0; x <= selected_memory.rarity - 1; x++){
             rarity += "★";
         }
         embed = {
-            title: `${memory_name}(${rarity})`,
+            title: `${selected_memory.name}(${rarity})`,
             color: colors.memory,
             thumbnail: {
                 url: `attachment://${attachment}`,
@@ -158,24 +151,10 @@ client.on('message', msg => {
         msg.channel.send({ 
             embed: embed,
             files: [{
-                attachment: `./static/images/memory/${attachment}`,
+                attachment: `./static/images/memories/${attachment}`,
                 name: attachment
             }]
         });
-        
-        //move to a separate command
-        // let selectedLB = client.memories["breakthrough"][selected_memory["rarity"]];
-        // console.log("rarity", selectedLB);
-        // let breakthrough = Object.keys(selectedLB).map((breakthrough, index) => 
-        //     `
-        //         ${index + 1}: ${selectedLB[breakthrough].nuts}x ${emoji("black_nuts")} 
-        //         ${selectedLB[breakthrough].memory_low}x ${emoji("memory_low")}
-        //         ${selectedLB[breakthrough].memory_high}x ${emoji("memory_high")}
-        //         ${selectedLB[breakthrough].alloy_low}x ${emoji("alloy_low")}
-        //         ${selectedLB[breakthrough].alloy_high}x ${emoji("alloy_high")}
-        //     `
-        // );
-        // breakthrough = breakthrough.join("\r\n");
     }
     // if(msg.content.startsWith("write")){
     //     let editedmsg = msg.content.slice(6);
