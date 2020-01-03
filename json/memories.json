@@ -1,5 +1,5 @@
 {
-    "awareness": {
+    "memory": {
         "Einstein": {
             "rarity": 6,
             "effect_1": "When QTE, decrease enemy's element resist by 15% in 5s. CD:15s",
@@ -177,15 +177,15 @@
         "3": {
             "0": {
                 "nuts": 4000,
-                "awareness_low": 1,
-                "awareness_high": 0,
+                "memory_low": 1,
+                "memory_high": 0,
                 "alloy_low": 0,
                 "alloy_high": 0
             },
             "1": {
                 "nuts": 8000,
-                "awareness_low": 1,
-                "awareness_high": 0,
+                "memory_low": 1,
+                "memory_high": 0,
                 "alloy_low": 1,
                 "alloy_high": 0
             }
@@ -193,29 +193,29 @@
         "4": {
             "0": {
                 "nuts": 6000,
-                "awareness_low": 2,
-                "awareness_high": 0,
+                "memory_low": 2,
+                "memory_high": 0,
                 "alloy_low": 0,
                 "alloy_high": 0
             },
             "1": {
                 "nuts": 12000,
-                "awareness_low": 2,
-                "awareness_high": 0,
+                "memory_low": 2,
+                "memory_high": 0,
                 "alloy_low": 2,
                 "alloy_high": 0
             },
             "2": {
                 "nuts": 18000,
-                "awareness_low": 1,
-                "awareness_high": 1,
+                "memory_low": 1,
+                "memory_high": 1,
                 "alloy_low": 1,
                 "alloy_high": 1
             },
             "3": {
                 "nuts": 24000,
-                "awareness_low": 1,
-                "awareness_high": 2,
+                "memory_low": 1,
+                "memory_high": 2,
                 "alloy_low": 1,
                 "alloy_high": 2
             }
@@ -223,29 +223,29 @@
         "5": {
             "0": {
                 "nuts": 8000,
-                "awareness_low": 3,
-                "awareness_high": 0,
+                "memory_low": 3,
+                "memory_high": 0,
                 "alloy_low": 0,
                 "alloy_high": 0
             },
             "1": {
                 "nuts": 16000,
-                "awareness_low": 3,
-                "awareness_high": 0,
+                "memory_low": 3,
+                "memory_high": 0,
                 "alloy_low": 3,
                 "alloy_high": 0
             },
             "2": {
                 "nuts": 24000,
-                "awareness_low": 2,
-                "awareness_high": 2,
+                "memory_low": 2,
+                "memory_high": 2,
                 "alloy_low": 2,
                 "alloy_high": 2
             },
             "3": {
                 "nuts": 32000,
-                "awareness_low": 2,
-                "awareness_high": 4,
+                "memory_low": 2,
+                "memory_high": 4,
                 "alloy_low": 2,
                 "alloy_high": 4
             }
@@ -253,29 +253,29 @@
         "6": {
             "0": {
                 "nuts": 10000,
-                "awareness_low": 4,
-                "awareness_high": 0,
+                "memory_low": 4,
+                "memory_high": 0,
                 "alloy_low": 0,
                 "alloy_high": 0
             },
             "1": {
                 "nuts": 20000,
-                "awareness_low": 4,
-                "awareness_high": 0,
+                "memory_low": 4,
+                "memory_high": 0,
                 "alloy_low": 4,
                 "alloy_high": 0
             },
             "2": {
                 "nuts": 30000,
-                "awareness_low": 3,
-                "awareness_high": 3,
+                "memory_low": 3,
+                "memory_high": 3,
                 "alloy_low": 3,
                 "alloy_high": 3
             },
             "3": {
                 "nuts": 40000,
-                "awareness_low": 3,
-                "awareness_high": 5,
+                "memory_low": 3,
+                "memory_high": 5,
                 "alloy_low": 3,
                 "alloy_high": 5
             }

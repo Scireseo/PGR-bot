@@ -1,0 +1,26 @@
+{
+    "daily": {
+        "standard": {
+            "0": "Login in 1 time",
+            "1": "Clear any battle once",
+            "2": "Enhance weapon",
+            "3": "Enhance stigma",
+            "4": "Enhance character",
+            "5": "Purchase any item in the shop",
+            "6": "Exchange black cards for stamina once",
+            "7": "Consume 100 stamina",
+            "8": "Consume 200 stamina",
+            "9": "Consume 300 stamina",
+            "10": "Talk to character in the home page once",
+            "11": "Visit dorm once",
+            "12": "Clear pain cage 3 times",
+            "13": "Clear war zone 3 times"
+        },
+        "dorm": {
+
+        }
+    },
+    "weekly": {
+        
+    }
+}
