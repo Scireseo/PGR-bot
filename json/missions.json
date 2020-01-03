@@ -3,15 +3,15 @@
         "standard": {
             "0": "Login in 1 time",
             "1": "Clear any battle once",
-            "2": "Enhance weapon",
-            "3": "Enhance stigma",
-            "4": "Enhance character",
+            "2": "Enhance Weapon",
+            "3": "Enhance Memory",
+            "4": "Enhance Character",
             "5": "Purchase any item in the shop",
             "6": "Exchange black cards for stamina once",
             "7": "Consume 100 stamina",
             "8": "Consume 200 stamina",
             "9": "Consume 300 stamina",
-            "10": "Talk to character in the home page once",
+            "10": "Talk to Character in the home page once",
             "11": "Visit dorm once",
             "12": "Clear pain cage 3 times",
             "13": "Clear war zone 3 times"
@@ -27,5 +27,52 @@
     },
     "weekly": {
         
+    },
+    "rookie": {
+        "0": {
+            "0": "Level up 3 Characters to 15",
+            "1": "Level up 5-star equipment to 30",
+            "2": "Clear 5 daily missions",
+            "3": "Salvage 1 4-star equipment",
+            "4": "Clear Story 1-5"
+        },
+        "1": {
+            "0": "Clear Story 3",
+            "1": "Level up 6 5-star equipments to 30",
+            "2": "Level up 3 Characters to 30",
+            "3": "Clear 6 chapters of Lucia's story",
+            "4": "Clear Rescue Battle Level 2"
+        },
+        "2": {
+            "0": "Pass battle stage 3 times",
+            "1": "Reach Affection level 2 with any Character",
+            "2": "Clear Hidden Story 2",
+            "3": "Clear battle copy stage 6 times",
+            "4": "Clear AB-2 3 times",
+            "5": "Complete a Bounty mission"
+        },
+        "3": {
+            "0": "Clear boss mission on Chaotic difficulty",
+            "1": "Reach Commander Level 40",
+            "2": "Clear Character Special training stage difficulty 2",
+            "3": "Promote 4 Characters to 3rd Grade",
+            "4": "Upgrade dorm furniture once"
+        },
+        "4": {
+            "0": "Clear Rescue Battle 4",
+            "1": "Level up any equipment to 40",
+            "2": "Reach Commander Level 45",
+            "3": "Level 3 Characters to Level 45"
+        },
+        "5": {
+            "0": "Clear Story 5",
+            "1": "Clear Rescue Battle 6",
+            "2": "Reach 2500CP"
+        },
+        "6": {
+            "0": "Login 7 days",
+            "1": "Reach Commander Level 50",
+            "2": "Promote 4 Characters to Elite 2"
+        }
     }
 }
