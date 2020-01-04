@@ -182,10 +182,10 @@
         "max_CRIT": "67(1st position is 64)"
     },
     "13": {
-        "name": "Irwin",
+        "name": "Erwin",
         "rarity": 5,
         "effect_1": "Increase basic attack's damage by 10%",
-        "effect_2": "Increase basic attack's damage by 15%. Buff goes into cooldown when attacked for 12s",
+        "effect_2": "Increase basic attack's damage by 15%. Buff disappears when attacked, returns after 12s",
         "base_HP": 132,
         "base_ATK": 12,
         "base_DEF": 20,
