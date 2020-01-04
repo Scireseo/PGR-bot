@@ -25,7 +25,7 @@ client.missions = require ("./json/missions.json");
 client.weapons = require ("./json/weapons.json");
 
 client.on('ready', () => {
-    console.log(`logged in as ${client.user.tag}!`);
+    console.log(`logged in as ${client.user.tag}! I am currently in ${client.guilds.size} servers!`);
 });
 
 client.on('message', msg => {
@@ -102,7 +102,7 @@ client.on('message', msg => {
             list_of_missions = list_of_missions.map((mission, index) => `${index + 1}.) ${mission}`).join("\r\n");
             embed = {
                 title: "Mission list",
-                fields: [{ name: "", value: list_of_missions }]
+                fields: [{ name: "names", value: list_of_missions }]
             }
             return msg.channel.send({ embed: embed });
         }
