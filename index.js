@@ -25,6 +25,7 @@ client.missions = require ("./json/missions.json");
 client.weapons = require ("./json/weapons.json");
 
 client.on('ready', () => {
+    client.user.setActivity('~help for commands!');
     console.log(`logged in as ${client.user.tag}! I am currently in ${client.guilds.size} servers!`);
 });
 

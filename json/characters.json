@@ -1,3 +1,26 @@
 {
-    
+    "0": {
+        "name": "Lee",
+        "code_name": "Ghostfire",
+        "base_HP": 427,
+        "base_ATK": 94,
+        "base_DEF": 54,
+        "base_CRIT": 45,
+        "max_HP": 1915,
+        "max_ATK": 422,
+        "max_DEF": 244,
+        "max_CRIT": 201,
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "",
+                    "description": "",
+                    "max_description": ""
+                }
+            },
+            "passive": {
+
+            }
+        }
+    } 
 }
