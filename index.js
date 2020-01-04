@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const auth = require('./auth.json');
+// const auth = require('./auth.json');
+const auth = require('./auth-dev.json');
 const prefix = "~";
 const colors = { weapon: "11728383", memory: "16508579", character: "16756158" };
 
