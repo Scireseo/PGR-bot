@@ -24,6 +24,7 @@ client.msgs = require ("./msgs.json");
 client.memories = require ("./json/memories.json");
 client.missions = require ("./json/missions.json");
 client.weapons = require ("./json/weapons.json");
+client.characters = require ("./json/characters.json");
 
 client.on('ready', () => {
     client.user.setActivity('~help for commands!');
@@ -240,6 +241,15 @@ client.on('message', msg => {
                 name: attachment
             }]
         });
+    }
+    if(msg.content.toLowerCase().startsWith(prefix + "character")){
+        let embed = {};
+        let rarity = "";
+        let character_name = titleCase(msg.content.replace(prefix + "character", "").trim());
+        let list_of_characters = Object.values(client.characters);
+        let selected_character = list_of_characters.filter(character => character.name.includes(character_name));
+        console.log('check: ', selected_character);
+        // let weapon_index = list_of_weapons.findIndex(weapon => weapon.name.includes(weapon_name));
     }
     // if(msg.content.startsWith("write")){
     //     let editedmsg = msg.content.slice(6);

@@ -59,7 +59,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -158,7 +158,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -259,7 +259,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -356,7 +356,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -458,7 +458,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -555,7 +555,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -655,7 +655,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -750,7 +750,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -847,7 +847,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -951,7 +951,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
@@ -1049,7 +1049,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
@@ -1146,7 +1146,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
@@ -1247,7 +1247,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
@@ -1343,7 +1343,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Increase healing effectiveness by A%",
@@ -1442,7 +1442,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Increase healing effectiveness by A%",
@@ -1543,7 +1543,7 @@
                     }
                 }
             },
-            "passive": {
+            "passives": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Increase healing effectiveness by A%",
