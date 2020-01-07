@@ -4,8 +4,9 @@ const client = new Discord.Client();
 const auth = require('./auth-dev.json');
 const prefix = "~";
 const colors = { weapon: "11728383", memory: "16508579", character: "16756158" };
-
+const rarities = { weapon: [6, 5], memory: [6, 5], character: ["S", "A", "B"]};
 const fs = require("fs");
+const global_timeout = 120000;
 
 function capitalizeFirstLetter(string) {
     if(string === "") return;
@@ -18,6 +19,16 @@ function titleCase(string) {
 
 function emoji(name) {
     return client.emojis.find(emoji => emoji.name === name).toString();
+}
+
+function initializeReactCollector(msg) {
+    const filter = (reaction, user) => {
+        return ['◀️', '▶️'].includes(reaction.emoji.name) && user.id !== msg.author.id;
+    };
+    msg.react('◀️').then(() => {
+        msg.react('▶️')
+    });
+    return msg.createReactionCollector(filter, { time: global_timeout });
 }
 
 client.msgs = require ("./msgs.json");
@@ -132,12 +143,35 @@ client.on('message', msg => {
         let selected_memory = list_of_memories.find(memory => memory.name.includes(memory_name));
         let memory_index = list_of_memories.findIndex(memory => memory.name.includes(memory_name));
         if(memory_name.toLowerCase() === "list"){
-            list_of_memories = list_of_memories.map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
-            embed = {
-                title: "memory list",
-                fields: [{ name: "names", value: list_of_memories }]
+            let rarity_index = 0;
+            let max_index = rarities.memory.length - 1;
+            function generateEmbed(){
+                let list_of_memories_by_rarity = list_of_memories.filter(memory => memory.rarity === rarities.memory[rarity_index]).map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
+                let generated_embed = {
+                    title: "memory list",
+                    fields: [{ name: `${rarities.memory[rarity_index]}★ memories`, value: list_of_memories_by_rarity }]
+                }
+                return generated_embed;
             }
-            return msg.channel.send({ embed: embed });
+            embed = generateEmbed();
+            return msg.channel.send({ embed: embed }).then((sent_msg) => {
+                let react_collector = initializeReactCollector(sent_msg);
+                react_collector.on('collect', reaction => {
+                    if(reaction.emoji.name === '◀️'){
+                        rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
+                        embed = generateEmbed();
+                        sent_msg.edit({ embed: embed });
+                    }
+                    else{
+                        rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
+                        embed = generateEmbed();
+                        sent_msg.edit({ embed: embed });
+                    }
+                });
+                react_collector.on('end', () => {
+                    sent_msg.reactions.map(reaction => reaction.remove(sent_msg.author.id));
+                })
+            });
         }
         else if(selected_memory === undefined || memory_name === "")
             return msg.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
@@ -198,12 +232,35 @@ client.on('message', msg => {
         let selected_weapon = list_of_weapons.find(weapon => weapon.name.includes(weapon_name));
         let weapon_index = list_of_weapons.findIndex(weapon => weapon.name.includes(weapon_name));
         if(weapon_name.toLowerCase() === "list"){
-            list_of_weapons = list_of_weapons.map((weapon, index) => `${index + 1}.) ${weapon.name}`).join("\r\n");
-            embed = {
-                title: "weapon list",
-                fields: [{ name: "names", value: list_of_weapons }]
+            let rarity_index = 0;
+            let max_index = rarities.weapon.length - 1;
+            function generateEmbed(){
+                let list_of_weapons_by_rarity = list_of_weapons.filter(weapon => weapon.rarity === rarities.weapon[rarity_index]).map((weapon, index) => `${index + 1}.) ${weapon.name}`).join("\r\n");
+                let generated_embed = {
+                    title: "weapon list",
+                    fields: [{ name: `${rarities.weapon[rarity_index]}★ weapons`, value: list_of_weapons_by_rarity }]
+                }
+                return generated_embed;
             }
-            return msg.channel.send({ embed: embed });
+            embed = generateEmbed();
+            return msg.channel.send({ embed: embed }).then((sent_msg) => {
+                let react_collector = initializeReactCollector(sent_msg);
+                react_collector.on('collect', reaction => {
+                    if(reaction.emoji.name === '◀️'){
+                        rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
+                        embed = generateEmbed();
+                        sent_msg.edit({ embed: embed });
+                    }
+                    else{
+                        rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
+                        embed = generateEmbed();
+                        sent_msg.edit({ embed: embed });
+                    }
+                });
+                react_collector.on('end', () => {
+                    sent_msg.reactions.map(reaction => reaction.remove(sent_msg.author.id));
+                })
+            });
         }
         else if(selected_weapon === undefined || weapon_name === "")
             return msg.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `~weapon list`!");
