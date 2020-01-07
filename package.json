@@ -2,7 +2,7 @@
   "name": "pgr-bot",
   "version": "1.0.0",
   "description": "A bot for the PGR Server folks",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Scireseo/PGR-bot#readme",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^11.5.1",
+    "dotenv-flow": "^3.1.0",
+    "enmap": "^5.2.4"
   }
 }

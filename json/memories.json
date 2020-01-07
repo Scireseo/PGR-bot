@@ -179,7 +179,7 @@
         "max_HP": 1453,
         "max_ATK": 132,
         "max_DEF": 223,
-        "max_CRIT": "67(1st position is 64)"
+        "max_CRIT": 67
     },
     "13": {
         "name": "Erwin",
