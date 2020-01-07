@@ -199,7 +199,7 @@
         "name": "Eiffu",
         "rarity": 5,
         "effect_1": "Increase all damage by 2% for every orb consumed, lasts for 3s. 5 stacks max, with each stack resetting the buff's duration",
-        "effect_2": "Every 30s, the next 3 orb skill will trigger slowmo",
+        "effect_2": "Every 60s, the next 3 orb skill will trigger slowmo",
         "base_HP": 132,
         "base_ATK": 12,
         "base_DEF": 20,

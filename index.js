@@ -104,7 +104,7 @@ client.on('message', msg => {
         if(mission_name.toLowerCase() === "list"){
             list_of_missions = list_of_missions.map((mission, index) => `${index + 1}.) ${mission}`).join("\r\n");
             embed = {
-                title: "Mission list",
+                title: "Missions list",
                 fields: [{ name: "names", value: list_of_missions }]
             }
             return msg.channel.send({ embed: embed });
@@ -134,7 +134,7 @@ client.on('message', msg => {
         if(memory_name.toLowerCase() === "list"){
             list_of_memories = list_of_memories.map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
             embed = {
-                title: "memory list",
+                title: "Memories list",
                 fields: [{ name: "names", value: list_of_memories }]
             }
             return msg.channel.send({ embed: embed });
@@ -200,7 +200,7 @@ client.on('message', msg => {
         if(weapon_name.toLowerCase() === "list"){
             list_of_weapons = list_of_weapons.map((weapon, index) => `${index + 1}.) ${weapon.name}`).join("\r\n");
             embed = {
-                title: "weapon list",
+                title: "Weapons list",
                 fields: [{ name: "names", value: list_of_weapons }]
             }
             return msg.channel.send({ embed: embed });
@@ -219,7 +219,7 @@ client.on('message', msg => {
             },
             fields: [
                 {
-                    name: "effect",
+                    name: "Effect",
                     value: selected_weapon.effect,
                 },
                 {
@@ -244,12 +244,65 @@ client.on('message', msg => {
     }
     if(msg.content.toLowerCase().startsWith(prefix + "character")){
         let embed = {};
-        let rarity = "";
         let character_name = titleCase(msg.content.replace(prefix + "character", "").trim());
         let list_of_characters = Object.values(client.characters);
-        let selected_character = list_of_characters.filter(character => character.name.includes(character_name));
-        console.log('check: ', selected_character);
-        // let weapon_index = list_of_weapons.findIndex(weapon => weapon.name.includes(weapon_name));
+        let selected_character = list_of_characters.filter(character => 
+            character.name.includes(character_name) || character.code_name.includes(character_name) || 
+            character.name.concat(" ", character.code_name).includes(character_name));
+        // console.log("[check]", character_name, selected_character);
+        if(character_name.toLowerCase() === "list"){
+            list_of_characters = list_of_characters.map((character, index) => `${index + 1}.) ${character.name}(${character.code_name})`).join("\r\n");
+            embed = {
+                title: "Characters list",
+                fields: [{ name: "names", value: list_of_characters }]
+            }
+            return msg.channel.send({ embed: embed });
+        }
+        else if(selected_character.length > 1){
+            selected_character = selected_character.map((character, index) => `${index + 1}.) ${character.name}(${character.code_name})`).join("\r\n");
+            embed = {
+                title: "Characters list",
+                description: "Found multiple results. Please select one of the following:",
+                fields: [{ name: "names", value: selected_character }]
+            }
+            return msg.channel.send({ embed: embed });
+        }
+        else if(selected_character === undefined || character_name === "")
+            return msg.channel.send("The character that you're looking for does not exist. Be sure to check the list by typing the command `~character list`!");
+        selected_character = selected_character[0];
+        console.log("selected character: ", selected_character);
+        let character_index = list_of_characters.indexOf(selected_character);
+        let attachment = ("0" + character_index).slice(-2).concat(".png");
+        embed = {
+            title: `${selected_character.name}(${selected_character.code_name})`,
+            color: colors.character,
+            thumbnail: {
+                url: `attachment://${attachment}`,
+            },
+            fields: [
+                {
+                    name: "Rarity",
+                    value: selected_character.rarity,
+                    inline: true,
+                },
+                {
+                    name: "Class",
+                    value: selected_character.class,
+                    inline: true,
+                },
+            ]
+        }
+        msg.channel.send({ 
+            embed: embed,
+            files: [{
+                attachment: `./static/images/characters/${attachment}`,
+                name: attachment
+            }]
+        }).then((sent_msg) => {
+            sent_msg.react('◀️').then(() => {
+                sent_msg.react('▶️');
+            })
+        })
     }
     // if(msg.content.startsWith("write")){
     //     let editedmsg = msg.content.slice(6);
