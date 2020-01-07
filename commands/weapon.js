@@ -36,7 +36,7 @@ exports.run = (client, message, args) => {
     }
     let rarity = "";
     let selected_weapon = list_of_weapons.find(weapon => weapon.name.includes(args));
-    let weapon_index = list_of_weapons.findIndex(weapon => weapon.name.includes(args));
+    let weapon_index = list_of_weapons.indexOf(selected_weapon);
     if(args.length === "" || selected_weapon === undefined) return message.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `~weapon list`!");
     let attachment = ("0" + weapon_index).slice(-2).concat(".png");
     for(x = 0; x <= selected_weapon.rarity - 1; x++){
