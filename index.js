@@ -1,11 +1,20 @@
 const Discord = require('discord.js');
+const fs = require("fs");
+
 const client = new Discord.Client();
-const auth = require('./auth.json');
+// const auth = require('./auth.json');
 // const auth = require('./auth-dev.json');
-const prefix = "~";
+require("dotenv-flow").config();
+
+const config = {
+    token: process.env.TOKEN,
+    owner: process.env.OWNER,
+    prefix: process.env.PREFIX,
+} 
+
+const prefix = config.prefix;
 const colors = { weapon: "11728383", memory: "16508579", character: "16756158" };
 const rarities = { weapon: [6, 5], memory: [6, 5], character: ["S", "A", "B"]};
-const fs = require("fs");
 const global_timeout = 120000;
 
 function capitalizeFirstLetter(string) {
@@ -135,170 +144,170 @@ client.on('message', msg => {
         }; 
         msg.channel.send({ embed: embed });
     }
-    if(msg.content.toLowerCase().startsWith(prefix + "memory")){
-        let embed = {};
-        let rarity = "";
-        let memory_name = titleCase(msg.content.replace(prefix + "memory", "").trim());
-        let list_of_memories = Object.values(client.memories);
-        let selected_memory = list_of_memories.find(memory => memory.name.includes(memory_name));
-        let memory_index = list_of_memories.findIndex(memory => memory.name.includes(memory_name));
-        if(memory_name.toLowerCase() === "list"){
-            let rarity_index = 0;
-            let max_index = rarities.memory.length - 1;
-            function generateEmbed(){
-                let list_of_memories_by_rarity = list_of_memories.filter(memory => memory.rarity === rarities.memory[rarity_index]).map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
-                let generated_embed = {
-                    title: "memory list",
-                    fields: [{ name: `${rarities.memory[rarity_index]}★ memories`, value: list_of_memories_by_rarity }]
-                }
-                return generated_embed;
-            }
-            embed = generateEmbed();
-            return msg.channel.send({ embed: embed }).then((sent_msg) => {
-                let react_collector = initializeReactCollector(sent_msg);
-                react_collector.on('collect', reaction => {
-                    if(reaction.emoji.name === '◀️'){
-                        rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
-                        embed = generateEmbed();
-                        sent_msg.edit({ embed: embed });
-                    }
-                    else{
-                        rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
-                        embed = generateEmbed();
-                        sent_msg.edit({ embed: embed });
-                    }
-                });
-                react_collector.on('end', () => {
-                    sent_msg.reactions.map(reaction => reaction.remove(sent_msg.author.id));
-                })
-            });
-        }
-        else if(selected_memory === undefined || memory_name === "")
-            return msg.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
-        let attachment = ("0" + memory_index).slice(-2).concat(".png");
-        for(x = 0; x <= selected_memory.rarity - 1; x++){
-            rarity += "★";
-        }
-        embed = {
-            title: `${selected_memory.name}(${rarity})`,
-            color: colors.memory,
-            thumbnail: {
-                url: `attachment://${attachment}`,
-            },
-            fields: [
-                {
-                    name: "2 set effect",
-                    value: selected_memory.effect_1,
-                },
-                {
-                    name: "4 set effect",
-                    value: selected_memory.effect_2,
-                },
-                {
-                    name: "HP",
-                    value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
-                    inline: true,
-                },
-                {
-                    name: "ATK",
-                    value: selected_memory.base_ATK + `(**${selected_memory.max_ATK}**)`,
-                    inline: true,
-                },
-                {
-                    name: "DEF",
-                    value: selected_memory.base_DEF + `(**${selected_memory.max_DEF}**)`,
-                    inline: true,
-                },
-                {
-                    name: "CRIT",
-                    value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
-                    inline: true,
-                },
-            ]
-        }
-        msg.channel.send({ 
-            embed: embed,
-            files: [{
-                attachment: `./static/images/memories/${attachment}`,
-                name: attachment
-            }]
-        });
-    }
-    if(msg.content.toLowerCase().startsWith(prefix + "weapon")){
-        let embed = {};
-        let rarity = "";
-        let weapon_name = titleCase(msg.content.replace(prefix + "weapon", "").trim());
-        let list_of_weapons = Object.values(client.weapons);
-        let selected_weapon = list_of_weapons.find(weapon => weapon.name.includes(weapon_name));
-        let weapon_index = list_of_weapons.findIndex(weapon => weapon.name.includes(weapon_name));
-        if(weapon_name.toLowerCase() === "list"){
-            let rarity_index = 0;
-            let max_index = rarities.weapon.length - 1;
-            function generateEmbed(){
-                let list_of_weapons_by_rarity = list_of_weapons.filter(weapon => weapon.rarity === rarities.weapon[rarity_index]).map((weapon, index) => `${index + 1}.) ${weapon.name}`).join("\r\n");
-                let generated_embed = {
-                    title: "weapon list",
-                    fields: [{ name: `${rarities.weapon[rarity_index]}★ weapons`, value: list_of_weapons_by_rarity }]
-                }
-                return generated_embed;
-            }
-            embed = generateEmbed();
-            return msg.channel.send({ embed: embed }).then((sent_msg) => {
-                let react_collector = initializeReactCollector(sent_msg);
-                react_collector.on('collect', reaction => {
-                    if(reaction.emoji.name === '◀️'){
-                        rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
-                        embed = generateEmbed();
-                        sent_msg.edit({ embed: embed });
-                    }
-                    else{
-                        rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
-                        embed = generateEmbed();
-                        sent_msg.edit({ embed: embed });
-                    }
-                });
-                react_collector.on('end', () => {
-                    sent_msg.reactions.map(reaction => reaction.remove(sent_msg.author.id));
-                })
-            });
-        }
-        else if(selected_weapon === undefined || weapon_name === "")
-            return msg.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `~weapon list`!");
-        let attachment = ("0" + weapon_index).slice(-2).concat(".png");
-        for(x = 0; x <= selected_weapon.rarity - 1; x++){
-            rarity += "★";
-        }
-        embed = {
-            title: `${selected_weapon.name}(${rarity})`,
-            color: colors.weapon,
-            thumbnail: {
-                url: `attachment://${attachment}`,
-            },
-            fields: [
-                {
-                    name: "effect",
-                    value: selected_weapon.effect,
-                },
-                {
-                    name: "ATK",
-                    value: selected_weapon.base_ATK + `(**${selected_weapon.max_ATK}**)`,
-                    inline: true,
-                },
-                {
-                    name: "CRIT",
-                    value: selected_weapon.base_CRIT + `(**${selected_weapon.max_CRIT}**)`,
-                    inline: true,
-                },
-            ]
-        }
-        msg.channel.send({ 
-            embed: embed,
-            files: [{
-                attachment: `./static/images/weapons/${attachment}`,
-                name: attachment
-            }]
-        });
-    }
+    // if(msg.content.toLowerCase().startsWith(prefix + "memory")){
+    //     let embed = {};
+    //     let rarity = "";
+    //     let memory_name = titleCase(msg.content.replace(prefix + "memory", "").trim());
+    //     let list_of_memories = Object.values(client.memories);
+    //     let selected_memory = list_of_memories.find(memory => memory.name.includes(memory_name));
+    //     let memory_index = list_of_memories.findIndex(memory => memory.name.includes(memory_name));
+    //     if(memory_name.toLowerCase() === "list"){
+    //         let rarity_index = 0;
+    //         let max_index = rarities.memory.length - 1;
+    //         function generateEmbed(){
+    //             let list_of_memories_by_rarity = list_of_memories.filter(memory => memory.rarity === rarities.memory[rarity_index]).map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
+    //             let generated_embed = {
+    //                 title: "memory list",
+    //                 fields: [{ name: `${rarities.memory[rarity_index]}★ memories`, value: list_of_memories_by_rarity }]
+    //             }
+    //             return generated_embed;
+    //         }
+    //         embed = generateEmbed();
+    //         return msg.channel.send({ embed: embed }).then((sent_msg) => {
+    //             let react_collector = initializeReactCollector(sent_msg);
+    //             react_collector.on('collect', reaction => {
+    //                 if(reaction.emoji.name === '◀️'){
+    //                     rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
+    //                     embed = generateEmbed();
+    //                     sent_msg.edit({ embed: embed });
+    //                 }
+    //                 else{
+    //                     rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
+    //                     embed = generateEmbed();
+    //                     sent_msg.edit({ embed: embed });
+    //                 }
+    //             });
+    //             react_collector.on('end', () => {
+    //                 sent_msg.reactions.map(reaction => reaction.remove(sent_msg.author.id));
+    //             })
+    //         });
+    //     }
+    //     else if(selected_memory === undefined || memory_name === "")
+    //         return msg.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
+    //     let attachment = ("0" + memory_index).slice(-2).concat(".png");
+    //     for(x = 0; x <= selected_memory.rarity - 1; x++){
+    //         rarity += "★";
+    //     }
+    //     embed = {
+    //         title: `${selected_memory.name}(${rarity})`,
+    //         color: colors.memory,
+    //         thumbnail: {
+    //             url: `attachment://${attachment}`,
+    //         },
+    //         fields: [
+    //             {
+    //                 name: "2 set effect",
+    //                 value: selected_memory.effect_1,
+    //             },
+    //             {
+    //                 name: "4 set effect",
+    //                 value: selected_memory.effect_2,
+    //             },
+    //             {
+    //                 name: "HP",
+    //                 value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
+    //                 inline: true,
+    //             },
+    //             {
+    //                 name: "ATK",
+    //                 value: selected_memory.base_ATK + `(**${selected_memory.max_ATK}**)`,
+    //                 inline: true,
+    //             },
+    //             {
+    //                 name: "DEF",
+    //                 value: selected_memory.base_DEF + `(**${selected_memory.max_DEF}**)`,
+    //                 inline: true,
+    //             },
+    //             {
+    //                 name: "CRIT",
+    //                 value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
+    //                 inline: true,
+    //             },
+    //         ]
+    //     }
+    //     msg.channel.send({ 
+    //         embed: embed,
+    //         files: [{
+    //             attachment: `./static/images/memories/${attachment}`,
+    //             name: attachment
+    //         }]
+    //     });
+    // }
+    // if(msg.content.toLowerCase().startsWith(prefix + "weapon")){
+    //     let embed = {};
+    //     let rarity = "";
+    //     let weapon_name = titleCase(msg.content.replace(prefix + "weapon", "").trim());
+    //     let list_of_weapons = Object.values(client.weapons);
+    //     let selected_weapon = list_of_weapons.find(weapon => weapon.name.includes(weapon_name));
+    //     let weapon_index = list_of_weapons.findIndex(weapon => weapon.name.includes(weapon_name));
+    //     if(weapon_name.toLowerCase() === "list"){
+    //         let rarity_index = 0;
+    //         let max_index = rarities.weapon.length - 1;
+    //         function generateEmbed(){
+    //             let list_of_weapons_by_rarity = list_of_weapons.filter(weapon => weapon.rarity === rarities.weapon[rarity_index]).map((weapon, index) => `${index + 1}.) ${weapon.name}`).join("\r\n");
+    //             let generated_embed = {
+    //                 title: "weapon list",
+    //                 fields: [{ name: `${rarities.weapon[rarity_index]}★ weapons`, value: list_of_weapons_by_rarity }]
+    //             }
+    //             return generated_embed;
+    //         }
+    //         embed = generateEmbed();
+    //         return msg.channel.send({ embed: embed }).then((sent_msg) => {
+    //             let react_collector = initializeReactCollector(sent_msg);
+    //             react_collector.on('collect', reaction => {
+    //                 if(reaction.emoji.name === '◀️'){
+    //                     rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
+    //                     embed = generateEmbed();
+    //                     sent_msg.edit({ embed: embed });
+    //                 }
+    //                 else{
+    //                     rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
+    //                     embed = generateEmbed();
+    //                     sent_msg.edit({ embed: embed });
+    //                 }
+    //             });
+    //             react_collector.on('end', () => {
+    //                 sent_msg.reactions.map(reaction => reaction.remove(sent_msg.author.id));
+    //             })
+    //         });
+    //     }
+    //     else if(selected_weapon === undefined || weapon_name === "")
+    //         return msg.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `~weapon list`!");
+    //     let attachment = ("0" + weapon_index).slice(-2).concat(".png");
+    //     for(x = 0; x <= selected_weapon.rarity - 1; x++){
+    //         rarity += "★";
+    //     }
+    //     embed = {
+    //         title: `${selected_weapon.name}(${rarity})`,
+    //         color: colors.weapon,
+    //         thumbnail: {
+    //             url: `attachment://${attachment}`,
+    //         },
+    //         fields: [
+    //             {
+    //                 name: "effect",
+    //                 value: selected_weapon.effect,
+    //             },
+    //             {
+    //                 name: "ATK",
+    //                 value: selected_weapon.base_ATK + `(**${selected_weapon.max_ATK}**)`,
+    //                 inline: true,
+    //             },
+    //             {
+    //                 name: "CRIT",
+    //                 value: selected_weapon.base_CRIT + `(**${selected_weapon.max_CRIT}**)`,
+    //                 inline: true,
+    //             },
+    //         ]
+    //     }
+    //     msg.channel.send({ 
+    //         embed: embed,
+    //         files: [{
+    //             attachment: `./static/images/weapons/${attachment}`,
+    //             name: attachment
+    //         }]
+    //     });
+    // }
     if(msg.content.toLowerCase().startsWith(prefix + "character")){
         let embed = {};
         let rarity = "";
@@ -324,4 +333,4 @@ client.on('message', msg => {
     // }
 })
 
-client.login(auth.token);
+client.login(config.token);
