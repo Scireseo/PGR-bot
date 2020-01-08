@@ -197,7 +197,7 @@
     },
     "2": {
         "name": "Lucia",
-        "code_name": "深红之渊",
+        "code_name": "Crimson Abyss",
         "class": "Attacker",
         "rarity": "S",
         "base_HP": 406,
@@ -212,31 +212,31 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "闪身攻击正前方范围内的目标，根据消球数每次攻击造成X%的物理伤害，3消时最后一次攻击额外造成Y%的物理伤害并将目标击飞，释放过程中霸体",
-                    "multipliers": {
+                    "description": "Flash attacks surrounding enemies, dealing X% of physical damage. 3-orbs consumption will deal an additional Y% physical damage upon final strike and send the target flying, gains super armor during casting",
+                    "multipliers": { 
                         "0": 12.5,
                         "1": 37.5
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "向前方突击并穿过途经敌人，伤害沿途的目标，根据消球数造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Dashes and slashes through enemies, damaging them along the way, dealing X% of physical damage",
+                    "multipliers": { 
                         "0": 100
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "强化自身能量供给，根据消球数提升自身20%/30%/50%的移动速度，并在攻击时根据消球数额外附加2次X%的物理伤害。释放剑气时，将使额外伤害增强为释放额外剑气，每段剑气造成Y%的物理伤害",
-                    "multipliers": {
+                    "description": "Enhance energy regeneration, movement speed by 20%/30%/50%, and also deal an additional of X% physical damage 2 times per attack. When entering Sword Wave mode and releasing Sword Waves, convert the additional damage into additional sword waves, with each dealing Y% physical damage",
+                    "multipliers": {   
                         "0": 2,
                         "1": 4
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "剑术5式进攻目标，每式造成A%/B%/C%/D%/E%的物理伤害，闪避之后可以立即接第3段普攻",
-                    "special_multipliers": {
+                    "description": "Lucia attacks with a 5-hit sword style, with each sequence dealing A%/B%/C%/D%/E% of physical damage, enter 3rd sequence immediately after dodging",
+                    "special_multipliers": { 
                         "0": 40,
                         "1": 50,
                         "2": 60,
@@ -246,20 +246,20 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "释放斩击攻击前方目标，共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Assaults the enemy with a flurry of slashes, dealing up to a total of A% physical damage",
+                    "special_multipliers": { 
                         "0": 1300
-                    }
+                    }   
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "出场释放连续升龙斩，共造成A%的物理伤害，并浮空目标",
-                    "special_multipliers": {
+                    "description": "Continuously uppercuts the enemy, dealing a total of A% of physical damage, keeping the enemy airborne throughout the attacking duration",
+                    "special_multipliers": { 
                         "0": 300
                     }
                 }
             },
-            "passives": {
+            "passive": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -269,36 +269,36 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "3消蓝色信号球后，再次任意3消信号球时，将后撤进入剑意状态，所有信号球转化为剑意球，并额外获得2个剑意球，消除剑意球时，释放剑气攻击目标，造成A%的物理伤害，释放过程中霸体",
-                    "special_multipliers": {
+                    "description": "After a 3-orb consumption of Blue orbs, consume again any color of 3-orbs to enter Sword Wave mode, all orbs will be converted into Sword Wave orbs and gain an additional of 2 Sword Wave orbs. Unleash Sword Waves to damage the enemy, dealing A% of physical damage and gains super armor during casting",
+                    "special_multipliers": { 
                         "0": 170
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "全队进攻型构造体攻击增加10%，会心增加5%"
-                },
+                    "description": "All Attacker type teammates gain an additional increase of 10% attack damage and 5% critical chance"
+                }, 
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "3消红球时，物理伤害增加10%，持续4秒"
-                },
+                    "description": "After a 3-orb consumption of Red Orbs, increase physical damage by 10%, lasts for 4 seconds"
+                }, 
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "剑意状态下回到普通状态时，额外获得2个信号球"
+                    "description": "After exiting Sword Wave mode, gain 2 random orbs"
                 },
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "蓝球状态下，物理伤害增加15%"
-                }
+                    "description": "During the effects of Blue orb consumption, increases physical damage by 15%"
+                } 
             }
         }
     },
     "3": {
         "name": "Lucia",
-        "code_name": "红莲",
+        "code_name": "Red Lotus",
         "class": "Attacker",
         "rarity": "B",
         "base_HP": 225,
@@ -313,22 +313,22 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "朝前突刺，拉扯命中的目标，造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Thursts foward, pulling in enemies that are hit, dealing X% of physical damage",
+                    "multipliers": { 
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "向目标快速发动1次攻击，击飞被攻击的目标，并造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Uppercuts the target once, putting them airborne, dealing X% of physical damage",
+                    "multipliers": { 
                         "0": 75
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "武器爆发，根据消球数使武器持续4/4/6秒的时间内所有攻击附加A%/B%/C%的火属性伤害",
-                    "special_multipliers": {
+                    "description": "Flares up weapon, dealing an additional of A%/B%/C% fire damage for each attack, lasts for 4/4/6 seconds",
+                    "special_multipliers": {  
                         "0": 5,
                         "1": 7.5,
                         "2": 10
@@ -336,27 +336,27 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "使用红莲迅刀式连续攻击敌人，共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Attacks the enemy with Red Lotus - Lightning Flash sword technique, dealing up to a total of A% physical damage",
+                    "special_multipliers": { 
                         "0": 270
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "消耗100点能量，释放红莲剑舞快速对前方敌人进行斩击，每击造成70%的的物理伤害，最后对敌人进行重击造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Consumes 100 energy, unleash Red Lotus - Blade Dance upon the enemy, with each slash dealing 70% of physical damage and A% of physical damage on final hit",
+                    "special_multipliers": { 
                         "0": 500
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "露西亚出场使用双刀术攻击敌人，共造成共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Lucia debuts and uses Dual-Wielding technique to attack the enemy, dealing up to a total of A% of physical damage",
+                    "special_multipliers": { 
                         "0": 370
                     }
                 }
             },
-            "passives": {
+            "passive": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -366,30 +366,30 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "任意3消后，4秒内再次消除红色信号时，露西亚进入爆发状态，将使用双刀术代替普通攻击。红莲-双刀术：连续攻击敌人，共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "After a 3-orb consumption of any color, use another red orb within 4 seconds to enter Burst mode, enabling Lucia to switch her style to Red Lotus - Dual-Wielding sword technique, dealing up to a total f A% of physical damage",
+                    "special_multipliers": {  
                         "0": 460
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "全队进攻型构造体攻击增加10%"
-                },
+                    "description": "All Attacker type teammates gain an additional increase of 10% attack damage"
+                }, 
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "攻击击飞的目标时，每次攻击额外附加20%的物理伤害"
-                },
+                    "description": "When attacking an airborne target, each attack deals an additional 20% of physical damage"
+                }, 
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "双刀爆发状态下，全伤害增加15%"
-                },
+                    "description": "Under Dual-Wielding status, all attacks deal 15% more damage"
+                }, 
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "普通攻击伤害增加15%"
-                }
+                    "description": "Increase basic attack damage by 15%"
+                } 
             }
         }
     },
@@ -789,7 +789,7 @@
     },
     "8": {
         "name": "Karen",
-        "code_name": "爆裂",
+        "code_name": "Explosion",
         "class": "Attacker",
         "rarity": "A",
         "base_HP": 326,
@@ -804,14 +804,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "向前方发射6颗炮弹，根据消球数每颗造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Blasts the enemy with 6 grenade shells, each dealing X% of physical damage",
+                    "multipliers": { 
                         "0": 20
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "向目标快速发动1次炮击，根据消球数造成X%的物理伤害，并标记目标，使目标接下来受到卡列尼娜攻击时，有75%概率发生爆炸，造成Y%的火属性伤害",
+                    "description": "Dashes towards the target and blasts it once, dealing X% of physical damage, marking the target. Attacking marked targets will have a 75% of chance to detonate it, dealing Y% of fire damage",
                     "multipliers": {
                         "0": 75,
                         "1": 5
@@ -819,7 +819,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "向前方地面发射一发持续吸引敌人的特殊炮弹，命中敌人后根据消球数造成X%的物理伤害，对所在区域的敌人每秒造成Y%的火属性伤害，持续1/2/3秒",
+                    "description": "Shoots a gravity bomb that will pull in enemies, enemies hit will take X% of physical damage and also deals Y% of fire damage every second to enemies within the gravity affected area, lasts 1/2/3 seconds",
                     "multipliers": {
                         "0": 50,
                         "1": 25
@@ -827,27 +827,27 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "使用大炮连续攻击敌人，共造成A%的物理伤害",
+                    "description": "Karen uses her cannon to continuously smash the enemy, dealing up to a total of A% of physical damage",
                     "special_multipliers": {
                         "0": 300
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "消耗100点能量，对目标区域召唤炮弹持续轰击，每发炮弹造成A%的物理伤害",
+                    "description": "Consumes 100 energy, bombards the whole area with the cannon, with each hit dealing A% of physical damage",
                     "special_multipliers": {
                         "0": 50
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "卡列尼娜出场释放旋火弹，最多造成A%的物理伤害",
+                    "description": "Karen appears and shoots a gravity bomb, sucking enemies in, dealing up to a total of A% physical damage",
                     "special_multipliers": {
                         "0": 250
                     }
                 }
             },
-            "passives": {
+            "passive": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Damage is increased by A%",
@@ -857,30 +857,30 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "3次3消后或释放必杀技后，卡列尼娜进入爆发状态，下次普通攻击将用远程炮击攻击，持续3秒，每发炮弹造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "After executing 3-orb skills 3 times or an ultimate, Karen enters into an Explosive state. Her next basic attack will allow her to shoot long-ranged cannon shots, channel lasts for 3 seconds, with each shot dealing A% of physical damage",
+                    "special_multipliers": { 
                         "0": 40
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "队伍3个职业不同时，全队攻击力增加10%"
-                },
+                    "description": "When team consist of 3 different classes, whole team's attack is increased by 10%"
+                }, 
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "引信弹爆炸伤害增加50%"
-                },
+                    "description": "Yellow orb's explosion damage is increased by 50%"
+                }, 
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "攻击被引信弹标记的目标时，全伤害增加15%"
-                },
+                    "description": "When attacking a marked enemy, increase all damage dealt by 15% against it"
+                }, 
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "普通攻击伤害增加20%"
-                }
+                    "description": "Increase basic attack damage by 20%"
+                } 
             }
         }
     },
@@ -990,7 +990,7 @@
     },
     "10": {
         "name": "Nanami",
-        "code_name": "脉冲",
+        "code_name": "Pulse",
         "class": "Defender",
         "rarity": "S",
         "base_HP": 491,
@@ -1005,15 +1005,15 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "向前突进使用链锯刺向敌人，根据消球数造成X%的物理伤害，3消时，物理伤害转化成火属性伤害",
-                    "multipliers": {
+                    "description": "Moves forward and thrusts the enemy with her chainsaw, dealing X% of physical damage. If it's a 3-orb, the damage will become fire damage instead",
+                    "multipliers": { 
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "前空翻并使用链锯向前方切割，1消/2消时，造成X%的物理伤害，3消时造成Y%的火属性伤害，并额外形成火属性能量环，造成Z%的火属性伤害",
-                    "multipliers": {
+                    "description": "Leaps into the air and do a somersault with her chainsaw, dealing X% of physical damage. If it's a 3-orb, deal Y% of fire damage instead and also release a fire whirlwind, which deals Z% of fire damage to all enemies",
+                    "multipliers": { 
                         "0": 100,
                         "1": 200,
                         "2": 110
@@ -1021,35 +1021,35 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "原地转身，释放重击攻击自身周围的目标，根据消球数造成X%的物理伤害，并为自身增加护盾相当于自身最大生命值5%/7.5%/10%的护盾及霸体效果，持续5秒",
-                    "multipliers": {
+                    "description": "Spins around and wind up, then hits the target with a heavy uppecut, dealing X% of physical damage. Also gains a shield based off Nanami's 5%/7.5%/10% max HP and super armor status, lasts for 5 seconds",
+                    "multipliers": { 
                         "0": 50
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "使用锯刃持续攻击目标敌人，共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Slashes enemies with her chainsaw, dealing of up to a total of A% physical damage",
+                    "special_multipliers": {  
                         "0": 330
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "七实冲向目标，对沿途的敌人造成A%的火属性伤害",
-                    "special_multipliers": {
+                    "description": "Nanami dashes across a distance, all enemies caught within the dash take A% of fire damage",
+                    "special_multipliers": { 
                         "0": 250
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "在地面通过移动划出大范围圆形，对自身周围的目标造成A%的火属性伤害，并减少目标B%的火属性抗性",
-                    "special_multipliers": {
+                    "description": "Nanami appears and spins around, dealing A% of fire damage to all surrounding enemies and also lowering their fire resistance by B%",
+                    "special_multipliers": { 
                         "0": 240,
                         "1": 10
                     }
                 }
             },
-            "passives": {
+            "passive": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
@@ -1059,36 +1059,36 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "释放必杀技后，七实进入超频状态，普通攻击将转化为火属性伤害。并使命中的目标降低A%的火属性抗性",
-                    "special_multipliers": {
+                    "description": "After using her ultiamte, Nanami enters Overclock status which converts all her normal attacks into fire damage. All enemies hit by her basic attack during this time gets their fire resistance lowered by A%",
+                    "special_multipliers": { 
                         "0": 7.5
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "队长技-全队防御增加15%，火属性抗性增加10%"
-                },
+                    "description": "Entire team's defense is increased by 15%, fire resistance is increased by 10% too"
+                }, 
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "核心被动火属性伤害攻击时，有30%的概率发生爆炸，额外造成25%的火属性伤害"
-                },
+                    "description": "When attacking with basic attacks while in Overclock status, there's a 30% of chance to detonate enemies, dealing an additional of 25% fire damage"
+                }, 
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "释放必杀技后，自身获得霸体，自身受到伤害减少20%，造成火属性伤害增加15%，持续3秒"
-                },
+                    "description": "After using your ultimate, gain super armor status. All damage received are decreased by 20%, increase all fire damage dealt to enemies by 15%, lasts for 3 seconds"
+                }, 
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "释放必杀技后，自身全伤害增加15%，持续5秒"
-                }
+                    "description": "After using your ultimate, increase all damage dealt by 15%, lasts for 5 seconds"
+                } 
             }
         }
     },
     "11": {
         "name": "Nanami",
-        "code_name": "风暴",
+        "code_name": "Storm",
         "class": "Defender",
         "rarity": "B",
         "base_HP": 252,
@@ -1103,22 +1103,22 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "朝前方冲刺并攻击，根据消球数对前方矩形范围内敌人造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Swings a slash, dealing X% of physical damage to all enemies infront",
+                    "multipliers": { 
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "原地快速旋转切割，根据消球数对自身周围的敌人造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Swings around, slashing all surrounding enemies, dealing X% of physical damage",
+                    "multipliers": { 
                         "0": 100
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "发出能量拉扯自身周围怪物，根据消球数造成X%的物理伤害，使目标防御减少Y%，自身受到物理伤害减少Z%，持续4/4.5/5秒",
-                    "multipliers": {
+                    "description": "Releases an energy ring that pulls in surrounding enemies, dealing X% of physical damage, lowering the defense of targets hit by Y%. Also decreases physical damage taken by Z%, lasts for 4/4.5/5 seconds",
+                    "multipliers": { 
                         "0": 50,
                         "1": 5,
                         "2": 10
@@ -1126,27 +1126,27 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "使用锯刃持续攻击目标敌人，共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Nanami uses her chainsaw to slash enemies, dealing up to a total of A% of physical damage",
+                    "special_multipliers": { 
                         "0": 360
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "消耗100点能量，释放能量屏障，抵挡敌人的攻击，保护区域内的友方单位，5秒后爆炸对敌人造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Consumes 100 energy, disperse an energy barrier that negates all enemy attacks (works on all allies). The barrier will detonate after 5 seconds, dealing A% of physical damage to all enemies within or nearby the barrier",
+                    "special_multipliers": { 
                         "0": 500
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "七实出场旋转切割目标，共造成A%的物理伤害并击倒目标",
-                    "special_multipliers": {
+                    "description": "Nanami does a whirlwind spin, dealing up to a total of A% of physical damage to all enemies and also knocks them down",
+                    "special_multipliers": { 
                         "0": 245
                     }
                 }
             },
-            "passives": {
+            "passive": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
@@ -1156,30 +1156,30 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "任意3消后，再次消除黄球时，七实将释放EX-切割风暴，对周围的敌人持续攻击8次，每次造成A%的物理伤害",
+                    "description": "After any 3-orb consumption, use any number of Yellow Orbs again to hit surrounding enemies 8 times, with each hit dealing A% of physical damage",
                     "special_multipliers": {
                         "0": 80
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "全队防御增加15%"
+                    "description": "Increase team's defense by 15%"
                 },
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "普通攻击伤害增加15%，攻击时仇恨获取能力增加20%"
-                },
+                    "description": "Increase basic attack damage by 15% and energy regeneration by 20%"
+                }, 
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "释放核心被动时，受到物理伤害减少30%"
-                },
+                    "description": "Upon casting your Core skill, decrease all physical damage taken by 30%"
+                },  
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "释放必杀-琉晶壁垒后，自身全伤害增加20%，持续5秒"
-                }
+                    "description": "After releasing your ultimate, increase all damage dealt by 20%, lasts for 5 seconds."
+                } 
             }
         }
     },
@@ -1383,7 +1383,7 @@
     },
     "14": {
         "name": "Liv",
-        "code_name": "蚀暗",
+        "code_name": "Eclipse",
         "class": "Support",
         "rarity": "B",
         "base_HP": 213,
@@ -1398,51 +1398,51 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "指挥武器发射激光炮1次，根据消球数造成X%的物理伤害",
-                    "multipliers": {
+                    "description": "Liv commands her beam cannons to shoot once, dealing X% of physical damage",
+                    "multipliers": { 
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "在目标处放出一个黑洞，黑洞吸引周围的敌人。根据消球数持续1/2/3秒，接触到黑洞的敌人每0.5秒受到X%攻击力的物理伤害，之后，黑洞发生爆炸，造成Y%的物理伤害",
-                    "multipliers": {
+                    "description": "Shoots a black hole towards a destination, sucking enemies in. The hole lasts for 1/2/3 seconds, enemies in contact with it will receive X% of physical damage every 0.5 seconds. After that, the hole will explode, dealing Y% of physical damage",
+                    "multipliers": { 
                         "0": 15,
                         "1": 40
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "激发出能量，击退自身周围的敌人，根据消球数造成X%的物理伤害，并治疗周围友军单位，恢复自身攻击力的Y%的生命值，同时自身物理伤害增加Z%，持续5秒",
+                    "description": "Unleashes an energy circle, dealing X% of physical damage to enemies while healing allies for Y% based off Liv's attack. Also increases Liv's physical damage by Z%, lasts for 5 seconds",
                     "multipliers": {
-                        "0": 50,
+                        "0": 50, 
                         "1": 20,
                         "2": 8
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "丽芙连续召唤光束轰击目标，共造成A%的物理伤害",
-                    "special_multipliers": {
+                    "description": "Liv continuously shoots her beam rays towards her target, dealing up to a total of A% physical damage",
+                    "special_multipliers": { 
                         "0": 320
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "消耗100点能量，丽芙召唤大量光束连续轰击目标区域2秒，每束光束造成A%的物理伤害",
+                    "description": "Consumes 100 energy, Liv summons an ultra-energy cannon to obliterate her surrounding area for 2 seconds, with each shot dealing A% of physical damage",
                     "special_multipliers": {
-                        "0": 35
+                        "0": 35 
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "丽芙出场发出冲击能量，为周围的友方单位回复丽芙A%的最大生命值，对周围的敌方单位造成100%的物理伤害",
+                    "description": "Liv emerges and filles the area with energy, allies within the area are healed for A% of Liv's max HP while enemies are damaged for 100% of physical damage",
                     "special_multipliers": {
-                        "0": 10
+                        "0": 10 
                     }
                 }
             },
-            "passives": {
+            "passive": {
                 "0": {
                     "name": "Class-specific Passive",
                     "description": "Increase healing effectiveness by A%",
@@ -1452,29 +1452,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "任意3消后下次红球技能将释放激光束群。共造成A%的物理伤害",
+                    "description": "After any 3-orb consumption, the next Red Orb will trigger a barrage of beams, dealing up to a total of A% physical damage",
                     "special_multipliers": {
-                        "0": 400
+                        "0": 400 
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "全队角色生命值加10%"
+                    "description": "Whole team's max HP is increased by 10%"
                 },
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "释放大招后，获得3个蓝球"
+                    "description": "After using your ultimate, gain 3 Blue Orbs"
                 },
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "丽芙在后台未上场时，场上队友物理伤害增加10%"
+                    "description": "When Liv is not on the field, all allies on the field gain an increase of 10% physical damage" 
                 },
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "释放必杀-苍穹星降后，全伤害增加20%，持续8秒"
+                    "description": "After using your ultimate, the whole team's damage is increased by 20%, lasts for 8 seconds" 
                 }
             }
         }
