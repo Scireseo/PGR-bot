@@ -7,7 +7,7 @@ function titleCase(string) {
     return string.split(" ").map(x => capitalizeFirstLetter(x)).join(" ");
 }
 
-function emoji(name) {
+function emoji(client, name) {
     return client.emojis.find(emoji => emoji.name === name).toString();
 }
 
