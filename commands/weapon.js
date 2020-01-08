@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
         let rarity_index = 0;
         let max_index = client.rarities.weapon.length - 1;
         function generateEmbed(){
-            let list_of_weapons_by_rarity = list_of_weapons.filter(weapon => weapon.rarity === client.rarities.weapon[rarity_index]).map((weapon, index) => `${index + 1}.) ${weapon.name}`).join("\r\n");
+            let list_of_weapons_by_rarity = list_of_weapons.filter(weapon => weapon.rarity === client.rarities.weapon[rarity_index]).map((weapon, index) => `${index + 1}.) ${weapon.name}[${weapon.type}]`).join("\r\n");
             let generated_embed = {
                 title: "weapon list",
                 fields: [{ name: `${client.rarities.weapon[rarity_index]}★ weapons`, value: list_of_weapons_by_rarity }]

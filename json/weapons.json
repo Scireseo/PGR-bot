@@ -1,6 +1,7 @@
 {
     "0": {
         "name": "Kageuchi - Break",
+        "type": "Katana",
         "rarity": 6,
         "effect": "Increase elemental damage by 5% for every orb consumed, lasts for 4s, up to 4 stacks. Increase all damage by 10% for 10s after ultimate is unleashed",
         "base_ATK": 48,
@@ -10,6 +11,7 @@
     },
     "1": {
         "name": "Sirius",
+        "type": "Katana",
         "rarity": 6,
         "effect": "Increase all damage by 5%. When destroying balls, accumulate energy based on the number of balls destroyed. At 50 energy, summon Sirius for 45 seconds. CD: 60s",
         "base_ATK": 52,
@@ -19,6 +21,7 @@
     },
     "2": {
         "name": "Red Sakura",
+        "type": "Katana",
         "rarity": 6,
         "effect": "Gain 2% increase in physical damage for every orb consumed for 4s, stackable up to 10 times. Gain 1 additional sword wave orb in sword wave mode, CD: 10s",
         "base_ATK": 51,
@@ -28,6 +31,7 @@
     },
     "3": {
         "name": "Red Lotus Fanatic",
+        "type": "Katana",
         "rarity": 6,
         "effect": "10% damage increase to basic attacks. Every basic attack increases physical damage by 5% for 2s, stackable up to 5 times",
         "base_ATK": 49,
@@ -37,6 +41,7 @@
     },
     "4": {
         "name": "Zero-Degree Target",
+        "type": "Dual Pistols",
         "rarity": 6,
         "effect": "The skill 空间领主 deals 10% more damage, increase physical damage by 15% after a 3 orb skill for 5s",
         "base_ATK": 51,
@@ -46,6 +51,7 @@
     },
     "5": {
         "name": "Wolf Eater",
+        "type": "Dual Pistols",
         "rarity": 6,
         "effect": "All damage increases by 20% when attacking enemies within the burning area",
         "base_ATK": 52,
@@ -55,6 +61,7 @@
     },
     "6": {
         "name": "God Giver",
+        "type": "Floating Cannons",
         "rarity": 6,
         "effect": "10% damage increase to allies within 5m of range for every 12 orbs you consume. Deal 10% more damage to rooted enemies",
         "base_ATK": 48,
@@ -64,6 +71,7 @@
     },
     "7": {
         "name": "Sky Wind Dragon",
+        "type": "Floating Cannons",
         "rarity": 6,
         "effect": "Basic attacks have a 10% chance to weaken enemies decreasing their damage by 10% for 5s. 10% chance to recover an orb when attacking weakened enemies, CD: 6s",
         "base_ATK": 46,
@@ -73,6 +81,7 @@
     },
     "8": {
         "name": "Type Zero",
+        "type": "Floating Cannons",
         "rarity": 6,
         "effect": "Damage of 激光炮伤害 is increased by 50%. Increase damage by 15% after using a 3 orb skill for 5s",
         "base_ATK": 47,
@@ -82,6 +91,7 @@
     },
     "9": {
         "name": "Ramiel",
+        "type": "Bow",
         "rarity": 6,
         "effect": "15% increase to ultimate damage. Increase physical damage received by enemies by 2% everytime your ultimate hits them for 5s, stackable up to 8 times",
         "base_ATK": 54,
@@ -91,6 +101,7 @@
     },
     "10": {
         "name": "Chimera - Break",
+        "type": "Chainsaw",
         "rarity": 6,
         "effect": "20% chance to cause target to enter damaged status when attacking, dealing 2% of physical damage every second for 3s, stackkable up to 10 times. Chances are double on enemies with defense down. 10% increase to physical damage when attacking damaged enemies",
         "base_ATK": 48,
@@ -100,6 +111,7 @@
     },
     "11": {
         "name": "Verve",
+        "type": "Chainsaw",
         "rarity": 6,
         "effect": "10% chance to decrease enemy's fire resistance by 5% when attacking, CD: 8s for each enemy. Fire damage increased by 20% after ultimate and doubles the chance of decreasing enemy's fire resistance",
         "base_ATK": 50,
@@ -109,6 +121,7 @@
     },
     "12": {
         "name": "Big Kamui",
+        "type": "Greatsword",
         "rarity": 6,
         "effect": "Increase physical damage by 15%. Next skill damage is increased by 30% when you successfully counter an enemy",
         "base_ATK": 50,
@@ -118,6 +131,7 @@
     },
     "13": {
         "name": "Pitch Black",
+        "type": "Greatsword",
         "rarity": 6,
         "effect": "20% increase to physical damage and dark damage by 20% after consuming 3 orbs, lasts for 5s",
         "base_ATK": 48,
@@ -127,6 +141,7 @@
     },
     "14": {
         "name": "Frenzy Fusion Cannon",
+        "type": "Cannon",
         "rarity": 6,
         "effect": "Increase physical damage by 10%. After consuming 3 orbs at once, basic attacks damage is increased by 30%",
         "base_ATK": 52,
@@ -136,6 +151,7 @@
     },
     "15": {
         "name": "Nuclear Dragon",
+        "type": "Cannon",
         "rarity": 6,
         "effect": "Increase fire damage by 10%. When consuming a red orb, fire damage increases by 10% for 5s",
         "base_ATK": 51,
@@ -145,6 +161,7 @@
     },
     "16": {
         "name": "Soul Slayer",
+        "type": "Dual Knives",
         "rarity": 6,
         "effect": "When you deal a crit from behind, the target is Damaged, receiving 50% physical damage every second for 3s. When attacking damaged enemies, physical damage increases by 20%",
         "base_ATK": 52,
@@ -154,6 +171,7 @@
     },
     "17": {
         "name": "Kuji no Ken",
+        "type": "Katana",
         "rarity": 5,
         "effect": "Attacks have a 20% chance of causing lightning strike, dealing 50% physical damage, CD: 3s",
         "base_ATK": 45,
@@ -163,6 +181,7 @@
     },
     "18": {
         "name": "Shadow Violet",
+        "type": "Dual Pistols",
         "rarity": 5,
         "effect": "After consecutive red, blue, and yellow orb consumption for 5s, increase all damage by 15% for 5s",
         "base_ATK": 47,
@@ -172,6 +191,7 @@
     },
     "19": {
         "name": "Guardian Mount",
+        "type": "Floating Cannons",
         "rarity": 5,
         "effect": "Obtain a random orb for increasing your combo by 30, CD: 8s",
         "base_ATK": 42,
@@ -181,6 +201,7 @@
     },
     "20": {
         "name": "Saker E-3320",
+        "type": "Bow",
         "rarity": 5,
         "effect": "Critical chance and Critical damage increases by 10% when there are no enemies within 2m",
         "base_ATK": 48,
@@ -190,6 +211,7 @@
     },
     "21": {
         "name": "Tourmaline Fire",
+        "type": "Chainsaw",
         "rarity": 5,
         "effect": "30% chance to let enemies enter defense break status when attacking, decrease defense by 5% for 3s, stackable up to 5 times",
         "base_ATK": 43,
@@ -199,6 +221,7 @@
     },
     "22": {
         "name": "Star of Bethlehem",
+        "type": "Greatsword",
         "rarity": 5,
         "effect": "Create a christmas halo when you do a 3 orb combo. Attack and movement speed is increased by 8% within the halo. The halo lasts for 15s, CD: 30s",
         "base_ATK": 43,
@@ -208,6 +231,7 @@
     },
     "23": {
         "name": "Accel Greatsword",
+        "type": "Greatsword",
         "rarity": 5,
         "effect": "Attacks have a 10% chance to release a shockwave, dealing 100% physical damage to enemies within range",
         "base_ATK": 45,
@@ -217,6 +241,7 @@
     },
     "24": {
         "name": "Pillar of Lava",
+        "type": "Cannon",
         "rarity": 5,
         "effect": "Damage is increased by 12% after consuming 3 orbs at once for 4s",
         "base_ATK": 47,
@@ -226,6 +251,7 @@
     },
     "25": {
         "name": "Heartstone",
+        "type": "Dual Knives",
         "rarity": 5,
         "effect": "After consecutive 3 orb combo, 15% increase to all damage for 5s",
         "base_ATK": 47,

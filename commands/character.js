@@ -4,12 +4,35 @@ exports.run = (client, message, args) => {
     let embed = {};
     let list_of_characters = Object.values(client.characters);
     if(args === "List"){
-        list_of_characters = list_of_characters.map((character, index) => `${index + 1}.) ${character.name}(${character.code_name})`).join("\r\n");
-        embed = {
-            title: "Characters list",
-            fields: [{ name: "names", value: list_of_characters }]
+        let rarity_index = 0;
+        let max_index = client.rarities.character.length - 1;
+        function generateEmbed(){
+            let list_of_characters_by_rarity = list_of_characters.filter(character => character.rarity === client.rarities.character[rarity_index]).map((character, index) => `${index + 1}.) ${character.name}(${character.code_name}/${character.code_name_CN})`).join("\r\n");
+            let generated_embed = {
+                title: "character list",
+                fields: [{ name: `Rank ${client.rarities.character[rarity_index]} characters`, value: list_of_characters_by_rarity }]
+            }
+            return generated_embed;
         }
-        return message.channel.send({ embed: embed });
+        embed = generateEmbed();
+        return message.channel.send({ embed: embed }).then((sent_message) => {
+            let react_collector = general_functions.initializeReactCollector(client, sent_message);
+            react_collector.on('collect', reaction => {
+                if(reaction.emoji.name === '◀️'){
+                    rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
+                    embed = generateEmbed();
+                    sent_message.edit({ embed: embed });
+                }
+                else{
+                    rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
+                    embed = generateEmbed();
+                    sent_message.edit({ embed: embed });
+                }
+            });
+            react_collector.on('end', () => {
+                sent_message.reactions.map(reaction => reaction.remove(sent_message.author.id));
+            })
+        });;
     }
     let selected_character = list_of_characters.filter(character => 
         character.name.includes(args) || character.code_name.includes(args) || 
@@ -102,7 +125,7 @@ exports.run = (client, message, args) => {
         [selected_character_skills[2], selected_character_skills[3]],
         [selected_character_skills[4], selected_character_skills[5]],
     ]
-    let max_index = character_details.length - 1;
+    let character_details_max_index = character_details.length - 1;
     function generateEmbed(){
         let generated_embed = {
             title: `${selected_character.name}(${selected_character.code_name})`,
@@ -125,12 +148,12 @@ exports.run = (client, message, args) => {
         let react_collector = general_functions.initializeReactCollector(client, sent_message);
         react_collector.on('collect', reaction => {
             if(reaction.emoji.name === '◀️'){
-                character_details_current_index = character_details_current_index - 1 < 0 ? max_index : --character_details_current_index;
+                character_details_current_index = character_details_current_index - 1 < 0 ? character_details_max_index : --character_details_current_index;
                 embed = generateEmbed();
                 sent_message.edit({ embed: embed });
             }
             else{
-                character_details_current_index = character_details_current_index + 1 > max_index ? 0 : ++character_details_current_index;
+                character_details_current_index = character_details_current_index + 1 > character_details_max_index ? 0 : ++character_details_current_index;
                 embed = generateEmbed();
                 sent_message.edit({ embed: embed });
             }

@@ -2,6 +2,7 @@
     "0": {
         "name": "Lee",
         "code_name": "Matrix",
+        "code_name_CN": "乱数",
         "class": "Attacker",
         "rarity": "S",
         "base_HP": 427,
@@ -99,6 +100,7 @@
     "1": {
         "name": "Karen",
         "code_name": "Burnout",
+        "code_name_CN": "烬燃",
         "class": "Attacker",
         "rarity": "S",
         "base_HP": 406,
@@ -199,6 +201,7 @@
         "name": "Lucia",
         "code_name": "Crimson Abyss",
         "class": "Attacker",
+        "code_name_CN": "深红之渊",
         "rarity": "S",
         "base_HP": 406,
         "base_ATK": 94,
@@ -300,6 +303,7 @@
         "name": "Lucia",
         "code_name": "Red Lotus",
         "class": "Attacker",
+        "code_name_CN": "红莲",
         "rarity": "B",
         "base_HP": 225,
         "base_ATK": 45,
@@ -396,6 +400,7 @@
     "4": {
         "name": "Watanabe",
         "code_name": "Nightblade",
+        "code_name_CN": "夜刃",
         "class": "Attacker",
         "rarity": "A",
         "base_HP": 225,
@@ -498,6 +503,7 @@
     "5": {
         "name": "Lucia",
         "code_name": "Dawn",
+        "code_name_CN": "黎明",
         "class": "Attacker",
         "rarity": "A",
         "base_HP": 342,
@@ -595,6 +601,7 @@
     "6": {
         "name": "Lee",
         "code_name": "Ghostfire",
+        "code_name_CN": "异火",
         "class": "Attacker",
         "rarity": "A",
         "base_HP": 309,
@@ -695,6 +702,7 @@
     "7": {
         "name": "Bianca",
         "code_name": "Zero",
+        "code_name_CN": "零度",
         "class": "Attacker",
         "rarity": "A",
         "base_HP": 261,
@@ -790,6 +798,7 @@
     "8": {
         "name": "Karen",
         "code_name": "Explosion",
+        "code_name_CN": "爆裂",
         "class": "Attacker",
         "rarity": "A",
         "base_HP": 326,
@@ -887,6 +896,7 @@
     "9": {
         "name": "Kamui",
         "code_name": "Dark",
+        "code_name_CN": "暗能",
         "class": "Defender",
         "rarity": "S",
         "base_HP": 513,
@@ -991,6 +1001,7 @@
     "10": {
         "name": "Nanami",
         "code_name": "Pulse",
+        "code_name_CN": "脉冲",
         "class": "Defender",
         "rarity": "S",
         "base_HP": 491,
@@ -1089,6 +1100,7 @@
     "11": {
         "name": "Nanami",
         "code_name": "Storm",
+        "code_name_CN": "风暴",
         "class": "Defender",
         "rarity": "B",
         "base_HP": 252,
@@ -1186,6 +1198,7 @@
     "12": {
         "name": "Kamui",
         "code_name": "Heavy",
+        "code_name_CN": "重能",
         "class": "Defender",
         "rarity": "A",
         "base_HP": 358,
@@ -1287,6 +1300,7 @@
     "13": {
         "name": "Liv",
         "code_name": "Hope",
+        "code_name_CN": "仰光",
         "class": "Support",
         "rarity": "S",
         "base_HP": 427,
@@ -1384,6 +1398,7 @@
     "14": {
         "name": "Liv",
         "code_name": "Eclipse",
+        "code_name_CN": "蚀暗",
         "class": "Support",
         "rarity": "B",
         "base_HP": 213,
@@ -1482,6 +1497,7 @@
     "15": {
         "name": "Liv",
         "code_name": "Spectrum",
+        "code_name_CN": "流光",
         "class": "Support",
         "rarity": "A",
         "base_HP": 309,
