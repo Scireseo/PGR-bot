@@ -87,6 +87,7 @@ exports.run = (client, message, args) => {
         };
     });
     let selected_character_skills = [...selected_character_active_skills, ...selected_character_passive_skills];
+    // console.log("[check]", selected_character_skills);
     let character_index = list_of_characters.indexOf(selected_character);
     let attachment = ("0" + character_index).slice(-2).concat(".png");
     let character_details_current_index = 0;
@@ -126,6 +127,9 @@ exports.run = (client, message, args) => {
         [selected_character_skills[0], selected_character_skills[1]],
         [selected_character_skills[2], selected_character_skills[3]],
         [selected_character_skills[4], selected_character_skills[5]],
+        [selected_character_skills[6], selected_character_skills[7]],
+        [selected_character_skills[8], selected_character_skills[9]],
+        [selected_character_skills[10], selected_character_skills[11]],
     ]
     let character_details_max_index = character_details.length - 1;
     function generateEmbed(){
