@@ -171,7 +171,7 @@
         "name": "Patton",
         "rarity": 6,
         "effect_1": "Increase critical chance and physical damage by 5%",
-        "effect_2": "For every non-critical attack dealt, the next physical attack's critical chance by 2%, stackable up to 20%. Critical chance is reset once a critical attack has landed. Physical damage is increased by 5% whenever you land a critical strike for 3s, stackable up to 3 times",
+        "effect_2": "For every non-critical attack dealt, the next physical attack's critical chance increases by 2%, stackable up to 20%. Critical chance is reset once a critical attack has landed. Physical damage is increased by 5% whenever you land a critical strike for 3s, stackable up to 3 times",
         "base_HP": 146,
         "base_ATK": 13,
         "base_DEF": 22,

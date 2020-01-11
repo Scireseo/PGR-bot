@@ -170,7 +170,7 @@
         "max_CRIT": 261 
     },
     "17": {
-        "name": "Kuji no Ken",
+        "name": "Kuji No Ken",
         "type": "Katana",
         "rarity": 5,
         "effect": "Attacks have a 20% chance of causing lightning strike, dealing 50% physical damage, CD: 3s",
@@ -220,7 +220,7 @@
         "max_CRIT": 190 
     },
     "22": {
-        "name": "Star of Bethlehem",
+        "name": "Star Of Bethlehem",
         "type": "Greatsword",
         "rarity": 5,
         "effect": "Create a christmas halo when you do a 3 orb combo. Attack and movement speed is increased by 8% within the halo. The halo lasts for 15s, CD: 30s",
@@ -240,7 +240,7 @@
         "max_CRIT": 186 
     },
     "24": {
-        "name": "Pillar of Lava",
+        "name": "Pillar Of Lava",
         "type": "Cannon",
         "rarity": 5,
         "effect": "Damage is increased by 12% after consuming 3 orbs at once for 4s",
