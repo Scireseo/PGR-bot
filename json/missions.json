@@ -26,7 +26,14 @@
         }
     },
     "weekly": {
-        
+        "Warzone": {
+            "0": "Clear Warzone 1/2/3/4/5/6/7/8/9/10/11/12 time(s)",
+            "1": "Get 100,000/200,000 total points in Warzone"
+        },
+        "Pain Cage": {
+            "0": "Clear Pain Cage 1/2/3/4/5/6/7/8/9/10 time(s)",
+            "1": "Get 200,000/400,000 total points in Pain Cage"
+        }
     },
     "rookie": {
         "0": {
