@@ -258,5 +258,15 @@
         "base_CRIT": 23,
         "max_ATK": 372,
         "max_CRIT": 209 
+    },
+    "26": {
+        "name": "Red Firework",
+        "type": "Cannon",
+        "rarity": 5,
+        "effect": "Create explosions at target's location when dealing damage in canon mode or fire mode, dealing a total of 250% of physical damage, 10 seconds cooldown",
+        "base_ATK": 46,
+        "base_CRIT": 22,
+        "max_ATK": "N/A",
+        "max_CRIT": "N/A" 
     }
 }

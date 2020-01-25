@@ -306,5 +306,19 @@
         "max_ATK": 109,
         "max_DEF": 177,
         "max_CRIT": 53
+    },
+    "22": {
+        "name": "New Year's Firework",
+        "rarity": 5,
+        "effect_1": "Attack increases by 5%. After consuming 3 red orbs, summon 4 red packets in a ring shape. The red packets will deal 10% fire damage when they come in contact with the enemy, lasts for 10 seconds, 30 seconds cooldown",
+        "effect_2": "N/A",
+        "base_HP": 134,
+        "base_ATK": 12,
+        "base_DEF": 19,
+        "base_CRIT": 6,
+        "max_HP": 1208,
+        "max_ATK": 109,
+        "max_DEF": 177,
+        "max_CRIT": 53
     }
 }
