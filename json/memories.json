@@ -320,5 +320,33 @@
         "max_ATK": 109,
         "max_DEF": 177,
         "max_CRIT": 53
+    },
+    "23": {
+        "name": "Lantern Gathering",
+        "rarity": 5,
+        "effect_1": "After using a 3 orb combo or QTE, summon a lantern that follows all allies on the field for 15 seconds. The lantern buffs nearby allies, increasing their attack and movement speed by 7%. This effect has a 30 seconds cooldown",
+        "effect_2": "N/A",
+        "base_HP": 134,
+        "base_ATK": 12,
+        "base_DEF": 19,
+        "base_CRIT": 6,
+        "max_HP": 1208,
+        "max_ATK": 109,
+        "max_DEF": 177,
+        "max_CRIT": 53
+    },
+    "24": {
+        "name": "Basilone",
+        "rarity": 6,
+        "effect_1": "3% increase to all attacks, 7% increase to dark damage",
+        "effect_2": "When dealing damage, there is a 20% chance to summon a phantom area for 5 seconds. Afterwards, the phantom area goes on a 5 seconds cooldown. Enemies standing within the phantom area are inflicted with corrosion for 3 seconds. Enemies afflicted with corrosion take 80% dark damage every 3 seconds and have reduced dark resistance. When attacking enemies with corrosion there is a 20% chance to gain 1 random orb. This effect has a 12 seconds cooldown",
+        "base_HP": 146,
+        "base_ATK": 13,
+        "base_DEF": 22,
+        "base_CRIT": 6,
+        "max_HP": 1453,
+        "max_ATK": 134,
+        "max_DEF": 223,
+        "max_CRIT": 64
     }
 }

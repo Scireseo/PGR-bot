@@ -266,7 +266,47 @@
         "effect": "Create explosions at target's location when dealing damage in canon mode or fire mode, dealing a total of 250% of physical damage, 10 seconds cooldown",
         "base_ATK": 46,
         "base_CRIT": 22,
-        "max_ATK": "N/A",
-        "max_CRIT": "N/A" 
+        "max_ATK": 365,
+        "max_CRIT": 205 
+    },
+    "27": {
+        "name": "Lantern Night",
+        "type": "Dual Knives",
+        "rarity": 5,
+        "effect": "When dealing damage to an enemy, 20% chance to drop a lantern that deals 15% physical damage. 1 second cooldown.",
+        "base_ATK": 46,
+        "base_CRIT": 23,
+        "max_ATK": 368,
+        "max_CRIT": 213 
+    },
+    "28": {
+        "name": "Faded",
+        "type": "Scythe",
+        "rarity": 5,
+        "effect": "All damage increases by 10% for 4 seconds after releasing QTE or 3 orbs",
+        "base_ATK": 43,
+        "base_CRIT": 22,
+        "max_ATK": 345,
+        "max_CRIT": 201 
+    },
+    "29": {
+        "name": "Violet Wu",
+        "type": "Scythe",
+        "rarity": 6,
+        "effect": "Passive I: When dealing damage to shielded enemies, increase all damage by 2%. Stacks 3 times and lasts for 5 seconds.\nPassive II: When you break an enemy's shield, stun the target for 2 seconds. This effect has a 10 seconds cooldown on each affected enemy.\nPassive III: After releasing Colorflow's core passive, increase all physical damage done by 15%. Lasts for 7 seconds",
+        "base_ATK": 48,
+        "base_CRIT": 25,
+        "max_ATK": 425,
+        "max_CRIT": 249
+    },
+    "30": {
+        "name": "Suzume",
+        "type": "Dual Knives",
+        "rarity": 6,
+        "effect": "Passive I: All damage done is increased by 10%.\nPassive II: When in resonance form, all dark damage done is increased by 10%",
+        "base_ATK": 53,
+        "base_CRIT": 25,
+        "max_ATK": 463,
+        "max_CRIT": 249
     }
 }
