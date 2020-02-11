@@ -2,7 +2,6 @@ exports.run = (client, message, args) => {
     const general_functions = require('../helpers/general');
     args = args.map(arg => arg.includes("-") ? arg.split("-").map(a=> general_functions.titleCase(a)).join("-") : general_functions.titleCase(arg))
     args = args.join(" ");
-    // console.log("[args 1]", args);
     let embed = {};
     let list_of_weapons = Object.values(client.weapons);
     if(args === "List"){
@@ -44,36 +43,47 @@ exports.run = (client, message, args) => {
     for(x = 0; x <= selected_weapon.rarity - 1; x++){
         rarity += "★";
     }
-    embed = {
-        title: `${selected_weapon.name}(${rarity})`,
-        color: client.colors.weapon,
-        thumbnail: {
-            url: `attachment://${attachment}`,
-        },
-        fields: [
-            {
-                name: "effect",
-                value: selected_weapon.effect,
+    let translatorDetails = {};
+    client.fetchUser(selected_weapon.translator).then(translator => {
+        translatorDetails.avatar = translator.avatarURL;
+        translatorDetails.username = translator.username;
+        translatorDetails.discriminator = translator.discriminator;
+    }).then(() => {
+        embed = {
+            title: `${selected_weapon.name}(${rarity})`,
+            color: client.colors.weapon,
+            thumbnail: {
+                url: `attachment://${attachment}`,
             },
-            {
-                name: "ATK",
-                value: selected_weapon.base_ATK + `(**${selected_weapon.max_ATK}**)`,
-                inline: true,
+            footer: {
+                "icon_url": translatorDetails.avatar,
+                "text": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`
             },
-            {
-                name: "CRIT",
-                value: selected_weapon.base_CRIT + `(**${selected_weapon.max_CRIT}**)`,
-                inline: true,
-            },
-        ]
-    }
-    message.channel.send({ 
-        embed: embed,
-        files: [{
-            attachment: `./static/images/weapons/${attachment}`,
-            name: attachment
-        }]
-    });
+            fields: [
+                {
+                    name: "effect",
+                    value: selected_weapon.effect,
+                },
+                {
+                    name: "ATK",
+                    value: selected_weapon.base_ATK + `(**${selected_weapon.max_ATK}**)`,
+                    inline: true,
+                },
+                {
+                    name: "CRIT",
+                    value: selected_weapon.base_CRIT + `(**${selected_weapon.max_CRIT}**)`,
+                    inline: true,
+                },
+            ]
+        }
+        message.channel.send({ 
+            embed: embed,
+            files: [{
+                attachment: `./static/images/weapons/${attachment}`,
+                name: attachment
+            }]
+        });
+    })
 }
 
 exports.help = {

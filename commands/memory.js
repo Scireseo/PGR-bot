@@ -45,49 +45,60 @@ exports.run = (client, message, args) => {
     for(x = 0; x <= selected_memory.rarity - 1; x++){
         rarity += "★";
     }
-    embed = {
-        title: `${selected_memory.name}(${rarity})`,
-        color: client.colors.memory,
-        thumbnail: {
-            url: `attachment://${attachment}`,
-        },
-        fields: [
-            {
-                name: "2 set effect",
-                value: selected_memory.effect_1,
+    let translatorDetails = {};
+    client.fetchUser(selected_memory.translator).then(translator => {
+        translatorDetails.avatar = translator.avatarURL;
+        translatorDetails.username = translator.username;
+        translatorDetails.discriminator = translator.discriminator;
+    }).then(() => {
+        embed = {
+            title: `${selected_memory.name}(${rarity})`,
+            color: client.colors.memory,
+            thumbnail: {
+                url: `attachment://${attachment}`,
             },
-            {
-                name: "4 set effect",
-                value: selected_memory.effect_2,
+            footer: {
+                "icon_url": translatorDetails.avatar,
+                "text": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`
             },
-            {
-                name: "HP",
-                value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
-                inline: true,
-            },
-            {
-                name: "ATK",
-                value: selected_memory.base_ATK + `(**${selected_memory.max_ATK}**)`,
-                inline: true,
-            },
-            {
-                name: "DEF",
-                value: selected_memory.base_DEF + `(**${selected_memory.max_DEF}**)`,
-                inline: true,
-            },
-            {
-                name: "CRIT",
-                value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
-                inline: true,
-            },
-        ]
-    }
-    message.channel.send({ 
-        embed: embed,
-        files: [{
-            attachment: `./static/images/memories/${attachment}`,
-            name: attachment
-        }]
+            fields: [
+                {
+                    name: "2 set effect",
+                    value: selected_memory.effect_1,
+                },
+                {
+                    name: "4 set effect",
+                    value: selected_memory.effect_2,
+                },
+                {
+                    name: "HP",
+                    value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
+                    inline: true,
+                },
+                {
+                    name: "ATK",
+                    value: selected_memory.base_ATK + `(**${selected_memory.max_ATK}**)`,
+                    inline: true,
+                },
+                {
+                    name: "DEF",
+                    value: selected_memory.base_DEF + `(**${selected_memory.max_DEF}**)`,
+                    inline: true,
+                },
+                {
+                    name: "CRIT",
+                    value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
+                    inline: true,
+                },
+            ]
+        }
+        message.channel.send({ 
+            embed: embed,
+            files: [{
+                attachment: `./static/images/memories/${attachment}`,
+                name: attachment
+            }]
+        });
     });
 }
 

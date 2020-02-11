@@ -7,7 +7,8 @@
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 445,
-        "max_CRIT": 226 
+        "max_CRIT": 226,
+        "translator": "182150992408739840"
     },
     "1": {
         "name": "Sirius",
@@ -17,7 +18,8 @@
         "base_ATK": 52,
         "base_CRIT": 21,
         "max_ATK": 458,
-        "max_CRIT": 221 
+        "max_CRIT": 221,
+        "translator": "182150992408739840"
     },
     "2": {
         "name": "Red Sakura",
@@ -27,7 +29,8 @@
         "base_ATK": 51,
         "base_CRIT": 23,
         "max_ATK": 447,
-        "max_CRIT": 239 
+        "max_CRIT": 239,
+        "translator": "182150992408739840"
     },
     "3": {
         "name": "Red Lotus Fanatic",
@@ -37,7 +40,8 @@
         "base_ATK": 49,
         "base_CRIT": 23,
         "max_ATK": 428,
-        "max_CRIT": 234 
+        "max_CRIT": 234,
+        "translator": "182150992408739840"
     },
     "4": {
         "name": "Zero-Degree Target",
@@ -47,7 +51,8 @@
         "base_ATK": 51,
         "base_CRIT": 25,
         "max_ATK": 445,
-        "max_CRIT": 254 
+        "max_CRIT": 254,
+        "translator": "182150992408739840" 
     },
     "5": {
         "name": "Wolf Eater",
@@ -57,7 +62,8 @@
         "base_ATK": 52,
         "base_CRIT": 25,
         "max_ATK": 458,
-        "max_CRIT": 249 
+        "max_CRIT": 249,
+        "translator": "182150992408739840" 
     },
     "6": {
         "name": "God Giver",
@@ -67,7 +73,8 @@
         "base_ATK": 48,
         "base_CRIT": 24,
         "max_ATK": 423,
-        "max_CRIT": 245 
+        "max_CRIT": 245,
+        "translator": "182150992408739840" 
     },
     "7": {
         "name": "Sky Wind Dragon",
@@ -77,7 +84,8 @@
         "base_ATK": 46,
         "base_CRIT": 25,
         "max_ATK": 406,
-        "max_CRIT": 253 
+        "max_CRIT": 253,
+        "translator": "182150992408739840" 
     },
     "8": {
         "name": "Type Zero",
@@ -87,7 +95,8 @@
         "base_ATK": 47,
         "base_CRIT": 25,
         "max_ATK": 415,
-        "max_CRIT": 249 
+        "max_CRIT": 249,
+        "translator": "182150992408739840" 
     },
     "9": {
         "name": "Ramiel",
@@ -97,7 +106,8 @@
         "base_ATK": 54,
         "base_CRIT": 25,
         "max_ATK": 471,
-        "max_CRIT": 254 
+        "max_CRIT": 254,
+        "translator": "182150992408739840" 
     },
     "10": {
         "name": "Chimera - Break",
@@ -107,7 +117,8 @@
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 425,
-        "max_CRIT": 235 
+        "max_CRIT": 235,
+        "translator": "182150992408739840" 
     },
     "11": {
         "name": "Verve",
@@ -117,7 +128,8 @@
         "base_ATK": 50,
         "base_CRIT": 22,
         "max_ATK": 436,
-        "max_CRIT": 230 
+        "max_CRIT": 230,
+        "translator": "182150992408739840" 
     },
     "12": {
         "name": "Big Kamui",
@@ -127,7 +139,8 @@
         "base_ATK": 50,
         "base_CRIT": 22,
         "max_ATK": 436,
-        "max_CRIT": 230 
+        "max_CRIT": 230,
+        "translator": "182150992408739840" 
     },
     "13": {
         "name": "Pitch Black",
@@ -137,7 +150,8 @@
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 425,
-        "max_CRIT": 235 
+        "max_CRIT": 235,
+        "translator": "182150992408739840" 
     },
     "14": {
         "name": "Frenzy Fusion Cannon",
@@ -147,7 +161,8 @@
         "base_ATK": 52,
         "base_CRIT": 25,
         "max_ATK": 458,
-        "max_CRIT": 249 
+        "max_CRIT": 249,
+        "translator": "182150992408739840" 
     },
     "15": {
         "name": "Nuclear Dragon",
@@ -157,7 +172,8 @@
         "base_ATK": 51,
         "base_CRIT": 25,
         "max_ATK": 450,
-        "max_CRIT": 253 
+        "max_CRIT": 253,
+        "translator": "182150992408739840" 
     },
     "16": {
         "name": "Soul Slayer",
@@ -167,7 +183,8 @@
         "base_ATK": 52,
         "base_CRIT": 26,
         "max_ATK": 458,
-        "max_CRIT": 261 
+        "max_CRIT": 261,
+        "translator": "182150992408739840" 
     },
     "17": {
         "name": "Kuji No Ken",
@@ -177,7 +194,8 @@
         "base_ATK": 45,
         "base_CRIT": 20,
         "max_ATK": 354,
-        "max_CRIT": 186 
+        "max_CRIT": 186,
+        "translator": "182150992408739840" 
     },
     "18": {
         "name": "Shadow Violet",
@@ -187,7 +205,8 @@
         "base_ATK": 47,
         "base_CRIT": 22,
         "max_ATK": 372,
-        "max_CRIT": 201 
+        "max_CRIT": 201,
+        "translator": "182150992408739840" 
     },
     "19": {
         "name": "Guardian Mount",
@@ -197,7 +216,8 @@
         "base_ATK": 42,
         "base_CRIT": 22,
         "max_ATK": 336,
-        "max_CRIT": 201 
+        "max_CRIT": 201,
+        "translator": "182150992408739840" 
     },
     "20": {
         "name": "Saker E-3320",
@@ -207,7 +227,8 @@
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 382,
-        "max_CRIT": 206 
+        "max_CRIT": 206,
+        "translator": "182150992408739840" 
     },
     "21": {
         "name": "Tourmaline Fire",
@@ -217,7 +238,8 @@
         "base_ATK": 43,
         "base_CRIT": 20,
         "max_ATK": 345,
-        "max_CRIT": 190 
+        "max_CRIT": 190,
+        "translator": "182150992408739840" 
     },
     "22": {
         "name": "Star Of Bethlehem",
@@ -227,7 +249,8 @@
         "base_ATK": 43,
         "base_CRIT": 20,
         "max_ATK": 345,
-        "max_CRIT": 190 
+        "max_CRIT": 190,
+        "translator": "182150992408739840" 
     },
     "23": {
         "name": "Accel Greatsword",
@@ -237,7 +260,8 @@
         "base_ATK": 45,
         "base_CRIT": 20,
         "max_ATK": 354,
-        "max_CRIT": 186 
+        "max_CRIT": 186,
+        "translator": "182150992408739840" 
     },
     "24": {
         "name": "Pillar Of Lava",
@@ -247,7 +271,8 @@
         "base_ATK": 47,
         "base_CRIT": 22,
         "max_ATK": 372,
-        "max_CRIT": 201 
+        "max_CRIT": 201,
+        "translator": "182150992408739840" 
     },
     "25": {
         "name": "Heartstone",
@@ -257,7 +282,8 @@
         "base_ATK": 47,
         "base_CRIT": 23,
         "max_ATK": 372,
-        "max_CRIT": 209 
+        "max_CRIT": 209,
+        "translator": "182150992408739840" 
     },
     "26": {
         "name": "Red Firework",
@@ -267,7 +293,8 @@
         "base_ATK": 46,
         "base_CRIT": 22,
         "max_ATK": 365,
-        "max_CRIT": 205 
+        "max_CRIT": 205,
+        "translator": "182150992408739840" 
     },
     "27": {
         "name": "Lantern Night",
@@ -277,7 +304,8 @@
         "base_ATK": 46,
         "base_CRIT": 23,
         "max_ATK": 368,
-        "max_CRIT": 213 
+        "max_CRIT": 213,
+        "translator": "182150992408739840" 
     },
     "28": {
         "name": "Faded",
@@ -287,7 +315,8 @@
         "base_ATK": 43,
         "base_CRIT": 22,
         "max_ATK": 345,
-        "max_CRIT": 201 
+        "max_CRIT": 201,
+        "translator": "182150992408739840" 
     },
     "29": {
         "name": "Violet Wu",
@@ -297,7 +326,8 @@
         "base_ATK": 48,
         "base_CRIT": 25,
         "max_ATK": 425,
-        "max_CRIT": 249
+        "max_CRIT": 249,
+        "translator": "182150992408739840"
     },
     "30": {
         "name": "Suzume",
@@ -307,6 +337,7 @@
         "base_ATK": 53,
         "base_CRIT": 25,
         "max_ATK": 463,
-        "max_CRIT": 249
+        "max_CRIT": 249,
+        "translator": "182150992408739840"
     }
 }

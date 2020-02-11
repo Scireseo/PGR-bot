@@ -11,7 +11,8 @@
         "max_HP": 1521,
         "max_ATK": 132,
         "max_DEF": 219,
-        "max_CRIT": 66
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     },
     "1": {
         "name": "Condelina",
@@ -25,7 +26,8 @@
         "max_HP": 1461,
         "max_ATK": 132,
         "max_DEF": 223,
-        "max_CRIT": 67
+        "max_CRIT": 67,
+        "translator": "182150992408739840"
     },
     "2": {
         "name": "Shakespeare",
@@ -39,7 +41,8 @@
         "max_HP": 1491,
         "max_ATK": 134,
         "max_DEF": 223,
-        "max_CRIT": 64
+        "max_CRIT": 64,
+        "translator": "182150992408739840"
     },
     "3": {
         "name": "Heisen",
@@ -53,7 +56,8 @@
         "max_HP": 1491,
         "max_ATK": 134,
         "max_DEF": 219,
-        "max_CRIT": 66
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     },
     "4": {
         "name": "Darwin",
@@ -67,7 +71,8 @@
         "max_HP": 1491,
         "max_ATK": 129,
         "max_DEF": 218,
-        "max_CRIT": 67
+        "max_CRIT": 67,
+        "translator": "182150992408739840"
     },
     "5": {
         "name": "Hannah",
@@ -81,7 +86,8 @@
         "max_HP": 1453,
         "max_ATK": 129,
         "max_DEF": 223,
-        "max_CRIT": 67
+        "max_CRIT": 67,
+        "translator": "182150992408739840"
     },
     "6": {
         "name": "Adolf",
@@ -95,7 +101,8 @@
         "max_HP": 1453,
         "max_ATK": 135,
         "max_DEF": 223,
-        "max_CRIT": 66
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     },
     "7": {
         "name": "Da Vinci",
@@ -109,7 +116,8 @@
         "max_HP": 1491,
         "max_ATK": 135,
         "max_DEF": 218,
-        "max_CRIT": 66
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     },
     "8": {
         "name": "Katherine",
@@ -123,7 +131,8 @@
         "max_HP": 1491,
         "max_ATK": 135,
         "max_DEF": 218,
-        "max_CRIT": 66
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     },
     "9": {
         "name": "Ferret II",
@@ -137,7 +146,8 @@
         "max_HP": 1491,
         "max_ATK": 132,
         "max_DEF": 223,
-        "max_CRIT": 66
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     },
     "10": {
         "name": "Guinea",
@@ -151,7 +161,8 @@
         "max_HP": 1528,
         "max_ATK": 132,
         "max_DEF": 223,
-        "max_CRIT": 64
+        "max_CRIT": 64,
+        "translator": "182150992408739840"
     },
     "11": {
         "name": "Frederick",
@@ -165,7 +176,8 @@
         "max_HP": 1446,
         "max_ATK": 136,
         "max_DEF": 223,
-        "max_CRIT": 64
+        "max_CRIT": 64,
+        "translator": "182150992408739840"
     },
     "12": {
         "name": "Patton",
@@ -179,7 +191,8 @@
         "max_HP": 1453,
         "max_ATK": 132,
         "max_DEF": 223,
-        "max_CRIT": 67
+        "max_CRIT": 67,
+        "translator": "182150992408739840"
     },
     "13": {
         "name": "Erwin",
@@ -193,7 +206,8 @@
         "max_HP": 1184,
         "max_ATK": 107,
         "max_DEF": 181,
-        "max_CRIT": 54
+        "max_CRIT": 54,
+        "translator": "182150992408739840"
     },
     "14": {
         "name": "Eiffu",
@@ -207,7 +221,8 @@
         "max_HP": 1184,
         "max_ATK": 107,
         "max_DEF": 181,
-        "max_CRIT": 54
+        "max_CRIT": 54,
+        "translator": "182150992408739840"
     },
     "15": {
         "name": "Ekko",
@@ -221,7 +236,8 @@
         "max_HP": 1208,
         "max_ATK": 109,
         "max_DEF": 181,
-        "max_CRIT": 51
+        "max_CRIT": 51,
+        "translator": "182150992408739840"
     },
     "16": {
         "name": "Voltaire",
@@ -235,7 +251,8 @@
         "max_HP": 1232,
         "max_ATK": 107,
         "max_DEF": 181,
-        "max_CRIT": 51
+        "max_CRIT": 51,
+        "translator": "182150992408739840"
     },
     "17": {
         "name": "Groda",
@@ -249,7 +266,8 @@
         "max_HP": 1232,
         "max_ATK": 107,
         "max_DEF": 177,
-        "max_CRIT": 53
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
     },
     "18": {
         "name": "Richelieu",
@@ -263,7 +281,8 @@
         "max_HP": 1208,
         "max_ATK": 107,
         "max_DEF": 181,
-        "max_CRIT": 53
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
     },
     "19": {
         "name": "Samanda",
@@ -277,7 +296,8 @@
         "max_HP": 1208,
         "max_ATK": 107,
         "max_DEF": 185,
-        "max_CRIT": 51
+        "max_CRIT": 51,
+        "translator": "182150992408739840"
     },
     "20": {
         "name": "Mozart",
@@ -291,7 +311,8 @@
         "max_HP": 1208,
         "max_ATK": 109,
         "max_DEF": 177,
-        "max_CRIT": 53
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
     },
     "21": {
         "name": "Liv-Reindeer",
@@ -305,7 +326,8 @@
         "max_HP": 1208,
         "max_ATK": 109,
         "max_DEF": 177,
-        "max_CRIT": 53
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
     },
     "22": {
         "name": "New Year's Firework",
@@ -319,7 +341,8 @@
         "max_HP": 1208,
         "max_ATK": 109,
         "max_DEF": 177,
-        "max_CRIT": 53
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
     },
     "23": {
         "name": "Lantern Gathering",
@@ -333,7 +356,8 @@
         "max_HP": 1208,
         "max_ATK": 109,
         "max_DEF": 177,
-        "max_CRIT": 53
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
     },
     "24": {
         "name": "Basilone",
@@ -347,6 +371,7 @@
         "max_HP": 1453,
         "max_ATK": 134,
         "max_DEF": 223,
-        "max_CRIT": 64
+        "max_CRIT": 64,
+        "translator": "182150992408739840"
     }
 }
