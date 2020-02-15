@@ -14,6 +14,7 @@ exports.run = (client, message, args) => {
                     **~character <name of character>** | Displays information about the Character
                     **~mission list** | Shows a list of available missions
                     **~mission <name of mission>** | Displays information about the Mission
+                    **~register** | Displays instructions on how to create a QQ account in PGR
                 `
             },
             {
