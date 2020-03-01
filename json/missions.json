@@ -55,7 +55,7 @@
             "0": "Pass battle stage 3 times",
             "1": "Reach Affection level 2 with any Character",
             "2": "Clear Hidden Story 2",
-            "3": "Clear battle copy stage 6 times",
+            "3": "clear any Character fragment stages 6 times",
             "4": "Clear AB-2 3 times",
             "5": "Complete a Bounty mission"
         },
@@ -80,7 +80,7 @@
         "6": {
             "0": "Login 7 days",
             "1": "Reach Commander Level 50",
-            "2": "Promote 4 Characters to Elite 2"
+            "2": "Promote 4 Characters to TaskForce 2"
         }
     }
 }

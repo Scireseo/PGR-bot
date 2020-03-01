@@ -27,7 +27,7 @@
                     "name": "Yellow",
                     "description": "Leaps forward your enemy to kick before following up with a shot, dealing X% physical damage and marking them.\nWhen attacking marked enemy, fire an additional shot dealing Y%.",
                     "multipliers": {
-                        "0": 86,
+                        "0": 90,
                         "1": 10
                     }
                 },
@@ -73,7 +73,7 @@
                     "name": "Core",
                     "description": "After a 3 orb combo, the next red orb skill will have additional cannon shots, dealing A% physical damage.",
                     "special_multipliers": {
-                        "0": 25
+                        "0": 27.5
                     }
                 },
                 "2": {
@@ -120,7 +120,7 @@
                     "description": "Normal Mode: Cross attack an enemy, dealing X% of physical damage.\nFire Mode: Deals Y% of fire damage.",
                     "multipliers": {
                         "0": 50,
-                        "1": 60
+                        "1": 75
                     }
                 },
                 "1": {
@@ -128,7 +128,7 @@
                     "description": "Normal Mode: Jumps towards an enemy, dealing X% of physical damage to enemies around.\nFire Mode: Deals Y% of fire damage.",
                     "multipliers": {
                         "0": 90,
-                        "1": 120
+                        "1": 135
                     }
                 },
                 "2": {
@@ -143,7 +143,7 @@
                     "name": "Basic",
                     "description": "Deals a total of A% physical damage.\nFire mode converts damage to fire damage.",
                     "special_multipliers": {
-                        "0": 270
+                        "0": 360
                     }
                 },
                 "4": {
@@ -577,9 +577,9 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "When attacking marked enemies with lightning damage there is a 25%/50%/75%(depending on how many marks the target has) to trigger a lightning strike, dealing A% lightning damage",
+                    "description": "When attacking marked enemies there is a 25%/50%/75%(depending on how many marks the target has) to trigger a lightning strike, dealing A% lightning damage",
                     "special_multipliers": {
-                        "0": 20
+                        "0": 30
                     }
                 },
                 "2": {
@@ -630,7 +630,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Shoots out a grenade towards the target. Detonates when landed, dealing X% fire damage and turn the area into a burning zone for 3/4/5 seconds, dealing Y% fire damage per second to enemies within the zone. Attacks afterwards to enemies within the zone will have an additional A% fire damage",
+                    "description": "Shoots out a grenade towards the target. Detonates when landed, dealing X% fire damage and turn the area into a burning zone for 3/4/5 seconds, dealing Y% fire damage per 0.5 seconds to enemies within the zone. Attacks afterwards to enemies within the zone will have an additional A% fire damage",
                     "multipliers": {
                         "0": 50,
                         "1": 6
@@ -681,7 +681,7 @@
                     "name": "Core",
                     "description": "After consuming yellow orbs, the next red orb will have an additional explosion effect. Explosion: Bullets will explode when they successfully land, dealing A% fire damage",
                     "special_multipliers": {
-                        "0": 30
+                        "0": 20
                     }
                 },
                 "2": {
@@ -691,7 +691,7 @@
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "Increase damage by 15% to enemies within the burning zone"
+                    "description": "Increase damage by 15% to enemies within the burning zone. Trigger at max 1 time per 0.1 second"
                 },
                 "4": {
                     "name": "Passive 2",
@@ -963,7 +963,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Does an upper spin attack, dealing a total of A% physical damage, the last hit will deal B% of dark damage and decrease the target's dark resistance by C%",
+                    "description": "Does an upper spin attack, dealing a total of A% physical damage, the last hit will deal B% of dark damage and decrease the target's dark resistance by C% for 6 seconds",
                     "special_multipliers": {
                         "0": 210,
                         "1": 80,
@@ -1064,7 +1064,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Nanami appears and spins around, dealing A% of fire damage to all surrounding enemies and also lowering their fire resistance by B%",
+                    "description": "Nanami appears and spins around, dealing A% of fire damage to all surrounding enemies and also lowering their fire resistance by B% for 6 seconds",
                     "special_multipliers": { 
                         "0": 240,
                         "1": 10
@@ -1081,7 +1081,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After using her ultiamte, Nanami enters Overclock status which converts all her normal attacks into fire damage. All enemies hit by her basic attack during this time gets their fire resistance lowered by A%",
+                    "description": "After using her ultiamte, Nanami enters Overclock status which converts all her normal attacks into fire damage. All enemies hit by her basic attack during this time gets their fire resistance lowered by A% for 8 seconds",
                     "special_multipliers": { 
                         "0": 7.5
                     }
@@ -1266,7 +1266,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal A% physical damage, stunning the target. Additionally, decrease its physical defenses by B%",
+                    "description": "Deal A% physical damage, stunning the target. Additionally, decrease its physical defenses by B% for 6 seconds",
                     "special_multipliers": {
                         "0": 250,
                         "1": 5
@@ -1589,7 +1589,7 @@
                     "special_multipliers": {
                         "0": 30,
                         "1": 100,
-                        "2": 15
+                        "2": 20
                     }
                 },
                 "2": {
@@ -1642,8 +1642,8 @@
                     "name": "Yellow",
                     "description": "Perform a spin attack in midair and attract nearby enemies towards you. Each spin deals X% physical damage. At the end of this skill, strike with a heavy attack that deals Y% physical damage. This skill deals dark damage instead when it is a 3 orb combo.",
                     "multipliers": {
-                        "0": 10,
-                        "1": 20
+                        "0": 20,
+                        "1": 25
                     }
                 },
                 "2": {
@@ -1688,7 +1688,7 @@
                     "name": "Core",
                     "description": "Consuming a red orb after any 3 orb combo will trigger resonance, turning the character into shadows and striking forward in an area, each strike dealing A% dark damage. Activate shadow mode afterwards for 5 seconds, each attack gaining an additional B% dark damage. Shadow dagger will deal an additional C% dark damage.",
                     "special_multipliers": {
-                        "0": 25,
+                        "0": 30,
                         "1": 150,
                         "2": 50
                     }
@@ -1711,6 +1711,106 @@
                     "name": "Passive 3",
                     "rank": "SSS+",
                     "description": "Upon activation of the core passive, increase dark damage done by 20%."
+                }
+            }
+        }
+    },
+    "17": {
+        "name": "Ayla",
+        "code_name": "Colorflow",
+        "code_name_CN": "溢彩",
+        "class": "Defender",
+        "rarity": "A",
+        "base_HP": 352,
+        "base_ATK": 58,
+        "base_DEF": 53,
+        "base_CRIT": 30,
+        "max_HP": 1636,
+        "max_ATK": 272,
+        "max_DEF": 250,
+        "max_CRIT": 139,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Attack with the scythe, dealing X% physical damage",
+                    "multipliers": {
+                        "0": 75
+                    }
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Smash into a target, dealing X% physical damage. Swing the scythe upwards after colliding with the target, dealing Y% physical damage.",
+                    "multipliers": {
+                        "0": 45,
+                        "1": 60
+                    }
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Throw your scythe forward and recall it, dealing X% physical damage to all enemies caught in the path.",
+                    "multipliers": {
+                        "0": 10
+                    }
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Attack with the scythe, dealing A% physical damage.",
+                    "special_multipliers": {
+                        "0": 305
+                    }
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Bloom! Attack with the scythe, dealing A% physical damage with each swing. At the end of the ultimate, charge and strike with the scythe, dealing B% physical damage. During the ultimate the movement and position can be controlled using the movement stick.",
+                    "special_multipliers": {
+                        "0": 60,
+                        "1": 300
+                    }
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal A% physical damage to an enemy and decrease its defenses by B% for 5 seconds. The last strike of the QTE will knock up the target.",
+                    "special_multipliers": {
+                        "0": 250,
+                        "1": 5
+                    }
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Attacks against enemies increase their damage taken by A%",
+                    "special_multipliers": {
+                        "0": 10
+                    }
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "After a 3 orb combo, the next blue orb will trigger a charged attack that drags in enemies while charging. Grants a shield base on 8% of maximum health for 7 seconds and take 70% less damage from all sources while charging. After fully charging, attack with a heavy strike, dealing A% physical damage.",
+                    "special_multipliers": {
+                        "0": 350
+                    }
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "Increase defense by 10% and attack by 5% when there are 3 different classes in the team."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "After landing an attack against an enemy with a yellow orb, increase character's own defense and physical attack by 10%, lasts for 5 seconds."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Upon a successful core passive, decrease the enemy's defense by 15%."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "After casting ultimate, increase all damage by 20% for 8 seconds."
                 }
             }
         }
