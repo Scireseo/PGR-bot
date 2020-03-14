@@ -258,7 +258,7 @@
         "name": "Groda",
         "rarity": 5,
         "effect_1": "Attacks decrease enemy's resistance by 6% for 5s, CD: 12s",
-        "effect_2": "Enemies within 5m has 5% lower elemental resistance when you are attacked, lasts for 7s. Triggering again will reset the effect",
+        "effect_2": "Enemies within 5m has 6% lower elemental resistance when you are attacked, lasts for 7s. Triggering again will reset the effect",
         "base_HP": 137,
         "base_ATK": 12,
         "base_DEF": 19,
