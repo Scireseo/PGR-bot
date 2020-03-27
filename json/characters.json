@@ -921,7 +921,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Normal Mode: Cross slash the target, dealing X% of physical damage and an additional Y% of dark damage. Shadow Mode: Leap forward to an enemy, dealing Z% of dark damage",
+                    "description": "Normal Mode: Cross slash the target, dealing X% of physical damage and an additional Y% of dark damage.\nShadow Mode: Leap forward to an enemy, dealing Z% of dark damage",
                     "multipliers": {
                         "0": 100,
                         "1": 20,
@@ -930,7 +930,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Normal Mode: Rush towards an enemy, dealing X% of physical damage and an additional Y% dark damage. During the rush, you take 30% less damage and is immune to crowd control. Dark Mode: Rush and swing your sword around, dealing Z% of dark damage. During the rush, you take 30% less damage and is immune to crowd control",
+                    "description": "Normal Mode: Rush towards an enemy, dealing X% of physical damage and an additional Y% dark damage. During the rush, you take 30% less damage and is immune to crowd control.\nDark Mode: Rush and swing your sword around, dealing Z% of dark damage. During the rush, you take 30% less damage and is immune to crowd control",
                     "multipliers": {
                         "0": 75,
                         "1": 20,
@@ -939,7 +939,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Normal Mode: Spin your sword and deal X% physical damage and an additional Y% of dark damage. The spin will also draw enemies towards you. Shadow Mode: Crush the ground and release energy in a fan shape, dealing Z% of dark damage and stunning the target",
+                    "description": "Normal Mode: Spin your sword and deal X% physical damage and an additional Y% of dark damage.The spin will also draw enemies towards you.\nShadow Mode: Crush the ground and release energy in a fan shape, dealing Z% of dark damage and stunning the target",
                     "multipliers": {
                         "0": 70,
                         "1": 20,
@@ -948,7 +948,7 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Normal Mode: Swing your sword, dealing a total of A% physical damage. Dark Mode: Madly swing your sword, dealing a total of B% dark damage",
+                    "description": "Normal Mode: Swing your sword, dealing a total of A% physical damage.\nDark Mode: Madly swing your sword, dealing a total of B% dark damage",
                     "special_multipliers": {
                         "0": 280,
                         "1": 450
@@ -1811,6 +1811,107 @@
                     "name": "Passive 3",
                     "rank": "SSS+",
                     "description": "After casting ultimate, increase all damage by 20% for 8 seconds."
+                }
+            }
+        }
+    },
+    "18": {
+        "name": "Bianca",
+        "code_name": "Verity",
+        "code_name_CN": "真理",
+        "class": "Attacker",
+        "rarity": "S",
+        "base_HP": 427,
+        "base_ATK": 94,
+        "base_DEF": 64,
+        "base_CRIT": 40,
+        "max_HP": 1915,
+        "max_ATK": 422,
+        "max_DEF": 287,
+        "max_CRIT": 182,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Fire an energy arrow that penetrates through enemies after charging, dealing X% physical damage. Deals lightning damage when is a 3 orb combo.",
+                    "multipliers": {
+                        "0": 120
+                    }
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Flash towards the sky, shooting out a charged arrow, dealing X% physical damage after 2 exploding, leaving a lightning area. Enemies within the area will be slowed by A% and receive 20/35/50% lightning damage per second. The field last 3/5/7 seconds",
+                    "multipliers": {
+                        "0": 50,
+                        "1": 40
+                    }
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Snap your fingers and explode the arrow's energy, pushing back enemies around you, dealing X% physical damage. Gain l lightning charge. Normal attacks will have l extra lightning arrow, deals Y% lightning damage. Red orbs and core passive will trigger 2 additional lightning arrow, deals Z% lightning damage, last for 8 seconds",
+                    "multipliers": {
+                        "0": 20,
+                        "1": 8,
+                        "2": 12
+                    }
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Shoots out 7 arrows. The last arrow will be a charged penetration arrow. Deal A% physical damage in total.",
+                    "special_multipliers": {
+                        "0": 280
+                    }
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 100 energy. Fire off a barrage of arrows towards the sky, trigger a chain lightning strike, each strike deals A% lightning damage within their area. After a delay, the strikes will explode, dealing B% lightning damage.",
+                    "special_multipliers": {
+                        "0": 80,
+                        "1": 90
+                    }
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Shoots out 4 arrows, each dealing A% lightning damage",
+                    "special_multipliers": {
+                        "0": 80
+                    }
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Increase damage done by A%",
+                    "special_multipliers": {
+                        "0": 10
+                    }
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "After a 3 red orb combo, consuming blue orbs will enter sniper mode. Basic attacks will fire off a long range penetrating lightning arrow, dealing A% lightning damage, last for 6 seconds or after sucessfully shooting 6 arrows, exit sniper mode. When dodging during sniper mode, the next basic attack will have a faster charge rate. Orbs won't be recovered using basic attack in sniper mode.",
+                    "special_multipliers": {
+                        "0": 250
+                    }
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "lightning damage increase to all members. Attack types gain an additional 5% attack."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "Deal 10% more damage to enemies who got penetrated by the arrow from red orb skill, last for 8 seconds"
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Deal 15% more damage to enemies within the lightning area from yellow orb skill."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "20% lightning damage increase when in sniper mode."
                 }
             }
         }

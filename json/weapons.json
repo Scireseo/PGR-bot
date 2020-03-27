@@ -322,7 +322,7 @@
         "name": "Violet Wu",
         "type": "Scythe",
         "rarity": 6,
-        "effect": "Passive I: When dealing damage to shielded enemies, increase all damage by 2%. Stacks 3 times and lasts for 5 seconds.\nPassive II: When you break an enemy's shield, stun the target for 2 seconds. This effect has a 10 seconds cooldown on each affected enemy.\nPassive III: After releasing Colorflow's core passive, increase all physical damage done by 15%. Lasts for 7 seconds",
+        "effect": "Passive 1: When dealing damage to shielded enemies, increase all damage by 2%. Stacks 3 times and lasts for 5 seconds.\nPassive 2: When you break an enemy's shield, stun the target for 2 seconds. This effect has a 10 seconds cooldown on each affected enemy.\nPassive III: After releasing Colorflow's core passive, increase all physical damage done by 15%. Lasts for 7 seconds",
         "base_ATK": 48,
         "base_CRIT": 25,
         "max_ATK": 425,
@@ -333,11 +333,33 @@
         "name": "Suzume",
         "type": "Dual Knives",
         "rarity": 6,
-        "effect": "Passive I: All damage done is increased by 10%.\nPassive II: When in resonance form, all dark damage done is increased by 10%",
+        "effect": "Passive 1: All damage done is increased by 10%.\nPassive 2: When in resonance form, all dark damage done is increased by 10%",
         "base_ATK": 53,
         "base_CRIT": 25,
         "max_ATK": 463,
         "max_CRIT": 249,
+        "translator": "182150992408739840"
+    },
+    "31": {
+        "name": "Dominator",
+        "type": "Dual Pistols",
+        "rarity": 6,
+        "effect": "Passive 1: All damage increases by 3% for every energy orb you pick up, stacks up to 5 times.\nPassive 2: After picking up 5 energy orbs, gain 1 extra skill orb and 10 energy, 10 seconds cooldown.",
+        "base_ATK": 50,
+        "base_CRIT": 24,
+        "max_ATK": 436,
+        "max_CRIT": 244,
+        "translator": "182150992408739840"
+    },
+    "32": {
+        "name": "Lightning",
+        "type": "Bow",
+        "rarity": 6,
+        "effect": "Passive 1: 15% lightning damage increase.\nPassive 2: Trigger a lightning strike after dealing lightning damage using skills 5 times on a single target, dealing 150% lightning damage, 2 seconds cooldown.",
+        "base_ATK": 54,
+        "base_CRIT": 25,
+        "max_ATK": 471,
+        "max_CRIT": 254,
         "translator": "182150992408739840"
     }
 }
