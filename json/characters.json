@@ -3,7 +3,7 @@
         "name": "Lee",
         "code_name": "Matrix",
         "code_name_CN": "乱数",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "S",
         "base_HP": 427,
         "base_ATK": 94,
@@ -102,7 +102,7 @@
         "name": "Karen",
         "code_name": "Burnout",
         "code_name_CN": "烬燃",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "S",
         "base_HP": 406,
         "base_ATK": 90,
@@ -202,7 +202,7 @@
     "2": {
         "name": "Lucia",
         "code_name": "Crimson Abyss",
-        "class": "Attacker",
+        "class": "Assault",
         "code_name_CN": "深红之渊",
         "rarity": "S",
         "base_HP": 406,
@@ -282,7 +282,7 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "All Attacker type teammates gain an additional increase of 10% attack damage and 5% critical chance."
+                    "description": "All Assault type teammates gain an additional increase of 10% attack damage and 5% critical chance."
                 }, 
                 "3": {
                     "name": "Passive 1",
@@ -305,7 +305,7 @@
     "3": {
         "name": "Lucia",
         "code_name": "Red Lotus",
-        "class": "Attacker",
+        "class": "Assault",
         "code_name_CN": "红莲",
         "rarity": "B",
         "base_HP": 225,
@@ -381,7 +381,7 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "All Attacker type teammates gain an additional increase of 10% attack damage."
+                    "description": "All Assault type teammates gain an additional increase of 10% attack damage."
                 }, 
                 "3": {
                     "name": "Passive 1",
@@ -405,7 +405,7 @@
         "name": "Watanabe",
         "code_name": "Nightblade",
         "code_name_CN": "夜刃",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "A",
         "base_HP": 225,
         "base_ATK": 45,
@@ -509,7 +509,7 @@
         "name": "Lucia",
         "code_name": "Dawn",
         "code_name_CN": "黎明",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "A",
         "base_HP": 342,
         "base_ATK": 65,
@@ -584,7 +584,7 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Attacker-type characters gain 10% more attack"
+                    "description": "Assault-type characters gain 10% more attack"
                 },
                 "3": {
                     "name": "Passive 1",
@@ -608,7 +608,7 @@
         "name": "Lee",
         "code_name": "Ghostfire",
         "code_name_CN": "异火",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "A",
         "base_HP": 309,
         "base_ATK": 69,
@@ -710,7 +710,7 @@
         "name": "Bianca",
         "code_name": "Zero",
         "code_name_CN": "零度",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "A",
         "base_HP": 261,
         "base_ATK": 72,
@@ -807,7 +807,7 @@
         "name": "Karen",
         "code_name": "Explosion",
         "code_name_CN": "爆裂",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "A",
         "base_HP": 326,
         "base_ATK": 69,
@@ -906,7 +906,7 @@
         "name": "Kamui",
         "code_name": "Dark",
         "code_name_CN": "暗能",
-        "class": "Defender",
+        "class": "Tank",
         "rarity": "S",
         "base_HP": 513,
         "base_ATK": 76,
@@ -1012,7 +1012,7 @@
         "name": "Nanami",
         "code_name": "Pulse",
         "code_name_CN": "脉冲",
-        "class": "Defender",
+        "class": "Tank",
         "rarity": "S",
         "base_HP": 491,
         "base_ATK": 81,
@@ -1112,7 +1112,7 @@
         "name": "Nanami",
         "code_name": "Storm",
         "code_name_CN": "风暴",
-        "class": "Defender",
+        "class": "Tank",
         "rarity": "B",
         "base_HP": 252,
         "base_ATK": 40,
@@ -1211,7 +1211,7 @@
         "name": "Kamui",
         "code_name": "Heavy",
         "code_name_CN": "重能",
-        "class": "Defender",
+        "class": "Tank",
         "rarity": "A",
         "base_HP": 358,
         "base_ATK": 58,
@@ -1314,7 +1314,7 @@
         "name": "Liv",
         "code_name": "Hope",
         "code_name_CN": "仰光",
-        "class": "Support",
+        "class": "Healer",
         "rarity": "S",
         "base_HP": 427,
         "base_ATK": 85,
@@ -1413,7 +1413,7 @@
         "name": "Liv",
         "code_name": "Eclipse",
         "code_name_CN": "蚀暗",
-        "class": "Support",
+        "class": "Healer",
         "rarity": "B",
         "base_HP": 213,
         "base_ATK": 45,
@@ -1513,7 +1513,7 @@
         "name": "Liv",
         "code_name": "Spectrum",
         "code_name_CN": "流光",
-        "class": "Support",
+        "class": "Healer",
         "rarity": "A",
         "base_HP": 309,
         "base_ATK": 65,
@@ -1618,7 +1618,7 @@
         "name": "Watanabe",
         "code_name": "Phoenix Star",
         "code_name_CN": "夙星",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "A",
         "base_HP": 332,
         "base_ATK": 72,
@@ -1719,7 +1719,7 @@
         "name": "Ayla",
         "code_name": "Colorflow",
         "code_name_CN": "溢彩",
-        "class": "Defender",
+        "class": "Tank",
         "rarity": "A",
         "base_HP": 352,
         "base_ATK": 58,
@@ -1819,7 +1819,7 @@
         "name": "Bianca",
         "code_name": "Verity",
         "code_name_CN": "真理",
-        "class": "Attacker",
+        "class": "Assault",
         "rarity": "S",
         "base_HP": 427,
         "base_ATK": 94,
@@ -1912,6 +1912,106 @@
                     "name": "Passive 3",
                     "rank": "SSS+",
                     "description": "20% lightning damage increase when in sniper mode."
+                }
+            }
+        }
+    },
+    "19": {
+        "name": "Sofia",
+        "code_name": "Silver Fang",
+        "code_name_CN": "银牙",
+        "class": "Healer",
+        "rarity": "A",
+        "base_HP": 326,
+        "base_ATK": 62,
+        "base_DEF": 48,
+        "base_CRIT": 31,
+        "max_HP": 1515,
+        "max_ATK": 288,
+        "max_DEF": 227,
+        "max_CRIT": 144,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Stand still and fire off homing missiles, dealing X% fire damage. Drop 1 energy orb when it's a 3 orb combo.",
+                    "multipliers": {
+                        "0": 120
+                    }
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Dash towards the target, dealing X% physical damage for every hit when dashing. When it's a 3 orb combo, deal fire damage instead and drop 1 energy orb when the skill hits a target.",
+                    "multipliers": {
+                        "0": 20
+                    }
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Swiftly shoot out pellets in a fan shape and dash backwards, dealing X% fire damage. Drop an energy orb when it's a 3 orb combo.",
+                    "multipliers": {
+                        "0": 100
+                    }
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of A% mixed fire and physical damage.",
+                    "special_multipliers": {
+                        "0": 425
+                    }
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 75 energy. Attract nearby enemies towards your front and shoot out a concentrated pyramid, dealing A% fire damage and pushes enemies forward. The pyramid will continue attracting nearby enemies. Enemies caught within it will take B% fire damage. After some time, the pyramid will explode, dealing C% fire damage and drop 2 energy orbs.",
+                    "special_multipliers": {
+                        "0": 100,
+                        "1": 10,
+                        "2": 300
+                    }
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal A% fire damage and drop an energy orb. When the skill is raised to level 10 and above, it will drop an additional energy orb.",
+                    "special_multipliers": {
+                        "0": 200
+                    }
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "A% more healing.",
+                    "special_multipliers": {
+                        "0": 10
+                    }
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Sofia's last combo in a basic attack, dealing damage with a 3 orb combo, ultimate, and QTE will drop energy orbs. Picking energy orbs up will recover allies health by A% based on Sofia's attack and increase B% fire damage, lasts for 5 seconds. When an energy orb is picked up, Sofia gains 3 points of energy and 75 points of heat energy. When heat is over 0/100/200, Sofia's attack increases by 5%/10%/15%.",
+                    "special_multipliers": {
+                        "0": 10,
+                        "1": 5
+                    }
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "When the team has 3 different classes, 10% increase to all teammates health and 5% increase to all their movement speed."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "Ultimate and QTE will drop an additional energy orb."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "If the same character picks up 3 energy orbs within 5 seconds, increase the character's fire damage by an additional 10%, lasts for 5 seconds."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "Decrease the target's fire resistance by 15% when your ultimate hits them, lasts for 5 seconds."
                 }
             }
         }
