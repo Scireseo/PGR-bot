@@ -1,8 +1,16 @@
+let express = require('express');
+let app = express();
+app.get("/", (request, response) => {
+    response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+
 const { Client } = require('discord.js');
 const client = new Client();
 const Enmap = require('enmap');
 const fs = require("fs");
 require("dotenv-flow").config();
+
 const config = {
     token: process.env.TOKEN,
     owner: process.env.OWNER,
