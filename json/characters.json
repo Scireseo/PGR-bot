@@ -1655,7 +1655,7 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal X% physical damage. After dodging or using red orbs, normal attacks trigger shadow dagger, dealing Y% physical damage",
+                    "description": "Deal A% physical damage. After dodging or using red orbs, normal attacks trigger shadow dagger, dealing B% physical damage",
                     "special_multipliers": {
                         "0": 300,
                         "1": 100
@@ -1663,14 +1663,14 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Turn into a shadow and stomp the ground. Each stomp deals X% dark damage.",
+                    "description": "Turn into a shadow and stomp the ground. Each stomp deals A% dark damage.",
                     "special_multipliers": {
                         "0": 300
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Strike the target with a shadow clone, each strike dealing X% dark damage",
+                    "description": "Strike the target with a shadow clone, each strike dealing A% dark damage",
                     "special_multipliers": {
                         "0": 150
                     }
