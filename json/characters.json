@@ -1656,7 +1656,7 @@
                 "3": {
                     "name": "Basic",
                     "description": "Deal X% physical damage. After dodging or using red orbs, normal attacks trigger shadow dagger, dealing Y% physical damage",
-                    "multipliers": {
+                    "special_multipliers": {
                         "0": 300,
                         "1": 100
                     }
@@ -1664,14 +1664,14 @@
                 "4": {
                     "name": "Ultimate",
                     "description": "Turn into a shadow and stomp the ground. Each stomp deals X% dark damage.",
-                    "multipliers": {
+                    "special_multipliers": {
                         "0": 300
                     }
                 },
                 "5": {
                     "name": "QTE",
                     "description": "Strike the target with a shadow clone, each strike dealing X% dark damage",
-                    "multipliers": {
+                    "special_multipliers": {
                         "0": 150
                     }
                 }
