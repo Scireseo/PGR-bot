@@ -1,8 +1,10 @@
 exports.run = (client, message, args) => {
     const general_functions = require('../helpers/general');
-    args = args.map(arg => arg.includes("-") ? arg.split("-").map(a=> general_functions.titleCase(a)).join("-") : general_functions.titleCase(arg))
+    args = args.map(arg => arg.includes("-") ? 
+        arg.split("-").map(a=> general_functions.titleCase(a)).join("-") 
+        : general_functions.titleCase(arg));
     args = args.join(" ");
-    // console.log("[args 1]", args);
+    console.log("[args 1]", args);
     // return;
     let embed = {};
     let list_of_memories = Object.values(client.memories);

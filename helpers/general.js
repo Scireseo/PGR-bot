@@ -1,5 +1,6 @@
 function capitalizeFirstLetter(string) {
     if(string === "") return;
+    if(string === "II") return string;
     return string[0].toUpperCase() + string.slice(1).toLowerCase();
 }
 
