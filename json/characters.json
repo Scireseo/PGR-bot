@@ -2015,5 +2015,107 @@
                 }
             }
         }
+    },
+    "20": {
+        "name": "Chrome",
+        "code_name": "Arclight",
+        "code_name_CN": "弧光",
+        "class": "Tank",
+        "rarity": "A",
+        "base_HP": 342,
+        "base_ATK": 62,
+        "base_DEF": 51,
+        "base_CRIT": 31,
+        "max_HP": 1590,
+        "max_ATK": 288,
+        "max_DEF": 238,
+        "max_CRIT": 144,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Swing the scythe around, each swing dealing X% physical damage. Deals lightning damage when it's a 3 orb combo",
+                    "multipliers": {
+                        "0": 9
+                    }
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Spin your scythe around, pulling nearby enemies and follow up with a downward cut. Each spin deals X% physical damage. Downward cut deals Y% lightning damage to nearby enemies. Deal full lightning damage when it's a 3 orb",
+                    "multipliers": {
+                        "0": 10,
+                        "1": 30
+                    }
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Spin and burst out an electric pulse, dealing X% lightning damage to nearby enemies and mark them. The mark lasts for 6 seconds. You deal 3/4/5(**6/8/10**)% additional damage to marked enemies. 5/7.5/10(**10/15/20**)% additional damage resistance when you take damage from marked enemies.",
+                    "multipliers": {
+                        "0": 75
+                    }
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal A% physical damage in total.",
+                    "special_multipliers": {
+                        "0": 305
+                    }
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 100 energy, call upon the lightning to charge yourself and pull enemies over to you. Enter **flash mode**. Basic attacks will be changed into a **dash attack**. The mode lasts for 8 seconds. In Flash Mode, every 5 **dash attacks** will trigger core passive once. Each dash deals A% lightning damage and each strike deals B% lightning damage.",
+                    "special_multipliers": {
+                        "0": 17.5,
+                        "1": 60
+                    }
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Initially, deal A% lightning damage and decrease target's lightning resistance by B%, lasts for 6 seconds. Before returning back, deal another C% lightning damage.",
+                    "special_multipliers": {
+                        "0": 125,
+                        "1": 5,
+                        "2": 125
+                    }
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
+                    "special_multipliers": {
+                        "0": 10
+                    }
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "After a 3 orb combo, consuming any amount of blue orb will form a A% shield based on your maximum health. The shield will last for 4 seconds. When the shield expires or a new shield is formed to replace the existing shield, the shield will explode and deal B% lightning damage to nearby enemies.",
+                    "special_multipliers": {
+                        "0": 5,
+                        "1": 100
+                    }
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "10% defense increase and 5% health increase when all 3 teammates are of different classes"
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "When the core passive shield is present, increase 10% lightning damage."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "When switching to Chrome from the background, immediately activate ultimate for 4 seconds."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "Ultimate's dash attack will decrease target's lightning resistance by 15%, lasts for 8 seconds."
+                }
+            }
+        }
     }
 }

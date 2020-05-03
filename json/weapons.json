@@ -361,5 +361,16 @@
         "max_ATK": 471,
         "max_CRIT": 254,
         "translator": "182150992408739840"
+    },
+    "33": {
+        "name": "Saint Elmo",
+        "type": "Scythe",
+        "rarity": 6,
+        "effect": "Passive 1: 10% more lightning damage\nPassive 2: When in Flash mode, decrease the amount of normal attacks required to trigger core passive by 2.",
+        "base_ATK": 50,
+        "base_CRIT": 23,
+        "max_ATK": 436,
+        "max_CRIT": 236,
+        "translator": "182150992408739840"
     }
 }
