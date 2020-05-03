@@ -921,7 +921,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Normal Mode: Cross slash the target, dealing X% of physical damage and an additional Y% of dark damage.\nShadow Mode: Leap forward to an enemy, dealing Z% of dark damage",
+                    "description": "Normal Mode: Cross slash the target, dealing X% of physical damage and an additional Y% of dark damage.\nDark mode: Leap forward to an enemy, dealing Z% of dark damage",
                     "multipliers": {
                         "0": 100,
                         "1": 20,
@@ -939,7 +939,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Normal Mode: Spin your sword and deal X% physical damage and an additional Y% of dark damage.The spin will also draw enemies towards you.\nShadow Mode: Crush the ground and release energy in a fan shape, dealing Z% of dark damage and stunning the target",
+                    "description": "Normal Mode: Spin your sword and deal X% physical damage and an additional Y% of dark damage.The spin will also draw enemies towards you.\nDark mode: Crush the ground and release energy in a fan shape, dealing Z% of dark damage and stunning the target",
                     "multipliers": {
                         "0": 70,
                         "1": 20,
@@ -956,7 +956,7 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "When energy is greater than 60, ultimate can be activated to go into shadow mode, all skills are changed and drains 8 energy per second, exit shadow mode when energy is depleted. Dark damage is increased by A% when in shadow mode",
+                    "description": "Dark mode can be activated when energy is above 60, all skill will be changed and kamui gains Anti-CC. 8 energy is depleted per second in Dark mode, exit Dark mode when energy is depleted. Dark damage is increased by A% when in Dark mode",
                     "special_multipliers": {
                         "0": 10
                     }
@@ -981,7 +981,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Consuming 3 orbs gains an additional 10 energy. Receive A% less physical damage and dark damage when in shadow mode",
+                    "description": "Consuming 3 orbs gains an additional 10 energy. Receive A% less physical damage and dark damage when in Dark mode",
                     "special_multipliers": {
                         "0": 15
                     }
@@ -993,7 +993,7 @@
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "Take 20% less damage when in shadow mode"
+                    "description": "Take 20% less damage when in Dark mode"
                 },
                 "4": {
                     "name": "Passive 2",
@@ -1003,7 +1003,7 @@
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "Increase dark damage by 20% when in shadow mode"
+                    "description": "Increase dark damage by 20% when in Dark mode"
                 }
             }
         }
@@ -1027,23 +1027,22 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Moves forward and thrusts the enemy with her chainsaw, dealing X% of physical damage. If it's a 3-orb, the damage will become fire damage instead",
+                    "description": "Moves forward and thrusts the enemy with her chainsaw, deal X% physical damage, can be dealt up to 12 times. If it's a 3-orb, the damage will become fire damage instead",
                     "multipliers": { 
-                        "0": 100
+                        "0": 10
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Leaps into the air and do a somersault with her chainsaw, dealing X% of physical damage. If it's a 3-orb, deal Y% of fire damage instead and also release a fire whirlwind, which deals Z% of fire damage to all enemies",
-                    "multipliers": { 
+                    "description": "Leaps into the air and do a somersault with her chainsaw, deal damage twice, each hit is 50/100/100(**100/200/200**)% physical damage, each hit will be A% fire damage when is a 3 orb combo and create a Fire Energy Halo, dealing B% fire damage. The halo can hit up to 12 times",
+                    "special_multipliers": { 
                         "0": 100,
-                        "1": 200,
-                        "2": 110
+                        "1": 15
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Spins around and wind up, then hits the target with a heavy uppecut, dealing X% of physical damage. Also gains a shield based off Nanami's 5%/7.5%/10% max HP and super armor status, lasts for 5 seconds",
+                    "description": "Spins around and wind up, then hits the target with a heavy uppecut, deal damage 3 times, each time dealing 25/50/100(**50/100/200**)% physical damage. Also gains a shield based off Nanami's 5%/7.5%/10% max HP and super armor status, lasts for 5 seconds",
                     "multipliers": { 
                         "0": 50
                     }
@@ -1052,14 +1051,14 @@
                     "name": "Basic",
                     "description": "Slashes enemies with her chainsaw, dealing of up to a total of A% physical damage",
                     "special_multipliers": {  
-                        "0": 330
+                        "0": 310
                     }
                 },
                 "4": {
                     "name": "Ultimate",
                     "description": "Nanami dashes across a distance, all enemies caught within the dash take A% of fire damage",
                     "special_multipliers": { 
-                        "0": 250
+                        "0": 450
                     }
                 },
                 "5": {
@@ -1067,7 +1066,7 @@
                     "description": "Nanami appears and spins around, dealing A% of fire damage to all surrounding enemies and also lowering their fire resistance by B% for 6 seconds",
                     "special_multipliers": { 
                         "0": 240,
-                        "1": 10
+                        "1": 5
                     }
                 }
             },
@@ -1098,12 +1097,12 @@
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "After using your ultimate, gain super armor status. All damage received are decreased by 20%, increase all fire damage dealt to enemies by 15%, lasts for 3 seconds"
+                    "description": "After using your ultimate, gain super armor status. All damage received are decreased by 20%, increase all fire damage dealt to enemies by 15%, lasts for 8 seconds"
                 }, 
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "After using your ultimate, increase all damage dealt by 15%, lasts for 5 seconds"
+                    "description": "After using your ultimate, increase all damage dealt by 15%, lasts for 8 seconds"
                 } 
             }
         }
@@ -1686,7 +1685,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Consuming a red orb after any 3 orb combo will trigger resonance, turning the character into shadows and striking forward in an area, each strike dealing A% dark damage. Activate shadow mode afterwards for 5 seconds, each attack gaining an additional B% dark damage. Shadow dagger will deal an additional C% dark damage.",
+                    "description": "Consuming a red orb after any 3 orb combo will trigger resonance, turning the character into shadows and striking forward in an area, each strike dealing A% dark damage. Activate Dark mode afterwards for 5 seconds, each attack gaining an additional B% dark damage. Shadow dagger will deal an additional C% dark damage.",
                     "special_multipliers": {
                         "0": 30,
                         "1": 150,
