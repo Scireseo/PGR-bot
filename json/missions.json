@@ -1,25 +1,23 @@
 {
     "daily": {
         "standard": {
-            "0": "Login in 1 time",
+            "0": "Daily first Login",
             "1": "Clear any battle once",
-            "2": "Enhance Weapon",
-            "3": "Enhance Memory",
-            "4": "Enhance Character",
-            "5": "Purchase any item in the shop",
-            "6": "Exchange black cards for stamina once",
-            "7": "Consume 100 stamina",
-            "8": "Consume 200 stamina",
-            "9": "Consume 300 stamina",
-            "10": "Talk to Character in the home page once",
-            "11": "Visit dorm once",
-            "12": "Clear pain cage 3 times",
-            "13": "Clear war zone 3 times"
+            "2": "Clear any coop once",
+            "3": "Purchase any item in the shop",
+            "4": "Exchange black cards for stamina once",
+            "5": "Consume 100 stamina",
+            "6": "Consume 200 stamina",
+            "7": "Consume 300 stamina",
+            "8": "Talk to your Character in the home page once",
+            "9": "Visit dorm once",
+            "10": "Clear Pain Cage 3 times",
+            "11": "Clear War Zone 3 times"
         },
         "dorm": {
             "0": "Place a unit on dorm duty",
             "1": "Trigger and complete dormitory events 3 times",
-            "2": "Pet units 5 times",
+            "2": "Pet units 3 times",
             "3": "Recycle furniture once",
             "4": "Make furniture 3 times",
             "5": "Complete 4 dorm missions",

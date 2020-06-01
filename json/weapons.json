@@ -3,7 +3,7 @@
         "name": "Kageuchi - Break",
         "type": "Katana",
         "rarity": 6,
-        "effect": "Increase elemental damage by 5% for every orb consumed, lasts for 4s, up to 4 stacks. Increase all damage by 10% for 10s after ultimate is unleashed",
+        "effect": "Everytime lightning damage is dealt, increase lightning damage by 5%, last for 4 seconds. Stacks up to 4 times, triggering it again will refresh the duration. Gain 10% extra damage after releasing ultimate, last for 10 seconds, triggering it again will refresh the duration.",
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 445,

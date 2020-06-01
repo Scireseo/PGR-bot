@@ -524,10 +524,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Stay still and unleash 5/5/6 slashes. Each slash deals X% of physical damage.",
-                    "multipliers": {
-                        "0": 20
-                    }
+                    "description": "Stay still and unleash 5/5/6 slashes. Each slash deals 20/40/72(**40/80/144**)% physical damage. When is a 3 orb combo, deal lightning damage instead. Immune to CC during the casting animation."
                 },
                 "1": {
                     "name": "Yellow",
@@ -554,7 +551,7 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consumes 70 energy and summons a series of katanas. They will deal an additional A% of lightning damage whenever your attack and cast a skill. The katanas last for 15s",
+                    "description": "Consumes 70 energy and summons a series of katanas. They will deal an additional A% of lightning damage whenever your attack and cast a skill. The katanas last for 15s. When casted again during ultimate, refresh the duration.",
                     "special_multipliers": {
                         "0": 12.5
                     }
