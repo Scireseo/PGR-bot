@@ -524,7 +524,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Stay still and unleash 5/5/6 slashes. Each slash deals 20/40/72(**40/80/144**)% physical damage. When is a 3 orb combo, deal lightning damage instead. Immune to CC during the casting animation."
+                    "description": "Stay still and unleash 5/5/5 slashes. Each slash deals 20/40/72(**40/80/144**)% physical damage. When is a 3 orb combo, deal lightning damage instead. Immune to CC during the casting animation."
                 },
                 "1": {
                     "name": "Yellow",
@@ -1612,7 +1612,7 @@
     },
     "16": {
         "name": "Watanabe",
-        "code_name": "Phoenix Star",
+        "code_name": "Morning Star",
         "code_name_CN": "夙星",
         "class": "Assault",
         "rarity": "A",
