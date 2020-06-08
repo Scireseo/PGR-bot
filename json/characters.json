@@ -528,10 +528,9 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Unleash a lightning zone, dealing X% of physical damage and marks the enemy. The zone will last for 3/4/5 seconds. Each second, the zone will deal Y% of lightning damage to enemies within it",
+                    "description": "Unleash a lightning zone, dealing X% of physical damage and marks the enemy. The zone will last for 3/4/5 seconds. Each second, the zone will deal 10/15/20(**20/30/40**)% of lightning damage to enemies within it",
                     "multipliers": {
-                        "0": 50,
-                        "1": 10
+                        "0": 50
                     }
                 },
                 "2": {
