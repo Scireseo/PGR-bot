@@ -9,7 +9,11 @@ function titleCase(string) {
 }
 
 function emoji(client, name) {
-    return client.emojis.find(emoji => emoji.name === name).toString();
+    const found = client.emojis.find(emoji => emoji.name === name);
+    if(!found) {
+        return null;
+    }
+    return found;
 }
 
 function initializeReactCollector(client, msg) {

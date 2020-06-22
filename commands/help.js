@@ -26,7 +26,12 @@ exports.run = (client, message, args) => {
         ]
     }
     message.author.send({ embed: embed });
-    message.channel.send(`Message sent, Commander! Now please stop bullying me! ${general_functions.emoji(client, "2_")}`);
+    const emoji = general_functions.emoji(client, "Nanamismug");
+    const messageDisplay = `Message sent, Commander!`;
+    if(emoji) {
+        messageDisplay += ` ${emoji}`;
+    }
+    message.channel.send(messageDisplay);
 }
 
 exports.help = {
