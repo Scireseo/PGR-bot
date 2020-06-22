@@ -2112,5 +2112,106 @@
                 }
             }
         }
+    },
+    "21": {
+        "name": "Lucia",
+        "code_name": "Raven's Feather",
+        "code_name_CN": "鸦羽",
+        "class": "Assault",
+        "rarity": "S",
+        "base_HP": 436,
+        "base_ATK": 59,
+        "base_DEF": 65,
+        "base_CRIT": 26,
+        "max_HP": 1954,
+        "max_ATK": 421,
+        "max_DEF": 293,
+        "max_CRIT": 183,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Stand still and slash 4/4/8 times, each slash dealing 30/60/60(**60/120/120**)% physical damage.\nIce Mode: Create a moving tornado infront of yourself. The tornado deals X% ice damage 9 times while moving. The tornado deals Y% ice damage when it reaches its maximum range.",
+                    "multipliers": {
+                        "0": 15,
+                        "1": 65
+                    }
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Quickly dash towards the enemies and slash them twice. Each slash deals X% physical damage.\nIce Mode: Jump and slam down towards the target, dealing damage twice. Each damage is Y% ice damage.",
+                    "multipliers": {
+                        "0": 57.5,
+                        "1": 75
+                    }
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Spin in midair for several turns and follow up with a downward-cut. When spinning, each slash deals X% physical damage. The downward-cut deals Y% physical damage.\nIce Mode: Release a tornado that cuts the target 5 times. Each cut deals Z% ice damage. Deal another 40/80/120(**80/160/240**)% ice damage and pull the target towards you when pulling back the sword.",
+                    "multipliers": {
+                        "0": 15,
+                        "1": 35,
+                        "2": 20
+                    }
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Basic Attack: Deal a total of A% physical damage.\nIce Mode: Switch to dual swords, deal a total of B% physical damage and C% ice damage.",
+                    "special_multipliers": {
+                        "0": 320,
+                        "1": 135,
+                        "2": 205
+                    }
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Ultimate: Switch to Ice Mode. During the switch, you are immune to CC. If your energy is full when you switch, the orbs will be rearranged in 3 orbs format.\nIce Mode: Jump up and toss down your booster towards the ground, dealing 450/600/800/1520(**900/1200/1600/3040**)% ice damage, temporarily slowing the target and return to normal mode. Mode Switch: Can be used anytime during normal mode. Can be used in Ice mode when ultimate has 1 or more charge, after switching there will be a 5 second cooldown."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal a total of A% physical damage and B% ice damage",
+                    "special_multipliers": {
+                        "0": 160,
+                        "1": 160
+                    }
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Damage is increased by A%",
+                    "special_multipliers": {
+                        "0": 10
+                    }
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Core Passive: In normal mode, every 3 orb increases your energy bar by 50% and add 1 stack to ultimate, up to 2 stacks.\nIce Mode: The energy bar will drain as time goes on. Increase ice damage by A% when the bar is present. Every 3 orb will add 1 stack to ultimate, up to 4 stacks. If the bar is present during ultimate, the ultimate will be buffed by the bar.",
+                    "special_multipliers": {
+                        "0": 25
+                    }
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "10% ice damage increase. All assault type structure gain 5% more attack."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "Target takes 10% more damage after it's hit by blue orb. This buff only applies to you."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Gain max energy bar and 2 ultimate stacks at the start of the battle. If the energy bar is present when in ice mode, all skill orbs deal 5% more damage."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "20% increase to ice damage during core passive."
+                }
+            }
+        }
     }
 }

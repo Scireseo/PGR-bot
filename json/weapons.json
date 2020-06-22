@@ -372,5 +372,16 @@
         "max_ATK": 436,
         "max_CRIT": 236,
         "translator": "182150992408739840"
+    },
+    "34": {
+        "name": "Julia",
+        "type": "Katana",
+        "rarity": 6,
+        "effect": "Passive 1: 15% increase in ice damage.\nPassive 2: 10% increase in all damage after a 3 orb combo, last for 5 seconds.",
+        "base_ATK": 53,
+        "base_CRIT": 23,
+        "max_ATK": 463,
+        "max_CRIT": 234,
+        "translator": "182150992408739840"
     }
 }
