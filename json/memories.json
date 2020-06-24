@@ -2,7 +2,7 @@
     "0": {
         "name": "Einstein",
         "rarity": 6,
-        "effect_1": "QTE/3 orb skills decreases target's element resistance by 15% for 8 seconds,  CD: 15s",
+        "effect_1": "QTE/3 orb skills decreases target's element resistance by 15% for 8 seconds, (Meaning: if a fire attack hits the target, it decreases fire resistance, if lightning, it decreases lightning resistance. Physical does not work with this memory) CD: 15s",
         "effect_2": "When damaged, open an elemental ring and increase your elemental resistance by 5% + 1% of your current element resistance for 5s. The ring grants an increase of element damage by 15%, CD : 8s",
         "base_HP": 152,
         "base_ATK": 13,
