@@ -373,5 +373,20 @@
         "max_DEF": 223,
         "max_CRIT": 64,
         "translator": "182150992408739840"
+    },
+    "25": {
+        "name": "Zuwen",
+        "rarity": 6,
+        "effect_1": "3% increase to all attacks, 7% increase to ice damage",
+        "effect_2": "When attacking, there is a 30% chance of inflicting frost, lasts for 5 seconds. When attacking frosted enemies, there is a 20% chance of triggering an ice burst, dealing 420% ice damage and applying freeze to enemies within 3m, 8 seconds cooldown.\nFreeze: decreases 20% of target's movement speed and 8% ice resistance.",
+        "base_HP": 149,
+        "base_ATK": 13,
+        "base_DEF": 22,
+        "base_CRIT": 6,
+        "max_HP": 1491,
+        "max_ATK": 134,
+        "max_DEF": 223,
+        "max_CRIT": 64,
+        "translator": "182150992408739840"
     }
 }
