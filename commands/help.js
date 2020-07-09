@@ -26,11 +26,11 @@ exports.run = (client, message, args) => {
         ]
     }
     message.author.send({ embed: embed });
-    const emoji = general_functions.emoji(client, "Nanamismug");
-    const messageDisplay = `Message sent, Commander!`;
-    if(emoji) {
-        messageDisplay += ` ${emoji}`;
-    }
+    // const emoji = general_functions.emoji(client, "Nanamismug");
+    const messageDisplay = `Nanami has sent you a message, Commander!`;
+    // if(emoji) {
+    //     messageDisplay += ` ${emoji}`;
+    // }
     message.channel.send(messageDisplay);
 }
 
