@@ -383,5 +383,27 @@
         "max_ATK": 463,
         "max_CRIT": 234,
         "translator": "182150992408739840"
+    },
+    "35": {
+        "name": "Thanatos",
+        "type": "Greatsword",
+        "rarity": 6,
+        "effect": "Passive I: 15% additional damage increase.\nPassive II: When Camu is in Berserker mode, Thanatos will grant 10% dark damage increase to all allies on field.",
+        "base_ATK": 56,
+        "base_CRIT": 25,
+        "max_ATK": 493,
+        "max_CRIT": 249,
+        "translator": "182150992408739840"
+    },
+    "36": {
+        "name": "Sariel",
+        "type": "Katana",
+        "rarity": 6,
+        "effect": "Passive I: 15% dark damage increase\nPassive II: When attacking, there is a 15% chance to create a dark shockwave, dealing 75% dark damage, 0.5 seconds cooldown.",
+        "base_ATK": 50,
+        "base_CRIT": 24,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
     }
 }

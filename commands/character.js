@@ -162,7 +162,8 @@ exports.run = (client, message, args) => {
                 attachment: `./static/images/characters/${attachment}`,
                 name: attachment
             }]
-        }).then((sent_message) => {
+        })
+        .then((sent_message) => {
             let react_collector = general_functions.initializeReactCollector(client, sent_message);
             react_collector.on('collect', reaction => {
                 if(reaction.emoji.name === '◀️'){
@@ -178,6 +179,29 @@ exports.run = (client, message, args) => {
             });
             react_collector.on('end', () => {
                 sent_message.reactions.map(reaction => reaction.remove(sent_message.author.id));
+            })
+        })
+        .catch(err => {
+            message.channel.send({ 
+                embed: embed
+            })
+            .then((sent_message) => {
+                let react_collector = general_functions.initializeReactCollector(client, sent_message);
+                react_collector.on('collect', reaction => {
+                    if(reaction.emoji.name === '◀️'){
+                        character_details_current_index = character_details_current_index - 1 < 0 ? character_details_max_index : --character_details_current_index;
+                        embed = generateEmbed();
+                        sent_message.edit({ embed: embed });
+                    }
+                    else{
+                        character_details_current_index = character_details_current_index + 1 > character_details_max_index ? 0 : ++character_details_current_index;
+                        embed = generateEmbed();
+                        sent_message.edit({ embed: embed });
+                    }
+                });
+                react_collector.on('end', () => {
+                    sent_message.reactions.map(reaction => reaction.remove(sent_message.author.id));
+                })
             })
         })
     })

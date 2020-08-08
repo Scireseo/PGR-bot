@@ -82,7 +82,12 @@ exports.run = (client, message, args) => {
                 attachment: `./static/images/weapons/${attachment}`,
                 name: attachment
             }]
-        });
+        })
+        .catch(err => {
+            message.channel.send({
+                embed: embed
+            })
+        })
     })
 }
 

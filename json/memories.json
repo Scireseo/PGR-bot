@@ -388,5 +388,21 @@
         "max_DEF": 223,
         "max_CRIT": 64,
         "translator": "182150992408739840"
+    },
+    "26": {
+        "name": "Koya",
+        "rarity": 6,
+        "effect_1": "10% additional damage increase",
+        "effect_2": "Gain 20% ultimate energy for every entrance to stage. Skill orbs deal 10% more damage.",
+        "effect_3": "When Camu is in Berserker mode, gain 10% additional damage and 20% movement speed. Skill orbs will now inflict Terror. The Terror effect lasts until Berserker mode is over.\nTerror: decrease target's attack by 10% and deal 10% additional damage to the target",
+        "base_HP": 149,
+        "base_ATK": 13,
+        "base_DEF": 22,
+        "base_CRIT": 6,
+        "max_HP": 1491,
+        "max_ATK": 134,
+        "max_DEF": 223,
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     }
 }

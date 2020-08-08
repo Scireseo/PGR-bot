@@ -73,6 +73,10 @@ exports.run = (client, message, args) => {
                     value: selected_memory.effect_2,
                 },
                 {
+                    name: "6 set effect",
+                    value: selected_memory.effect_3,
+                },
+                {
                     name: "HP",
                     value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
                     inline: true,
@@ -94,13 +98,25 @@ exports.run = (client, message, args) => {
                 },
             ]
         }
+
+        if (!selected_memory.effect_3) {
+            embed.fields = embed.fields.filter(field => field.name !== "6 set effect");
+        }
+
+        console.log(embed);
+
         message.channel.send({ 
             embed: embed,
             files: [{
                 attachment: `./static/images/memories/${attachment}`,
                 name: attachment
             }]
-        });
+        })
+        .catch(err => {
+            message.channel.send({
+                embed: embed
+            })
+        })
     });
 }
 

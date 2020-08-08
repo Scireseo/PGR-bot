@@ -566,7 +566,7 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Damage is increased by A%",
+                    "description": "Damage is increased by A%.",
                     "special_multipliers": {
                         "0": 10
                     }
@@ -668,7 +668,7 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Damage is increased by A%",
+                    "description": "Damage is increased by A%.",
                     "special_multipliers": {
                         "0": 10
                     }
@@ -765,7 +765,7 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Damage is increased by A%",
+                    "description": "Damage is increased by A%.",
                     "special_multipliers": {
                         "0": 10
                     }
@@ -864,7 +864,7 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Damage is increased by A%",
+                    "description": "Damage is increased by A%.",
                     "special_multipliers": {
                         "0": 10
                     }
@@ -1976,7 +1976,7 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "A% more healing.",
+                    "description": "Increase healing effectiveness by A%",
                     "special_multipliers": {
                         "0": 10
                     }
@@ -2210,6 +2210,152 @@
                     "name": "Passive 3",
                     "rank": "SSS+",
                     "description": "20% increase to ice damage during core passive."
+                }
+            }
+        }
+    },
+    "22": {
+        "name": "Camu",
+        "code_name": "Berserker",
+        "code_name_CN": "狂犬",
+        "class": "Compositor",
+        "rarity": "S",
+        "base_HP": 436,
+        "base_ATK": 96,
+        "base_DEF": 60,
+        "base_CRIT": 42,
+        "max_HP": 1954,
+        "max_ATK": 433,
+        "max_DEF": 273,
+        "max_CRIT": 191,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Spin and uppercut your target, dealing 150/300/450(**300/600/900**)% physical damage. Deal dark damage when it's a 3 orb combo.\nBerserker mode: Quickly slash twice, dealing a total of 260(**520**)% dark damage, follow up with a heavy strike that deals 260(**520**)% dark damage."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Slash towards your target 2 times, dealing 140/280/420(**280/560/840**)% physical damage. Deal dark damage when it's a 3 orb combo.\nBerserker mode: Smash towards your target, dealing 180(**360**)% dark damage, follow up with a spike attack, dealing 300(**600**)% dark damage."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Cancel out any action or stagger, dealing 135/270/405(**270/540/810**)% AOE physical damage. Gain a shield based on 2.5/5/7.5(**5/10/15**)% of your max health, last for 5 seconds. Deal dark damage instead when it's a 3 orb combo.\nBerserker mode: Pull the target towards you, dealing damage twice for a total of 460(**920**)% dark damage."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of 400(**800**)% physical damage.\nBerserker mode: Deal a total of 620(**1240**)% dark damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 80 energy to enter bersker mode and gain a dark bar. You are invincible during the switch. Immune to CC during Berserker mode. Dark damage is increased by 10(**20**)% and can only consume special red, yellow and blue orbs. You can only have 1 of each at the same time, consuming any of them will recover every 2 seconds, you can recover at max, 3 orbs. The dark bar will deplete in place of health drop when taking damage. The bar will not drain when time slow is active. Exit Berserker mode when the bar is depleted."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Rush towards the enemy and deal a total of 320(**640**)% dark damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Gain 10(**20**)% additional damage and a shield based on 10(**20**)% of your maximum health everytime you enter the stage, last for 10 seconds.\n(Switching in an out counts as an entrance to the stage)"
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Any 3 orb combo in normal mode can gain up to 3 Berserker stacks. When max stack is achieved, any 3 orb combo will gain an additional 8 energy for ultimate. When entering Berserker mode, consume all the stacks. During Berserker mode, gain 3/6/10(**6/12/20**)% damage based on the stacks consumed."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "10% dark damage increase. 5% damage increase to all Vanguard Compositors."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "10% additional damage increase when consuming yellow orbs, last for 8 seconds."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "15% additional damage increase in Berserker mode. Gain 80 energy and 3 berserker stacks upon entering the stage."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "20% damage increase to any 3 orb combo."
+                }
+            }
+        }
+    },
+    "23": {
+        "name": "Vera",
+        "code_name": "Rose",
+        "code_name_CN": "",
+        "class": "Healer",
+        "rarity": "A",
+        "base_HP": 0,
+        "base_ATK": 0,
+        "base_DEF": 0,
+        "base_CRIT": 0,
+        "max_HP": 0,
+        "max_ATK": 0,
+        "max_DEF": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Release a barrage of slashes, dealing <> physical damage. Deals dark damage when it's a 3 orb combo."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Release a dark energy wave, dealing <> dark damage, follow up with a forward strike, dealing <> physical damage multiple times. Deal dark damage when it's a 3 orb combo."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Release a slash that pushes you back slightly, dealing <> physical damage and marks the enemy that you hit first. Deal dark damage when it's a 3 orb combo. Marked enemies receive <> aoe dark damage and heals allies <> based on Vera's attack. The mark lasts for 5 seconds and only 1 mark can be present at the same time."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal <> physical damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 100 energy, release a dark force field and deal <> aoe dark damage. Dark force field deals <> dark damage every second and heals allies within it for <> based on Vera's attack. Allies within the field also gain the effect of Dark Radiation and <> increased movement speed.\nDark Radiation: 10% increased dark damage."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal <> aoe dark damage. Heal allies within range by <> based on Vera's attack and inflict Dark Radiation for 5 seconds.\nDark Radiation: 10% increased dark damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Increase healing effectiveness by 10(**20**)%"
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Gain 3/7/12 overclock points for every orb you consume, you will also recover 2 points every second, maximum overclock point is 60. When there is enough overclock points, long press the attack button to release core passive attack, pressing it multiple times afterwards will release the remaining core passive attack, dealing <> (these are how much each slash deals, so there are 5 slashes total) aoe dark damage. Deal an additional <> physical damage to enemies nearby. Releasing core passive attack will consume 12 overclock points and gain 6 energy."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "5% increased health and 5% increased healing to all teammates."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "5% increased attack everytime you release your core passive attack, lasts for 5 seconds, stacks up to 3 times."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Dark Radiation increases an additional 10% dark damage."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "Dark force field last for an additional 4 seconds."
                 }
             }
         }
