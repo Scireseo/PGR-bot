@@ -405,5 +405,16 @@
         "max_ATK": 0,
         "max_CRIT": 0,
         "translator": "182150992408739840"
+    },
+    "37": {
+        "name": "Gungnir",
+        "type": "Gun Shield",
+        "rarity": 6,
+        "effect": "When dealing damage, decrease target's physical defense by 20%, lasts for 8 seconds, triggering the effect again will refresh the duration. When dealing damage with a small/medium/wide railgun, inflict a bleed onto target for 8 seconds, dealing physical damage based on 25/50/100% of your attack damage.",
+        "base_ATK": 52,
+        "base_CRIT": 22,
+        "max_ATK": 458,
+        "max_CRIT": 230,
+        "translator": "182150992408739840"
     }
 }

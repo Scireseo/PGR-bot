@@ -43,7 +43,7 @@
                     "name": "Basic",
                     "description": "Deals a total of A% physical damage.",
                     "special_multipliers": {
-                        "0": 385
+                        "0": 412.5
                     }
                 },
                 "4": {
@@ -57,7 +57,7 @@
                     "name": "QTE",
                     "description": "Deals A% physical damage.",
                     "special_multipliers": {
-                        "0": 300
+                        "0": 337.5
                     }
                 }
             },
@@ -141,7 +141,7 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of A% physical damage.\nFire mode converts damage to fire damage.",
+                    "description": "Deals a total of A% physical damage.\nFire mode: Normal attack deals a total of A% fire damage",
                     "special_multipliers": {
                         "0": 360
                     }
@@ -158,7 +158,7 @@
                     "name": "QTE",
                     "description": "Deals A% physical damage.",
                     "special_multipliers": {
-                        "0": 300
+                        "0": 360
                     }
                 }
             },
@@ -321,10 +321,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Thursts foward, pulling in enemies that are hit, dealing X% of physical damage.",
-                    "multipliers": { 
-                        "0": 100
-                    }
+                    "description": "Thursts foward, pulling in enemies that are hit, dealing 133.36/266.72/400(**266.72/533.44/800**)% of physical damage."
                 },
                 "1": {
                     "name": "Yellow",
@@ -928,7 +925,7 @@
                     "name": "Yellow",
                     "description": "Normal Mode: Rush towards an enemy, dealing X% of physical damage and an additional Y% dark damage. During the rush, you take 30% less damage and is immune to crowd control.\nDark Mode: Rush and swing your sword around, dealing Z% of dark damage. During the rush, you take 30% less damage and is immune to crowd control",
                     "multipliers": {
-                        "0": 75,
+                        "0": 100,
                         "1": 20,
                         "2": 300
                     }
@@ -959,10 +956,9 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Does an upper spin attack, dealing a total of A% physical damage, the last hit will deal B% of dark damage and decrease the target's dark resistance by C% for 6 seconds",
+                    "description": "Does an upper spin attack, dealing a total of A% dark damage and decrease the target's dark resistance by C% for 6 seconds",
                     "special_multipliers": {
-                        "0": 210,
-                        "1": 80,
+                        "0": 290,
                         "2": 5
                     }
                 }
@@ -2160,8 +2156,8 @@
                     "description": "Basic Attack: Deal a total of A% physical damage.\nIce Mode: Switch to dual swords, deal a total of B% physical damage and C% ice damage.",
                     "special_multipliers": {
                         "0": 320,
-                        "1": 135,
-                        "2": 205
+                        "1": 155,
+                        "2": 185
                     }
                 },
                 "4": {
@@ -2293,40 +2289,40 @@
         "code_name_CN": "",
         "class": "Healer",
         "rarity": "A",
-        "base_HP": 0,
-        "base_ATK": 0,
-        "base_DEF": 0,
-        "base_CRIT": 0,
-        "max_HP": 0,
-        "max_ATK": 0,
-        "max_DEF": 0,
-        "max_CRIT": 0,
+        "base_HP": 326,
+        "base_ATK": 63,
+        "base_DEF": 47,
+        "base_CRIT": 31,
+        "max_HP": 1515,
+        "max_ATK": 295,
+        "max_DEF": 222,
+        "max_CRIT": 144,
         "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Release a barrage of slashes, dealing <> physical damage. Deals dark damage when it's a 3 orb combo."
+                    "description": "Release a barrage of slashes, dealing 90/180/270(**180/360/540**)% physical damage. Deals dark damage when it's a 3 orb combo."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Release a dark energy wave, dealing <> dark damage, follow up with a forward strike, dealing <> physical damage multiple times. Deal dark damage when it's a 3 orb combo."
+                    "description": "Release a dark energy wave, dealing 50/100/150(**100/200/300**)% dark damage, follow up with a forward strike, dealing <> physical damage multiple times. Deal dark damage when it's a 3 orb combo."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Release a slash that pushes you back slightly, dealing <> physical damage and marks the enemy that you hit first. Deal dark damage when it's a 3 orb combo. Marked enemies receive <> aoe dark damage and heals allies <> based on Vera's attack. The mark lasts for 5 seconds and only 1 mark can be present at the same time."
+                    "description": "Release a slash that pushes you back slightly, dealing 50/100/150(**100/200/300**)% physical damage and marks the enemy that you hit first. Deal dark damage when it's a 3 orb combo. Marked enemies receive 10/20/30(**20/40/60**)% aoe dark damage per second and heals allies 3/6/9(**6/12/18**)% based on Vera's attack. The mark lasts for 5 seconds and only 1 mark can be present at the same time."
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal <> physical damage."
+                    "description": "Deal 370(**740**)% physical damage."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy, release a dark force field and deal <> aoe dark damage. Dark force field deals <> dark damage every second and heals allies within it for <> based on Vera's attack. Allies within the field also gain the effect of Dark Radiation and <> increased movement speed.\nDark Radiation: 10% increased dark damage."
+                    "description": "Consume 100 energy, release a dark force field and deal 160(**320**)% aoe dark damage. Dark force field deals 40(**80**)% dark damage every second and heals allies within it for 8%(**16**)% based on Vera's attack. Allies within the field also gain the effect of Dark Radiation and 10(**20**)% increased movement speed. The Dark Radiation lasts for 6 seconds and will always follows the character's movement."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal <> aoe dark damage. Heal allies within range by <> based on Vera's attack and inflict Dark Radiation for 5 seconds.\nDark Radiation: 10% increased dark damage."
+                    "description": "Deal 200(**400**)% aoe dark damage. Heal allies within range by 50(**100**)% based on Vera's attack and inflict Dark Radiation for 5 seconds.\nDark Radiation: 10% increased dark damage."
                 }
             },
             "passives": {
@@ -2336,7 +2332,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Gain 3/7/12 overclock points for every orb you consume, you will also recover 2 points every second, maximum overclock point is 60. When there is enough overclock points, long press the attack button to release core passive attack, pressing it multiple times afterwards will release the remaining core passive attack, dealing <> (these are how much each slash deals, so there are 5 slashes total) aoe dark damage. Deal an additional <> physical damage to enemies nearby. Releasing core passive attack will consume 12 overclock points and gain 6 energy."
+                    "description": "Gain 3/7/12 overclock points for every orb you consume, you will also recover 2 points every second, maximum overclock point is 60. When there is enough overclock points, long press the attack button to release core passive attack, pressing it multiple times afterwards will release the remaining core passive attack, dealing 150/145/145/145/156(**300/290/290/290/312**)% (these are how much each slash deals, so there are 5 slashes total) aoe dark damage. Deal an additional 10/20/10/10/20(**20/40/20/20/40**)% physical damage to enemies nearby. Releasing core passive attack will consume 12 overclock points and gain 6 energy."
                 },
                 "2": {
                     "name": "Leader",
@@ -2350,12 +2346,85 @@
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "Dark Radiation increases an additional 10% dark damage."
+                    "description": "Dark radiation's dark damage buff is increased to 20% "
                 },
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
                     "description": "Dark force field last for an additional 4 seconds."
+                }
+            }
+        }
+    },
+    "24": {
+        "name": "Rosetta",
+        "code_name": "Blizzard",
+        "code_name_CN": "凛冽",
+        "class": "Tank",
+        "rarity": "S",
+        "base_HP": 0,
+        "base_ATK": 0,
+        "base_DEF": 0,
+        "base_CRIT": 0,
+        "max_HP": 0,
+        "max_ATK": 0,
+        "max_DEF": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Slash out 3 forward moving sword waves, dealing 111/222/333(**222/444/666**)%"
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Raise your shield and dash towards the enemy before attacking with your spear, dealing 110/220/330(**220/440/660**)% physical damage twice. Gain a shield based on 1.5/3/5(**3/6/10**)% of your maximum health, lasts for 5 seconds. Immune to CC when casting."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Toss your shield out to deal damage before withdrawing. The shield will also pull any enemies within its path towards you. Deal 110/220/330(**220/440/660**)% physical damage and inflict Spear of Insight on target, lasts for 8 seconds.\nSpear of Insight: 20% physical defense decrease"
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of 475(**950**)% physical damage. Holding the attack button will charge your spear, depending on the period of charging, release a small/medium railgun, dealing 100/185(**200/370**)% physical damage. Take 30% less damage when charging."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 80 energy. Fly towards the sky and release your ion cannon onto the ground. Enemies nearby will be attracted towards the zone when charging. Once the cannon is fully charged, an explosion will be created, dealing 1240(**2480**)% physical damage."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal a total of 360(**720**)% physical damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Enemies take 10(**20**)% more damage when attacked by you, lasts for 5s"
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Rosetta has 3 energy points, any 3 orb combo will consume one of them and increase its damage by 100%. Consume maximum 2 energy points when releasing ultimate, gaining 40/80% damage increase. When all energy points is consumed, Rosetta enters full charge status. Holding your attack button will charge your railgun, at max it will release a wide area railgun, dealing 800(**1600**)% physical damage, recover 8 points of energy (for ultimate) and inflict Spear of Insight, lasting for 20 seconds. Damage resistance is increased to 90% when charging in full charge status. After 8 seconds of releasing a wide area railgun, recover 3 energy points."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "15% defense increase to all teammates, 5% damage increase for tanks."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "QTE can trigger Spear of Insight, lasts for 8 seconds. After red orb has successfully hit a target, Blizzard deals 10% more damage to the target in the next 8 seconds."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Spear of Insight decreases an additional 20% of physical defense."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "20% damage increase to 3 orbs and ultimate."
                 }
             }
         }
