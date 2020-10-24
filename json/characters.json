@@ -2428,5 +2428,78 @@
                 }
             }
         }
+    },
+    "25": {
+        "name": "Qu",
+        "code_name": "Peacock",
+        "code_name_CN": "雀翎",
+        "class": "Vanguard",
+        "rarity": "S",
+        "base_HP": 0,
+        "base_ATK": 0,
+        "base_DEF": 0,
+        "base_CRIT": 0,
+        "max_HP": 0,
+        "max_ATK": 0,
+        "max_DEF": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Jumps forward and clash down onto the ground, dealing 40/80/120(**80/160/240**)% physical damage. Clashing down on the ground creates a crack that deals 100/200/300(**200/400/600**)% physical damage to enemies that comes in contact with it. Immune to CC when casting."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Slashes 3 times when close to a target, dealing 135/270/405(**270/540/810**)% physical damage. When there is no nearby target or the target is afar, enter **sprint** state. When the sprint ends or the attack button is pressed during sprint state, slash the nearest target 3 times. The hint circle around Qu will change based on how close Qu is to the target. Immune to all CC when sprinting."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Swing your spear and do a sweep attack 2 times, dealing 130/260/390(**260/520/780**)% physical damage and gain anti-CC for 3 seconds. This skill will make you stationary for a brief period but it can be interrupted by the player."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of 375(**750**)% physical damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 100 energy and summon **Peafowl**. Peafowl releases a shockwave upon summon, dealing 700(**1400**)% physical damage. Gain 60 sync points and enter Condensation state. Peafowl will continue to attack for the next 7 seconds, dealing a total of 1120(**2240**)% physical damage. Peafowl attacks the target locked on by Qu first. When Peafowl is on stage, ultimate cannot be casted."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Flashes towards the sky and release 2 spear waves in quick succession, dealing a total of 320(**640**)% physical damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Gain 10(**20**%) additional damage increase as well as a shield based on 10(**20**)% of your maximum health on every entrance to the stage (including switch in), last for 10 seconds."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Gain 80% damage increase in catastrophe zones (applies to all Compositors). Gain 10 sync points for every orb you consume, up to 60. Once the sync bar is filled, it will empower your orbs and consuming any orb will enter Condensation state. Empowered orbs: can only be consumed **individually** but deals **3 orb damage** and has **Condensed Will Effect** it consumes 20 sync points and no energy gain. When in Condensed Will (Condensation) state, consume 5 sync points every ssecond, once depleted, exit Condensed Will state and cancel the effect of empowered orbs.\nRed Condensation: Clash the ground, dealing a total of 225(**450**)% physical damage.\nYellow Condensation: Release a shockwave in front of you, dealing 240(**480**)% physical damage.\nBlue Condensation: Release a whirlwind that follows you, dealing 240(**480**)% physical damage to nearby targets."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "10% physical damage increase, Compositors gain an additional 5% attack increase."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "10% additional damage to normal attacks. 5% additional damage to Condensed skills."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "When you first enter the stage, gain 100 energy. 10% physical damage increase after releasing ultimate, lasts for 8 seconds."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "25% increase in damage dealt by Peafowl."
+                }
+            }
+        }
     }
 }

@@ -416,5 +416,27 @@
         "max_ATK": 458,
         "max_CRIT": 230,
         "translator": "182150992408739840"
+    },
+    "38": {
+        "name": "Qing Hyuk",
+        "type": "Dragon Spear",
+        "rarity": 6,
+        "effect": "Passive 1: 20% physical damage increase.\nPassive 2: Peafowl's attack rate is increased by 50% and Peafowl gains a new skill: **Curse**.\n**Curse**: Peafowl morphs into an amulet that sticks onto its targets, dealing up to 420% physical damage. After a short delay, it explodes and deal 480% physical damage. The damage increases with Qu's ultimate level.",
+        "base_ATK": 0,
+        "base_CRIT": 0,
+        "max_ATK": 506,
+        "max_CRIT": 261,
+        "translator": "182150992408739840"
+    },
+    "39": {
+        "name": "Baji",
+        "type": "Gauntlets",
+        "rarity": 6,
+        "effect": "Passive 1: 15% ice damage increase.\nPassive 2: After releasing QTE or ORAORAORA, an ice mirror will form beneath of Chang Yu that lasts for 8 seconds.",
+        "base_ATK": 53,
+        "base_CRIT": 23,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
     }
 }

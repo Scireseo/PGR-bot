@@ -404,5 +404,36 @@
         "max_DEF": 223,
         "max_CRIT": 66,
         "translator": "182150992408739840"
+    },
+    "27": {
+        "name": "Leeuwenhoek",
+        "rarity": 6,
+        "effect_1": "3% attack increase, 7% physical damage increase.",
+        "effect_2": "20% increase to the effect of Spear of Insight. Deal 5% more damage to targets that has been inflicted with Spear of Insight.",
+        "base_HP": 151,
+        "base_ATK": 13,
+        "base_DEF": 22,
+        "base_CRIT": 6,
+        "max_HP": 1506,
+        "max_ATK": 133,
+        "max_DEF": 223,
+        "max_CRIT": 64,
+        "translator": "182150992408739840"
+    },
+    "28": {
+        "name": "Anjun",
+        "rarity": 6,
+        "effect_1": "5% additional damage increase to normal attacks. 7% physical damage increase.",
+        "effect_2": "Blue orb's anti-CC buff lasts for an additional 2 seconds. Gain 15% physical damage when the buff is present.",
+        "effect_3": "Gain 24 energy when you enter Condensed Will state. Gain 3 color orbs, one of each after releasing ultimate.",
+        "base_HP": 148,
+        "base_ATK": 13,
+        "base_DEF": 22,
+        "base_CRIT": 6,
+        "max_HP": 1476,
+        "max_ATK": 134,
+        "max_DEF": 219,
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     }
 }
