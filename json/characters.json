@@ -2501,5 +2501,78 @@
                 }
             }
         }
+    },
+    "26": {
+        "name": "Chang Yu",
+        "code_name": "Kirin",
+        "code_name_CN": "游麟",
+        "class": "Tank",
+        "rarity": "A",
+        "base_HP": 0,
+        "base_ATK": 0,
+        "base_DEF": 0,
+        "base_CRIT": 0,
+        "max_HP": 0,
+        "max_ATK": 0,
+        "max_DEF": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Does a quick attack towards the front, dealing 100/200/200(**200/400/400**)% physical damage. When it's a 3 orb combo, after the double quick attack, charges for a brief period and does a heavy strike towards the front, dealing 200(**400**)% ice damage and slows the enemy down."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Flashes towards the target's position, once reached, an upper kick is dealt, knocking back the target. Deals 110/220/330(**220/440/660**)% physical damage. When it's a 3 orb combo, deal ice damage instead of physical."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Smashes the ground, dealing 50/75/100(**100/150/200**)% physical damage to enemies within a radius of 4 meters. When it's a 3 orb combo, ice damage is dealt instead. An **ice mirror** will form after smashing the ground, lasting 4/6/8 seconds. Enemies within the mirror has 30% reduced movement speed and 5% reduced ice resistance, lasting for 8 seconds. (The debuff will refresh if the enemies keeps staying within the mirror). Only one **ice mirror** can exist on the field at the same time."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deals a total of 160(**320**)% physical damage and 405(**810**)% ice damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "When energy reaches 60, **Shapeless Form** can be entered. The instance it is entered, eliminate every single orb except chase ball. Every orb eliminated recovers 5 energy. Chase ball will be up permanently during the mod, 20% increase to ice damage and defense, no orb can be gained during the mode. Pressing on ultimate again will consume 60 energy, chase ball returns grey, return 4 random orbs and exit **Shapeless form**. Within Shapeless form, pressing chase ball once, consumes 15 energy and releases **Hadouken** dealing 180(**360**)% ice damage. Pressing chase ball after the 3rd and 4th combo of your normal attack will release **ORAORA**, dealing consecutive punches, each punch consuming 7/7/7/7/10 energy, dealing 490(**980**)% ice damage. Anti-CC when releasing **ORAORA**. Triggering slowmo or a successful dodge during **Shapeless form** will recover 100 dodge meter and 20% ice damage increase within slowmo. Normal attack starts at the 4th combo after **Hadouken** and dodge."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Smashes down on the target from above, dealing a total of 250(**500**)% ice damage and reduce their movement speed briefly."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Reduce target's additional damage resistance by 10(**20**)% when attacking, lasts for 5 seconds."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Gain a chase ball on entrance. Chase ball will be in grey mode by default (Cannot be pressed, cannot be consumed). When there's a 3 orb combo, the ball will light up and can be pressed. According to the color of 3 orb consumed, different chain combos will be released.\n**Red Chain**: Attacks with a hook, dealing 250(**500**)% ice damage, after a red chain, normal attack will start at the 4th combo.\n**Blue Chain**: Protrudes an ice pillar, dealing 150(**300**)% AOE ice damage, slowing the enemy down briefly and leaving an **ice mirror** that lasts for 8 seconds.\n**Yellow Chain**: Step backwards and condenses crushed ice that attracts nearby enemies, the crushed ice will break apart at the end, dealing 200(**400**)% ice damage."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "15% defense increase to all teammates."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "15% ice damage and defense increase during Shapeless form."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Increases ice resistance down debuff to 10% for enemies within an ice mirror. Gain 10% ice damage increase after releasing blue orb, lasting 4/6/8 seconds."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "Chain combos and ORAORA now reduces target's ice resistance by 5%, lasts for 8 seconds. After chain combos and ORAORA hits a target, Chang Yu gains 20% ice damage increase, lasts for 8 seconds."
+                }
+            }
+        }
     }
 }
