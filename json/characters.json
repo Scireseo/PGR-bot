@@ -2574,5 +2574,78 @@
                 }
             }
         }
+    },
+    "27": {
+        "name": "Luna",
+        "code_name": "Laurel",
+        "code_name_CN": "银冕",
+        "class": "Attacker",
+        "rarity": "S",
+        "base_HP": 444,
+        "base_ATK": 64,
+        "base_DEF": 86,
+        "base_CRIT": 44,
+        "max_HP": 1992,
+        "max_ATK": 386,
+        "max_DEF": 288,
+        "max_CRIT": 198,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Release your seeker orbs forwardand do a scatter attack, dealing 120/240/360(**240/480/720**)% physical damage. Deal dark damage instead when is a 3 orb combo. Immune to CC when casting."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Redirect the flow of energy and releasing up to 4 spikes at the nearest target, dealing 110/220/330(**220/440/660**)% physical damage. Deal dark damage instead when it's a 3 orb combo. You are allowed to move when casting and are immune to CC."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Smashes the ground, dealing 50/75/100(**100/150/200**)% physical damage to enemies within a radius of 4 meters. When it's a 3 orb combo, ice damage is dealt instead. An **ice mirror** will form after smashing the ground, lasting 4/6/8 seconds. Enemies within the mirror has 30% reduced movement speed and 5% reduced ice resistance, lasting for 8 seconds. (The debuff will refresh if the enemies keeps staying within the mirror). Only one **ice mirror** can exist on the field at the same time."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of 235(**470**)% physical damage. In **Annihilation** mode, deal a total of 475(**950**)% dark damage and deal 150(**300**)% dark damage after dodge. Energy an dorbs won't be gained when basic attacking in **Annihilation** mode."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 150 energy and constantly change your wide front area's gravitational effect, dealing 1400(**2800**) dark damage to everyone within the area. Releasing ultimate within **Annihilation** mode will consume all Annihilation bar and exist **Annihilation mode**"
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal a total of 320(**640**)% dark damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "10(**20**)% increased additional damage."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Gain 15 Annihilation points after a 3 orb combo and make the next orb consumption a 3 orb combo, any skills that triggers slowmo or similar will be consumed first before core passive. You can have a maximum of 60 Annihilation points. Long press the basic attack button to enter **Annihilation mode** once you have at least 15 or more Annihilation points. Deal 100(**200**)% dark damage to nearby enemies when entering **Annihilation mode**, hide all existing orbs and gain a maximum of 4 **Truth Seeker Orb** based on yhour current Annihilation points, immune to CC and trigger any QTE that isn't on cooldown. Consuming a **Truth Seeker Orb** will release 4 homing spikes, dealing a total of 200(**400**)% dark damage and gain 10 energy. In **Annihilation mode**, going into slowmo will gain you 1 **Truth Seeker Orb**, using normal attacks will consume 5 Annihilation points. Exit **Annihilation mode** when your Annihilation meter goes back to 0 or when you are switched out."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "**10**% dark damage increase to all teammates, **5**% attack increase to assault types."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "**5**% damage increase to homing spikes, and release 2 additional homing spikes when casting."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "**5**% dark damage increase in Annihilation mode. After you exit **Annihilation mode**, the damage buff will still persist for 4 seconds. When entering **Annihilation mode** with a full Annihilation bar, trigger slowmo, 12 seconds cooldown."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "After consuming a Truth Seeker Orb, increase ultimate's damage by **15/30/40/60/75**%"
+                }
+            }
+        }
     }
 }

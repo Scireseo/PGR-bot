@@ -341,7 +341,7 @@
         "translator": "182150992408739840"
     },
     "31": {
-        "name": "Dominator",
+        "name": "Sin",
         "type": "Dual Pistols",
         "rarity": 6,
         "effect": "Passive 1: All damage increases by 3% for every energy orb you pick up, stacks up to 5 times.\nPassive 2: After picking up 5 energy orbs, gain 1 extra skill orb and 10 energy, 10 seconds cooldown.",
@@ -435,6 +435,50 @@
         "effect": "Passive 1: 15% ice damage increase.\nPassive 2: After releasing QTE or ORAORAORA, an ice mirror will form beneath of Chang Yu that lasts for 8 seconds.",
         "base_ATK": 53,
         "base_CRIT": 23,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
+    },
+    "40": {
+        "name": "Guiyun",
+        "type": "Dragon Spear",
+        "rarity": 5,
+        "effect": "Passive: Gain 10% physical damage after casting blue orb, lasting 5 seconds. Recasting blue orb will refresh the skill.",
+        "base_ATK": 52,
+        "base_CRIT": 23,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
+    },
+    "41": {
+        "name": "White Qilin",
+        "type": "Gauntlets",
+        "rarity": 5,
+        "effect": "Passive: 8% additional damage increase after dodging, last for 4 seconds.",
+        "base_ATK": 48,
+        "base_CRIT": 21,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
+    },
+    "42": {
+        "name": "Crown Bait",
+        "type": "Choker",
+        "rarity": 5,
+        "effect": "15% all damage increase if 3 different colored orb is consumed within 6 seconds, lasts for 8 seconds.",
+        "base_ATK": 49,
+        "base_CRIT": 23,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
+    },
+    "43": {
+        "name": "Ozma",
+        "type": "Choker",
+        "rarity": 6,
+        "effect": "Passive 1: 15% dark damage increase.\nPassive 2: The 4th spike by Truth Seeker Orbs will deal an additional 100% AOE dark damage.",
+        "base_ATK": 55,
+        "base_CRIT": 26,
         "max_ATK": 0,
         "max_CRIT": 0,
         "translator": "182150992408739840"

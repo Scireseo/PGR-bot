@@ -435,5 +435,48 @@
         "max_DEF": 219,
         "max_CRIT": 66,
         "translator": "182150992408739840"
+    },
+    "29": {
+        "name": "KFC・Alpha",
+        "rarity": 5,
+        "effect_1": "QTE, 3 orb combos has a 50% chance of dropping a family bucket, 30 seconds cooldown. The family bucket will stay on stage for 10 seconds and characters who picks it up gains 12% movement speed, lasts for 15 seconds. Picking the bucket up again will refresh the duration.",
+        "base_HP": 134,
+        "base_ATK": 12,
+        "base_DEF": 20,
+        "base_CRIT": 6,
+        "max_HP": 1208,
+        "max_ATK": 109,
+        "max_DEF": 177,
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
+    },
+    "30": {
+        "name": "KFC・Lucia",
+        "rarity": 5,
+        "effect_1": "QTE, 3 orb combos has a 50% chance of dropping a chicken burger, 30 seconds cooldown. The chicken burger lasts on stage for 10 seconds and characters who picks it up gains 8 energy.",
+        "base_HP": 134,
+        "base_ATK": 12,
+        "base_DEF": 20,
+        "base_CRIT": 6,
+        "max_HP": 1208,
+        "max_ATK": 109,
+        "max_DEF": 177,
+        "max_CRIT": 53,
+        "translator": "182150992408739840"
+    },
+    "31": {
+        "name": "Flamel",
+        "rarity": 6,
+        "effect_1": "5% dark damage and attack increase",
+        "effect_2": "After entering Annihilation mode, 30% dark damage and ultimate damage increase. Gain an additional 10 energy after consuming a Truth Seeker Orb.",
+        "base_HP": 154,
+        "base_ATK": 13,
+        "base_DEF": 22,
+        "base_CRIT": 6,
+        "max_HP": 1536,
+        "max_ATK": 132,
+        "max_DEF": 223,
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     }
 }
