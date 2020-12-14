@@ -4,6 +4,7 @@ exports.run = (client, message, args) => {
     \n**Info**
     -**Author**: Kuu#6969
     -**Translators**: Pinky#7220, The LoIi Hunter#6112, and ViceHampton#2514
+    -**Proofreader**: Rexlent#2020
     -**Version**: 1.0.0
     `;
     message.channel.send(msg);
