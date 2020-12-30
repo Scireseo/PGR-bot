@@ -59,9 +59,12 @@ exports.run = (client, message, args) => {
             thumbnail: {
                 url: `attachment://${attachment}`,
             },
+            author: {
+                "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
+                "icon_url": translatorDetails.avatar
+            },
             footer: {
-                "icon_url": translatorDetails.avatar,
-                "text": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`
+                "text": `For any further questions, please ask in this server: https://discord.gg/JErpUEk`
             },
             fields: [
                 {
