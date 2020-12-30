@@ -61,10 +61,7 @@ exports.run = (client, message, args) => {
             },
             author: {
                 "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
-                "icon_url": translatorDetails.avatar
-            },
-            footer: {
-                "text": `For any further questions, please ask in this server: https://discord.gg/JErpUEk`
+                "icon_url": `${translatorDetails.avatar}`
             },
             fields: [
                 {
@@ -99,6 +96,11 @@ exports.run = (client, message, args) => {
                     value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
                     inline: true,
                 },
+                {
+                    name: "For any further questions, please ask in this server",
+                    value: `https://discord.gg/JErpUEk`,
+                    inline: false,
+                }
             ]
         }
 
