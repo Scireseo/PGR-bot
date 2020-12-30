@@ -76,7 +76,7 @@ exports.run = (client, message, args) => {
                 },
                 {
                     name: "For any further questions, please ask in this server",
-                    value: `https://discord.gg/JErpUEk`,
+                    value: `https://discord.gg/punishinggrayraven`,
                     inline: false,
                 }
             ]
