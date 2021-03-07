@@ -1,17 +1,17 @@
 exports.run = (client, message, args) => {
     const general_functions = require('../helpers/general');
-    args = args.map(arg => arg.includes("-") ? 
-        arg.split("-").map(a=> general_functions.titleCase(a)).join("-") 
+    args = args.map(arg => arg.includes("-") ?
+        arg.split("-").map(a => general_functions.titleCase(a)).join("-")
         : general_functions.titleCase(arg));
     args = args.join(" ");
     console.log("[args 1]", args);
     // return;
     let embed = {};
     let list_of_memories = Object.values(client.memories);
-    if(args === "List"){
+    if (args === "List") {
         let rarity_index = 0;
         let max_index = client.rarities.memory.length - 1;
-        function generateEmbed(){
+        function generateEmbed() {
             let list_of_memories_by_rarity = list_of_memories.filter(memory => memory.rarity === client.rarities.memory[rarity_index]).map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n");
             let generated_embed = {
                 title: "memory list",
@@ -23,12 +23,12 @@ exports.run = (client, message, args) => {
         return message.channel.send({ embed: embed }).then((sent_message) => {
             let react_collector = general_functions.initializeReactCollector(client, sent_message);
             react_collector.on('collect', reaction => {
-                if(reaction.emoji.name === '◀️'){
+                if (reaction.emoji.name === '◀️') {
                     rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
                     embed = generateEmbed();
                     sent_message.edit({ embed: embed });
                 }
-                else{
+                else {
                     rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
                     embed = generateEmbed();
                     sent_message.edit({ embed: embed });
@@ -42,9 +42,9 @@ exports.run = (client, message, args) => {
     let rarity = "";
     let selected_memory = list_of_memories.find(memory => memory.name.includes(args));
     let memory_index = list_of_memories.indexOf(selected_memory);
-    if(args === "" || selected_memory === undefined) return message.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `#memory list`!");
+    if (args === "" || selected_memory === undefined) return message.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
     let attachment = ("0" + memory_index).slice(-2).concat(".png");
-    for(x = 0; x <= selected_memory.rarity - 1; x++){
+    for (x = 0; x <= selected_memory.rarity - 1; x++) {
         rarity += "★";
     }
     let translatorDetails = {};
@@ -110,18 +110,18 @@ exports.run = (client, message, args) => {
 
         console.log(embed);
 
-        message.channel.send({ 
+        message.channel.send({
             embed: embed,
             files: [{
                 attachment: `./static/images/memories/${attachment}`,
                 name: attachment
             }]
         })
-        .catch(err => {
-            message.channel.send({
-                embed: embed
+            .catch(err => {
+                message.channel.send({
+                    embed: embed
+                })
             })
-        })
     });
 }
 

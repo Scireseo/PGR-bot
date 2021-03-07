@@ -3,7 +3,7 @@ exports.run = (client, message, args) => {
     args = general_functions.titleCase(args.join(" "));
     let embed = {};
     let list_of_missions = Object.keys(client.missions);
-    if(args === "List"){
+    if (args === "List") {
         list_of_missions = list_of_missions.map((mission, index) => `${index + 1}.) ${mission}`).join("\r\n");
         embed = {
             title: "Missions list",
@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
         return message.channel.send({ embed: embed });
     }
     let selected_mission = list_of_missions.find(mission => mission.includes(args.toLowerCase()));
-    if(args === "" || selected_mission === undefined) return message.channel.send("The mission that you're looking for does not exist. Be sure to check the list by typing the command `#mission list`");
+    if (args === "" || selected_mission === undefined) return message.channel.send("The mission that you're looking for does not exist. Be sure to check the list by typing the command `~mission list`");
     selected_mission = client.missions[selected_mission];
     embed = {
         title: `${args} missions`,
@@ -22,7 +22,7 @@ exports.run = (client, message, args) => {
                 value: Object.values(selected_mission[mission]).map(details => `• ${details}`).join("\r\n")
             }
         })
-    }; 
+    };
     message.channel.send({ embed: embed });
 }
 

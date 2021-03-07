@@ -54,7 +54,7 @@ exports.run = (client, message, args) => {
     }
 
     function generateWeapon(selectedWeapon) {
-        if (args.length === "" || selectedWeapon === undefined) return message.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `#weapon list`!");
+        if (args.length === "" || selectedWeapon === undefined) return message.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `~weapon list`!");
         const rarity = "★".repeat(selectedWeapon.rarity);
         const attachment = ("0" + list_of_weapons.indexOf(selectedWeapon)).slice(-2).concat(".png");
         client.fetchUser(selectedWeapon.translator).then(translator => {
