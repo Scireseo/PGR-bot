@@ -18,14 +18,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Leaps forward and fire consecutive shots, each shot dealing X% of physical damage.\nYou are immune to crowd-control and stagger during the skill animation.",
+                    "description": "Leaps forward and fire consecutive shots, each shot dealing X% of Physical Damage.\nYou are immune to crowd-control and stagger during the skill animation.",
                     "multipliers": {
                         "0": 11.25
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Leaps forward your enemy to kick before following up with a shot, dealing X% physical damage and marking them.\nWhen attacking marked enemy, fire an additional shot dealing Y%.",
+                    "description": "Leaps forward your enemy to kick before following up with a shot, dealing X% Physical Damage and marking them.\nWhen attacking marked enemy, fire an additional shot dealing Y%.",
                     "multipliers": {
                         "0": 90,
                         "1": 10
@@ -33,7 +33,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Fires a shock bomb, dealing X% physical damage and create an energy circle.\nEnemies caught within the energy circle take Y% physical damage for 3s.\nThis skill has limited range and will detonate if the target is out of range.",
+                    "description": "Fires a shock bomb, dealing X% Physical Damage and create an energy circle.\nEnemies caught within the energy circle take Y% Physical Damage for 3s.\nThis skill has limited range and will detonate if the target is out of range.",
                     "multipliers": {
                         "0": 50,
                         "1": 12
@@ -41,21 +41,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of A% physical damage.",
+                    "description": "Deals a total of A% Physical Damage.",
                     "special_multipliers": {
                         "0": 412.5
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy to call in an energy cannon.\nEach shot fired by this cannon deals A% physical damage.",
+                    "description": "Consume 100 energy to call in an energy cannon.\nEach shot fired by this cannon deals A% Physical Damage.",
                     "special_multipliers": {
                         "0": 200
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deals A% physical damage.",
+                    "description": "Deals A% Physical Damage.",
                     "special_multipliers": {
                         "0": 337.5
                     }
@@ -71,29 +71,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After a 3 orb combo, the next red orb skill will have additional cannon shots, dealing A% physical damage.",
+                    "description": "After a 3 orb combo, the next red orb skill will have additional cannon shots, dealing A% Physical Damage.",
                     "special_multipliers": {
                         "0": 27.5
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "15% physical damage and 10% movement speed increase to all teammates."
+                    "description": "15% Physical Damage and 10% movement speed increase to all teammates."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Deal 15% more damage when attacking enemies within the energy circle."
+                    "description": "Deal 15% more Damage when attacking enemies within the energy circle."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Deal 20% more damage to marked enemies."
+                    "description": "Deal 20% more Damage to marked enemies."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Physical damage is increased by 10% after a 3 orb combo. This buff lasts for 5s and stacks up to 3 times, duration can be renewed."
+                    "description": "Physical Damage is increased by 10% after a 3 orb combo. This buff lasts for 5s and stacks up to 3 times, duration can be renewed."
                 }
             }
         }
@@ -117,7 +117,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Gain Super Armor during the attack. Normal Mode: Cross attack an enemy, dealing X% of physical damage.\nFire Mode: Deals Y% of fire damage.",
+                    "description": "Gain Super Armor during the attack. normal Mode: Cross attack an enemy, dealing X% of Physical Damage.\nFire Mode: Deals Y% of fire Damage.",
                     "multipliers": {
                         "0": 50,
                         "1": 75
@@ -125,7 +125,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "All damage received reduced by 30% during the attack. Normal Mode: Jumps towards an enemy, dealing X% of physical damage to enemies around.\nFire Mode: Deals Y% of fire damage.",
+                    "description": "All Damage received reduced by 30% during the attack. normal Mode: Jumps towards an enemy, dealing X% of Physical Damage to enemies around.\nFire Mode: Deals Y% of fire Damage.",
                     "multipliers": {
                         "0": 90,
                         "1": 135
@@ -133,7 +133,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Normal Mode: Summons machines that deal X% of physical damage.\nFire Mode: Deals Y% of fire damage. When higher orb-count machines are also summoned, the attack of the highest level machine is used",
+                    "description": "normal Mode: Summons machines that deal X% of Physical Damage.\nFire Mode: Deals Y% of fire Damage. When higher orb-count machines are also summoned, the attack of the highest level machine is used",
                     "multipliers": {
                         "0": 10,
                         "1": 15
@@ -141,14 +141,14 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of A% physical damage.\nFire mode: Normal attack deals a total of A% fire damage",
+                    "description": "Deals a total of A% Physical Damage.\nFire mode: normal attack deals a total of A% fire Damage",
                     "special_multipliers": {
                         "0": 360
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy and fire a beam of laser on the ground that deals A% fire damage, leaving a trail of fire that deals B% of fire damage per second for 5s. Completely fills the fire gauge.",
+                    "description": "Consume 100 energy and fire a beam of laser on the ground that deals A% fire Damage, leaving a trail of fire that deals B% of fire Damage per second for 5s. Completely fills the fire gauge.",
                     "special_multipliers": {
                         "0": 100,
                         "1": 100
@@ -156,7 +156,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deals A% physical damage.",
+                    "description": "Deals A% Physical Damage.",
                     "special_multipliers": {
                         "0": 360
                     }
@@ -172,29 +172,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Upon entering battle, initial fire gauge amount is based on the Core Passive skill level. 1 level contributes 3% to the initial gauge. 3-orb combos and ultimates add to the gauge. Enters Fire Mode when the gauge reaches 50%\nBasic attacks and skills get additional effects in fire mode and gains A% of fire damage increase.\nLoses 5% of fire energy per second in fire mode",
+                    "description": "Upon entering battle, initial fire gauge amount is based on the Core Passive skill level. 1 level contributes 3% to the initial gauge. 3-orb combos and ultimates add to the gauge. Enters Fire Mode when the gauge reaches 50%\nBasic attacks and skills get additional effects in fire mode and gains A% of fire Damage increase.\nLoses 5% of fire energy per second in fire mode",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "When all 3 characters are different classes, damage increase by 10%, attack based characters gain an additional 5%"
+                    "description": "When all 3 characters are different classes, Damage increase by 10%, attack based characters gain an additional 5%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Gain an additional 10% fire damage in fire mode"
+                    "description": "Gain an additional 10% fire Damage in fire mode"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Skills gain 10% increase in damage when in fire mode"
+                    "description": "Skills gain 10% increase in Damage when in fire mode"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Enemies have -15% fire resistance for 5s when damaged by ultimate"
+                    "description": "Enemies have -15% fire resistance for 5s when damaged by Ultimate"
                 }
             }
         }
@@ -218,7 +218,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Flash attacks surrounding enemies, dealing X% of physical damage.\n3-orbs consumption will deal an additional Y% physical damage upon final strike and send the target flying, gains super armor during casting.",
+                    "description": "Flash attacks surrounding enemies, dealing X% of Physical Damage.\n3-orbs consumption will deal an additional Y% Physical Damage upon final strike and send the target flying, gains super armor during casting.",
                     "multipliers": { 
                         "0": 12.5,
                         "1": 37.5
@@ -226,14 +226,14 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Dashes and slashes through enemies, damaging them along the way, dealing X% of physical damage.",
+                    "description": "Dashes and slashes through enemies, damaging them along the way, dealing X% of Physical Damage.",
                     "multipliers": { 
                         "0": 100
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Enhance energy regeneration, movement speed by 20%/30%/50%, and also deal an additional of X% physical damage 2 times per attack.\nWhen entering Sword Wave mode and releasing Sword Waves, convert the additional damage into additional sword waves, with each dealing Y% physical damage.",
+                    "description": "Enhance energy regeneration, movement speed by 20%/30%/50%, and also deal an additional of X% Physical Damage 2 times per attack.\nWhen entering Sword Wave mode and releasing Sword Waves, convert the additional Damage into additional sword waves, with each dealing Y% Physical Damage.",
                     "multipliers": {   
                         "0": 2,
                         "1": 4
@@ -241,7 +241,7 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Lucia attacks with a 5-hit sword style, with each sequence dealing A%/B%/C%/D%/E% of physical damage, enter 3rd sequence immediately after dodging.",
+                    "description": "Lucia attacks with a 5-hit sword style, with each sequence dealing A%/B%/C%/D%/E% of Physical Damage, enter 3rd sequence immediately after dodging.",
                     "special_multipliers": { 
                         "0": 40,
                         "1": 50,
@@ -252,14 +252,14 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 85 energy and assault the enemy with a flurry of slashes, dealing up to a total of A% physical damage.",
+                    "description": "Consume 85 energy and assault the enemy with a flurry of slashes, dealing up to a total of A% Physical Damage.",
                     "special_multipliers": { 
                         "0": 1300
                     }   
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Continuously uppercuts the enemy, dealing a total of A% of physical damage, keeping the enemy airborne throughout the attacking duration.",
+                    "description": "Continuously uppercuts the enemy, dealing a total of A% of Physical Damage, keeping the enemy airborne throughout the attacking duration.",
                     "special_multipliers": { 
                         "0": 300
                     }
@@ -275,29 +275,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After a 3-orb consumption of Blue orbs, consuming any color of 3-orbs again will enter Sword Wave mode and all orbs will be converted into Sword Wave orbs and also gain an additional 2 Sword Wave orbs.\nUnleash Sword Waves to damage the enemy, dealing A% of physical damage and gain super armor during casting.",
+                    "description": "After a 3-orb consumption of Blue orbs, consuming any color of 3-orbs again will enter Sword Wave mode and all orbs will be converted into Sword Wave orbs and also gain an additional 2 Sword Wave orbs.\nUnleash Sword Waves to Damage the enemy, dealing A% of Physical Damage and gain super armor during casting.",
                     "special_multipliers": { 
                         "0": 170
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "All Assault type teammates gain an additional increase of 10% attack damage and 5% critical stat."
+                    "description": "All Assault type teammates gain an additional increase of 10% attack Damage and 5% critical stat."
                 }, 
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "After a 3-orb consumption of Red Orbs, increase physical damage by 10%, lasts for 4 seconds."
+                    "description": "After a 3-orb consumption of Red Orbs, increase Physical Damage by 10%, lasts for 4 seconds."
                 }, 
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
                     "description": "Damage +5%. Gain 2 random orbs after exiting Sword Wave mode."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Under the effects of Blue orb, physical damage +20%."
+                    "description": "Under the effects of Blue orb, Physical Damage +20%."
                 } 
             }
         }
@@ -321,18 +321,18 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Thursts foward, pulling in enemies that are hit, dealing 133.36/266.72/400(**266.72/533.44/800**)% of physical damage."
+                    "description": "Thursts foward, pulling in enemies that are hit, dealing 133.36/266.72/400(**266.72/533.44/800**)% of Physical Damage."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Uppercuts the target once, putting them airborne, dealing X% of physical damage.",
+                    "description": "Uppercuts the target once, putting them airborne, dealing X% of Physical Damage.",
                     "multipliers": { 
                         "0": 75
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Flares up weapon, dealing A%/B%/C% physical damage. For 4/4/6 seconds, deal an additional A%/B%/C% fire damage with each attack.”",
+                    "description": "Flares up weapon, dealing A%/B%/C% Physical Damage. For 4/4/6 seconds, deal an additional A%/B%/C% fire Damage with each attack.”",
                     "special_multipliers": {  
                         "0": 5,
                         "1": 7.5,
@@ -341,21 +341,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Attacks the enemy with Red Lotus - Lightning Flash sword technique, dealing up to a total of A% physical damage.",
+                    "description": "Attacks the enemy with Red Lotus - Lightning Flash sword technique, dealing up to a total of A% Physical Damage.",
                     "special_multipliers": { 
                         "0": 270
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consumes 100 energy, unleash Red Lotus - Blade Dance upon the enemy, with each slash dealing 70% of physical damage and A% of physical damage on final hit.",
+                    "description": "Consumes 100 energy, unleash Red Lotus - Blade Dance upon the enemy, with each slash dealing 70% of Physical Damage and A% of Physical Damage on final hit.",
                     "special_multipliers": { 
                         "0": 500
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Lucia debuts and uses Dual-Wielding technique to attack the enemy, dealing up to a total of A% of physical damage.",
+                    "description": "Lucia debuts and uses Dual-Wielding technique to attack the enemy, dealing up to a total of A% of Physical Damage.",
                     "special_multipliers": { 
                         "0": 370
                     }
@@ -371,29 +371,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After a 3-orb consumption of any color, use another red orb within 4 seconds to enter Burst mode, enabling Lucia to switch her style to Red Lotus - Dual-Wielding sword technique, dealing up to a total of A% of physical damage.",
+                    "description": "After a 3-orb consumption of any color, use another red orb within 4 seconds to enter Burst mode, enabling Lucia to switch her style to Red Lotus - Dual-Wielding sword technique, dealing up to a total of A% of Physical Damage.",
                     "special_multipliers": {  
                         "0": 460
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "All Assault type teammates gain an additional increase of 10% attack damage."
+                    "description": "All Assault type teammates gain an additional increase of 10% attack Damage."
                 }, 
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "When attacking an airborne target, each attack deals an additional 20% of physical damage."
+                    "description": "When attacking an airborne target, each attack deals an additional 20% of Physical Damage."
                 }, 
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Under Dual-Wielding status, all attacks deal 15% more damage."
+                    "description": "Under Dual-Wielding status, all attacks deal 15% more Damage."
                 }, 
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase basic attack damage by 15%."
+                    "description": "Increase basic attack Damage by 15%."
                 } 
             }
         }
@@ -417,7 +417,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Unleash 4 slashes onto the enemy each dealing X% physical damage.\nWhen 3 orbs are consumed, there will be an additional slash that deals A% physical damage.",
+                    "description": "Unleash 4 slashes onto the enemy each dealing X% Physical Damage.\nWhen 3 orbs are consumed, there will be an additional slash that deals A% Physical Damage.",
                     "multipliers": {
                         "0": 80
                     },
@@ -427,7 +427,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Dash forward, dealing X% physical damage to anyone in your path.\nWhen 3 orbs are consumed, there will be an additional slash that deals A% physical damage.",
+                    "description": "Dash forward, dealing X% Physical Damage to anyone in your path.\nWhen 3 orbs are consumed, there will be an additional slash that deals A% Physical Damage.",
                     "multipliers": {
                         "0": 60
                     },
@@ -437,7 +437,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Stabs your enemy with a dagger and pulls it out. Stabbing deals A% physical damage.\nPulling it out deals B% physical damage. If dealt from behind, the skill is a guaranteed critical hit.",
+                    "description": "Stabs your enemy with a dagger and pulls it out. Stabbing deals A% Physical Damage.\nPulling it out deals B% Physical Damage. If dealt from behind, the skill is a guaranteed critical hit.",
                     "special_multipliers": {
                         "0": 40,
                         "1": 35
@@ -445,21 +445,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Multiple slashes with dual daggers, dealing a total of A% physical damage.",
+                    "description": "Multiple slashes with dual daggers, dealing a total of A% Physical Damage.",
                     "special_multipliers": {
                         "0": 360
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy. Spin the daggers around in a wide area, dealing a total of A% physical damage.",
+                    "description": "Consume 100 energy. Spin the daggers around in a wide area, dealing a total of A% Physical Damage.",
                     "special_multipliers": {
                         "0": 1500
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deals A% physical damage.",
+                    "description": "Deals A% Physical Damage.",
                     "special_multipliers": {
                         "0": 300
                     }
@@ -475,7 +475,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Every last slash of a 3 orb combo, mark the target.\nWhen 2 marks are stacked, clones are released and will attack the target, the clones stay for 5s.\nEvery normal attack, the clones will attack the target once, every slash the clone deals A% physical damage.",
+                    "description": "Every last slash of a 3 orb combo, mark the target.\nWhen 2 marks are stacked, clones are released and will attack the target, the clones stay for 5s.\nEvery normal attack, the clones will attack the target once, every slash the clone deals A% Physical Damage.",
                     "special_multipliers": {
                         "0": 40
                     }
@@ -485,19 +485,19 @@
                     "description": "When all 3 characters in the team are of different classes, increase critical chance by 10%."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "When attacking from behind, damage dealt is increased by 15%."
+                    "description": "When attacking from behind, Damage dealt is increased by 15%."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When clones are present, all damage is increased by 15%."
+                    "description": "When clones are present, all Damage is increased by 15%."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Enemies damaged by ultimate have -15% physical damage resistance. Lasts for 10s."
+                    "description": "Enemies damaged by Ultimate have -15% Physical Damage resistance. Lasts for 10s."
                 }
             }
         }
@@ -521,18 +521,18 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Unleash 5/5/5 slashes. Each slash deals 20/40/72(**40/80/144**)% physical damage. When it's a 3 orb combo, deal lightning damage instead. Immune to CC during the casting animation."
+                    "description": "Unleash 5/5/5 slashes. Each slash deals 20/40/72(**40/80/144**)% Physical Damage. When it's a 3 orb combo, deal lightning Damage instead. Immune to CC during the casting animation."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Unleash a lightning zone, dealing X% of physical damage and marks the enemy. The zone will last for 3/4/5 seconds. Each second, the zone will deal 10/15/20(**20/30/40**)% of lightning damage to enemies within it. Marks can stack up to 3 times and duration is renewed upon new stacks ",
+                    "description": "Unleash a lightning zone, dealing X% of Physical Damage and marks the enemy. The zone will last for 3/4/5 seconds. Each second, the zone will deal 10/15/20(**20/30/40**)% of lightning Damage to enemies within it. Marks can stack up to 3 times and duration is renewed upon new stacks ",
                     "multipliers": {
                         "0": 50
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Attack the enemy quickly, dealing X% lightning damage and pulls them towards you, dealing Y% physical damage and marking them. Marks can stack up to 3 times and duration is renewed upon new stacks",
+                    "description": "Attack the enemy quickly, dealing X% lightning Damage and pulls them towards you, dealing Y% Physical Damage and marking them. Marks can stack up to 3 times and duration is renewed upon new stacks",
                     "multipliers": {
                         "0": 40,
                         "1": 40
@@ -540,21 +540,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Attack using the Gurren style, dealing a total of A% physical damage",
+                    "description": "Attack using the Gurren style, dealing a total of A% Physical Damage",
                     "special_multipliers": {
                         "0": 295
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "After consuming 50 energy, normal attacks and skills will gain additional attacks from Gurren blades, dealing A% lightning damage for 15s. Duration can be refreshed when used again while in ultimate mode.",
+                    "description": "After consuming 50 energy, normal attacks and skills will gain additional attacks from Gurren blades, dealing A% lightning Damage for 15s. Duration can be refreshed when used again while in Ultimate mode.",
                     "special_multipliers": {
                         "0": 12.5
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal A% physical damage and B% lightning damage",
+                    "description": "Deal A% Physical Damage and B% lightning Damage",
                     "special_multipliers": {
                         "0": 300
                     }
@@ -570,7 +570,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "When attacking marked enemies, there is a 25%/50%/75%(depending on how many marks the target has) to trigger a lightning strike, dealing A% lightning damage",
+                    "description": "When attacking marked enemies, there is a 25%/50%/75%(depending on how many marks the target has) to trigger a lightning strike, dealing A% lightning Damage",
                     "special_multipliers": {
                         "0": 30
                     }
@@ -580,19 +580,19 @@
                     "description": "Assault-type characters gain 10% more attack"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Gain 20% more lightning damage when within the lightning zone"
+                    "description": "Gain 20% more lightning Damage when within the lightning zone"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Lightning strike deals 20% more damage"
+                    "description": "Lightning strike deals 20% more Damage"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "15% increase to all damage for 10s after unleashing Ultimate"
+                    "description": "15% increase to all Damage for 10s after unleashing Ultimate"
                 }
             }
         }
@@ -616,14 +616,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Gain Super Armor, rapidly fire 15 bullets towards the target with each bullet dealing X% physical damage.",
+                    "description": "Gain Super Armor, rapidly fire 15 bullets towards the target with each bullet dealing X% Physical Damage.",
                     "multipliers": {
                         "0": 8
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Shoots out a grenade towards the target. Detonates when landed, dealing X% fire damage and turn the area into a burning zone for 3/4/5 seconds, dealing Y% fire damage per 0.5 seconds to enemies within the zone. Attacks to enemies within the zone will deal an additional A% fire damage, triggers once every 0.1s",
+                    "description": "Shoots out a grenade towards the target. Detonates when landed, dealing X% fire Damage and turn the area into a burning zone for 3/4/5 seconds, dealing Y% fire Damage per 0.5 seconds to enemies within the zone. Attacks to enemies within the zone will deal an additional A% fire Damage, triggers once every 0.1s",
                     "multipliers": {
                         "0": 50,
                         "1": 6
@@ -634,28 +634,28 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Shoots out an electric grenade towards the target, dealing X% physical damage",
+                    "description": "Shoots out an electric grenade towards the target, dealing X% Physical Damage",
                     "multipliers": {
                         "0": 100
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of A% physical damage",
+                    "description": "Deals a total of A% Physical Damage",
                     "special_multipliers": {
                         "0": 315
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy and deal constant damage to your surroundings, dealing A% physical damage and B% fire damage on the final hit",
+                    "description": "Consume 100 energy and deal constant Damage to your surroundings, dealing A% Physical Damage and B% fire Damage on the final hit",
                     "special_multipliers": {
                         "0": 1000
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deals A% physical damage to enemies. Enemies damaged will be electrified, receiving an additional B% physical damage, lasts for 5s. The maximum number of times the additional damage can trigger is 15.",
+                    "description": "Deals A% Physical Damage to enemies. Enemies damaged will be electrified, receiving an additional B% Physical Damage, lasts for 5s. The Maximum number of times the additional Damage can trigger is 15.",
                     "special_multipliers": {
                         "0": 150,
                         "1": 10
@@ -672,29 +672,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After consuming yellow orbs, the next red orb will have an additional explosion effect. Explosion: Bullets will explode when they successfully land, dealing A% fire damage",
+                    "description": "After consuming yellow orbs, the next red orb will have an additional explosion effect. Explosion: Bullets will explode when they successfully land, dealing A% fire Damage",
                     "special_multipliers": {
                         "0": 20
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Increase all characters' physical and elemental damage by 5%"
+                    "description": "Increase all characters' Physical and elemental Damage by 5%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Increase damage by 15% to enemies within the burning zone."
+                    "description": "Increase Damage by 15% to enemies within the burning zone."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When not attacked, increase all damage by 15%, CD: 10s"
+                    "description": "When not attacked, increase all Damage by 15%, CD: 10s"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase damage of core passive by 20%"
+                    "description": "Increase Damage of core passive by 20%"
                 }
             }
         }
@@ -718,42 +718,42 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Shoots out 1/2/3 arrows each dealing X% of physical damage",
+                    "description": "Shoots out 1/2/3 arrows each dealing X% of Physical Damage",
                     "multipliers": {
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Shoot out 5/5/7 of energy arrows each dealing X% of physical damage. Recover 1/2/3 energy for every arrow landed",
+                    "description": "Shoot out 5/5/7 of energy arrows each dealing X% of Physical Damage. Recover 1/2/3 energy for every arrow landed",
                     "multipliers": {
                         "0": 15
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Charge up your bow. Every basic attack will now have 1/2/3 additional arrows, up to 7/20/42 arrows, each additional arrow deals X% of physical damage, lasts for 4/6/8 seconds",
+                    "description": "Charge up your bow. Every basic attack will now have 1/2/3 additional arrows, up to 7/20/42 arrows, each additional arrow deals X% of Physical Damage, lasts for 4/6/8 seconds",
                     "multipliers": {
                         "0": 10
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Fire 9 arrows rapidly, dealing a total of A% of physical damage",
+                    "description": "Fire 9 arrows rapidly, dealing a total of A% of Physical Damage",
                     "special_multipliers": {
                         "0": 290
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consumes 60 energy to release a barrage of arrows onto an area, each arrow dealing A% of physical damage",
+                    "description": "Consumes 60 energy to release a barrage of arrows onto an area, each arrow dealing A% of Physical Damage",
                     "special_multipliers": {
                         "0": 100
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Shoots 5 arrows onto the target consecutively with each dealing A% of physical damage. Each arrow is guaranteed to be a critical hit",
+                    "description": "Shoots 5 arrows onto the target consecutively with each dealing A% of Physical Damage. Each arrow is guaranteed to be a critical hit",
                     "special_multipliers": {
                         "0": 30
                     }
@@ -769,29 +769,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Every 3 orb combo will store 1 energy arrow, maximum of 3. Ultimate will release all energy arrows at once, each dealing A% of physical damage",
+                    "description": "Every 3 orb combo will store 1 energy arrow, Maximum of 3. Ultimate will release all energy arrows at once, each dealing A% of Physical Damage",
                     "special_multipliers": {
                         "0": 50
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "All characters' critical damage increases by 10%"
+                    "description": "All characters' critical Damage increases by 10%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Increase basic attack damage by 15%"
+                    "description": "Increase basic attack Damage by 15%"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Increase damage to critical attacks by 30%"
+                    "description": "Increase Damage to critical attacks by 30%"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase Ultimate damage by 20%"
+                    "description": "Increase Ultimate Damage by 20%"
                 }
             }
         }
@@ -815,14 +815,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Blasts the enemy with 6 grenade shells, each dealing X% of physical damage",
+                    "description": "Blasts the enemy with 6 grenade shells, each dealing X% of Physical Damage",
                     "multipliers": { 
                         "0": 20
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Dashes towards the target and blasts it once, dealing X% of physical damage, marking the target. Attacking marked targets will have a 75% of chance to detonate it, dealing Y% of fire damage",
+                    "description": "Dashes towards the target and blasts it once, dealing X% of Physical Damage, marking the target. Attacking marked targets will have a 75% of chance to detonate it, dealing Y% of fire Damage",
                     "multipliers": {
                         "0": 75,
                         "1": 5
@@ -830,7 +830,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Shoots a gravity bomb that will pull in enemies, enemies hit will take X% of physical damage and also deals Y% of fire damage every second to enemies within the gravity affected area, lasts 1/2/3 seconds",
+                    "description": "Shoots a gravity bomb that will pull in enemies, enemies hit will take X% of Physical Damage and also deals Y% of fire Damage every second to enemies within the gravity affected area, lasts 1/2/3 seconds",
                     "multipliers": {
                         "0": 50,
                         "1": 25
@@ -838,21 +838,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Karen uses her cannon to continuously smash the enemy, dealing up to a total of A% of physical damage",
+                    "description": "Karen uses her cannon to continuously smash the enemy, dealing up to a total of A% of Physical Damage",
                     "special_multipliers": {
                         "0": 300
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consumes 100 energy, bombards the whole area with the cannon, with each hit dealing A% of physical damage",
+                    "description": "Consumes 100 energy, bombards the whole area with the cannon, with each hit dealing A% of Physical Damage",
                     "special_multipliers": {
                         "0": 50
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Karen appears and shoots a gravity bomb, sucking enemies in, dealing up to a total of A% physical damage",
+                    "description": "Karen appears and shoots a gravity bomb, sucking enemies in, dealing up to a total of A% Physical Damage",
                     "special_multipliers": {
                         "0": 250
                     }
@@ -868,7 +868,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After executing 3-orb skills 3 times, or after using an ultimate, Karen enters Explosive state. Her basic attacks will become long-ranged cannon shots for 3 seconds, each shot dealing A% of physical damage.",
+                    "description": "After executing 3-orb skills 3 times, or after using an Ultimate, Karen enters Explosive state. Her basic attacks will become long-ranged cannon shots for 3 seconds, each shot dealing A% of Physical Damage.",
                     "special_multipliers": { 
                         "0": 40
                     }
@@ -878,19 +878,19 @@
                     "description": "When team consist of 3 different classes, whole team's attack is increased by 10%"
                 }, 
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Yellow orb's explosion damage is increased by 50%"
+                    "description": "Yellow orb's explosion Damage is increased by 50%"
                 }, 
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When attacking a marked enemy, increase all damage dealt by 15% against it"
+                    "description": "When attacking a marked enemy, increase all Damage dealt by 15% against it"
                 }, 
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase basic attack damage by 20%"
+                    "description": "Increase basic attack Damage by 20%"
                 } 
             }
         }
@@ -914,7 +914,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Normal Mode: Cross slash the target, dealing X% of physical damage and an additional Y% of dark damage.\nDark mode: Leap forward to an enemy, dealing Z% of dark damage",
+                    "description": "normal Mode: Cross slash the target, dealing X% of Physical Damage and an additional Y% of dark Damage.\nDark mode: Leap forward to an enemy, dealing Z% of dark Damage",
                     "multipliers": {
                         "0": 100,
                         "1": 20,
@@ -923,7 +923,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Normal Mode: Rush towards an enemy, dealing X% of physical damage and an additional Y% dark damage. During the rush, take 30% less damage and gain Super Armor.\nDark Mode: Rush and swing your sword around, dealing Z% of dark damage. During the rush, take 30% less damage and gain Super Armor.",
+                    "description": "normal Mode: Rush towards an enemy, dealing X% of Physical Damage and an additional Y% dark Damage. During the rush, take 30% less Damage and gain Super Armor.\nDark Mode: Rush and swing your sword around, dealing Z% of dark Damage. During the rush, take 30% less Damage and gain Super Armor.",
                     "multipliers": {
                         "0": 100,
                         "1": 20,
@@ -932,7 +932,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Normal Mode: Spin your sword and deal X% physical damage and an additional Y% of dark damage.The spin will also draw enemies towards you.\nDark mode: Crush the ground and release energy in a fan shape, dealing Z% of dark damage and stunning the target for 3/4/5 seconds.",
+                    "description": "normal Mode: Spin your sword and deal X% Physical Damage and an additional Y% of dark Damage.The spin will also draw enemies towards you.\nDark mode: Crush the ground and release energy in a fan shape, dealing Z% of dark Damage and stunning the target for 3/4/5 seconds.",
                     "multipliers": {
                         "0": 70,
                         "1": 20,
@@ -941,7 +941,7 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Normal Mode: Swing your sword, dealing a total of A% physical damage.\nDark Mode: Madly swing your sword, dealing a total of B% dark damage",
+                    "description": "normal Mode: Swing your sword, dealing a total of A% Physical Damage.\nDark Mode: Madly swing your sword, dealing a total of B% dark Damage",
                     "special_multipliers": {
                         "0": 280,
                         "1": 450
@@ -949,14 +949,14 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Dark mode can be activated when energy is above 60, all skills will be changed and kamui gains Super Armor. 8 energy is depleted per second in Dark mode, exit Dark mode when energy is depleted. Dark damage is increased by A% when in Dark mode",
+                    "description": "Dark mode can be activated when energy is above 60, all skills will be changed and kamui gains Super Armor. 8 energy is depleted per second in Dark mode, exit Dark mode when energy is depleted. Dark Damage is increased by A% when in Dark mode",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Does an upper spin attack, dealing a total of A% dark damage and decrease the target's dark resistance by C% for 6 seconds",
+                    "description": "Does an upper spin attack, dealing a total of A% dark Damage and decrease the target's dark resistance by C% for 6 seconds",
                     "special_multipliers": {
                         "0": 290,
                         "2": 5
@@ -966,36 +966,36 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
+                    "description": "Enemies take A% more Damage when attacked by you, lasts for 5s",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Consuming 3 orbs gains an additional 10 energy. Receive A% less physical damage and dark damage when in Dark mode",
+                    "description": "Consuming 3 orbs gains an additional 10 energy. Receive A% less Physical Damage and dark Damage when in Dark mode",
                     "special_multipliers": {
                         "0": 15
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Increase elemental damage by 10% and physical damage by 5% when all 3 members in team are different classes"
+                    "description": "Increase elemental Damage by 10% and Physical Damage by 5% when all 3 members in team are different classes"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Take 20% less damage when in Dark mode, targets have -15% reduced Dark resistance for 8s."
+                    "description": "Take 20% less Damage when in Dark mode, targets have -15% reduced Dark resistance for 8s."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "3 orb skills deal 30% more damage"
+                    "description": "3 orb skills deal 30% more Damage"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase dark damage by 20% when in Dark mode"
+                    "description": "Increase dark Damage by 20% when in Dark mode"
                 }
             }
         }
@@ -1019,14 +1019,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Moves forward and thrusts the enemy with the chainsaw, dealing X% continuous physical damage, up to 12 times. If it's a 3-orb, the damage will be converted to fire damage instead",
+                    "description": "Moves forward and thrusts the enemy with the chainsaw, dealing X% continuous Physical Damage, up to 12 times. If it's a 3-orb, the Damage will be converted to fire Damage instead",
                     "multipliers": { 
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Leaps into the air and do a somersault with her chainsaw, dealing damage twice, each hit is 50/100/100(**100/200/200**)% physical damage, each hit will be A% fire damage when is a 3 orb combo and create a Fire Energy Halo, dealing B% fire damage. The halo can hit up to 12 times",
+                    "description": "Leaps into the air and do a somersault with her chainsaw, dealing Damage twice, each hit is 50/100/100(**100/200/200**)% Physical Damage, each hit will be A% fire Damage when is a 3 orb combo and create a Fire Energy Halo, dealing B% fire Damage. The halo can hit up to 12 times",
                     "special_multipliers": { 
                         "0": 100,
                         "1": 15
@@ -1034,28 +1034,28 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Unleashes energy and interrupts incoming attacks. Deals heavy damage around Nanami 3 times, each time dealing 25/50/100(**50/100/200**)% physical damage. Also gains a shield based off Nanami's 5%/7.5%/10% max HP and super armor status, lasts for 5 seconds. Deals Fire damage instead when 3-orb is performed.",
+                    "description": "Unleashes energy and interrupts incoming attacks. Deals heavy Damage around Nanami 3 times, each time dealing 25/50/100(**50/100/200**)% Physical Damage. Also gains a shield based off Nanami's 5%/7.5%/10% max HP and super armor status, lasts for 5 seconds. Deals Fire Damage instead when 3-orb is performed.",
                     "multipliers": { 
                         "0": 50
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Attacks enemies with her chainsaw, dealing of up to a total of A% physical damage",
+                    "description": "Attacks enemies with her chainsaw, dealing of up to a total of A% Physical Damage",
                     "special_multipliers": {  
                         "0": 310
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 30 energy and dash towards the target, dealing A% Fire damage to all enemies hit.",
+                    "description": "Consume 30 energy and dash towards the target, dealing A% Fire Damage to all enemies hit.",
                     "special_multipliers": { 
                         "0": 450
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Nanami appears and spins around, dealing A% of fire damage to all surrounding enemies and also lowering their fire resistance by B% for 6 seconds",
+                    "description": "Nanami appears and spins around, dealing A% of fire Damage to all surrounding enemies and also lowering their fire resistance by B% for 6 seconds",
                     "special_multipliers": { 
                         "0": 240,
                         "1": 5
@@ -1065,14 +1065,14 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
+                    "description": "Enemies take A% more Damage when attacked by you, lasts for 5s",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After using her ultiamte, Nanami enters Overclock status which converts all her normal attacks into fire damage. All enemies hit by her basic attack during this time gets their fire resistance lowered by A% for 8 seconds",
+                    "description": "After using her ultiamte, Nanami enters Overclock status which converts all her normal attacks into fire Damage. All enemies hit by her basic attack during this time gets their fire resistance lowered by A% for 8 seconds",
                     "special_multipliers": { 
                         "0": 7.5
                     }
@@ -1082,19 +1082,19 @@
                     "description": "Entire team's defense is increased by 15%, fire resistance is increased by 10%"
                 }, 
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Dealing Fire damage has a 30% chance of triggering an explosion, dealing additional 25% Fire damage."
+                    "description": "Dealing Fire Damage has a 30% chance of triggering an explosion, dealing additional 25% Fire Damage."
                 }, 
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "After using ultimate, gain Super Armor, Damage resistance +20% and Fire damage +15% for 8s."
+                    "description": "After using Ultimate, gain Super Armor, Damage resistance +20% and Fire Damage +15% for 8s."
                 }, 
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "After using ultimate, increase all damage dealt by 15% for 8 seconds"
+                    "description": "After using Ultimate, increase all Damage dealt by 15% for 8 seconds"
                 } 
             }
         }
@@ -1118,21 +1118,21 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Charge and attack the enemy, dealing X% of physical damage to all enemies infront",
+                    "description": "Charge and attack the enemy, dealing X% of Physical Damage to all enemies infront",
                     "multipliers": { 
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Swings around, attacking all surrounding enemies, dealing X% of physical damage",
+                    "description": "Swings around, attacking all surrounding enemies, dealing X% of Physical Damage",
                     "multipliers": { 
                         "0": 100
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Releases an energy ring that pulls in surrounding enemies, dealing X% of physical damage, lowering the defense of targets hit by Y%. Also decreases physical damage taken by Z%, lasts for 4/4.5/5 seconds",
+                    "description": "Releases an energy ring that pulls in surrounding enemies, dealing X% of Physical Damage, lowering the defense of targets hit by Y%. Also decreases Physical Damage taken by Z%, lasts for 4/4.5/5 seconds",
                     "multipliers": { 
                         "0": 50,
                         "1": 5,
@@ -1141,21 +1141,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Nanami uses her chainsaw to slash enemies, dealing up to a total of A% of physical damage",
+                    "description": "Nanami uses her chainsaw to slash enemies, dealing up to a total of A% of Physical Damage",
                     "special_multipliers": { 
                         "0": 360
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consumes 100 energy, disperse an energy barrier that negates all enemy attacks (works on all allies). The barrier will detonate after 5 seconds, dealing A% of physical damage.",
+                    "description": "Consumes 100 energy, disperse an energy barrier that negates all enemy attacks (works on all allies). The barrier will detonate after 5 seconds, dealing A% of Physical Damage.",
                     "special_multipliers": { 
                         "0": 500
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Nanami does a whirlwind spin, dealing up to a total of A% of physical damage to all enemies and also knocks them down",
+                    "description": "Nanami does a whirlwind spin, dealing up to a total of A% of Physical Damage to all enemies and also knocks them down",
                     "special_multipliers": { 
                         "0": 245
                     }
@@ -1164,14 +1164,14 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
+                    "description": "Enemies take A% more Damage when attacked by you, lasts for 5s",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After any 3-orb consumption, consume Yellow Orbs again to hit surrounding enemies 8 times, with each hit dealing A% of physical damage",
+                    "description": "After any 3-orb consumption, consume Yellow Orbs again to hit surrounding enemies 8 times, with each hit dealing A% of Physical Damage",
                     "special_multipliers": {
                         "0": 80
                     }
@@ -1181,19 +1181,19 @@
                     "description": "Increase team's defense by 15%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Increase basic attack damage by 15% and energy regeneration by 20%"
+                    "description": "Increase basic attack Damage by 15% and energy regeneration by 20%"
                 }, 
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Decrease all physical damage taken by 30% during Core skill."
+                    "description": "Decrease all Physical Damage taken by 30% during Core skill."
                 },  
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase all damage dealt by 20% for 5 seconds after unleashing ultimate."
+                    "description": "Increase all Damage dealt by 20% for 5 seconds after unleashing Ultimate."
                 } 
             }
         }
@@ -1217,7 +1217,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Strike the enemy with an overhead attack, dealing X% physical damage. When landing a 3 orb combo, strike again with an additional attack dealing A% physical damage",
+                    "description": "Strike the enemy with an overhead attack, dealing X% Physical Damage. When landing a 3 orb combo, strike again with an additional attack dealing A% Physical Damage",
                     "multipliers": {
                         "0": 100
                     },
@@ -1227,7 +1227,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Take a defensive stance for 2s, gaining 75% damage reduction. Retaliate against the next hit taken, dealing X% physical damage in return. Additionally recover 40/80/120 charged energy. If the attack button is pressed during the stance or no hit is taken after 2s, release a sword wave dealing Y% physical damage instead and exit defensive stance",
+                    "description": "Take a defensive stance for 2s, gaining 75% Damage reduction. Retaliate against the next hit taken, dealing X% Physical Damage in return. Additionally recover 40/80/120 charged energy. If the attack button is pressed during the stance or no hit is taken after 2s, release a sword wave dealing Y% Physical Damage instead and exit defensive stance",
                     "multipliers": {
                         "0": 100,
                         "1": 50
@@ -1235,7 +1235,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Release a burst of energy to defend yourself, unleashing a shield equal to X% of current defense. Strike the ground and stun enemies for 1/1.5/2s and dealing Y% physical damage.",
+                    "description": "Release a burst of energy to defend yourself, unleashing a shield equal to X% of current defense. Strike the ground and stun enemies for 1/1.5/2s and dealing Y% Physical Damage.",
                     "multipliers": {
                         "0": 25,
                         "1": 50
@@ -1243,21 +1243,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal a total of A% physical damage",
+                    "description": "Deal a total of A% Physical Damage",
                     "special_multipliers": {
                         "0": 395
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy and charge up the sword to unleash a burst of energy, dealing A% physical damage to all targets in front.",
+                    "description": "Consume 100 energy and charge up the sword to unleash a burst of energy, dealing A% Physical Damage to all targets in front.",
                     "special_multipliers": {
                         "0": 800
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal A% physical damage, stunning the target for 3s. Additionally, decrease its physical defenses by B% for 6 seconds",
+                    "description": "Deal A% Physical Damage, stunning the target for 3s. Additionally, decrease its Physical defenses by B% for 6 seconds",
                     "special_multipliers": {
                         "0": 250,
                         "1": 5
@@ -1267,36 +1267,36 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
+                    "description": "Enemies take A% more Damage when attacked by you, lasts for 5s",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Gain 40 charged energy on every 3 orb combo, up to a maximum of 120 energy. When the charged energy is above 0/40/80, deal A% more damage. Additionally, lose 8 charged energy per second in charged mode",
+                    "description": "Gain 40 charged energy on every 3 orb combo, up to a Maximum of 120 energy. When the charged energy is above 0/40/80, deal A% more Damage. Additionally, lose 8 charged energy per second in charged mode",
                     "special_multipliers": {
                         "0": 3
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "When team's health is above 70%, gain 10% physical damage"
+                    "description": "When team's Health is above 70%, gain 10% Physical Damage"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
                     "description": "Gain 1 random orb when you successfully block an attack, CD: 5s"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When charged energy is greater than 60, take 10% less physical damage and deal 8% more physical damage"
+                    "description": "When charged energy is greater than 60, take 10% less Physical Damage and deal 8% more Physical Damage"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Deal 10% more physical damage when a shield is present"
+                    "description": "Deal 10% more Physical Damage when a shield is present"
                 }
             }
         }
@@ -1320,42 +1320,42 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Fires a beam cannon on target location, dealing X% physical damage and reducing their movement speed by 20% for 3s. Reduce damage resistance by 5% for 5s when it is a 3-orb.",
+                    "description": "Fires a beam cannon on target location, dealing X% Physical Damage and reducing their movement speed by 20% for 3s. Reduce Damage resistance by 5% for 5s when it is a 3-orb.",
                     "multipliers": {
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Empower your weapon, increasing the number of hits per basic attack. Each extra hit will deal X% physical damage. Maximum amount of extra hits is 16/20/32, lasts for 2.5/3.5/5 seconds",
+                    "description": "Empower your weapon, increasing the number of hits per basic attack. Each extra hit will deal X% Physical Damage. Maximum amount of extra hits is 16/20/32, lasts for 2.5/3.5/5 seconds",
                     "multipliers": {
                         "0": 15
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Release a particle field and marks all enemies within the field. The field will deal X% of physical damage, lasting for 3/6/9 seconds. The field will pull enemies within it towards the center every second",
+                    "description": "Release a particle field and marks all enemies within the field. The field will deal X% of Physical Damage, lasting for 3/6/9 seconds. The field will pull enemies within it towards the center every second",
                     "multipliers": {
                         "0": 50
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of A% physical damage. Can attack and move at the same time",
+                    "description": "Deals a total of A% Physical Damage. Can attack and move at the same time",
                     "special_multipliers": {
                         "0": 260
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy to create a giant energy field, constantly firing Retribution strikes at targets at random, dealing A% physical damage. Allies within the field takes 75% less physical damage.",
+                    "description": "Consume 100 energy to create a giant energy field, constantly firing Retribution strikes at targets at random, dealing A% Physical Damage. Allies within the field takes 75% less Physical Damage.",
                     "special_multipliers": {
                         "0": 75
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Heals A% of your attack damage and provides a B% attack damage shield to your ally, lasts for 2s",
+                    "description": "Heals A% of your attack Damage and provides a B% attack Damage shield to your ally, lasts for 2s",
                     "special_multipliers": {
                         "0": 50,
                         "1": 50
@@ -1372,7 +1372,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Attacking marked enemies has a 20% chance of triggering Judgment Ray, dealing A% physical damage. Heal nearby allies for B% of attack stat after every 3-orb or 5 triggers of Judgment Ray.",
+                    "description": "Attacking marked enemies has a 20% chance of triggering Judgment Ray, dealing A% Physical Damage. Heal nearby allies for B% of attack stat after every 3-orb or 5 triggers of Judgment Ray.",
                     "special_multipliers": {
                         "0": 75,
                         "1": 30
@@ -1380,22 +1380,22 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Increase health of all characters by 15%"
+                    "description": "Increase Health of all characters by 15%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Enemies within the particle field receive 15% more damage taken"
+                    "description": "Enemies within the particle field receive 15% more Damage taken"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Increase damage of Judgment Ray by 50%"
+                    "description": "Increase Damage of Judgment Ray by 50%"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase all damage of allies by 15% after using ultimate, lasts for 5s"
+                    "description": "Increase all Damage of allies by 15% after using Ultimate, lasts for 5s"
                 }
             }
         }
@@ -1419,14 +1419,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Liv commands her beam cannons to shoot once, dealing X% of physical damage",
+                    "description": "Liv commands her beam cannons to shoot once, dealing X% of Physical Damage",
                     "multipliers": { 
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Shoots a blackhole towards a destination, sucking enemies in for 1/2/3 seconds, enemies in contact with it will receive X% of physical damage every 0.5 seconds. After that, the blackhole explodes for Y% physical damage",
+                    "description": "Shoots a blackhole towards a destination, sucking enemies in for 1/2/3 seconds, enemies in contact with it will receive X% of Physical Damage every 0.5 seconds. After that, the blackhole explodes for Y% Physical Damage",
                     "multipliers": { 
                         "0": 15,
                         "1": 40
@@ -1434,7 +1434,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Unleashes energy and knocks back nearby enemies for X% physical damage and heal nearby allies for Y% of Liv’s attack stat and also increases Liv's physical damage by Z%, lasts for 5 seconds.",
+                    "description": "Unleashes energy and knocks back nearby enemies for X% Physical Damage and heal nearby allies for Y% of Liv’s attack stat and also increases Liv's Physical Damage by Z%, lasts for 5 seconds.",
                     "multipliers": {
                         "0": 50, 
                         "1": 20,
@@ -1443,21 +1443,21 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Liv continuously shoots her beam rays towards her target, dealing up to a total of A% physical damage",
+                    "description": "Liv continuously shoots her beam rays towards her target, dealing up to a total of A% Physical Damage",
                     "special_multipliers": { 
                         "0": 320
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consumes 100 energy, Liv summons an ultra-energy cannon to obliterate her surrounding area for 2 seconds, with each shot dealing A% of physical damage",
+                    "description": "Consumes 100 energy, Liv summons an ultra-energy cannon to obliterate her surrounding area for 2 seconds, with each shot dealing A% of Physical Damage",
                     "special_multipliers": {
                         "0": 35 
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Liv emerges and filles the area with energy, allies within the area are healed for A% of Liv's max HP while enemies are damaged for B% of physical damage",
+                    "description": "Liv emerges and filles the area with energy, allies within the area are healed for A% of Liv's max HP while enemies are damaged for B% of Physical Damage",
                     "special_multipliers": {
                         "0": 10 
                     }
@@ -1473,7 +1473,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After any 3-orb consumption, the next Red Orb will trigger a barrage of beams, dealing up to a total of A% physical damage",
+                    "description": "After any 3-orb consumption, the next Red Orb will trigger a barrage of beams, dealing up to a total of A% Physical Damage",
                     "special_multipliers": {
                         "0": 400 
                     }
@@ -1483,19 +1483,19 @@
                     "description": "Whole team's max HP is increased by 10%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "After using your ultimate, gain 3 Blue Orbs"
+                    "description": "After using your Ultimate, gain 3 Blue Orbs"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When Liv is not on the field, all allies on the field gain an increase of 10% physical damage" 
+                    "description": "When Liv is not on the field, all allies on the field gain an increase of 10% Physical Damage" 
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "After using your ultimate, the whole team's damage is increased by 20%, lasts for 8 seconds" 
+                    "description": "After using your Ultimate, the whole team's Damage is increased by 20%, lasts for 8 seconds" 
                 }
             }
         }
@@ -1519,14 +1519,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Fires cannons once, dealing X% physical damage",
+                    "description": "Fires cannons once, dealing X% Physical Damage",
                     "multipliers": {
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Create a cube around the target, forcing all targets in it to be in slomo for 1/2/3 seconds and dealing A%/B%/C% lightning damage. The cube will explode for A% lightning damage at the end.",
+                    "description": "Create a cube around the target, forcing all targets in it to be in slomo for 1/2/3 seconds and dealing A%/B%/C% lightning Damage. The cube will explode for A% lightning Damage at the end.",
                     "multipliers": {
                         "0": 30
                     },
@@ -1538,14 +1538,14 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Creates a laser wall at target. Enemies that walk through the wall will be electrified, dealing X% of lightning damage per second and decrease movement speed by 20%/40%/80%, marking the enemy for 8s, the wall will last for 2/4/6 seconds",
+                    "description": "Creates a laser wall at target. Enemies that walk through the wall will be electrified, dealing X% of lightning Damage per second and decrease movement speed by 20%/40%/80%, marking the enemy for 8s, the wall will last for 2/4/6 seconds",
                     "multipliers": {
                         "0": 30
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of A% of physical damage",
+                    "description": "Deals a total of A% of Physical Damage",
                     "special_multipliers": {
                         "0": 325
                     }
@@ -1559,7 +1559,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Summons an EX lightning strike, dealing A% of lightning damage and leaves a field, healing allies within the field for B% of attack damage",
+                    "description": "Summons an EX lightning strike, dealing A% of lightning Damage and leaves a field, healing allies within the field for B% of attack Damage",
                     "special_multipliers": {
                         "0": 100,
                         "1": 12.5
@@ -1576,7 +1576,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Basic attacks will mark the enemy and have a 30% chance to summon a lightning strike, dealing A% of lightning damage. Red orbs have a 30%/60%/100% chance to trigger a lightning strike. After 4 triggers, the next trigger will summon an EX lightning strike, dealing B% of lightning damage and heals allies for C% of your attack damage",
+                    "description": "Basic attacks will mark the enemy and have a 30% chance to summon a lightning strike, dealing A% of lightning Damage. Red orbs have a 30%/60%/100% chance to trigger a lightning strike. After 4 triggers, the next trigger will summon an EX lightning strike, dealing B% of lightning Damage and heals allies for C% of your attack Damage",
                     "special_multipliers": {
                         "0": 30,
                         "1": 100,
@@ -1585,20 +1585,20 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Increase all character's health and attack damage by 5%"
+                    "description": "Increase all character's Health and attack Damage by 5%"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Allies near the EX lightning strike gains 20% lightning damage"
+                    "description": "Allies near the EX lightning strike gains 20% lightning Damage"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Increase lightning strike damage by 25%"
+                    "description": "Increase lightning strike Damage by 25%"
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
                     "description": "Enemies within the cube has 15% lower lightning resistance"
                 }
@@ -1624,14 +1624,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Dash backwards and throw out multiple daggers in a fan shape dealing X% physical damage. Triggers Shadow Dagger afterwards. This skill deals dark damage instead when it is a 3 orb combo.",
+                    "description": "Dash backwards and throw out multiple daggers in a fan shape dealing X% Physical Damage. Triggers Shadow Dagger afterwards. This skill deals dark Damage instead when it is a 3 orb combo.",
                     "multipliers": {
                         "0": 100
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Perform a spin attack in midair and attract nearby enemies towards you. Each spin deals X% physical damage. At the end of this skill, strike with a heavy attack that deals Y% physical damage. This skill deals dark damage instead when it is a 3 orb combo.",
+                    "description": "Perform a spin attack in midair and attract nearby enemies towards you. Each spin deals X% Physical Damage. At the end of this skill, strike with a heavy attack that deals Y% Physical Damage. This skill deals dark Damage instead when it is a 3 orb combo.",
                     "multipliers": {
                         "0": 20,
                         "1": 25
@@ -1639,14 +1639,14 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Teleport behind a target and strike its back, dealing X% physical damage. This skill deals dark damage instead when it is a 3 orb combo.",
+                    "description": "Teleport behind a target and strike its back, dealing X% Physical Damage. This skill deals dark Damage instead when it is a 3 orb combo.",
                     "multipliers": {
                         "0": 75
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal A% physical damage. After dodging or using red orbs, normal attacks trigger shadow dagger, dealing B% physical damage",
+                    "description": "Deal A% Physical Damage. After dodging or using red orbs, normal attacks trigger shadow dagger, dealing B% Physical Damage",
                     "special_multipliers": {
                         "0": 300,
                         "1": 100
@@ -1654,14 +1654,14 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy, becomes the shadow and assassinate the target, each assassination deals A% Dark damage.",
+                    "description": "Consume 100 energy, becomes the shadow and assassinate the target, each assassination deals A% Dark Damage.",
                     "special_multipliers": {
                         "0": 300
                     }
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Strike the target with a shadow clone, each strike dealing A% dark damage",
+                    "description": "Strike the target with a shadow clone, each strike dealing A% dark Damage",
                     "special_multipliers": {
                         "0": 150
                     }
@@ -1670,14 +1670,14 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Increase damage done by A%",
+                    "description": "Increase Damage done by A%",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Consuming a red orb after any 3 orb combo will trigger resonance, turning the character into shadows and striking forward in an area, each strike dealing A% dark damage. Activate Dark mode afterwards for 5 seconds, each attack gaining an additional B% dark damage. Shadow dagger will deal an additional C% dark damage for 5s.",
+                    "description": "Consuming a red orb after any 3 orb combo will trigger resonance, turning the character into shadows and striking forward in an area, each strike dealing A% dark Damage. Activate Dark mode afterwards for 5 seconds, each attack gaining an additional B% dark Damage. Shadow dagger will deal an additional C% dark Damage for 5s.",
                     "special_multipliers": {
                         "0": 30,
                         "1": 150,
@@ -1686,22 +1686,22 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Increase team's dark damage by 10% and increase attack type characters attack by 5%."
+                    "description": "Increase team's dark Damage by 10% and increase attack type characters attack by 5%."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "After landing a blue orb on a target, the affected target will take 10% more damage for 4 seconds."
+                    "description": "After landing a blue orb on a target, the affected target will take 10% more Damage for 4 seconds."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When landing Shadow Dagger on a target, the affected target will take 10% more damage for 4 seconds."
+                    "description": "When landing Shadow Dagger on a target, the affected target will take 10% more Damage for 4 seconds."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Upon activation of the core passive, increase dark damage done by 20%."
+                    "description": "Upon activation of the core passive, increase dark Damage done by 20%."
                 }
             }
         }
@@ -1725,14 +1725,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Attack with the scythe, dealing X% physical damage",
+                    "description": "Attack with the scythe, dealing X% Physical Damage",
                     "multipliers": {
                         "0": 75
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Smash into a target, dealing X% physical damage. Swing the scythe upwards after colliding with the target, dealing Y% physical damage.",
+                    "description": "Smash into a target, dealing X% Physical Damage. Swing the scythe upwards after colliding with the target, dealing Y% Physical Damage.",
                     "multipliers": {
                         "0": 45,
                         "1": 60
@@ -1740,21 +1740,21 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Throw your scythe forward and recall it, dealing X% physical damage to all enemies caught in the path.",
+                    "description": "Throw your scythe forward and recall it, dealing X% Physical Damage to all enemies caught in the path.",
                     "multipliers": {
                         "0": 10
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Attack with the scythe, dealing A% physical damage.",
+                    "description": "Attack with the scythe, dealing A% Physical Damage.",
                     "special_multipliers": {
                         "0": 305
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 80 energy to Bloom! Attack while moving against everything around the target, Dealing A% physical damage with each swing. Slice the target at the end for B% physical damage. The direction of the movement during the ultimate can be maneuvered with the directional stick.",
+                    "description": "Consume 80 energy to Bloom! Attack while moving against everything around the target, Dealing A% Physical Damage with each swing. Slice the target at the end for B% Physical Damage. The direction of the movement during the Ultimate can be maneuvered with the directional stick.",
                     "special_multipliers": {
                         "0": 60,
                         "1": 300
@@ -1762,7 +1762,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal A% physical damage to an enemy and decrease its defenses by B% for 5 seconds. The last strike of the QTE will knock up the target.",
+                    "description": "Deal A% Physical Damage to an enemy and decrease its defenses by B% for 5 seconds. The last strike of the QTE will knock up the target.",
                     "special_multipliers": {
                         "0": 250,
                         "1": 5
@@ -1772,14 +1772,14 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Attacks against enemies increase their damage taken by A%",
+                    "description": "Attacks against enemies increase their Damage taken by A%",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After a 3 orb combo, the next blue orb will trigger a charged attack that drags in enemies while charging. Grants a shield base on 8% of maximum health for 7 seconds and take 70% less damage from all sources while charging. After fully charging, attack with a heavy strike, dealing A% physical damage.",
+                    "description": "After a 3 orb combo, the next blue orb will trigger a charged attack that drags in enemies while charging. Grants a shield base on 8% of Maximum Health for 7 seconds and take 70% less Damage from all sources while charging. After fully charging, attack with a heavy strike, dealing A% Physical Damage.",
                     "special_multipliers": {
                         "0": 350
                     }
@@ -1789,19 +1789,19 @@
                     "description": "Increase defense by 10% and attack by 5% when there are 3 different classes in the team."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "After landing an attack against an enemy with a yellow orb, increase character's own defense and physical attack by 10%, lasts for 5 seconds."
+                    "description": "After landing an attack against an enemy with a yellow orb, increase character's own defense and Physical attack by 10%, lasts for 5 seconds."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
                     "description": "Enemies hit by the core passive have 15% reduced defense for 5s."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "After casting ultimate, increase all damage by 20% for 10 seconds."
+                    "description": "After casting Ultimate, increase all Damage by 20% for 10 seconds."
                 }
             }
         }
@@ -1825,14 +1825,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Fire an energy arrow that penetrates through enemies after charging, dealing X% physical damage. Deals lightning damage when it's a 3 orb combo.",
+                    "description": "Fire an energy arrow that penetrates through enemies after charging, dealing X% Physical Damage. Deals lightning Damage when it's a 3 orb combo.",
                     "multipliers": {
                         "0": 120
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Flash towards the sky, firing a charged arrow, dealing X% physical damage and leaving a lightning area. Enemies within the area will be slowed 20%/35%/50% and receive A% lightning damage per second. The field lasts 3/5/7 seconds.",
+                    "description": "Flash towards the sky, firing a charged arrow, dealing X% Physical Damage and leaving a lightning area. Enemies within the area will be slowed 20%/35%/50% and receive A% lightning Damage per second. The field lasts 3/5/7 seconds.",
                     "multipliers": {
                         "0": 50,
                         "1": 40
@@ -1840,7 +1840,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Snap your fingers and explode the arrow's energy, pushing back enemies around you, dealing X% physical damage. Gain lightning charge. Normal attacks will have l extra lightning arrow, deals Y% lightning damage. Red orbs and core passive will trigger 2 additional lightning arrow, deals Z% lightning damage, last for 8 seconds",
+                    "description": "Snap your fingers and explode the arrow's energy, pushing back enemies around you, dealing X% Physical Damage. Gain lightning charge. normal attacks will have l extra lightning arrow, deals Y% lightning Damage. Red orbs and core passive will trigger 2 additional lightning arrow, deals Z% lightning Damage, last for 8 seconds",
                     "multipliers": {
                         "0": 20,
                         "1": 8,
@@ -1849,14 +1849,14 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Fires 7 arrows. The last arrow penetrates targets. Deal A% physical damage in total.",
+                    "description": "Fires 7 arrows. The last arrow penetrates targets. Deal A% Physical Damage in total.",
                     "special_multipliers": {
                         "0": 280
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy. Fire a barrage of arrows towards the sky, triggering consecutive lightning strikes with each strike dealing A% lightning damage in the area. After a short delay, the strikes will explode, each explosion dealing B% lightning damage.",
+                    "description": "Consume 100 energy. Fire a barrage of arrows towards the sky, triggering consecutive lightning strikes with each strike dealing A% lightning Damage in the area. After a short delay, the strikes will explode, each explosion dealing B% lightning Damage.",
                     "special_multipliers": {
                         "0": 80,
                         "1": 90
@@ -1864,7 +1864,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Shoots out 4 arrows, each dealing A% lightning damage",
+                    "description": "Shoots out 4 arrows, each dealing A% lightning Damage",
                     "special_multipliers": {
                         "0": 80
                     }
@@ -1873,36 +1873,36 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Increase damage done by A%",
+                    "description": "Increase Damage done by A%",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After a 3 red orb combo, consuming blue orbs will enter sniper mode. Basic attacks will fire off a long range penetrating lightning arrow, dealing A% lightning damage. Lasts 6 seconds or after sucessfully firing 6 shots, exit sniper mode. When dodging during sniper mode, the next basic attack will have a faster charge rate. Orbs won't be recovered using basic attack in sniper mode.",
+                    "description": "After a 3 red orb combo, consuming blue orbs will enter sniper mode. Basic attacks will fire off a long range penetrating lightning arrow, dealing A% lightning Damage. Lasts 6 seconds or after sucessfully firing 6 shots, exit sniper mode. When dodging during sniper mode, the next basic attack will have a faster charge rate. Orbs won't be recovered using basic attack in sniper mode.",
                     "special_multipliers": {
                         "0": 250
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "Lightning damage +10% to all members. Attack types gain an additional 5% attack."
+                    "description": "Lightning Damage +10% to all members. Attack types gain an additional 5% attack."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Deal 10% more damage to enemies who got penetrated by the arrow from red orb skill, last for 8 seconds"
+                    "description": "Deal 10% more Damage to enemies who got penetrated by the arrow from red orb skill, last for 8 seconds"
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Deal 15% more damage to enemies within the lightning area from yellow orb skill."
+                    "description": "Deal 15% more Damage to enemies within the lightning area from yellow orb skill."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "20% lightning damage increase when in sniper mode."
+                    "description": "20% lightning Damage increase when in sniper mode."
                 }
             }
         }
@@ -1926,35 +1926,35 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Stand still and fire off homing missiles, dealing X% fire damage. Drop 1 energy orb when it's a 3 orb combo.",
+                    "description": "Stand still and fire off homing missiles, dealing X% fire Damage. Drop 1 energy orb when it's a 3 orb combo.",
                     "multipliers": {
                         "0": 120
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Dash towards the target, dealing X% physical damage for every hit when dashing. When it's a 3 orb combo, deal fire damage instead and drop 1 energy orb when the skill hits a target.",
+                    "description": "Dash towards the target, dealing X% Physical Damage for every hit when dashing. When it's a 3 orb combo, deal fire Damage instead and drop 1 energy orb when the skill hits a target.",
                     "multipliers": {
                         "0": 20
                     }
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Swiftly shoot out pellets in a fan shape and dash backwards, dealing X% fire damage. Drop an energy orb when it's a 3 orb combo.",
+                    "description": "Swiftly shoot out pellets in a fan shape and dash backwards, dealing X% fire Damage. Drop an energy orb when it's a 3 orb combo.",
                     "multipliers": {
                         "0": 100
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal a total of A% mixed fire and physical damage.",
+                    "description": "Deal a total of A% mixed fire and Physical Damage.",
                     "special_multipliers": {
                         "0": 425
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy. Attract nearby enemies towards your front and shoot out a concentrated pyramid, dealing A% fire damage and pushes enemies forward. The pyramid will continue attracting nearby enemies. Enemies caught within it will take B% fire damage. After some time, the pyramid will explode, dealing C% fire damage and drop 2 energy orbs.",
+                    "description": "Consume 100 energy. Attract nearby enemies towards your front and shoot out a concentrated pyramid, dealing A% fire Damage and pushes enemies forward. The pyramid will continue attracting nearby enemies. Enemies caught within it will take B% fire Damage. After some time, the pyramid will explode, dealing C% fire Damage and drop 2 energy orbs.",
                     "special_multipliers": {
                         "0": 100,
                         "1": 10,
@@ -1963,7 +1963,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal A% fire damage and drop an energy orb. When the skill is raised to level 10 and above, it will drop an additional energy orb.",
+                    "description": "Deal A% fire Damage and drop an energy orb. When the skill is raised to level 10 and above, it will drop an additional energy orb.",
                     "special_multipliers": {
                         "0": 200
                     }
@@ -1979,7 +1979,7 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": " Energy orbs will drop from Sofia’s last hit of her basic combo as well as ultimates, QTE, and damaged dealt by 3 orb skills. Picking up energy orbs will heal allies for A% of Sofia’s attack and increase Fire damage by B%, lasts for 5 seconds.  Sofia gains 4 points of energy and 75 heat energy when an orb is picked up. When heat energy is over 0/100/200, Sofia’s attack increases by 5%/10%/15%.",
+                    "description": " Energy orbs will drop from Sofia’s last hit of her basic combo as well as ultimates, QTE, and damaged dealt by 3 orb skills. Picking up energy orbs will heal allies for A% of Sofia’s attack and increase Fire Damage by B%, lasts for 5 seconds.  Sofia gains 4 points of energy and 75 heat energy when an orb is picked up. When heat energy is over 0/100/200, Sofia’s attack increases by 5%/10%/15%.",
                     "special_multipliers": {
                         "0": 10,
                         "1": 5
@@ -1987,22 +1987,22 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "When the team has 3 different classes, 10% increase to all teammates health and 5% increase to all their movement speed."
+                    "description": "When the team has 3 different classes, 10% increase to all teammates Health and 5% increase to all their movement speed."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
                     "description": "Ultimate and QTE will drop an additional energy orb."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "If the same character picks up 3 energy orbs within 5 seconds, increase the character's fire damage by an additional 10%, lasts for 5 seconds."
+                    "description": "If the same character picks up 3 energy orbs within 5 seconds, increase the character's fire Damage by an additional 10%, lasts for 5 seconds."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Decrease the target's fire resistance by 15% when your ultimate hits them, lasts for 5 seconds."
+                    "description": "Decrease the target's fire resistance by 15% when your Ultimate hits them, lasts for 5 seconds."
                 }
             }
         }
@@ -2026,14 +2026,14 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Swing the scythe around, each swing dealing X% physical damage. Deals lightning damage when it's a 3 orb combo",
+                    "description": "Swing the scythe around, each swing dealing X% Physical Damage. Deals lightning Damage when it's a 3 orb combo",
                     "multipliers": {
                         "0": 9
                     }
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Spin your scythe around, pulling nearby enemies and follow up with a downward cut. Each spin deals X% physical damage. Downward cut deals Y% lightning damage to nearby enemies. Deals lightning damage when it's a 3 orb",
+                    "description": "Spin your scythe around, pulling nearby enemies and follow up with a downward cut. Each spin deals X% Physical Damage. Downward cut deals Y% lightning Damage to nearby enemies. Deals lightning Damage when it's a 3 orb",
                     "multipliers": {
                         "0": 10,
                         "1": 30
@@ -2041,21 +2041,21 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Spin and burst out an electric pulse, dealing X% lightning damage to nearby enemies and mark them. The mark lasts for 6 seconds. You deal 3/4/5(**6/8/10**)% additional damage to marked enemies. 5/7.5/10(**10/15/20**)% additional damage resistance when you take damage from marked enemies.",
+                    "description": "Spin and burst out an electric pulse, dealing X% lightning Damage to nearby enemies and mark them. The mark lasts for 6 seconds. You deal 3/4/5(**6/8/10**)% additional Damage to marked enemies. 5/7.5/10(**10/15/20**)% additional Damage resistance when you take Damage from marked enemies.",
                     "multipliers": {
                         "0": 75
                     }
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal A% physical damage in total.",
+                    "description": "Deal A% Physical Damage in total.",
                     "special_multipliers": {
                         "0": 305
                     }
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy, call upon the lightning to charge yourself and pull enemies over to you. Enter **flash mode**. Basic attacks will be changed into a **dash attack**. The mode lasts for 8 seconds. In Flash Mode, every 5 **dash attacks** will trigger core passive once. Each dash deals A% lightning damage and each strike deals B% lightning damage.",
+                    "description": "Consume 100 energy, call upon the lightning to charge yourself and pull enemies over to you. Enter **flash mode**. Basic attacks will be changed into a **dash attack**. The mode lasts for 8 seconds. In Flash Mode, every 5 **dash attacks** will trigger core passive once. Each dash deals A% lightning Damage and each strike deals B% lightning Damage.",
                     "special_multipliers": {
                         "0": 17.5,
                         "1": 60
@@ -2063,7 +2063,7 @@
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Initially, deal A% lightning damage and decrease target's lightning resistance by B%, lasts for 6 seconds. Before returning back, deal another C% lightning damage.",
+                    "description": "Initially, deal A% lightning Damage and decrease target's lightning resistance by B%, lasts for 6 seconds. Before returning back, deal another C% lightning Damage.",
                     "special_multipliers": {
                         "0": 125,
                         "1": 5,
@@ -2074,14 +2074,14 @@
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Enemies take A% more damage when attacked by you, lasts for 5s",
+                    "description": "Enemies take A% more Damage when attacked by you, lasts for 5s",
                     "special_multipliers": {
                         "0": 10
                     }
                 },
                 "1": {
                     "name": "Core",
-                    "description": "After a 3 orb combo, consuming any amount of blue orb will form a A% shield based on your maximum health. The shield will last for 4 seconds. When the shield expires or a new shield is formed to replace the existing shield, the shield will explode and deal B% lightning damage to nearby enemies.",
+                    "description": "After a 3 orb combo, consuming any amount of blue orb will form a A% shield based on your Maximum Health. The shield will last for 4 seconds. When the shield expires or a new shield is formed to replace the existing shield, the shield will explode and deal B% lightning Damage to nearby enemies.",
                     "special_multipliers": {
                         "0": 5,
                         "1": 100
@@ -2089,20 +2089,20 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "10% defense increase and 5% health increase when all 3 teammates are of different classes"
+                    "description": "10% defense increase and 5% Health increase when all 3 teammates are of different classes"
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "When the core passive shield is present, increase 10% lightning damage."
+                    "description": "When the core passive shield is present, increase 10% lightning Damage."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When switching to Chrome from the background, immediately activate ultimate for 4 seconds."
+                    "description": "When switching to Chrome from the background, immediately activate Ultimate for 4 seconds."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
                     "description": "Ultimate's dash attack will decrease target's lightning resistance by 15%, lasts for 8 seconds."
                 }
@@ -2128,7 +2128,7 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Stand still and slash 4/4/8 times, each slash dealing 30/60/60(**60/120/120**)% physical damage.\nIce Mode: Create a moving tornado infront of yourself. The tornado deals X% ice damage 9 times while moving. The tornado deals Y% ice damage when it reaches its maximum range.",
+                    "description": "Stand still and slash 4/4/8 times, each slash dealing 30/60/60(**60/120/120**)% Physical Damage.\nIce Mode: Create a moving tornado infront of yourself. The tornado deals X% ice Damage 9 times while moving. The tornado deals Y% ice Damage when it reaches its Maximum range.",
                     "multipliers": {
                         "0": 15,
                         "1": 65
@@ -2136,7 +2136,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Quickly dash towards the enemies and slash them twice. Each slash deals X% physical damage.\nIce Mode: Jump and slam down towards the target, dealing damage twice. Each damage is Y% ice damage.",
+                    "description": "Quickly dash towards the enemies and slash them twice. Each slash deals X% Physical Damage.\nIce Mode: Jump and slam down towards the target, dealing Damage twice. Each Damage is Y% ice Damage.",
                     "multipliers": {
                         "0": 57.5,
                         "1": 75
@@ -2144,7 +2144,7 @@
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Spin in midair for several turns and follow up with a downward-cut. When spinning, each slash deals X% physical damage. The downward-cut deals Y% physical damage.\nIce Mode: Release a tornado that cuts the target 5 times. Each cut deals Z% ice damage. Deal another 40/80/120(**80/160/240**)% ice damage and pull the target towards you when pulling back the sword.",
+                    "description": "Spin in midair for several turns and follow up with a downward-cut. When spinning, each slash deals X% Physical Damage. The downward-cut deals Y% Physical Damage.\nIce Mode: Release a tornado that cuts the target 5 times. Each cut deals Z% ice Damage. Deal another 40/80/120(**80/160/240**)% ice Damage and pull the target towards you when pulling back the sword.",
                     "multipliers": {
                         "0": 15,
                         "1": 35,
@@ -2153,7 +2153,7 @@
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Basic Attack: Deal a total of A% physical damage.\nIce Mode: Switch to dual swords, deal a total of B% physical damage and C% ice damage.",
+                    "description": "Basic Attack: Deal a total of A% Physical Damage.\nIce Mode: Switch to dual swords, deal a total of B% Physical Damage and C% ice Damage.",
                     "special_multipliers": {
                         "0": 320,
                         "1": 155,
@@ -2162,11 +2162,11 @@
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Ultimate: Switch to Ice Mode. During the switch, you are immune to CC. If your energy is full when you switch, the orbs will be rearranged in 3 orbs format.\nIce Mode: Jump up and toss your booster into the ground, dealing 450/600/800/1520(**900/1200/1600/3040**)% ice damage, temporarily slowing the target and return to normal mode. Mode Switch: Can be used anytime during normal mode. Can be used in Ice mode when ultimate has 1 or more charge, after switching there will be a 3 second cooldown."
+                    "description": "Ultimate: Switch to Ice Mode. During the switch, you are immune to CC. If your energy is full when you switch, the orbs will be rearranged in 3 orbs format.\nIce Mode: Jump up and toss your booster into the ground, dealing 450/600/800/1520(**900/1200/1600/3040**)% ice Damage, temporarily slowing the target and return to normal mode. Mode Switch: Can be used anytime during normal mode. Can be used in Ice mode when Ultimate has 1 or more charge, after switching there will be a 3 second cooldown."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal a total of A% physical damage and B% ice damage",
+                    "description": "Deal a total of A% Physical Damage and B% ice Damage",
                     "special_multipliers": {
                         "0": 160,
                         "1": 160
@@ -2183,29 +2183,29 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Core Passive: In normal mode, every 3 orb increases your energy bar by 50% and add 1 stack to ultimate, up to 2 stacks.\nIce Mode: The energy bar will drain as time goes on. Increase ice damage by A% when the bar is present. Every 3 orb will add 1 stack to ultimate, up to 4 stacks. If the bar is present during ultimate, the ultimate will be buffed by the bar.",
+                    "description": "Core Passive: In normal mode, every 3 orb increases your energy bar by 50% and add 1 stack to Ultimate, up to 2 stacks.\nIce Mode: The energy bar will drain as time goes on. Increase ice Damage by A% when the bar is present. Every 3 orb will add 1 stack to Ultimate, up to 4 stacks. If the bar is present during Ultimate, the Ultimate will be buffed by the bar.",
                     "special_multipliers": {
                         "0": 25
                     }
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "10% ice damage increase. All assault type structure gain 5% more attack."
+                    "description": "10% ice Damage increase. All assault type structure gain 5% more attack."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "Target takes 10% more damage after it's hit by blue orb. This buff only applies to you."
+                    "description": "Target takes 10% more Damage after it's hit by blue orb. This buff only applies to you."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Gain max energy bar and 2 ultimate stacks at the start of the battle. If the energy bar is present when in ice mode, all skill orbs deal 5% more damage."
+                    "description": "Gain max energy bar and 2 Ultimate stacks at the start of the battle. If the energy bar is present when in ice mode, all skill orbs deal 5% more Damage."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "20% increase to ice damage during core passive."
+                    "description": "20% increase to ice Damage during core passive."
                 }
             }
         }
@@ -2229,56 +2229,56 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Spin and uppercut your target, dealing 150/300/450(**300/600/900**)% physical damage. Deal dark damage when it's a 3 orb combo.\nBerserker mode: Quickly slash twice, dealing a total of 260(**520**)% dark damage, follow up with a heavy strike that deals 260(**520**)% dark damage."
+                    "description": "Spin and uppercut your target, dealing 150/300/450(**300/600/900**)% Physical Damage. Deal dark Damage when it's a 3 orb combo.\nBerserker mode: Quickly slash twice, dealing a total of 260(**520**)% dark Damage, follow up with a heavy strike that deals 260(**520**)% dark Damage."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Slash towards your target 2 times, dealing 140/280/420(**280/560/840**)% physical damage. Deal dark damage when it's a 3 orb combo.\nBerserker mode: Smash towards your target, dealing 180(**360**)% dark damage, follow up with a spike attack, dealing 300(**600**)% dark damage."
+                    "description": "Slash towards your target 2 times, dealing 140/280/420(**280/560/840**)% Physical Damage. Deal dark Damage when it's a 3 orb combo.\nBerserker mode: Smash towards your target, dealing 180(**360**)% dark Damage, follow up with a spike attack, dealing 300(**600**)% dark Damage."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Cancel out any action or stagger, dealing 135/270/405(**270/540/810**)% AOE physical damage. Gain a shield based on 2.5/5/7.5(**5/10/15**)% of your max health, last for 5 seconds. Deal dark damage instead when it's a 3 orb combo.\nBerserker mode: Pull the target towards you, dealing damage twice for a total of 460(**920**)% dark damage."
+                    "description": "Cancel out any action or stagger, dealing 135/270/405(**270/540/810**)% AOE Physical Damage. Gain a shield based on 2.5/5/7.5(**5/10/15**)% of your max Health, last for 5 seconds. Deal dark Damage instead when it's a 3 orb combo.\nBerserker mode: Pull the target towards you, dealing Damage twice for a total of 460(**920**)% dark Damage."
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal a total of 400(**800**)% physical damage.\nBerserker mode: Deal a total of 620(**1240**)% dark damage."
+                    "description": "Deal a total of 400(**800**)% Physical Damage.\nBerserker mode: Deal a total of 620(**1240**)% dark Damage."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 80 energy to enter bersker mode and gain a dark bar. You are invincible during the switch. Immune to CC during Berserker mode. Dark damage is increased by 10(**20**)% and can only consume special red, yellow and blue orbs. You can only have 1 of each at the same time, consuming any of them will recover every 2 seconds, you can recover at max, 3 orbs. The dark bar will deplete in place of health drop when taking damage. The bar will not drain when time slow is active. Exit Berserker mode when the bar is depleted."
+                    "description": "Consume 80 energy to enter bersker mode and gain a dark bar. You are invincible during the switch. Immune to CC during Berserker mode. Dark Damage is increased by 10(**20**)% and can only consume special red, yellow and blue orbs. You can only have 1 of each at the same time, consuming any of them will recover every 2 seconds, you can recover at max, 3 orbs. The dark bar will deplete in place of Health drop when taking Damage. The bar will not drain when time slow is active. Exit Berserker mode when the bar is depleted."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Rush towards the enemy and deal a total of 320(**640**)% dark damage."
+                    "description": "Rush towards the enemy and deal a total of 320(**640**)% dark Damage."
                 }
             },
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Gain 10(**20**)% additional damage and a shield based on 10(**20**)% of your maximum health everytime you enter the stage, last for 10 seconds.\n(Switching in an out counts as an entrance to the stage)"
+                    "description": "Gain 10(**20**)% additional Damage and a shield based on 10(**20**)% of your Maximum Health everytime you enter the stage, last for 10 seconds.\n(Switching in an out counts as an entrance to the stage)"
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Any 3 orb combo in normal mode can gain up to 3 Berserker stacks. When max stack is achieved, any 3 orb combo will gain an additional 8 energy for ultimate. When entering Berserker mode, consume all the stacks. During Berserker mode, gain 3/6/10(**6/12/20**)% damage based on the stacks consumed."
+                    "description": "Any 3 orb combo in normal mode can gain up to 3 Berserker stacks. When max stack is achieved, any 3 orb combo will gain an additional 8 energy for Ultimate. When entering Berserker mode, consume all the stacks. During Berserker mode, gain 3/6/10(**6/12/20**)% Damage based on the stacks consumed."
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "10% dark damage increase. 5% damage increase to all Vanguard Compositors."
+                    "description": "10% dark Damage increase. 5% Damage increase to all Vanguard Compositors."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "10% additional damage increase when consuming yellow orbs, last for 8 seconds."
+                    "description": "10% additional Damage increase when consuming yellow orbs, last for 8 seconds."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "15% additional damage increase in Berserker mode. Gain 80 energy and 3 berserker stacks upon entering the stage."
+                    "description": "15% additional Damage increase in Berserker mode. Gain 80 energy and 3 berserker stacks upon entering the stage."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "20% damage increase to any 3 orb combo."
+                    "description": "20% Damage increase to any 3 orb combo."
                 }
             }
         }
@@ -2302,27 +2302,27 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Release a barrage of slashes, dealing 90/180/270(**180/360/540**)% physical damage. Deals dark damage when it's a 3 orb combo."
+                    "description": "Release a barrage of slashes, dealing 90/180/270(**180/360/540**)% Physical Damage. Deals dark Damage when it's a 3 orb combo."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Release a dark energy wave, dealing 50/100/150(**100/200/300**)% dark damage, follow up with a forward strike, dealing <> physical damage multiple times. Deal dark damage when it's a 3 orb combo."
+                    "description": "Release a dark energy wave, dealing 50/100/150(**100/200/300**)% dark Damage, follow up with a forward strike, dealing <> Physical Damage multiple times. Deal dark Damage when it's a 3 orb combo."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Release a slash that pushes you back slightly, dealing 50/100/150(**100/200/300**)% physical damage and marks the enemy that you hit first. Deal dark damage when it's a 3 orb combo. Marked enemies receive 10/20/30(**20/40/60**)% aoe dark damage per second and heals allies 3/6/9(**6/12/18**)% based on Vera's attack. The mark lasts for 5 seconds and only 1 mark can be present at the same time."
+                    "description": "Release a slash that pushes you back slightly, dealing 50/100/150(**100/200/300**)% Physical Damage and marks the enemy that you hit first. Deal dark Damage when it's a 3 orb combo. Marked enemies receive 10/20/30(**20/40/60**)% aoe dark Damage per second and heals allies 3/6/9(**6/12/18**)% based on Vera's attack. The mark lasts for 5 seconds and only 1 mark can be present at the same time."
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal 370(**740**)% physical damage."
+                    "description": "Deal 370(**740**)% Physical Damage."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy, release a dark force field and deal 160(**320**)% aoe dark damage. Dark force field deals 40(**80**)% dark damage every second and heals allies within it for 8%(**16**)% based on Vera's attack. Allies within the field also gain the effect of Dark Radiation and 10(**20**)% increased movement speed. The Dark Radiation lasts for 6 seconds and will always follows the character's movement."
+                    "description": "Consume 100 energy, release a dark force field and deal 160(**320**)% aoe dark Damage. Dark force field deals 40(**80**)% dark Damage every second and heals allies within it for 8%(**16**)% based on Vera's attack. Allies within the field also gain the effect of Dark Radiation and 10(**20**)% increased movement speed. The Dark Radiation lasts for 6 seconds and will always follows the character's movement."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal 200(**400**)% aoe dark damage. Heal allies within range by 50(**100**)% based on Vera's attack and inflict Dark Radiation for 5 seconds.\nDark Radiation: 10% increased dark damage."
+                    "description": "Deal 200(**400**)% aoe dark Damage. Heal allies within range by 50(**100**)% based on Vera's attack and inflict Dark Radiation for 5 seconds.\nDark Radiation: 10% increased dark Damage."
                 }
             },
             "passives": {
@@ -2332,24 +2332,24 @@
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Gain 3/7/12 overclock points for every orb you consume, you will also recover 2 points every second, maximum overclock point is 60. When there is enough overclock points, long press the attack button to release core passive attack, pressing it multiple times afterwards will release the remaining core passive attack, dealing 150/145/145/145/156(**300/290/290/290/312**)% (these are how much each slash deals, so there are 5 slashes total) aoe dark damage. Deal an additional 10/20/10/10/20(**20/40/20/20/40**)% physical damage to enemies nearby. Releasing core passive attack will consume 12 overclock points and gain 6 energy."
+                    "description": "Gain 3/7/12 overclock points for every orb you consume, you will also recover 2 points every second, Maximum overclock point is 60. When there is enough overclock points, long press the attack button to release core passive attack, pressing it multiple times afterwards will release the remaining core passive attack, dealing 150/145/145/145/156(**300/290/290/290/312**)% (these are how much each slash deals, so there are 5 slashes total) aoe dark Damage. Deal an additional 10/20/10/10/20(**20/40/20/20/40**)% Physical Damage to enemies nearby. Releasing core passive attack will consume 12 overclock points and gain 6 energy."
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "5% increased health and 5% increased healing to all teammates."
+                    "description": "5% increased Health and 5% increased healing to all teammates."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
                     "description": "5% increased attack everytime you release your core passive attack, lasts for 5 seconds, stacks up to 3 times."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Dark radiation's dark damage buff is increased to 20% "
+                    "description": "Dark radiation's dark Damage buff is increased to 20% "
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
                     "description": "Dark force field last for an additional 4 seconds."
                 }
@@ -2379,52 +2379,52 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Raise your shield and dash towards the enemy before attacking with your spear, dealing 110/220/330(**220/440/660**)% physical damage twice. Gain a shield based on 1.5/3/5(**3/6/10**)% of your maximum health, lasts for 5 seconds. Immune to CC when casting."
+                    "description": "Raise your shield and dash towards the enemy before attacking with your spear, dealing 110/220/330(**220/440/660**)% Physical Damage twice. Gain a shield based on 1.5/3/5(**3/6/10**)% of your Maximum Health, lasts for 5 seconds. Immune to CC when casting."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Toss your shield out to deal damage before withdrawing. The shield will also pull any enemies within its path towards you. Deal 110/220/330(**220/440/660**)% physical damage and inflict Spear of Insight on target, lasts for 8 seconds.\nSpear of Insight: 20% physical defense decrease"
+                    "description": "Toss your shield out to deal Damage before withdrawing. The shield will also pull any enemies within its path towards you. Deal 110/220/330(**220/440/660**)% Physical Damage and inflict Spear of Insight on target, lasts for 8 seconds.\nSpear of Insight: 20% Physical defense decrease"
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal a total of 475(**950**)% physical damage. Holding the attack button will charge your spear, depending on the period of charging, release a small/medium railgun, dealing 100/185(**200/370**)% physical damage. Take 30% less damage when charging."
+                    "description": "Deal a total of 475(**950**)% Physical Damage. Holding the attack button will charge your spear, depending on the period of charging, release a small/medium railgun, dealing 100/185(**200/370**)% Physical Damage. Take 30% less Damage when charging."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 80 energy. Fly towards the sky and release your ion cannon onto the ground. Enemies nearby will be attracted towards the zone when charging. Once the cannon is fully charged, an explosion will be created, dealing 1240(**2480**)% physical damage."
+                    "description": "Consume 80 energy. Fly towards the sky and release your ion cannon onto the ground. Enemies nearby will be attracted towards the zone when charging. Once the cannon is fully charged, an explosion will be created, dealing 1240(**2480**)% Physical Damage."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal a total of 360(**720**)% physical damage."
+                    "description": "Deal a total of 360(**720**)% Physical Damage."
                 }
             },
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Enemies take 10(**20**)% more damage when attacked by you, lasts for 5s"
+                    "description": "Enemies take 10(**20**)% more Damage when attacked by you, lasts for 5s"
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Rosetta has 3 energy points, any 3 orb combo will consume one of them and increase its damage by 100%. Consume maximum 2 energy points when releasing ultimate, gaining 40/80% damage increase. When all energy points is consumed, Rosetta enters full charge status. Holding your attack button will charge your railgun, at max it will release a wide area railgun, dealing 800(**1600**)% physical damage, recover 8 points of energy (for ultimate) and inflict Spear of Insight, lasting for 20 seconds. Damage resistance is increased to 90% when charging in full charge status. After 8 seconds of releasing a wide area railgun, recover 3 energy points."
+                    "description": "Rosetta has 3 energy points, any 3 orb combo will consume one of them and increase its Damage by 100%. Consume Maximum 2 energy points when releasing Ultimate, gaining 40/80% Damage increase. When all energy points is consumed, Rosetta enters full charge status. Holding your attack button will charge your railgun, at max it will release a wide area railgun, dealing 800(**1600**)% Physical Damage, recover 8 points of energy (for Ultimate) and inflict Spear of Insight, lasting for 20 seconds. Damage resistance is increased to 90% when charging in full charge status. After 8 seconds of releasing a wide area railgun, recover 3 energy points."
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "15% defense increase to all teammates, 5% damage increase for tanks."
+                    "description": "15% defense increase to all teammates, 5% Damage increase for tanks."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "QTE can trigger Spear of Insight, lasts for 8 seconds. After red orb has successfully hit a target, Blizzard deals 10% more damage to the target in the next 8 seconds."
+                    "description": "QTE can trigger Spear of Insight, lasts for 8 seconds. After red orb has successfully hit a target, Blizzard deals 10% more Damage to the target in the next 8 seconds."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
                     "description": "Spear of Insight effect gains an additional 20% defense reduction."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "20% damage increase to 3 orbs and ultimate."
+                    "description": "20% Damage increase to 3 orbs and Ultimate."
                 }
             }
         }
@@ -2448,56 +2448,56 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Jumps forward and clash down onto the ground, dealing 40/80/120(**80/160/240**)% physical damage. Clashing down on the ground creates a crack that deals 100/200/300(**200/400/600**)% physical damage to enemies that comes in contact with it. Immune to CC when casting."
+                    "description": "Jumps forward and clash down onto the ground, dealing 40/80/120(**80/160/240**)% Physical Damage. Clashing down on the ground creates a crack that deals 100/200/300(**200/400/600**)% Physical Damage to enemies that comes in contact with it. Immune to CC when casting."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Slashes 3 times when close to a target, dealing 135/270/405(**270/540/810**)% physical damage. When there is no nearby target or the target is afar, enter **sprint** state. When the sprint ends or the attack button is pressed during sprint state, slash the nearest target 3 times. The hint circle around Qu will change based on how close Qu is to the target. Immune to all CC when sprinting."
+                    "description": "Slashes 3 times when close to a target, dealing 135/270/405(**270/540/810**)% Physical Damage. When there is no nearby target or the target is afar, enter **sprint** state. When the sprint ends or the attack button is pressed during sprint state, slash the nearest target 3 times. The hint circle around Qu will change based on how close Qu is to the target. Immune to all CC when sprinting."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Swing your spear and do a sweep attack 2 times, dealing 130/260/390(**260/520/780**)% physical damage and gain anti-CC for 3 seconds. This skill will make you stationary for a brief period but it can be interrupted by the player."
+                    "description": "Swing your spear and do a sweep attack 2 times, dealing 130/260/390(**260/520/780**)% Physical Damage and gain anti-CC for 3 seconds. This skill will make you stationary for a brief period but it can be interrupted by the player."
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal a total of 375(**750**)% physical damage."
+                    "description": "Deal a total of 375(**750**)% Physical Damage."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 100 energy and summon **Peafowl**. Peafowl releases a shockwave upon summon, dealing 700(**1400**)% physical damage. Gain 60 sync points and enter Condensation state. Peafowl will continue to attack for the next 7 seconds, dealing a total of 1120(**2240**)% physical damage. Peafowl attacks the target locked on by Qu first. When Peafowl is on stage, ultimate cannot be casted."
+                    "description": "Consume 100 energy and summon **Peafowl**. Peafowl releases a shockwave upon summon, dealing 700(**1400**)% Physical Damage. Gain 60 sync points and enter Condensation state. Peafowl will continue to attack for the next 7 seconds, dealing a total of 1120(**2240**)% Physical Damage. Peafowl attacks the target locked on by Qu first. When Peafowl is on stage, Ultimate cannot be casted."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Flashes towards the sky and release 2 spear waves in quick succession, dealing a total of 320(**640**)% physical damage."
+                    "description": "Flashes towards the sky and release 2 spear waves in quick succession, dealing a total of 320(**640**)% Physical Damage."
                 }
             },
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Gain 10(**20**%) additional damage increase as well as a shield based on 10(**20**)% of your maximum health on every entrance to the stage (including switch in), lasts for 10 seconds."
+                    "description": "Gain 10(**20**%) additional Damage increase as well as a shield based on 10(**20**)% of your Maximum Health on every entrance to the stage (including switch in), lasts for 10 seconds."
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Gain 80% damage increase in catastrophe zones (applies to all Compositors). Gain 10 sync points for every orb you consume, up to 60. Once the sync bar is filled, it will empower your orbs and consuming any orb will enter Condensation state. Empowered orbs: can only be consumed **individually** but deals **3 orb damage** and has **Condensed Will Effect** it consumes 20 sync points and no energy gain. When in Condensed Will (Condensation) state, consume 5 sync points every ssecond, once depleted, exit Condensed Will state and cancel the effect of empowered orbs.\nRed Condensation: Clash the ground, dealing a total of 225(**450**)% physical damage.\nYellow Condensation: Release a shockwave in front of you, dealing 240(**480**)% physical damage.\nBlue Condensation: Release a whirlwind that follows you, dealing 240(**480**)% physical damage to nearby targets."
+                    "description": "Gain 80% Damage increase in catastrophe zones (applies to all Compositors). Gain 10 sync points for every orb you consume, up to 60. Once the sync bar is filled, it will empower your orbs and consuming any orb will enter Condensation state. Empowered orbs: can only be consumed **individually** but deals **3 orb Damage** and has **Condensed Will Effect** it consumes 20 sync points and no energy gain. When in Condensed Will (Condensation) state, consume 5 sync points every ssecond, once depleted, exit Condensed Will state and cancel the effect of empowered orbs.\nRed Condensation: Clash the ground, dealing a total of 225(**450**)% Physical Damage.\nYellow Condensation: Release a shockwave in front of you, dealing 240(**480**)% Physical Damage.\nBlue Condensation: Release a whirlwind that follows you, dealing 240(**480**)% Physical Damage to nearby targets."
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "10% physical damage increase, Vanguard Compositors gain an additional 5% attack increase."
+                    "description": "10% Physical Damage increase, Vanguard Compositors gain an additional 5% attack increase."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "10% additional damage to normal attacks. 5% additional damage to Condensed skills."
+                    "description": "10% additional Damage to normal attacks. 5% additional Damage to Condensed skills."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "When you first enter the stage, gain 100 energy. 10% physical damage increase after releasing ultimate, lasts for 8 seconds."
+                    "description": "When you first enter the stage, gain 100 energy. 10% Physical Damage increase after releasing Ultimate, lasts for 8 seconds."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "25% increase in damage dealt by Peafowl."
+                    "description": "25% increase in Damage dealt by Peafowl."
                 }
             }
         }
@@ -2521,56 +2521,56 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Does a quick attack towards the front, dealing 100/200/200(**200/400/400**)% physical damage. When it's a 3 orb combo, after the double quick attack, charges for a brief period and does a heavy strike towards the front, dealing 200(**400**)% ice damage and slows the enemy down."
+                    "description": "Does a quick attack towards the front, dealing 100/200/200(**200/400/400**)% Physical Damage. When it's a 3 orb combo, after the double quick attack, charges for a brief period and does a heavy strike towards the front, dealing 200(**400**)% ice Damage and slows the enemy down."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Flashes towards the target's position, once reached, an upper kick is dealt, knocking back the target. Deals 110/220/330(**220/440/660**)% physical damage. When it's a 3 orb combo, deal ice damage instead of physical."
+                    "description": "Flashes towards the target's position, once reached, an upper kick is dealt, knocking back the target. Deals 110/220/330(**220/440/660**)% Physical Damage. When it's a 3 orb combo, deal ice Damage instead of Physical."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Smashes the ground, dealing 50/75/100(**100/150/200**)% physical damage to enemies within a radius of 4 meters. When it's a 3 orb combo, ice damage is dealt instead. An **ice mirror** will form after smashing the ground, lasting 4/6/8 seconds. Enemies within the mirror has 30% reduced movement speed and 5% reduced ice resistance, lasting for 8 seconds. (The debuff will refresh if the enemies keeps staying within the mirror). Only one **ice mirror** can exist on the field at the same time."
+                    "description": "Smashes the ground, dealing 50/75/100(**100/150/200**)% Physical Damage to enemies within a radius of 4 meters. When it's a 3 orb combo, ice Damage is dealt instead. An **ice mirror** will form after smashing the ground, lasting 4/6/8 seconds. Enemies within the mirror has 30% reduced movement speed and 5% reduced ice resistance, lasting for 8 seconds. (The debuff will refresh if the enemies keeps staying within the mirror). Only one **ice mirror** can exist on the field at the same time."
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deals a total of 160(**320**)% physical damage and 405(**810**)% ice damage."
+                    "description": "Deals a total of 160(**320**)% Physical Damage and 405(**810**)% ice Damage."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "When energy reaches 60, **Shapeless Form** can be entered. The instance it is entered, eliminate every single orb except chase ball. Every orb eliminated recovers 5 energy. Chase ball will be up permanently during the mod, 20% increase to ice damage and defense, no orb can be gained during the mode. Pressing on ultimate again will consume 60 energy, chase ball returns grey, return 4 random orbs and exit **Shapeless form**. Within Shapeless form, pressing chase ball once, consumes 15 energy and releases **Hadouken** dealing 180(**360**)% ice damage. Pressing chase ball after the 3rd and 4th combo of your normal attack will release **ORAORA**, dealing consecutive punches, each punch consuming 7/7/7/7/10 energy, dealing 490(**980**)% ice damage. Anti-CC when releasing **ORAORA**. Triggering slowmo or a successful dodge during **Shapeless form** will recover 100 dodge meter and 20% ice damage increase within slowmo. Normal attack starts at the 4th combo after **Hadouken** and dodge."
+                    "description": "When energy reaches 60, **Shapeless Form** can be entered. The instance it is entered, eliminate every single orb except chase ball. Every orb eliminated recovers 5 energy. Chase ball will be up permanently during the mod, 20% increase to ice Damage and defense, no orb can be gained during the mode. Pressing on Ultimate again will consume 60 energy, chase ball returns grey, return 4 random orbs and exit **Shapeless form**. Within Shapeless form, pressing chase ball once, consumes 15 energy and releases **Hadouken** dealing 180(**360**)% ice Damage. Pressing chase ball after the 3rd and 4th combo of your normal attack will release **ORAORA**, dealing consecutive punches, each punch consuming 7/7/7/7/10 energy, dealing 490(**980**)% ice Damage. Anti-CC when releasing **ORAORA**. Triggering slowmo or a successful dodge during **Shapeless form** will recover 100 dodge meter and 20% ice Damage increase within slowmo. normal attack starts at the 4th combo after **Hadouken** and dodge."
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Smashes down on the target from above, dealing a total of 250(**500**)% ice damage and reduce their movement speed briefly."
+                    "description": "Smashes down on the target from above, dealing a total of 250(**500**)% ice Damage and reduce their movement speed briefly."
                 }
             },
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "Reduce target's additional damage resistance by 10(**20**)% when attacking, lasts for 5 seconds."
+                    "description": "Reduce target's additional Damage resistance by 10(**20**)% when attacking, lasts for 5 seconds."
                 },
                 "1": {
                     "name": "Core",
-                    "description": "Gain a chase ball on entrance. Chase ball will be in grey mode by default (Cannot be pressed, cannot be consumed). When there's a 3 orb combo, the ball will light up and can be pressed. According to the color of 3 orb consumed, different chain combos will be released.\n**Red Chain**: Attacks with a hook, dealing 250(**500**)% ice damage, after a red chain, normal attack will start at the 4th combo.\n**Blue Chain**: Protrudes an ice pillar, dealing 150(**300**)% AOE ice damage, slowing the enemy down briefly and leaving an **ice mirror** that lasts for 8 seconds.\n**Yellow Chain**: Step backwards and condenses crushed ice that attracts nearby enemies, the crushed ice will break apart at the end, dealing 200(**400**)% ice damage."
+                    "description": "Gain a chase ball on entrance. Chase ball will be in grey mode by default (Cannot be pressed, cannot be consumed). When there's a 3 orb combo, the ball will light up and can be pressed. According to the color of 3 orb consumed, different chain combos will be released.\n**Red Chain**: Attacks with a hook, dealing 250(**500**)% ice Damage, after a red chain, normal attack will start at the 4th combo.\n**Blue Chain**: Protrudes an ice pillar, dealing 150(**300**)% AOE ice Damage, slowing the enemy down briefly and leaving an **ice mirror** that lasts for 8 seconds.\n**Yellow Chain**: Step backwards and condenses crushed ice that attracts nearby enemies, the crushed ice will break apart at the end, dealing 200(**400**)% ice Damage."
                 },
                 "2": {
                     "name": "Leader",
                     "description": "15% defense increase to all teammates."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "15% ice damage and defense increase during Shapeless form."
+                    "description": "15% ice Damage and defense increase during Shapeless form."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "Increases ice resistance down debuff to 10% for enemies within an ice mirror. Gain 10% ice damage increase after releasing blue orb, lasting 4/6/8 seconds."
+                    "description": "Increases ice resistance down debuff to 10% for enemies within an ice mirror. Gain 10% ice Damage increase after releasing blue orb, lasting 4/6/8 seconds."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Chain combos and ORAORA now reduces target's ice resistance by 5%, lasts for 8 seconds. After chain combos and ORAORA hits a target, Chang Yu gains 20% ice damage increase, lasts for 8 seconds."
+                    "description": "Chain combos and ORAORA now reduces target's ice resistance by 5%, lasts for 8 seconds. After chain combos and ORAORA hits a target, Chang Yu gains 20% ice Damage increase, lasts for 8 seconds."
                 }
             }
         }
@@ -2594,56 +2594,348 @@
             "active": {
                 "0": {
                     "name": "Red",
-                    "description": "Unleash the spheres forward, performing a scattered attack, dealing 120/240/360(**240/480/720**)% physical damage. Deal dark damage instead when it’s a 3 orb combo. Immune to CC while performing the skill."
+                    "description": "Unleash the spheres forward, performing a scattered attack, dealing 120/240/360(**240/480/720**)% Physical Damage. Deal dark Damage instead when it’s a 3 orb combo. Immune to CC while performing the skill."
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Redirect the flow of energy and releasing up to 4 spikes at the nearest target, dealing 110/220/330(**220/440/660**)% physical damage. Deal dark damage instead when it's a 3 orb combo. You are allowed to move when casting and are immune to CC."
+                    "description": "Redirect the flow of energy and releasing up to 4 spikes at the nearest target, dealing 110/220/330(**220/440/660**)% Physical Damage. Deal dark Damage instead when it's a 3 orb combo. You are allowed to move when casting and are immune to CC."
                 },
                 "2": {
                     "name": "Blue",
-                    "description": "Unleash a virus network field that lasts for 3s, dealing X% physical damage. Deal dark damage instead when it’s a 3 orb. Upon unleashing, the field will follow nearby enemies that are present in the area, otherwise it follows Luna instead. Retain the ability to move while performing the skill."
+                    "description": "Unleash a virus network field that lasts for 3s, dealing X% Physical Damage. Deal dark Damage instead when it’s a 3 orb. Upon unleashing, the field will follow nearby enemies that are present in the area, otherwise it follows Luna instead. Retain the ability to move while performing the skill."
                 },
                 "3": {
                     "name": "Basic",
-                    "description": "Deal a total of 235(**470**)% physical damage. In **Annihilation** mode, deal a total of 475(**950**)% dark damage and deal 150(**300**)% dark damage after dodge. Energy and　orbs will not be gained when performing basic attacks in **Annihilation** mode."
+                    "description": "Deal a total of 235(**470**)% Physical Damage. In **Annihilation** mode, deal a total of 475(**950**)% dark Damage and deal 150(**300**)% dark Damage after dodge. Energy and　orbs will not be gained when performing basic attacks in **Annihilation** mode."
                 },
                 "4": {
                     "name": "Ultimate",
-                    "description": "Consume 150 energy and gradually alter the gravity in front of Luna, dealing 1400(**2800**) dark damage to all enemies within the area. Releasing ultimate during **Annihilation** mode will consume all Annihilation gauge and exit **Annihilation mode**"
+                    "description": "Consume 150 energy and gradually alter the gravity in front of Luna, dealing 1400(**2800**) dark Damage to all enemies within the area. Releasing Ultimate during **Annihilation** mode will consume all Annihilation gauge and exit **Annihilation mode**"
                 },
                 "5": {
                     "name": "QTE",
-                    "description": "Deal a total of 320(**640**)% dark damage."
+                    "description": "Deal a total of 320(**640**)% dark Damage."
                 }
             },
             "passives": {
                 "0": {
                     "name": "Class-specific Passive",
-                    "description": "10(**20**)% increased additional damage."
+                    "description": "10(**20**)% increased additional Damage."
                 },
                 "1": {
                     "name": "Core",
-                    "description": "3-orb combos grant 15 Annihilation points, up to a maximum of 60 points. 3-orb combos also allow the next orb consumed to be considered as a 3-orb combo. Other sources of slowmo effect will be prioritized first before the core passive. With at least 15 Annihilation points available, press and hold the basic attack button to enter **Annihilation mode**, dealing 100 (**200**) dark damage to nearby enemies. All remaining orbs will be temporarily replaced by a maximum of 4 Annihilation orbs based on the Annihilation points upon unleashing the core passive. Gain invincibility while unleashing as well as trigger all available QTEs. Consuming an Annihilation orb unleashes 4 homing spikes, dealing a total of 200(**400**)% dark damage and gain 10 energy. Gain an additional Annihilation orb if slowmo is triggered during **Annihilation mode**. Basic attacks consume 5 Annihilation points. **Annihilation mode** ends when the gauge reaches 0 or when the character has been switched out."
+                    "description": "3-orb combos grant 15 Annihilation points, up to a Maximum of 60 points. 3-orb combos also allow the next orb consumed to be considered as a 3-orb combo. Other sources of slowmo effect will be prioritized first before the core passive. With at least 15 Annihilation points available, press and hold the basic attack button to enter **Annihilation mode**, dealing 100 (**200**) dark Damage to nearby enemies. All remaining orbs will be temporarily replaced by a Maximum of 4 Annihilation orbs based on the Annihilation points upon unleashing the core passive. Gain invincibility while unleashing as well as trigger all available QTEs. Consuming an Annihilation orb unleashes 4 homing spikes, dealing a total of 200(**400**)% dark Damage and gain 10 energy. Gain an additional Annihilation orb if slowmo is triggered during **Annihilation mode**. Basic attacks consume 5 Annihilation points. **Annihilation mode** ends when the gauge reaches 0 or when the character has been switched out."
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "**10**% dark damage increase to all teammates, **5**% attack increase to assault types."
+                    "description": "**10**% dark Damage increase to all teammates, **5**% attack increase to assault types."
                 },
                 "3": {
-                    "name": "Passive 1",
+                    "name": "SS Passive",
                     "rank": "SS",
-                    "description": "**5**% damage increase to homing spikes and release 2 additional homing spikes per Annihilation orb."
+                    "description": "**5**% Damage increase to homing spikes and release 2 additional homing spikes per Annihilation orb."
                 },
                 "4": {
-                    "name": "Passive 2",
+                    "name": "SSS Passive",
                     "rank": "SSS",
-                    "description": "**5**% dark damage increase in Annihilation mode. After you exit **Annihilation mode**, the damage buff will persist for 4 seconds. When entering **Annihilation mode** with a full Annihilation gauge, trigger slowmo, 12 seconds cooldown."
+                    "description": "**5**% dark Damage increase in Annihilation mode. After you exit **Annihilation mode**, the Damage buff will persist for 4 seconds. When entering **Annihilation mode** with a full Annihilation gauge, trigger slowmo, 12 seconds cooldown."
                 },
                 "5": {
-                    "name": "Passive 3",
+                    "name": "SSS+ Passive",
                     "rank": "SSS+",
-                    "description": "Increase ultimate damage by **15/30/40/60/75**% based on the number of Annihilation orbs consumed."
+                    "description": "Increase Ultimate Damage by **15/30/40/60/75**% based on the number of Annihilation orbs consumed."
+                }
+            }
+        }
+    }, 
+    "28": {
+        "name": "A2",
+        "code_name": "",
+        "code_name_CN": "",
+        "class": "Tank",
+        "rarity": "S",
+        "base_HP": 440,
+        "base_ATK": 88,
+        "base_DEF": 66,
+        "base_CRIT": 43,
+        "max_HP": 1973,
+        "max_ATK": 364,
+        "max_DEF": 295,
+        "max_CRIT": 193,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Attack forward multiple times, dealing **200%**/**400%**/**600%** Physical Damage. After a 3 orb combo, empower your next normal attack within 4 seconds, dealing a total of **300%** Physical Damage, gain **3%** of **POD:Shield** based on your Maximum Health and knockdown enemies within a small area."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Attack forward multiple times, dealing **200%**/**400%**/**600%** Physical Damage."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Create a gravity zone in front of you with the auxiliary machine, dealing **150%**/**300%**/**450%** Physical Damage. The zone will constantly attract enemies within the zone for **2**/**2.5**/**3** seconds (enemies outside the zone will be attracted with a slower speed and no damage will be dealt)."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Attack forward dealing a total of 760% Physical Damage. After each hit of the basic attack gain **POD:Shield** based on **1%** of your Maximum Health."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Once your **POD:Shield** is filled, you can enable **Berserker Mode**. A2 takes **60%** Reduced Additional Damage, gains Increased Movement Speed, and gains **30%** Additional Damage Increase. During **Berserker Mode**, Normal Attack Rate is increased, consuming orbs will trigger an electric shock that deals an additional **150%** Physical Damage. A2 loses **4%** of her Maximum Health every second (If **POD: Shield** exists, it will be consumed first). **Berserker Mode** can be toggled manually, or will be automatically turned off when A2's Maximum Health reaches below **60%**. **Berserker Mode** cannot be re-enabled for **10** seconds after exiting. If A2 is switched during **Berserker Mode**, the **POD: Shield** will be consumed in the background until it depletes. Once the **POD: Shield** is depleted in the background, A2 will exit **Berserker Mode**."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Continuously attack, causing a total of **600%** Physical Damage. {**7** hits in total, A2 remains on the field for **3** seconds}."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Attacks reduce Target's Additional Damage Reduction by **20%**."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "3 orb combos grants A2 with **POD: Shield** based off **5%** of her Maximum Health (stacks up to **30%** of her Maximum Health) and summons an auxiliary machine that will fire **6** homing missiles to random targets in front of her, dealing a total of **140%** Physical Damage and each successful missile strike on the enemy will grant A2 **POD: Shield** equivalent to 3% of her Maximum Health. The missiles will inflict a **5** second **Taunt** (**20%** Defense Reduction, the effect is doubled when 9S and 2B is present in the team). Holding your dodge button while moving will give A2 a Dash Boost for up to 2 seconds. The first second of Dash Boost will grant A2 **POD: Shield** up to **10%** of her Maximum Health. A2's dodge meter does not recover while dashing, but the constant electric stream around her body will **constantly attract nearby enemies** {does not deal damage}."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "9S, A2 and 2B's Physical Damage Increases by **8%**, Dodge Bar Limit Increased by **200** {One extra dodge}."
+                },
+                "3": {
+                    "name": "SS Passive",
+                    "rank": "SS",
+                    "description": "A2 gains **50% POD: Shield** meter whenever she enters the field. During **Berserker Mode**, your auxiliary machine will automatically release a bombardment of homing missiles every 4 seconds. If A2 leaves the stage while in **Berserker Mode**, and if 2B and 9s are present in the team, the next character on stage will have **10%** Physical Damage Increase until A2 exits **Berserker Mode**."
+                },
+                "4": {
+                    "name": "SSS Passive",
+                    "rank": "SSS",
+                    "description": "Enemies attracted into the gravity zone created by Blue Orb will have **70%** Less Additional Damage Buff. Homing missiles launched by the auxillary machine deals **100%** more damage and has a **40%** effectiveness increase to **Taunt** {Tracking Missiles now do 240%, 40% Taunt Defense Reduction added to Base Value}."
+                },
+                "5": {
+                    "name": "SSS+ Passive",
+                    "rank": "SSS+",
+                    "description": "**Berserker Mode** will now automatically turn off when A2's Maximum Health reaches below **30%** {Originally 60%, off-field shield condition is the same}. When **POD: Shield** is present while A2 is in **Berserker Mode**, her Ultimate cost is reduced by **2.5%** of her Maximum Health every second {4% >1.5%, does apply for off-field shield consumption), as-well-as gain a **10%** Additional Damage Increase}."
+                }
+            }
+        }
+    }, 
+    "29": {
+        "name": "9S",
+        "code_name": "",
+        "code_name_CN": "",
+        "class": "Healer",
+        "rarity": "S",
+        "base_HP": 440,
+        "base_ATK": 82,
+        "base_DEF": 64,
+        "base_CRIT": 40,
+        "max_HP": 1973,
+        "max_ATK": 364,
+        "max_DEF": 287,
+        "max_CRIT": 176,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Release lasers in a straight line using the auxiliary machine, dealing **200%**/**400%**/**600%** Physical Damage."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Create a circular slow area in front of you using an auxiliary machine, dealing **190%**/**380%**/**570%** Physical Damage and stops enemies within the area for **0.6**/**1.2**/**2.4** seconds."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Release an electric wave using an auxiliary machine, dealing **180%**/**360%**/**540%** Physical Damage to enemies who come in contact with the expanding electric wave. Allies who come in contact with the wave will be healed **40%**/**80%**/**120%** of 9S' attack stat."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of **860%** Physical Damage. Enter dash mode after dodging, pressing normal attack during dash will release sprint attack, dealing **240%** Physical Damage. Normal attacks will not recover orbs for 9S. Gain 1 random orb every 3 seconds. {9S does not regenerate orbs in the background like other units, this is a separate passive}."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 80 Ultimate Energy to hack into a target, once you successfully hack into the target, the hacking ends, and **2600%** Physical Damage is dealt to the target."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Hack into an ally on stage and heal them a total of **100%** of 9S' attack stat {**17** 'hits in total', 9S remains on the field for **3.5** seconds}."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "**20%** Healing Effectiveness Increase."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Gain 100 **Overload Energy** at the start of the stage. Whenever you do a 3 orb combo, if your **Overload Energy** is greater than 50, you will consume 50 **Overload Energy** and gain a respective colored **Overload Indicator** at the far right of your orb panel (only 1 can exist at any given time). You can recover 20 **Overload Energy** every second (up to 100.) Tapping on the **Overload Indicator** will clear out all the orbs that have the same color and summon a POD Auxiliary Machine to release multiple bullets, dealing **100%**/**200%**/**300%** Physical Damage (orbs cleared by *Overload Indicator** does not count as a normal orb consume). If the orbs cleared by **Overload Indicator** is greater than 3, you will gain back the excess orbs, orbs gained are random. When 9S is switched, the cooldown of switching back to him is decreased based on how many times an **Overload Indicator** is activated (each release decreases 1 second, up to 4 seconds)."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "2B, 9S, and A2 gain **8%** Physical Damage Increase. **10%** Increase in Additional Damage Reduction."
+                },
+                "3": {
+                    "name": "SS Passive",
+                    "rank": "SS",
+                    "description": "The limit on the amount of **Overload Indicators** increases by 1. Gain 1 **Overload Indicator** whenever you enter the stage through switching. QTE and Blue Orbs add **Electron Medicine** to 2B and A2. **Electron Medicine**: **10%** Physical Damage Increase, lasts for **8** seconds."
+                },
+                "4": {
+                    "name": "SSS Passive",
+                    "rank": "SSS",
+                    "description": "Recovery time for orbs is reduced to **2** seconds, 9S can recover orbs in the background {9S random orb gain 3 > 2 seconds, the background gain is separate of the SSS orb gain}. **50%** Damage Increase on **Overload Indicator** {Ultimate}, effectiveness on **Electron Medicine** changes to **20%** and it lasts 12 seconds now {from 8 seconds}."
+                },
+                "5": {
+                    "name": "SSS+ Passive",
+                    "rank": "SSS+",
+                    "description": "After releasing **Overload Indicator**,  gain **0.3** seconds of Invincibility, and **10%** Physical Damage Increase, which lasts for **5** seconds (Increases to **20%** if A2 and 2B is present in the team)."
+                }
+            }
+        }
+    }, 
+    "30": {
+        "name": "2B",
+        "code_name": "",
+        "code_name_CN": "",
+        "class": "Attacker",
+        "rarity": "S",
+        "base_HP": 427,
+        "base_ATK": 89,
+        "base_DEF": 64,
+        "base_CRIT": 45,
+        "max_HP": 1915,
+        "max_ATK": 402,
+        "max_DEF": 287,
+        "max_CRIT": 201,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Slash forward using both your light and heavy sword, dealing **220%**/**440%**/**660%** Physical Damage. Gain Super Armor when casting."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Propel yourself forward while spinning your katana around you, dealing 200%/400%/600% Physical Damage and attracting nearby enemies. Enemies hit by Yellow Orb will be inflicted with **Withdraw**. **Withdraw** Reduces Target's Attack by **60%** for **12** seconds. Super Armor when casting, and the direction can be controlled depending on the direction of your movement."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Release an illusion with your support machine, dealing **140%**/**280%**/**420%** Physical Damage. Gain Super Armor when casting."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of **840%** Physical Damage. Enter rush mode after dodging. Pressing the attack button during rush mode will release a forward stab, dealing **290%** Physical Damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 80 Ultimate Energy, charge your greatsword and attack forward, dealing a total of **800% Physical Damage**. After the last hit of the Ultimate, release a 2 stage attack, slashing forward with your greatsword, dealing an additional **1800%** Physical Damage."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Attacks continuously with a large sword, dealing **640%** Physical Damage {**8** hits in total', 2B remains on the field for **4** seconds}"
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "20% Additional Damage Increase."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "After a 3 Yellow Orb combo, any 3 orb combo following it will gain you **160 Stance Stability** points. **20** points are deducted every second, triggering it again will not refresh its duration. When **Stance Stability** points are present, enter **Battle Stance**. Within this mode, your Normal Attacks, Red Orbs, and Yellow Orbs will all have an additional **Sword Wave**, each **Sword Wave** deals **70%** Physical Damage, Blue orbs will be able to cancel out your current attack stagger. Any **2**/**3** Red Orb combo within **Battle Stance** will add **1**/**2** stacks of **Data Repair**, lasting **8** seconds, **3** stacks at max. Each stack grants a **2%** Physical Damage increase (if 9S or A2 is present within the team, **4%** increase). All **Data Repair** stacks will be removed after exiting **Battle Stance**. Ultimate and triggering **Data Repair** again will refresh **Data Repair's** stack duration. **Stance Stability** isn't consumed during Ultimate."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "**8%** Physical Damage Increase to 2B, 9S, and A2. Gain **25** Ultimate Energy upon first entrance into the stage."
+                },
+                "3": {
+                    "name": "SS Passive",
+                    "rank": "SS",
+                    "description": "After 9S, 2B or A2 releases Ultimate, 9S and A2's Critical Chance is increased by **10%**, 2B's is increased by **25%**, last for **12** seconds."
+                },
+                "4": {
+                    "name": "SSS Passive",
+                    "rank": "SSS",
+                    "description": "**50%** Damage Increase to Sword Waves. When casting Ultimate, all Yellow Orbs will be consumed as a charge for your sword and will be randomly converted into the other colors. Whenever a Sword Wave hits an enemy, 9S and 2B gains **5** Ultimate Energy, A2 recovers **1%** POD:Shield based on her Maximum Health, which has a **1.5** second cooldown. Data Repair stacks Increase Physical Damage by **4%** per stack (if 9S and A2 are present in the team, 8% increase)."
+                },
+                "5": {
+                    "name": "SSS+ Passive",
+                    "rank": "SSS+",
+                    "description": "**30% Additional Damage Reduction** when casting skills, gain **0.3** seconds of invincibility when casting **Blue Orb**. **10%** Physical Damage Increase in **Battle Stance** (if 9S and A2 is present in the team, **20%** increase)."
+                }
+            }
+        }
+    }, 
+    "31": {
+        "name": "Selena",
+        "code_name": "Tempest",
+        "code_name_CN": "岚音",
+        "class": "Vanguard",
+        "rarity": "S",
+        "base_HP": 427,
+        "base_ATK": 94,
+        "base_DEF": 62,
+        "base_CRIT": 195,
+        "max_HP": 1915,
+        "max_ATK": 421,
+        "max_DEF": 281,
+        "max_CRIT": 195,
+        "translator": "182150992408739840",
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Jump and insert your violin blade into the ground, summoning lightning upon your target, dealing a total of **240%**/**480%**/**720%** Lightning Damage."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Strike forward and throw out your bow, dealing **240%**/**480%**/**720%** Lightning Damage. Gain Super Armor during the cast."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Swirl around and step-back, creating a lightning vortex, dealing a total of **240%**/**480%**/**720%** Lightning Damage and attract enemies."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Attack consecutively with your violin blade, dealing a total of **852%** Physical Damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "While you have **Temperament meter** {1 stack or more}, consume 60 Ultimate Energy and switch your Sea of Consciousness into Chaos Mode, if **Solo's** effect is present, the duration is refreshed. Gain corresponding **Staccato** orbs depending on your **Temperament meter**, **30%** Movement Speed Increase, and take **50%** Less Additional Damage from enemies, which lasts for 6 seconds. Release sound waves when normal attacking or directly consuming a **Staccato** orb, dealing damage twice for a total of **650%** Lightning Damage. Your Sea of Consciousness exits Chaos Mode when all **Staccato** orbs have been consumed or the duration of Chaos Mode ends."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Swiftly slashes your target with your blade, dealing a total of **640%** Lightning Damage {**1** hit in total, Selena remains on the field for **1** second}."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Whenever you enter the field, gain a **20%** Additional Damage Increase and a Shield based on **20%** of your Maximum Health, both last for 10 seconds."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "80% Damage Increase when used in Catastrophe Zones. Gain the corresponding **Triad** color when you do a 3 orb combo, the next orb combo consumed will trigger **Chord**. When the color of the orb is the same as **Triad**, inflict **Concerto** onto the target: deals **200%** Lightning Damage and reduce Target's Additional Damage Bonus by **30%**, which lasts for 8 seconds. When the color isn't the same as **Triad**, apply **Solo** onto yourself: **20%** Additional Damage Increase, which lasts for 8 seconds. When triggering **Chord**, gain the corresponding amount of **Temperament meter** based on how much orb is consumed to trigger it."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "**10%** Lightning Damage Increase to the team, **5%** Damage Increase to Compositors."
+                },
+                "3": {
+                    "name": "SS Passive",
+                    "rank": "SS",
+                    "description": "**10%** Lightning Damage Increase. **Concerto** is now applied to every target within 12 meters of your radius {Only applied to 1 Target previously}.*"
+                },
+                "4": {
+                    "name": "SSS Passive",
+                    "rank": "SSS",
+                    "description": "**Chord** now triggers both **Concerto** and **Solo** effects. **Solo** gains a **20%** Additional Damage Increase, **Concerto** deals **50%** more damage { 20% > 40% Additional Damage Increase}."
+                },
+                "5": {
+                    "name": "SSS+ Passive",
+                    "rank": "SSS+",
+                    "description": "**10%** Lightning Damage Increase. **20%** Ultimate Damage Increase"
                 }
             }
         }

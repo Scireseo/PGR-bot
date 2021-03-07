@@ -52,7 +52,7 @@
         "base_CRIT": 25,
         "max_ATK": 445,
         "max_CRIT": 254,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "5": {
         "name": "Wolf Eater",
@@ -63,7 +63,7 @@
         "base_CRIT": 25,
         "max_ATK": 458,
         "max_CRIT": 249,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "6": {
         "name": "God Giver",
@@ -74,7 +74,7 @@
         "base_CRIT": 24,
         "max_ATK": 423,
         "max_CRIT": 245,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "7": {
         "name": "Sky Wind Dragon",
@@ -85,7 +85,7 @@
         "base_CRIT": 25,
         "max_ATK": 406,
         "max_CRIT": 253,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "8": {
         "name": "Type Zero",
@@ -96,7 +96,7 @@
         "base_CRIT": 25,
         "max_ATK": 415,
         "max_CRIT": 249,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "9": {
         "name": "Ramiel",
@@ -107,7 +107,7 @@
         "base_CRIT": 25,
         "max_ATK": 471,
         "max_CRIT": 254,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "10": {
         "name": "Chimera - Break",
@@ -118,7 +118,7 @@
         "base_CRIT": 23,
         "max_ATK": 425,
         "max_CRIT": 235,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "11": {
         "name": "Verve",
@@ -129,7 +129,7 @@
         "base_CRIT": 22,
         "max_ATK": 436,
         "max_CRIT": 230,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "12": {
         "name": "Big Kamui",
@@ -140,7 +140,7 @@
         "base_CRIT": 22,
         "max_ATK": 436,
         "max_CRIT": 230,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "13": {
         "name": "Pitch Black",
@@ -151,7 +151,7 @@
         "base_CRIT": 23,
         "max_ATK": 425,
         "max_CRIT": 235,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "14": {
         "name": "Frenzy Fusion Cannon",
@@ -162,7 +162,7 @@
         "base_CRIT": 25,
         "max_ATK": 458,
         "max_CRIT": 249,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "15": {
         "name": "Nuclear Dragon",
@@ -173,7 +173,7 @@
         "base_CRIT": 25,
         "max_ATK": 450,
         "max_CRIT": 253,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "16": {
         "name": "Soul Slayer",
@@ -184,7 +184,7 @@
         "base_CRIT": 26,
         "max_ATK": 458,
         "max_CRIT": 261,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "17": {
         "name": "Kuji No Ken",
@@ -195,7 +195,7 @@
         "base_CRIT": 20,
         "max_ATK": 354,
         "max_CRIT": 186,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "18": {
         "name": "Shadow Violet",
@@ -206,7 +206,7 @@
         "base_CRIT": 22,
         "max_ATK": 372,
         "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "19": {
         "name": "Guardian Mount",
@@ -217,7 +217,7 @@
         "base_CRIT": 22,
         "max_ATK": 336,
         "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "20": {
         "name": "Saker E-3320",
@@ -228,7 +228,7 @@
         "base_CRIT": 23,
         "max_ATK": 382,
         "max_CRIT": 206,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "21": {
         "name": "Tourmaline Fire",
@@ -239,7 +239,7 @@
         "base_CRIT": 20,
         "max_ATK": 345,
         "max_CRIT": 190,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "22": {
         "name": "Star Of Bethlehem",
@@ -250,7 +250,7 @@
         "base_CRIT": 20,
         "max_ATK": 345,
         "max_CRIT": 190,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "23": {
         "name": "Accel Greatsword",
@@ -261,7 +261,7 @@
         "base_CRIT": 20,
         "max_ATK": 354,
         "max_CRIT": 186,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "24": {
         "name": "Pillar Of Lava",
@@ -272,7 +272,7 @@
         "base_CRIT": 22,
         "max_ATK": 372,
         "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "25": {
         "name": "Heartstone",
@@ -283,7 +283,7 @@
         "base_CRIT": 23,
         "max_ATK": 372,
         "max_CRIT": 209,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "26": {
         "name": "Red Fireworks",
@@ -294,7 +294,7 @@
         "base_CRIT": 22,
         "max_ATK": 365,
         "max_CRIT": 205,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "27": {
         "name": "Lantern Night",
@@ -305,7 +305,7 @@
         "base_CRIT": 23,
         "max_ATK": 368,
         "max_CRIT": 213,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "28": {
         "name": "Faded",
@@ -316,7 +316,7 @@
         "base_CRIT": 22,
         "max_ATK": 345,
         "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "translator": "182150992408739840"
     },
     "29": {
         "name": "Violet Wu",
@@ -479,6 +479,61 @@
         "effect": "Passive 1: 15% dark damage increase.\nPassive 2: The 4th Annihilation Orb will deal an additional 100% AOE dark damage.",
         "base_ATK": 55,
         "base_CRIT": 26,
+        "max_ATK": 0,
+        "max_CRIT": 0,
+        "translator": "182150992408739840"
+    },
+    "44": {
+        "name": "Virtuous Contract {+ Virtuous Treaty} · Kai",
+        "type": "Katana & Greatsword (2B)",
+        "rarity": 6,
+        "effect": "Passive 1: **15%** Physical Damage Increase.\nPassive 2: Leader skill effect is **doubled** {8% > 16% Physical Damage Increase, 25 > 50 Ultimate Energy}.\nPassive 3: Switching into the stage will gain you 240 **Stance Stability**, enter **Battle Stance** upon entry and gain **2** additional stacks of **Data Correction.",
+        "base_ATK": 53,
+        "base_CRIT": 26,
+        "max_ATK": 467,
+        "max_CRIT": 261,
+        "translator": "182150992408739840"
+    },
+    "45": {
+        "name": "Cruel Oath · Kai",
+        "type": "Katana (9S)",
+        "rarity": 6,
+        "effect": "Passive 1: **15%** Physical Damage and Healing Effectiveness Increase.\nPassive 2: Leader skill effect is **doubled** {8% > 16% Physical Damage Increase, 10 > 20% Additional Damage Reduction}.\n**Overload Indicator is successfully released, the switch cooldown for 2B and A2 is decreased by **1** second, and a random orb will be gained.",
+        "base_ATK": 51,
+        "base_CRIT": 25,
+        "max_ATK": 445,
+        "max_CRIT": 254,
+        "translator": "182150992408739840"
+    },
+    "46": {
+        "name": "Type-40 Lance · Kai",
+        "type": "Combat Spear (A2)",
+        "rarity": 6,
+        "effect": "Passive 1: Leader skill effect is **doubled** {8% > 16% Physical Damage Increase, 200> 400 Dodge Bar Limit increase}.\nA2 can enter Berserker Mode when **POD:Shield** is at **40%** {Previously 100%}, at the same time, she gains **10%** Damage Increase in **Berserker Mode**.\n Within **2** seconds after slow-mo or pressing the dodge button, hold your basic attack button to release an Empowered Attack that deals **370.59%** physical damage, if it lands, you can do a follow-up with the attack button again, which deals a total of **720.59%** physical damage (damage increases as Normal Attack's level increases).The Empowered Attack will consume **all Yellow Orbs** as fuel for Type-40, each Yellow Orb consumed will cause an additional **100%** (up to **300%**) Physical Damage, and gives **3% POD: Shield** {3% per orb, no limit}. At the same time, if any amount of Yellow Orbs are consumed, A2 will gain a **10%** Physical Damage Increase that lasts for 15 seconds.",
+        "base_ATK": 52,
+        "base_CRIT": 25,
+        "max_ATK": 448,
+        "max_CRIT": 249,
+        "translator": "182150992408739840"
+    },
+    "47": {
+        "name": "Master of the Forest",
+        "type": "Compositor - Violin Blade",
+        "rarity": 6,
+        "effect": "Passive 1: 20% Lightning Damage Increase.\nPassive 2: **Blue Orb** and **Red Orb** can now be cast during other skill orb animations, but cannot be cast consecutively.\nPassive 3: When your sea of consciousness exits Chaos Mode, orbs are returned based on the number of orbs in possession before entering Chaos Mode. Skill orbs are returned in 3 orb orders {if possible}.",
+        "base_ATK": 54,
+        "base_CRIT": 26,
+        "max_ATK": 471,
+        "max_CRIT": 261,
+        "translator": "182150992408739840"
+    },
+    "48": {
+        "name": "Balance",
+        "type": "",
+        "rarity": 6,
+        "effect": "",
+        "base_ATK": 0,
+        "base_CRIT": 0,
         "max_ATK": 0,
         "max_CRIT": 0,
         "translator": "182150992408739840"

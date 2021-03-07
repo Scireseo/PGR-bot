@@ -1,6 +1,6 @@
 function capitalizeFirstLetter(string) {
-    if(string === "") return;
-    if(string === "II") return string;
+    if (string === "") return;
+    if (string === "II") return string;
     return string[0].toUpperCase() + string.slice(1).toLowerCase();
 }
 
@@ -10,7 +10,7 @@ function titleCase(string) {
 
 function emoji(client, name) {
     const found = client.emojis.find(emoji => emoji.name === name);
-    if(!found) {
+    if (!found) {
         return null;
     }
     return found;

@@ -39,9 +39,9 @@ exports.run = (client, message, args) => {
         });;
     }
     let selected_character = list_of_characters.filter(character => 
-        character.name.includes(args) || character.code_name.includes(args) || 
-        character.name.concat(" ", character.code_name).includes(args));
-    if(args === "" || selected_character.length === 0) return message.channel.send("The character that you're looking for does not exist. Be sure to check the list by typing the command `~character list`!");
+        character.name.toLowerCase().includes(args) || character.code_name.toLowerCase().includes(args) || 
+        character.name.toLowerCase().concat(" ", character.code_name).includes(args));
+    if(args === "" || selected_character.length === 0) return message.channel.send("The character that you're looking for does not exist. Be sure to check the list by typing the command `#character list`!");
     if(selected_character.length > 1){
         selected_character = selected_character.map((character, index) => `${index + 1}.) ${character.name}(${character.code_name})`).join("\r\n");
         embed = {
@@ -127,7 +127,7 @@ exports.run = (client, message, args) => {
             },
             {
                 name: "For any further questions, please ask in this server",
-                value: `https://discord.gg/JErpUEk`,
+                value: `https://discord.gg/5BXWz3E57S`,
                 inline: false,
             }
         ],
@@ -147,7 +147,7 @@ exports.run = (client, message, args) => {
     }).then(() => {
         function generateEmbed(){
             let generated_embed = {
-                title: `${selected_character.name}(${selected_character.code_name})`,
+                title: `${selected_character.name} ${selected_character.code_name && `(${selected_character.code_name})`}`,
                 color: client.colors.character,
                 author: {
                     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,

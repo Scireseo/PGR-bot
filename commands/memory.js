@@ -42,7 +42,7 @@ exports.run = (client, message, args) => {
     let rarity = "";
     let selected_memory = list_of_memories.find(memory => memory.name.includes(args));
     let memory_index = list_of_memories.indexOf(selected_memory);
-    if(args === "" || selected_memory === undefined) return message.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
+    if(args === "" || selected_memory === undefined) return message.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `#memory list`!");
     let attachment = ("0" + memory_index).slice(-2).concat(".png");
     for(x = 0; x <= selected_memory.rarity - 1; x++){
         rarity += "★";
@@ -98,7 +98,7 @@ exports.run = (client, message, args) => {
                 },
                 {
                     name: "For any further questions, please ask in this server",
-                    value: `https://discord.gg/JErpUEk`,
+                    value: `https://discord.gg/5BXWz3E57S`,
                     inline: false,
                 }
             ]

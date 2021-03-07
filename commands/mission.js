@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
         return message.channel.send({ embed: embed });
     }
     let selected_mission = list_of_missions.find(mission => mission.includes(args.toLowerCase()));
-    if(args === "" || selected_mission === undefined) return message.channel.send("The mission that you're looking for does not exist. Be sure to check the list by typing the command `~mission list`");
+    if(args === "" || selected_mission === undefined) return message.channel.send("The mission that you're looking for does not exist. Be sure to check the list by typing the command `#mission list`");
     selected_mission = client.missions[selected_mission];
     embed = {
         title: `${args} missions`,

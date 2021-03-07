@@ -478,5 +478,21 @@
         "max_DEF": 223,
         "max_CRIT": 66,
         "translator": "182150992408739840"
+    },
+    "32": {
+        "name": "Lucrezia",
+        "rarity": 6,
+        "effect_1": "10% Lightning Damage Increase",
+        "effect_2": "When **Chord** is triggered, gain an additional 15 Ultimate Energy and 10% Additional Damage Increase, lasts 5 seconds.",
+        "effect_3": "20% Additional Damage to target affected by **Concerto** {self}",
+        "base_HP": 151,
+        "base_ATK": 13,
+        "base_DEF": 21,
+        "base_CRIT": 6,
+        "max_HP": 1506,
+        "max_ATK": 134,
+        "max_DEF": 217,
+        "max_CRIT": 66,
+        "translator": "182150992408739840"
     }
 }

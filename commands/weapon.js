@@ -1,99 +1,118 @@
+
 exports.run = (client, message, args) => {
     const general_functions = require('../helpers/general');
-    args = args.map(arg => arg.includes("-") ? arg.split("-").map(a=> general_functions.titleCase(a)).join("-") : general_functions.titleCase(arg))
+    args = args.map(arg => arg.includes("-") ? arg.split("-").map(a => general_functions.titleCase(a)).join("-") : general_functions.titleCase(arg))
     args = args.join(" ");
     let embed = {};
     let list_of_weapons = Object.values(client.weapons);
-    if(args === "List"){
-        let rarity_index = 0;
-        let max_index = client.rarities.weapon.length - 1;
-        function generateEmbed(){
-            let list_of_weapons_by_rarity = list_of_weapons.filter(weapon => weapon.rarity === client.rarities.weapon[rarity_index]).map((weapon, index) => `${index + 1}.) ${weapon.name}[${weapon.type}]`).join("\r\n");
-            let generated_embed = {
-                title: "weapon list",
-                fields: [{ name: `${client.rarities.weapon[rarity_index]}★ weapons`, value: list_of_weapons_by_rarity }]
+    if (args === "List") {
+        const weaponTypes = list_of_weapons.reduce((acc, item) => {
+            if (!acc.includes(item.type)) {
+                acc.push(item.type);
             }
-            return generated_embed;
-        }
-        embed = generateEmbed();
-        return message.channel.send({ embed: embed }).then((sent_message) => {
-            let react_collector = general_functions.initializeReactCollector(client, sent_message);
-            react_collector.on('collect', reaction => {
-                if(reaction.emoji.name === '◀️'){
-                    rarity_index = rarity_index - 1 < 0 ? max_index : --rarity_index;
-                    embed = generateEmbed();
-                    sent_message.edit({ embed: embed });
-                }
-                else{
-                    rarity_index = rarity_index + 1 > max_index ? 0 : ++rarity_index;
-                    embed = generateEmbed();
-                    sent_message.edit({ embed: embed });
-                }
-            });
-            react_collector.on('end', () => {
-                sent_message.reactions.map(reaction => reaction.remove(sent_message.author.id));
-            })
-        });
-    }
-    let rarity = "";
-    let selected_weapon = list_of_weapons.find(weapon => weapon.name.includes(args));
-    let weapon_index = list_of_weapons.indexOf(selected_weapon);
-    if(args.length === "" || selected_weapon === undefined) return message.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `~weapon list`!");
-    let attachment = ("0" + weapon_index).slice(-2).concat(".png");
-    for(x = 0; x <= selected_weapon.rarity - 1; x++){
-        rarity += "★";
-    }
-    let translatorDetails = {};
-    client.fetchUser(selected_weapon.translator).then(translator => {
-        translatorDetails.avatar = translator.avatarURL;
-        translatorDetails.username = translator.username;
-        translatorDetails.discriminator = translator.discriminator;
-    }).then(() => {
+            return acc;
+        }, []);
         embed = {
-            title: `${selected_weapon.name}(${rarity})`,
-            color: client.colors.weapon,
-            thumbnail: {
-                url: `attachment://${attachment}`,
-            },
-            author: {
-                "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
-                "icon_url": translatorDetails.avatar
-            },
-            fields: [
-                {
-                    name: "Effect",
-                    value: selected_weapon.effect,
-                },
-                {
-                    name: "ATK",
-                    value: selected_weapon.base_ATK + `(**${selected_weapon.max_ATK}**)`,
-                    inline: true,
-                },
-                {
-                    name: "CRIT",
-                    value: selected_weapon.base_CRIT + `(**${selected_weapon.max_CRIT}**)`,
-                    inline: true,
-                },
-                {
-                    name: "For any further questions, please ask in this server",
-                    value: `https://discord.gg/JErpUEk`,
-                    inline: false,
-                }
-            ]
+            title: "Types of Weapons",
+            fields: [{ name: "Select the weapon type of your choosing", value: weaponTypes.map(weapon => `• ${weapon}`).join("\r\n") }]
         }
-        message.channel.send({ 
-            embed: embed,
-            files: [{
-                attachment: `./static/images/weapons/${attachment}`,
-                name: attachment
-            }]
-        })
-        .catch(err => {
+        const filter = m => m.author.id === message.author.id;
+        return message.channel.send({ embed })
+            .then(() => {
+                message.channel.awaitMessages(filter, {
+                    max: 1,
+                    time: 30000,
+                    errors: ['time']
+                })
+                    .then(message => {
+                        message = message.first();
+                        if (weaponTypes.includes(general_functions.titleCase(message.content))) {
+                            const weapons = list_of_weapons.filter(weapon => weapon.type === message.content);
+                            embed = {
+                                title: `${message.content}`,
+                                fields: [{ name: "Select the weapon of your choosing", value: weapons.map(weapon => `• ${weapon.name}`).join("\r\n") }]
+                            }
+                            message.channel.send({ embed })
+                                .then(() => {
+                                    message.channel.awaitMessages(filter, {
+                                        max: 1,
+                                        time: 30000,
+                                        errors: ['time']
+                                    })
+                                        .then(_message => {
+                                            _message = _message.first();
+                                            if (weapons.find(weapon => weapon.name === _message.content)) {
+                                                const selectedWeapon = list_of_weapons.filter(weapon => weapon.name === _message.content)[0];
+                                                console.log(">>>", selectedWeapon);
+                                                generateWeapon(selectedWeapon);
+                                            }
+                                        })
+                                })
+                        }
+                    })
+            });
+    }
+
+    function generateWeapon(selectedWeapon) {
+        if (args.length === "" || selectedWeapon === undefined) return message.channel.send("The weapon that you're looking for does not exist. Be sure to check the list by typing the command `#weapon list`!");
+        const rarity = "★".repeat(selectedWeapon.rarity);
+        const attachment = ("0" + list_of_weapons.indexOf(selectedWeapon)).slice(-2).concat(".png");
+        client.fetchUser(selectedWeapon.translator).then(translator => {
+            return {
+                avatar: translator.avatarURL,
+                username: translator.username,
+                discriminator: translator.discriminator
+            }
+        }).then(translatorDetails => {
+            embed = {
+                title: `${selectedWeapon.name}(${rarity})`,
+                color: client.colors.weapon,
+                thumbnail: {
+                    url: `attachment://${attachment}`,
+                },
+                author: {
+                    "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
+                    "icon_url": translatorDetails.avatar
+                },
+                fields: [
+                    {
+                        name: "Effect",
+                        value: selectedWeapon.effect,
+                    },
+                    {
+                        name: "ATK",
+                        value: selectedWeapon.base_ATK + `(**${selectedWeapon.max_ATK}**)`,
+                        inline: true,
+                    },
+                    {
+                        name: "CRIT",
+                        value: selectedWeapon.base_CRIT + `(**${selectedWeapon.max_CRIT}**)`,
+                        inline: true,
+                    },
+                    {
+                        name: "For any further questions, please ask in this server",
+                        value: `https://discord.gg/5BXWz3E57S`,
+                        inline: false,
+                    }
+                ]
+            }
             message.channel.send({
-                embed: embed
+                embed: embed,
+                files: [{
+                    attachment: `./static/images/weapons/${attachment}`,
+                    name: attachment
+                }]
             })
+                .catch(err => {
+                    message.channel.send({
+                        embed: embed
+                    })
+                })
         })
-    })
+    }
+
+    const weapon = list_of_weapons.find(weapon => weapon.name.toLowerCase().includes(args.toLowerCase()));
+    generateWeapon(weapon);
 }
 
 exports.help = {
