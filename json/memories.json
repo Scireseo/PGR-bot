@@ -135,7 +135,7 @@
         "translator": "182150992408739840"
     },
     "9": {
-        "name": "Ferret II",
+        "name": "Frederick II",
         "rarity": 6,
         "effect_1": "Increase healing effectiveness by 10%. Heals increase the target's physical damage and defense by 10% for 5s, CD: 8s",
         "effect_2": "Everytime you cast a healing skill, drone receives one charge. When the drone is fully charged, the next heal will summon a healing drone. The drone will automatically follow the character with the least amout of health on the field, healing 2% of the character's maximum health every second in a 5m radius. The area will also increase physical damage by 15% for 5s. One drone can be deployed every 12s",
@@ -180,7 +180,7 @@
         "translator": "182150992408739840"
     },
     "12": {
-        "name": "Patton",
+        "name": "Barton",
         "rarity": 6,
         "effect_1": "Increase critical chance and physical damage by 5%",
         "effect_2": "For every non-critical hit dealt, the next physical attack's critical chance increases by 2%, stackable up to 20%. Critical chance is reset once a critical hit has been landed. Physical damage is increased by 5% for 3s whenever you land a critical hit, stackable up to 3 times, duration can be renewed",
@@ -210,7 +210,7 @@
         "translator": "182150992408739840"
     },
     "14": {
-        "name": "Eiffu",
+        "name": "F",
         "rarity": 5,
         "effect_1": "Increase all damage by 2% for every orb consumed, lasts for 3s. 5 stacks max, duration can be renewed",
         "effect_2": "Every 60s, the next 3 orb skill will trigger slowmo",
@@ -225,7 +225,7 @@
         "translator": "182150992408739840"
     },
     "15": {
-        "name": "Ekko",
+        "name": "Ike",
         "rarity": 5,
         "effect_1": "Increase all damage by 2% and elemental damage 4%",
         "effect_2": "There's a 15% chance to Burn, Shock, Freeze, and Corrode(depending on the element). Lasts for 5s with a cooldown of 8s on each enemy",
@@ -330,7 +330,7 @@
         "translator": "182150992408739840"
     },
     "22": {
-        "name": "New Year's Firework",
+        "name": "New Year's Fireworks",
         "rarity": 5,
         "effect_1": "Attack increases by 5%. After consuming 3 red orbs, summon 4 rings of red packets. The red packets will deal 10% fire damage when they come in contact with the enemy, lasts for 10 seconds, 30 seconds cooldown",
         "effect_2": "N/A",
@@ -345,7 +345,7 @@
         "translator": "182150992408739840"
     },
     "23": {
-        "name": "Lantern Gathering",
+        "name": "Lantern Reunion",
         "rarity": 5,
         "effect_1": "After using a 3 orb combo or QTE, summon a lantern that follows all allies on the field for 15 seconds. The lantern buffs nearby allies, increasing their attack and movement speed by 7%. This effect has a 30 seconds cooldown",
         "effect_2": "N/A",

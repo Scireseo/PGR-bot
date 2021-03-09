@@ -1,7 +1,7 @@
 {
     "0": {
         "name": "Lee",
-        "code_name": "Matrix",
+        "code_name": "Random Numbers",
         "code_name_CN": "乱数",
         "class": "Assault",
         "rarity": "S",
@@ -13,7 +13,6 @@
         "max_ATK": 422,
         "max_DEF": 244,
         "max_CRIT": 201,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -25,7 +24,7 @@
                 },
                 "1": {
                     "name": "Yellow",
-                    "description": "Leaps forward your enemy to kick before following up with a shot, dealing X% physical damage and marking them.\nWhen attacking marked enemy, fire an additional shot dealing Y%.",
+                    "description": "Leaps forward your enemy and then to kick before following up with a shot, dealing X% physical damage and marking them.\nWhen attacking marked enemy, fire an additional shot dealing Y%.",
                     "multipliers": {
                         "0": 90,
                         "1": 10
@@ -100,7 +99,7 @@
     },
     "1": {
         "name": "Karen",
-        "code_name": "Burnout",
+        "code_name": "Blaze",
         "code_name_CN": "烬燃",
         "class": "Assault",
         "rarity": "S",
@@ -112,7 +111,6 @@
         "max_ATK": 403,
         "max_DEF": 287,
         "max_CRIT": 191,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -213,7 +211,6 @@
         "max_ATK": 421,
         "max_DEF": 273,
         "max_CRIT": 201,
-        "translator": "411448152009211934",
         "skills": {
             "active": {
                 "0": {
@@ -316,7 +313,6 @@
         "max_ATK": 223,
         "max_DEF": 159,
         "max_CRIT": 101,
-        "translator": "411448152009211934",
         "skills": {
             "active": {
                 "0": {
@@ -412,7 +408,6 @@
         "max_ATK": 223,
         "max_DEF": 159,
         "max_CRIT": 101,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -516,7 +511,6 @@
         "max_ATK": 303,
         "max_DEF": 227,
         "max_CRIT": 144,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -599,7 +593,7 @@
     },
     "6": {
         "name": "Lee",
-        "code_name": "Ghostfire",
+        "code_name": "Strangefire",
         "code_name_CN": "异火",
         "class": "Assault",
         "rarity": "A",
@@ -611,7 +605,6 @@
         "max_ATK": 318,
         "max_DEF": 193,
         "max_CRIT": 151,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -713,7 +706,6 @@
         "max_ATK": 334,
         "max_DEF": 182,
         "max_CRIT": 166,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -810,7 +802,6 @@
         "max_ATK": 318,
         "max_DEF": 216,
         "max_CRIT": 151,
-        "translator": "411448152009211934",
         "skills": {
             "active": {
                 "0": {
@@ -897,9 +888,9 @@
     },
     "9": {
         "name": "Kamui",
-        "code_name": "Dark",
+        "code_name": "Dark Power",
         "code_name_CN": "暗能",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "S",
         "base_HP": 513,
         "base_ATK": 76,
@@ -909,7 +900,6 @@
         "max_ATK": 344,
         "max_DEF": 316,
         "max_CRIT": 172,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -985,17 +975,17 @@
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "Take 20% less damage when in Dark mode, targets have -15% reduced Dark resistance for 8s."
+                    "description": "During Shadow Form, damage taken is reduced by 20% and targets struck have 15% reduced Dark resistance for 8s."
                 },
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "3 orb skills deal 30% more damage"
+                    "description": "3-orb skill damage +30%"
                 },
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "Increase dark damage by 20% when in Dark mode"
+                    "description": "Dark damage +20% during Shadow Form."
                 }
             }
         }
@@ -1004,7 +994,7 @@
         "name": "Nanami",
         "code_name": "Pulse",
         "code_name_CN": "脉冲",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "S",
         "base_HP": 491,
         "base_ATK": 81,
@@ -1014,7 +1004,6 @@
         "max_ATK": 364,
         "max_DEF": 301,
         "max_CRIT": 172,
-        "translator": "411448152009211934",
         "skills": {
             "active": {
                 "0": {
@@ -1103,7 +1092,7 @@
         "name": "Nanami",
         "code_name": "Storm",
         "code_name_CN": "风暴",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "B",
         "base_HP": 252,
         "base_ATK": 40,
@@ -1113,7 +1102,6 @@
         "max_ATK": 200,
         "max_DEF": 185,
         "max_CRIT": 101,
-        "translator": "411448152009211934",
         "skills": {
             "active": {
                 "0": {
@@ -1200,9 +1188,9 @@
     },
     "12": {
         "name": "Kamui",
-        "code_name": "Heavy",
+        "code_name": "Gravity",
         "code_name_CN": "重能",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "A",
         "base_HP": 358,
         "base_ATK": 58,
@@ -1212,7 +1200,6 @@
         "max_ATK": 272,
         "max_DEF": 245,
         "max_CRIT": 139,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -1303,9 +1290,9 @@
     },
     "13": {
         "name": "Liv",
-        "code_name": "Hope",
+        "code_name": "Ray",
         "code_name_CN": "仰光",
-        "class": "Healer",
+        "class": "Support",
         "rarity": "S",
         "base_HP": 427,
         "base_ATK": 85,
@@ -1315,7 +1302,6 @@
         "max_ATK": 383,
         "max_DEF": 287,
         "max_CRIT": 191,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -1404,7 +1390,7 @@
         "name": "Liv",
         "code_name": "Eclipse",
         "code_name_CN": "蚀暗",
-        "class": "Healer",
+        "class": "Support",
         "rarity": "B",
         "base_HP": 213,
         "base_ATK": 45,
@@ -1414,7 +1400,6 @@
         "max_ATK": 223,
         "max_DEF": 142,
         "max_CRIT": 112,
-        "translator": "411448152009211934",
         "skills": {
             "active": {
                 "0": {
@@ -1502,9 +1487,9 @@
     },
     "15": {
         "name": "Liv",
-        "code_name": "Spectrum",
+        "code_name": "Lightflow",
         "code_name_CN": "流光",
-        "class": "Healer",
+        "class": "Support",
         "rarity": "A",
         "base_HP": 309,
         "base_ATK": 65,
@@ -1514,7 +1499,6 @@
         "max_ATK": 303,
         "max_DEF": 204,
         "max_CRIT": 151,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -1619,7 +1603,6 @@
         "max_ATK": 334,
         "max_DEF": 216,
         "max_CRIT": 144,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -1708,9 +1691,9 @@
     },
     "17": {
         "name": "Ayla",
-        "code_name": "Colorflow",
+        "code_name": "Chromaburst",
         "code_name_CN": "溢彩",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "A",
         "base_HP": 352,
         "base_ATK": 58,
@@ -1720,7 +1703,6 @@
         "max_ATK": 272,
         "max_DEF": 250,
         "max_CRIT": 139,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -1820,7 +1802,6 @@
         "max_ATK": 422,
         "max_DEF": 287,
         "max_CRIT": 182,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -1911,7 +1892,7 @@
         "name": "Sofia",
         "code_name": "Silver Fang",
         "code_name_CN": "银牙",
-        "class": "Healer",
+        "class": "Support",
         "rarity": "A",
         "base_HP": 326,
         "base_ATK": 62,
@@ -1921,7 +1902,6 @@
         "max_ATK": 288,
         "max_DEF": 227,
         "max_CRIT": 144,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2011,7 +1991,7 @@
         "name": "Chrome",
         "code_name": "Arclight",
         "code_name_CN": "弧光",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "A",
         "base_HP": 342,
         "base_ATK": 62,
@@ -2021,7 +2001,6 @@
         "max_ATK": 288,
         "max_DEF": 238,
         "max_CRIT": 144,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2111,7 +2090,7 @@
     },
     "21": {
         "name": "Lucia",
-        "code_name": "Raven's Feather",
+        "code_name": "Raven's Feathers",
         "code_name_CN": "鸦羽",
         "class": "Assault",
         "rarity": "S",
@@ -2123,7 +2102,6 @@
         "max_ATK": 421,
         "max_DEF": 293,
         "max_CRIT": 183,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2195,24 +2173,24 @@
                 "3": {
                     "name": "Passive 1",
                     "rank": "SS",
-                    "description": "Target takes 10% more damage after it's hit by blue orb. This buff only applies to you."
+                    "description": "Targets struck by Blue orb take 10% more damage for 8s. Damage bonus only applies to self."
                 },
                 "4": {
                     "name": "Passive 2",
                     "rank": "SSS",
-                    "description": "Gain max energy bar and 2 ultimate stacks at the start of the battle. If the energy bar is present when in ice mode, all skill orbs deal 5% more damage."
+                    "description": "Option 1: Gain full energy and 2 ultimate stacks at the start of battle. Orb damage +5% when the gauge is not empty during Glacial mode. Option 2: Gain full energy at the start of battle. Orb damage +10% when the gauge is not empty during Glacial mode. (Toggle in the Character Skills page)"
                 },
                 "5": {
                     "name": "Passive 3",
                     "rank": "SSS+",
-                    "description": "20% increase to ice damage during core passive."
+                    "description": "Ice damage +20% during core passive mode."
                 }
             }
         }
     },
     "22": {
         "name": "Camu",
-        "code_name": "Berserker",
+        "code_name": "Berserk",
         "code_name_CN": "狂犬",
         "class": "Compositor",
         "rarity": "S",
@@ -2224,7 +2202,6 @@
         "max_ATK": 433,
         "max_DEF": 273,
         "max_CRIT": 191,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2285,9 +2262,9 @@
     },
     "23": {
         "name": "Vera",
-        "code_name": "Rose",
+        "code_name": "Magnificence",
         "code_name_CN": "瑰丽",
-        "class": "Healer",
+        "class": "Support",
         "rarity": "A",
         "base_HP": 326,
         "base_ATK": 63,
@@ -2297,7 +2274,6 @@
         "max_ATK": 295,
         "max_DEF": 222,
         "max_CRIT": 144,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2358,9 +2334,9 @@
     },
     "24": {
         "name": "Rosetta",
-        "code_name": "Blizzard",
+        "code_name": "Glacial",
         "code_name_CN": "凛冽",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "S",
         "base_HP": 0,
         "base_ATK": 0,
@@ -2370,7 +2346,6 @@
         "max_ATK": 0,
         "max_DEF": 0,
         "max_CRIT": 0,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2409,7 +2384,7 @@
                 },
                 "2": {
                     "name": "Leader",
-                    "description": "15% defense increase to all teammates, 5% damage increase for tanks."
+                    "description": "15% defense increase to all teammates, 5% damage increase for Armoreds."
                 },
                 "3": {
                     "name": "Passive 1",
@@ -2431,7 +2406,7 @@
     },
     "25": {
         "name": "Qu",
-        "code_name": "Peacock",
+        "code_name": "Peafowl's Plume",
         "code_name_CN": "雀翎",
         "class": "Vanguard",
         "rarity": "S",
@@ -2443,7 +2418,6 @@
         "max_ATK": 0,
         "max_DEF": 0,
         "max_CRIT": 0,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2506,7 +2480,7 @@
         "name": "Chang Yu",
         "code_name": "Kirin",
         "code_name_CN": "游麟",
-        "class": "Tank",
+        "class": "Armored",
         "rarity": "A",
         "base_HP": 0,
         "base_ATK": 0,
@@ -2516,7 +2490,6 @@
         "max_ATK": 0,
         "max_DEF": 0,
         "max_CRIT": 0,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {
@@ -2589,7 +2562,6 @@
         "max_ATK": 386,
         "max_DEF": 288,
         "max_CRIT": 198,
-        "translator": "182150992408739840",
         "skills": {
             "active": {
                 "0": {

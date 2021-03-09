@@ -1,14 +1,13 @@
 {
     "0": {
-        "name": "Kageuchi - Break",
+        "name": "Kageuchi - Gyakudan",
         "type": "Katana",
         "rarity": 6,
         "effect": "When lightning damage is dealt, increase lightning damage by 5%, last for 4 seconds, stacks up to 4 times. Triggering it again will refresh the duration. Gain 10% extra damage after releasing ultimate, last for 10 seconds, triggering it again will refresh the duration.",
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 445,
-        "max_CRIT": 226,
-        "translator": "182150992408739840"
+        "max_CRIT": 226
     },
     "1": {
         "name": "Sirius",
@@ -18,8 +17,7 @@
         "base_ATK": 52,
         "base_CRIT": 21,
         "max_ATK": 458,
-        "max_CRIT": 221,
-        "translator": "182150992408739840"
+        "max_CRIT": 221
     },
     "2": {
         "name": "Red Sakura",
@@ -29,63 +27,57 @@
         "base_ATK": 51,
         "base_CRIT": 23,
         "max_ATK": 447,
-        "max_CRIT": 239,
-        "translator": "182150992408739840"
+        "max_CRIT": 239
     },
     "3": {
-        "name": "Red Lotus Fanatic",
+        "name": "Red Lotus Berserker",
         "type": "Katana",
         "rarity": 6,
         "effect": "10% damage increase to basic attacks. Every basic attack increases physical damage by 5% for 2s, stackable up to 5 times, duration can be renewed",
         "base_ATK": 49,
         "base_CRIT": 23,
         "max_ATK": 428,
-        "max_CRIT": 234,
-        "translator": "182150992408739840"
+        "max_CRIT": 234
     },
     "4": {
-        "name": "Zero-Degree Target",
+        "name": "Scale Zero",
         "type": "Dual Pistols",
         "rarity": 6,
         "effect": "S Lee's core passive deals 10% more damage, increase physical damage by 15% after a 3 orb skill for 5s, duration can be renewed.",
         "base_ATK": 51,
         "base_CRIT": 25,
         "max_ATK": 445,
-        "max_CRIT": 254,
-        "translator": "182150992408739840" 
+        "max_CRIT": 254
     },
     "5": {
-        "name": "Wolf Eater",
+        "name": "Wolfgun",
         "type": "Dual Pistols",
         "rarity": 6,
         "effect": "All damage increase by 20% when attacking enemies within the burning area",
         "base_ATK": 52,
         "base_CRIT": 25,
         "max_ATK": 458,
-        "max_CRIT": 249,
-        "translator": "182150992408739840" 
+        "max_CRIT": 249
     },
     "6": {
-        "name": "God Giver",
+        "name": "Benefis",
         "type": "Floating Cannons",
         "rarity": 6,
         "effect": "10% damage increase for 5s to allies within 5m radius for every 12 orbs consumed. Deal 10% more damage to rooted enemies",
         "base_ATK": 48,
         "base_CRIT": 24,
         "max_ATK": 423,
-        "max_CRIT": 245,
-        "translator": "182150992408739840" 
+        "max_CRIT": 245
     },
     "7": {
-        "name": "Sky Wind Dragon",
+        "name": "Tenryu no Kaze",
         "type": "Floating Cannons",
         "rarity": 6,
         "effect": "Basic attacks have a 10% chance to weaken enemies, decreasing their damage by 10% for 5s, duration can be renewed. 10% chance to recover an orb when attacking weakened enemies, CD: 6s",
         "base_ATK": 46,
         "base_CRIT": 25,
         "max_ATK": 406,
-        "max_CRIT": 253,
-        "translator": "182150992408739840" 
+        "max_CRIT": 253
     },
     "8": {
         "name": "Type Zero",
@@ -95,8 +87,7 @@
         "base_ATK": 47,
         "base_CRIT": 25,
         "max_ATK": 415,
-        "max_CRIT": 249,
-        "translator": "182150992408739840" 
+        "max_CRIT": 249
     },
     "9": {
         "name": "Ramiel",
@@ -106,30 +97,27 @@
         "base_ATK": 54,
         "base_CRIT": 25,
         "max_ATK": 471,
-        "max_CRIT": 254,
-        "translator": "182150992408739840" 
+        "max_CRIT": 254
     },
     "10": {
-        "name": "Chimera - Break",
+        "name": "Chimera - Gyakudan",
         "type": "Chainsaw",
         "rarity": 6,
         "effect": "20% chance to cause target to enter Damaged status when attacking, dealing 2% of physical damage every second for 3s, stackable up to 10 times, duration can be renewed. Chances are doubled on enemies suffering from Defense Down. 10% increase to physical damage when attacking Damaged enemies",
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 425,
-        "max_CRIT": 235,
-        "translator": "182150992408739840" 
+        "max_CRIT": 235
     },
     "11": {
-        "name": "Verve",
+        "name": "Hydroheat",
         "type": "Chainsaw",
         "rarity": 6,
         "effect": "10% chance to decrease enemy's fire resistance by 5% when attacking, duration 5s, CD: 8s for each enemy. Fire damage increased by 20% after ultimate and doubles the chance of decreasing enemy's fire resistance",
         "base_ATK": 50,
         "base_CRIT": 22,
         "max_ATK": 436,
-        "max_CRIT": 230,
-        "translator": "182150992408739840" 
+        "max_CRIT": 230
     },
     "12": {
         "name": "Big Kamui",
@@ -139,8 +127,7 @@
         "base_ATK": 50,
         "base_CRIT": 22,
         "max_ATK": 436,
-        "max_CRIT": 230,
-        "translator": "182150992408739840" 
+        "max_CRIT": 230
     },
     "13": {
         "name": "Pitch Black",
@@ -150,19 +137,17 @@
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 425,
-        "max_CRIT": 235,
-        "translator": "182150992408739840" 
+        "max_CRIT": 235
     },
     "14": {
-        "name": "Frenzy Fusion Cannon",
+        "name": "Fusion Cannon",
         "type": "Cannon",
         "rarity": 6,
         "effect": "Increase physical damage by 10%. After consuming 3 orbs at once, basic attack damage is increased by 30%, for 5s, duration can be renewed",
         "base_ATK": 52,
         "base_CRIT": 25,
         "max_ATK": 458,
-        "max_CRIT": 249,
-        "translator": "182150992408739840" 
+        "max_CRIT": 249
     },
     "15": {
         "name": "Nuclear Dragon",
@@ -172,74 +157,67 @@
         "base_ATK": 51,
         "base_CRIT": 25,
         "max_ATK": 450,
-        "max_CRIT": 253,
-        "translator": "182150992408739840" 
+        "max_CRIT": 253
     },
     "16": {
-        "name": "Soul Slayer",
+        "name": "Soulcutter",
         "type": "Dual Knives",
         "rarity": 6,
         "effect": "When a critical hit is dealt from the opponent's rear, the target suffers from Damaged status, receiving 50% physical damage every second for 3s, duration can be renewed. When attacking Damaged enemies, physical damage increases by 20%",
         "base_ATK": 52,
         "base_CRIT": 26,
         "max_ATK": 458,
-        "max_CRIT": 261,
-        "translator": "182150992408739840" 
+        "max_CRIT": 261
     },
     "17": {
-        "name": "Kuji No Ken",
+        "name": "Kuji-no-sada",
         "type": "Katana",
         "rarity": 5,
         "effect": "Attacks have a 20% chance of triggering a lightning strike, dealing 50% physical damage, CD: 3s",
         "base_ATK": 45,
         "base_CRIT": 20,
         "max_ATK": 354,
-        "max_CRIT": 186,
-        "translator": "182150992408739840" 
+        "max_CRIT": 186
     },
     "18": {
-        "name": "Shadow Violet",
+        "name": "Gloomlight",
         "type": "Dual Pistols",
         "rarity": 5,
         "effect": "Within 5s of consuming red, yellow and blue orbs, increase all damage by 15% for 5s, duration can be renewed",
         "base_ATK": 47,
         "base_CRIT": 22,
         "max_ATK": 372,
-        "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "max_CRIT": 201
     },
     "19": {
-        "name": "Guardian Mount",
+        "name": "Guard Mount",
         "type": "Floating Cannons",
         "rarity": 5,
         "effect": "Obtain a random orb for every 30 combo, CD: 8s",
         "base_ATK": 42,
         "base_CRIT": 22,
         "max_ATK": 336,
-        "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "max_CRIT": 201
     },
     "20": {
-        "name": "Saker E-3320",
+        "name": "Hayabusa E-3320",
         "type": "Bow",
         "rarity": 5,
         "effect": "Critical chance and Critical damage increase by 10% when there are no enemies within 2m",
         "base_ATK": 48,
         "base_CRIT": 23,
         "max_ATK": 382,
-        "max_CRIT": 206,
-        "translator": "182150992408739840" 
+        "max_CRIT": 206
     },
     "21": {
-        "name": "Tourmaline Fire",
+        "name": "Spark",
         "type": "Chainsaw",
         "rarity": 5,
         "effect": "30% chance to cause armor break while attacking, decrease defense by 5% for 3s, stackable up to 5 times, duration can be renewed",
         "base_ATK": 43,
         "base_CRIT": 20,
         "max_ATK": 345,
-        "max_CRIT": 190,
-        "translator": "182150992408739840" 
+        "max_CRIT": 190
     },
     "22": {
         "name": "Star Of Bethlehem",
@@ -249,96 +227,87 @@
         "base_ATK": 43,
         "base_CRIT": 20,
         "max_ATK": 345,
-        "max_CRIT": 190,
-        "translator": "182150992408739840" 
+        "max_CRIT": 190
     },
     "23": {
-        "name": "Accel Greatsword",
+        "name": "Drive-wheel Claymore",
         "type": "Greatsword",
         "rarity": 5,
         "effect": "Attacks have a 10% chance to release a shockwave, dealing 100% physical damage to enemies within range",
         "base_ATK": 45,
         "base_CRIT": 20,
         "max_ATK": 354,
-        "max_CRIT": 186,
-        "translator": "182150992408739840" 
+        "max_CRIT": 186
     },
     "24": {
-        "name": "Pillar Of Lava",
+        "name": "Lava Pillar",
         "type": "Cannon",
         "rarity": 5,
         "effect": "Damage is increased by 12% after consuming 3 orbs at once for 4s, duration can be renewed",
         "base_ATK": 47,
         "base_CRIT": 22,
         "max_ATK": 372,
-        "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "max_CRIT": 201
     },
     "25": {
-        "name": "Heartstone",
+        "name": "Stoneheart",
         "type": "Dual Knives",
         "rarity": 5,
         "effect": "After consecutive 3 orb combos, 15% increase to all damage for 5s, duration can be renewed",
         "base_ATK": 47,
         "base_CRIT": 23,
         "max_ATK": 372,
-        "max_CRIT": 209,
-        "translator": "182150992408739840" 
+        "max_CRIT": 209
     },
     "26": {
-        "name": "Red Fireworks",
+        "name": "New Year Firecrackers",
         "type": "Cannon",
         "rarity": 5,
         "effect": "Create explosions at target's location when dealing damage in cannon mode or fire mode, dealing a total of 250% of physical damage, 10 seconds cooldown",
         "base_ATK": 46,
         "base_CRIT": 22,
         "max_ATK": 365,
-        "max_CRIT": 205,
-        "translator": "182150992408739840" 
+        "max_CRIT": 205
     },
     "27": {
-        "name": "Lantern Night",
+        "name": "Lantern Festival",
         "type": "Dual Knives",
         "rarity": 5,
         "effect": "When dealing damage to an enemy, 20% chance to drop a lantern that deals 15% physical damage. 1 second cooldown.",
         "base_ATK": 46,
         "base_CRIT": 23,
         "max_ATK": 368,
-        "max_CRIT": 213,
-        "translator": "182150992408739840" 
+        "max_CRIT": 213
     },
     "28": {
-        "name": "Faded",
+        "name": "Fade",
         "type": "Scythe",
         "rarity": 5,
         "effect": "All damage increases by 10% for 4 seconds after releasing QTE or 3 orbs, duration can be renewed",
         "base_ATK": 43,
         "base_CRIT": 22,
         "max_ATK": 345,
-        "max_CRIT": 201,
-        "translator": "182150992408739840" 
+        "max_CRIT": 201
     },
     "29": {
-        "name": "Violet Wu",
+        "name": "Lilac",
         "type": "Scythe",
         "rarity": 6,
         "effect": "Passive 1: When dealing damage to shielded enemies, increase all damage by 2%. Stacks 3 times and lasts for 5 seconds, duration can be renewed.\nPassive 2: Stun for 2s when the opponent's shield is broken, 10s cd on the same enemy. \nPassive III: After releasing Colorflow's core passive, increase all physical damage done by 15%. Lasts for 7 seconds, duration can be renewed",
         "base_ATK": 48,
         "base_CRIT": 25,
         "max_ATK": 425,
-        "max_CRIT": 249,
-        "translator": "182150992408739840"
+        "max_CRIT": 249
     },
     "30": {
-        "name": "Suzume",
+        "name": "Requiescat",
         "type": "Dual Knives",
         "rarity": 6,
         "effect": "Passive 1: All damage done is increased by 10%.\nPassive 2: When in resonance form, all dark damage done is increased by 10%",
         "base_ATK": 53,
         "base_CRIT": 25,
         "max_ATK": 463,
-        "max_CRIT": 249,
-        "translator": "182150992408739840"
+        "max_CRIT": 249
     },
     "31": {
         "name": "Sin",
@@ -348,8 +317,7 @@
         "base_ATK": 50,
         "base_CRIT": 24,
         "max_ATK": 436,
-        "max_CRIT": 244,
-        "translator": "182150992408739840"
+        "max_CRIT": 244
     },
     "32": {
         "name": "Lightning",
@@ -359,8 +327,7 @@
         "base_ATK": 54,
         "base_CRIT": 25,
         "max_ATK": 471,
-        "max_CRIT": 254,
-        "translator": "182150992408739840"
+        "max_CRIT": 254
     },
     "33": {
         "name": "Saint Elmo",
@@ -370,8 +337,7 @@
         "base_ATK": 50,
         "base_CRIT": 23,
         "max_ATK": 436,
-        "max_CRIT": 236,
-        "translator": "182150992408739840"
+        "max_CRIT": 236
     },
     "34": {
         "name": "Julia",
@@ -381,8 +347,7 @@
         "base_ATK": 53,
         "base_CRIT": 23,
         "max_ATK": 463,
-        "max_CRIT": 234,
-        "translator": "182150992408739840"
+        "max_CRIT": 234
     },
     "35": {
         "name": "Thanatos",
@@ -392,8 +357,7 @@
         "base_ATK": 56,
         "base_CRIT": 25,
         "max_ATK": 493,
-        "max_CRIT": 249,
-        "translator": "182150992408739840"
+        "max_CRIT": 249
     },
     "36": {
         "name": "Sariel",
@@ -403,8 +367,7 @@
         "base_ATK": 50,
         "base_CRIT": 24,
         "max_ATK": 0,
-        "max_CRIT": 0,
-        "translator": "182150992408739840"
+        "max_CRIT": 0
     },
     "37": {
         "name": "Gungnir",
@@ -414,19 +377,17 @@
         "base_ATK": 52,
         "base_CRIT": 22,
         "max_ATK": 458,
-        "max_CRIT": 230,
-        "translator": "182150992408739840"
+        "max_CRIT": 230
     },
     "38": {
-        "name": "Qing Hyuk",
+        "name": "Qinghe",
         "type": "Compositor-Dragon Spear",
         "rarity": 6,
         "effect": "Passive 1: 20% physical damage increase.\nPassive 2: Peafowl's attack rate is increased by 50% and Peafowl gains a new skill: **Curse**.\n**Curse**: Peafowl morphs into a talisman that sticks onto its targets, dealing up to 420% physical damage. After a short delay, it explodes and deal 480% physical damage. The damage increases with Qu's ultimate level.",
         "base_ATK": 0,
         "base_CRIT": 0,
         "max_ATK": 506,
-        "max_CRIT": 261,
-        "translator": "182150992408739840"
+        "max_CRIT": 261
     },
     "39": {
         "name": "Baji",
@@ -436,8 +397,7 @@
         "base_ATK": 53,
         "base_CRIT": 23,
         "max_ATK": 0,
-        "max_CRIT": 0,
-        "translator": "182150992408739840"
+        "max_CRIT": 0
     },
     "40": {
         "name": "Guiyun",
@@ -447,8 +407,7 @@
         "base_ATK": 52,
         "base_CRIT": 23,
         "max_ATK": 0,
-        "max_CRIT": 0,
-        "translator": "182150992408739840"
+        "max_CRIT": 0
     },
     "41": {
         "name": "White Qilin",
@@ -458,8 +417,7 @@
         "base_ATK": 48,
         "base_CRIT": 21,
         "max_ATK": 0,
-        "max_CRIT": 0,
-        "translator": "182150992408739840"
+        "max_CRIT": 0
     },
     "42": {
         "name": "Crown Lure",
@@ -469,8 +427,7 @@
         "base_ATK": 49,
         "base_CRIT": 23,
         "max_ATK": 0,
-        "max_CRIT": 0,
-        "translator": "182150992408739840"
+        "max_CRIT": 0
     },
     "43": {
         "name": "Ozma",
@@ -480,7 +437,6 @@
         "base_ATK": 55,
         "base_CRIT": 26,
         "max_ATK": 0,
-        "max_CRIT": 0,
-        "translator": "182150992408739840"
+        "max_CRIT": 0
     }
 }
