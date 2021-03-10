@@ -93,7 +93,7 @@ exports.run = (client, message, args) => {
                 embed: embed
             })
         })
-    })
+    // })
 }
 
 exports.help = {
