@@ -446,5 +446,20 @@
         "max_ATK": 132,
         "max_DEF": 223,
         "max_CRIT": 66
+    },
+    "32": {
+        "name": "Lucrezia",
+        "rarity": 6,
+        "effect_1": "Lightning damage +10%.",
+        "effect_2": "Gain 15% energy and Damage +10% for 5s when Chord is triggered.",
+        "effect_3": "Damage +20% towards targets affected by Concerto.",
+        "base_HP": 151,
+        "base_ATK": 13,
+        "base_DEF": 21,
+        "base_CRIT": 6,
+        "max_HP": 1506,
+        "max_ATK": 134,
+        "max_DEF": 217,
+        "max_CRIT": 66
     }
 }

@@ -2552,7 +2552,76 @@
         "name": "Luna",
         "code_name": "Laurel",
         "code_name_CN": "银冕",
-        "class": "Attacker",
+        "class": "Assault",
+        "rarity": "S",
+        "base_HP": 444,
+        "base_ATK": 64,
+        "base_DEF": 86,
+        "base_CRIT": 44,
+        "max_HP": 1992,
+        "max_ATK": 386,
+        "max_DEF": 288,
+        "max_CRIT": 198,
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Unleash the spheres forward, performing a scattered attack, dealing 120/240/360(**240/480/720**)% physical damage. Deal dark damage instead when it’s a 3 orb combo. Immune to CC while performing the skill."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Redirect the flow of energy and releasing up to 4 spikes at the nearest target, dealing 110/220/330(**220/440/660**)% physical damage. Deal dark damage instead when it's a 3 orb combo. You are allowed to move when casting and are immune to CC."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Unleash a virus network field that lasts for 3s, dealing X% physical damage. Deal dark damage instead when it’s a 3 orb. Upon unleashing, the field will follow nearby enemies that are present in the area, otherwise it follows Luna instead. Retain the ability to move while performing the skill."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Deal a total of 235(**470**)% physical damage. In **Annihilation** mode, deal a total of 475(**950**)% dark damage and deal 150(**300**)% dark damage after dodge. Energy and　orbs will not be gained when performing basic attacks in **Annihilation** mode."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "Consume 150 energy and gradually alter the gravity in front of Luna, dealing 1400(**2800**) dark damage to all enemies within the area. Releasing ultimate during **Annihilation** mode will consume all Annihilation gauge and exit **Annihilation mode**"
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Deal a total of 320(**640**)% dark damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "10(**20**)% increased additional damage."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "3-orb combos grant 15 Annihilation points, up to a maximum of 60 points. 3-orb combos also allow the next orb consumed to be considered as a 3-orb combo. Other sources of slowmo effect will be prioritized first before the core passive. With at least 15 Annihilation points available, press and hold the basic attack button to enter **Annihilation mode**, dealing 100 (**200**) dark damage to nearby enemies. All remaining orbs will be temporarily replaced by a maximum of 4 Annihilation orbs based on the Annihilation points upon unleashing the core passive. Gain invincibility while unleashing as well as trigger all available QTEs. Consuming an Annihilation orb unleashes 4 homing spikes, dealing a total of 200(**400**)% dark damage and gain 10 energy. Gain an additional Annihilation orb if slowmo is triggered during **Annihilation mode**. Basic attacks consume 5 Annihilation points. **Annihilation mode** ends when the gauge reaches 0 or when the character has been switched out."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "**10**% dark damage increase to all teammates, **5**% attack increase to assault types."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "**5**% damage increase to homing spikes and release 2 additional homing spikes per Annihilation orb."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "**5**% dark damage increase in Annihilation mode. After you exit **Annihilation mode**, the damage buff will persist for 4 seconds. When entering **Annihilation mode** with a full Annihilation gauge, trigger slowmo, 12 seconds cooldown."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "Increase ultimate damage by **15/30/40/60/75**% based on the number of Annihilation orbs consumed."
+    },
+    "27": {
+        "name": "Luna",
+        "code_name": "Laurel",
+        "code_name_CN": "银冕",
+        "class": "Assault",
         "rarity": "S",
         "base_HP": 444,
         "base_ATK": 64,
@@ -2617,6 +2686,81 @@
                     "rank": "SSS+",
                     "description": "Increase ultimate damage by **15/30/40/60/75**% based on the number of Annihilation orbs consumed."
                 }
+            }
+        }
+    },
+    "28": {
+        "name": "Selena",
+        "code_name": "Tempest",
+        "code_name_CN": "岚音",
+        "class": "Vanguard",
+        "rarity": "S",
+        "base_HP": 427,
+        "base_ATK": 94,
+        "base_DEF": 62,
+        "base_CRIT": 43,
+        "max_HP": 1915,
+        "max_ATK": 421,
+        "max_DEF": 281,
+        "max_CRIT": 195,
+        "skills": {
+            "active": {
+                "0": {
+                    "name": "Red",
+                    "description": "Leap and plunge the cello blade into the ground, summoning a lightning strike on the target, dealing 240%/480%/720% Lightning damage."
+                },
+                "1": {
+                    "name": "Yellow",
+                    "description": "Assault forward with the bow, dealing 240%/480%/720% Lightning damage. Gain Super Armor during the move."
+                },
+                "2": {
+                    "name": "Blue",
+                    "description": "Twirl backwards while leaving behind an electrical vortex, drawing enemies in and dealing 240%/480%/720% Lightning damage."
+                },
+                "3": {
+                    "name": "Basic",
+                    "description": "Continuously attack with the cello blade, dealing a total of 852% Physical damage."
+                },
+                "4": {
+                    "name": "Ultimate",
+                    "description": "While Temperament is active, expend 60 energy to enter Chaotic Sea of Consciousness state. Solo buff duration is renewed. Gain Staccato orbs corresponding to the Temperament charge for 6s, granting 30% movement speed increase and 50% damage reduction. Basic attacks or directly consuming Staccato orbs will unleash sound waves, striking twice and dealing a total of 650% Lightning damage. Exit ultimate when all Staccato orbs have been expended or when the duration has expired."
+                },
+                "5": {
+                    "name": "QTE",
+                    "description": "Swiftly attack the target, dealing a total of 640% Lightning damage."
+                }
+            },
+            "passives": {
+                "0": {
+                    "name": "Class-specific Passive",
+                    "description": "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle."
+                },
+                "1": {
+                    "name": "Core",
+                    "description": "Attack +80% while in Catastrophe Zones. 3-orbs grant a Triad of the corresponding color. Expending orbs after that will trigger a Chord. Same Triad and Chord colors: Apply Concerto to the target: Deal 200% Lightning damage and target's damage is decreased by 30% for 8s. Different Triad and Chord colors: Apply Solo to self: Damage +20% for 8s. Gain Temperament charges corresponding to the number of orbs expended to trigger Chord."
+                },
+                "2": {
+                    "name": "Leader",
+                    "description": "All team members' Lightning damage +10%, Vanguard Compositers' Attack +5%."
+                },
+                "3": {
+                    "name": "Passive 1",
+                    "rank": "SS",
+                    "description": "Lightning damage +10%. Concerto is converted into a 12m radius AOE around self."
+                },
+                "4": {
+                    "name": "Passive 2",
+                    "rank": "SSS",
+                    "description": "Solo and Concerto are triggered together when triggering a Chord.Solo damage buff +20%. Concerto damage +50%."
+                },
+                "5": {
+                    "name": "Passive 3",
+                    "rank": "SSS+",
+                    "description": "Lightning damage +10%. Ultimate damage +20%."
+                }
+            }
+        }
+    }
             }
         }
     }

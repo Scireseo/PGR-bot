@@ -396,8 +396,8 @@
         "effect": "Passive 1: 15% ice damage increase.\nPassive 2: After releasing QTE or ORAORAORA, an ice mirror will form beneath of Chang Yu that lasts for 8 seconds.",
         "base_ATK": 53,
         "base_CRIT": 23,
-        "max_ATK": 0,
-        "max_CRIT": 0
+        "max_ATK": 467,
+        "max_CRIT": 236
     },
     "40": {
         "name": "Guiyun",
@@ -406,8 +406,8 @@
         "effect": "Passive: Gain 10% physical damage after consuming a blue orb, lasts 5 seconds. Recasting blue orb will refresh the skill.",
         "base_ATK": 52,
         "base_CRIT": 23,
-        "max_ATK": 0,
-        "max_CRIT": 0
+        "max_ATK": 411,
+        "max_CRIT": 211
     },
     "41": {
         "name": "White Qilin",
@@ -416,8 +416,8 @@
         "effect": "Passive: 8% additional damage increase after dodging, lasts 4 seconds.",
         "base_ATK": 48,
         "base_CRIT": 21,
-        "max_ATK": 0,
-        "max_CRIT": 0
+        "max_ATK": 379,
+        "max_CRIT":191
     },
     "42": {
         "name": "Crown Lure",
@@ -426,8 +426,8 @@
         "effect": "15% all damage increase if 3 different colored orbs are consumed within 6 seconds, lasts for 8 seconds.",
         "base_ATK": 49,
         "base_CRIT": 23,
-        "max_ATK": 0,
-        "max_CRIT": 0
+        "max_ATK": 390,
+        "max_CRIT": 211
     },
     "43": {
         "name": "Ozma",
@@ -436,7 +436,27 @@
         "effect": "Passive 1: 15% dark damage increase.\nPassive 2: The 4th Annihilation Orb will deal an additional 100% AOE dark damage.",
         "base_ATK": 55,
         "base_CRIT": 26,
-        "max_ATK": 0,
-        "max_CRIT": 0
+        "max_ATK": 480,
+        "max_CRIT": 261
+    },
+    "44": {
+        "name": "Mistress of the Woods",
+        "type": "Cello Blade",
+        "rarity": 6,
+        "effect": "Lightning damage +20%. Red and Blue orbs can be weaved into other skills but can not be cast in succession. When exiting ultimate, orbs are refunded based on the number of orbs in possession before entering ultimate; triple orbs are prioritized.",
+        "base_ATK": 54,
+        "base_CRIT": 26,
+        "max_ATK": 471,
+        "max_CRIT": 261
+    },
+    "45": {
+        "name": "Odette",
+        "type": "Cello Blade",
+        "rarity": 5,
+        "effect": "Attack +3% for 5s, up to 5 stacks during 3-orbs. Triggering the effect again refreshes the duration.",
+        "base_ATK": 52,
+        "base_CRIT": 23,
+        "max_ATK": 411,
+        "max_CRIT": 211
     }
 }
