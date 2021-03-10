@@ -139,20 +139,20 @@ exports.run = (client, message, args) => {
         [selected_character_skills[10], selected_character_skills[11]],
     ]
     let character_details_max_index = character_details.length - 1;
-    let translatorDetails = {};
-    client.fetchUser(selected_character.translator).then(translator => {
-        translatorDetails.avatar = translator.avatarURL;
-        translatorDetails.username = translator.username;
-        translatorDetails.discriminator = translator.discriminator;
-    }).then(() => {
+    // let translatorDetails = {};
+    // client.fetchUser(selected_character.translator).then(translator => {
+    //     translatorDetails.avatar = translator.avatarURL;
+    //     translatorDetails.username = translator.username;
+    //     translatorDetails.discriminator = translator.discriminator;
+    // }).then(() => {
         function generateEmbed(){
             let generated_embed = {
                 title: `${selected_character.name}(${selected_character.code_name})`,
                 color: client.colors.character,
-                author: {
-                    "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
-                    "icon_url": translatorDetails.avatar
-                },
+                // author: {
+                //     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
+                //     "icon_url": translatorDetails.avatar
+                // },
                 thumbnail: {
                     url: `attachment://${attachment}`,
                 },

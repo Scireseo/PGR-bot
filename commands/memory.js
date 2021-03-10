@@ -47,22 +47,22 @@ exports.run = (client, message, args) => {
     for(x = 0; x <= selected_memory.rarity - 1; x++){
         rarity += "★";
     }
-    let translatorDetails = {};
-    client.fetchUser(selected_memory.translator).then(translator => {
-        translatorDetails.avatar = translator.avatarURL;
-        translatorDetails.username = translator.username;
-        translatorDetails.discriminator = translator.discriminator;
-    }).then(() => {
+    // let translatorDetails = {};
+    // client.fetchUser(selected_memory.translator).then(translator => {
+    //     translatorDetails.avatar = translator.avatarURL;
+    //     translatorDetails.username = translator.username;
+    //     translatorDetails.discriminator = translator.discriminator;
+    // }).then(() => {
         embed = {
             title: `${selected_memory.name}(${rarity})`,
             color: client.colors.memory,
             thumbnail: {
                 url: `attachment://${attachment}`,
             },
-            author: {
-                "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
-                "icon_url": `${translatorDetails.avatar}`
-            },
+            // author: {
+            //     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
+            //     "icon_url": `${translatorDetails.avatar}`
+            // },
             fields: [
                 {
                     name: "2 set effect",
@@ -122,7 +122,7 @@ exports.run = (client, message, args) => {
                 embed: embed
             })
         })
-    });
+    // });
 }
 
 exports.help = {

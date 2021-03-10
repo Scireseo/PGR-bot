@@ -43,22 +43,22 @@ exports.run = (client, message, args) => {
     for(x = 0; x <= selected_weapon.rarity - 1; x++){
         rarity += "★";
     }
-    let translatorDetails = {};
-    client.fetchUser(selected_weapon.translator).then(translator => {
-        translatorDetails.avatar = translator.avatarURL;
-        translatorDetails.username = translator.username;
-        translatorDetails.discriminator = translator.discriminator;
-    }).then(() => {
+    // let translatorDetails = {};
+    // client.fetchUser(selected_weapon.translator).then(translator => {
+    //     translatorDetails.avatar = translator.avatarURL;
+    //     translatorDetails.username = translator.username;
+    //     translatorDetails.discriminator = translator.discriminator;
+    // }).then(() => {
         embed = {
             title: `${selected_weapon.name}(${rarity})`,
             color: client.colors.weapon,
             thumbnail: {
                 url: `attachment://${attachment}`,
             },
-            author: {
-                "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
-                "icon_url": translatorDetails.avatar
-            },
+            // author: {
+            //     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
+            //     "icon_url": translatorDetails.avatar
+            // },
             fields: [
                 {
                     name: "Effect",
