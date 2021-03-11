@@ -40,89 +40,100 @@ exports.run = (client, message, args) => {
         });
     }
     let rarity = "";
-    let selected_memory = list_of_memories.find(memory => memory.name.includes(args));
-    let memory_index = list_of_memories.indexOf(selected_memory);
-    if(args === "" || selected_memory === undefined) return message.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
-    let attachment = ("0" + memory_index).slice(-2).concat(".png");
-    for(x = 0; x <= selected_memory.rarity - 1; x++){
-        rarity += "★";
-    }
-    // let translatorDetails = {};
-    // client.fetchUser(selected_memory.translator).then(translator => {
-    //     translatorDetails.avatar = translator.avatarURL;
-    //     translatorDetails.username = translator.username;
-    //     translatorDetails.discriminator = translator.discriminator;
-    // }).then(() => {
+    let selected_memory = list_of_memories.filter(memory => memory.name.includes(args));
+    if (selected_memory.length > 1) {
         embed = {
-            title: `${selected_memory.name}(${rarity})`,
-            color: client.colors.memory,
-            thumbnail: {
-                url: `attachment://${attachment}`,
-            },
-            // author: {
-            //     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
-            //     "icon_url": `${translatorDetails.avatar}`
-            // },
-            fields: [
-                {
-                    name: "2 set effect",
-                    value: selected_memory.effect_1,
-                },
-                {
-                    name: "4 set effect",
-                    value: selected_memory.effect_2,
-                },
-                {
-                    name: "6 set effect",
-                    value: selected_memory.effect_3,
-                },
-                {
-                    name: "HP",
-                    value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
-                    inline: true,
-                },
-                {
-                    name: "ATK",
-                    value: selected_memory.base_ATK + `(**${selected_memory.max_ATK}**)`,
-                    inline: true,
-                },
-                {
-                    name: "DEF",
-                    value: selected_memory.base_DEF + `(**${selected_memory.max_DEF}**)`,
-                    inline: true,
-                },
-                {
-                    name: "CRIT",
-                    value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
-                    inline: true,
-                },
-                {
-                    name: "For any further questions, please ask in this server",
-                    value: `https://discord.gg/JErpUEk`,
-                    inline: false,
-                }
-            ]
+            title: "Multiple memories found",
+            fields: [{ 
+                name: `Please type in their full names`, 
+                value: selected_memory.map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n") 
+            }],
+        };
+        message.channel.send({ embed })
+    }
+    else {
+        selected_memory = selected_memory[0];
+        let memory_index = list_of_memories.indexOf(selected_memory);
+        if(args === "" || selected_memory === undefined) return message.channel.send("The memory that you're looking for does not exist. Be sure to check the list by typing the command `~memory list`!");
+        let attachment = ("0" + memory_index).slice(-2).concat(".png");
+        for(x = 0; x <= selected_memory.rarity - 1; x++){
+            rarity += "★";
         }
-
-        if (!selected_memory.effect_3) {
-            embed.fields = embed.fields.filter(field => field.name !== "6 set effect");
-        }
-
-        console.log(embed);
-
-        message.channel.send({ 
-            embed: embed,
-            files: [{
-                attachment: `./static/images/memories/${attachment}`,
-                name: attachment
-            }]
-        })
-        .catch(err => {
-            message.channel.send({
-                embed: embed
+        // let translatorDetails = {};
+        // client.fetchUser(selected_memory.translator).then(translator => {
+        //     translatorDetails.avatar = translator.avatarURL;
+        //     translatorDetails.username = translator.username;
+        //     translatorDetails.discriminator = translator.discriminator;
+        // }).then(() => {
+            embed = {
+                title: `${selected_memory.name}(${rarity})`,
+                color: client.colors.memory,
+                thumbnail: {
+                    url: `attachment://${attachment}`,
+                },
+                // author: {
+                //     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
+                //     "icon_url": `${translatorDetails.avatar}`
+                // },
+                fields: [
+                    {
+                        name: "2 set effect",
+                        value: selected_memory.effect_1,
+                    },
+                    {
+                        name: "4 set effect",
+                        value: selected_memory.effect_2,
+                    },
+                    {
+                        name: "6 set effect",
+                        value: selected_memory.effect_3,
+                    },
+                    {
+                        name: "HP",
+                        value: selected_memory.base_HP + `(**${selected_memory.max_HP}**)`,
+                        inline: true,
+                    },
+                    {
+                        name: "ATK",
+                        value: selected_memory.base_ATK + `(**${selected_memory.max_ATK}**)`,
+                        inline: true,
+                    },
+                    {
+                        name: "DEF",
+                        value: selected_memory.base_DEF + `(**${selected_memory.max_DEF}**)`,
+                        inline: true,
+                    },
+                    {
+                        name: "CRIT",
+                        value: selected_memory.base_CRIT + `(**${selected_memory.max_CRIT}**)`,
+                        inline: true,
+                    },
+                    {
+                        name: "For any further questions, please ask in this server",
+                        value: `https://discord.gg/JErpUEk`,
+                        inline: false,
+                    }
+                ]
+            }
+    
+            if (!selected_memory.effect_3) {
+                embed.fields = embed.fields.filter(field => field.name !== "6 set effect");
+            }
+    
+            message.channel.send({ 
+                embed: embed,
+                files: [{
+                    attachment: `./static/images/memories/${attachment}`,
+                    name: attachment
+                }]
             })
-        })
-    // });
+            .catch(err => {
+                message.channel.send({
+                    embed: embed
+                })
+            })
+        // });
+    }
 }
 
 exports.help = {
