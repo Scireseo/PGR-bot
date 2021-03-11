@@ -126,7 +126,7 @@
         "max_CRIT": 66
     },
     "9": {
-        "name": "Fred II",
+        "name": "Frederick II",
         "rarity": 6,
         "effect_1": "Increase healing effectiveness by 10%. Heals increase the target's physical damage and defense by 10% for 5s, CD: 8s",
         "effect_2": "Everytime you cast a healing skill, drone receives one charge. When the drone is fully charged, the next heal will summon a healing drone. The drone will automatically follow the character with the least amout of health on the field, healing 2% of the character's maximum health every second in a 5m radius. The area will also increase physical damage by 15% for 5s. One drone can be deployed every 12s",
