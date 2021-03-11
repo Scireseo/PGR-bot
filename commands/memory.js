@@ -45,11 +45,26 @@ exports.run = (client, message, args) => {
         embed = {
             title: "Multiple memories found",
             fields: [{ 
-                name: `Please type in their full names`, 
+                name: `Please select one of the following: `, 
                 value: selected_memory.map((memory, index) => `${index + 1}.) ${memory.name}`).join("\r\n") 
             }],
         };
         message.channel.send({ embed })
+            .then(() => {
+                message.channel.awaitMessages(filter, {
+                    max: 1,
+                    time: 30000,
+                    errors: ['time']
+                })
+                    .then(_message => {
+                        _message = _message.first();
+                        if (selected_memory.find(memory => memory.name === _message.content)) {
+                            const selected = selected_memory.filter(memory => memory.name === _message.content)[0];
+                            console.log(">>>", selected);
+                            // generateWeapon(selected);
+                        }
+                    })
+            })
     }
     else {
         selected_memory = selected_memory[0];
