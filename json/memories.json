@@ -169,6 +169,7 @@
     },
     "12": {
         "name": "Barton",
+        "cn_name": "Patton",
         "rarity": 6,
         "effect_1": "Increase critical chance and physical damage by 5%",
         "effect_2": "For every non-critical hit dealt, the next physical attack's critical chance increases by 2%, stackable up to 20%. Critical chance is reset once a critical hit has been landed. Physical damage is increased by 5% for 3s whenever you land a critical hit, stackable up to 3 times, duration can be renewed",

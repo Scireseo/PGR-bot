@@ -38,7 +38,7 @@ exports.run = (client, message, args) => {
             })
         });
     }
-    let selected_memory = list_of_memories.filter(memory => memory.name.includes(args));
+    let selected_memory = list_of_memories.filter(memory => memory.name.includes(args) || (memory.cn_name ? memory.cn_name.includes(args) : false));
     if (selected_memory.length > 1) {
         embed = {
             title: "Multiple memories found",
