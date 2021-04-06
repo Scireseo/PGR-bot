@@ -21,7 +21,7 @@ client.rarities = { weapon: [6, 5], memory: [6, 5], character: ["S", "A", "B"]};
 client.global_timeout = 120000;
 client.on('ready', () => {
     client.user.setActivity('~help for commands!');
-    console.log(`logged in as ${client.user.tag}! I am currently in ${client.guilds.size} servers!`);
+    console.log(`logged in as ${client.user.tag}! I am currently in ${client.guilds.cache.size} servers!`);
 });
 
 fs.readdir("./events/", (err, files) => {
