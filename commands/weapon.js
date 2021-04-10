@@ -51,7 +51,7 @@ exports.run = (client, message, args) => {
     // }).then(() => {
         embed = {
             title: `${selected_weapon.name}(${rarity})`,
-            color: client.colors.weapon,
+            // color: client.colors.weapon,
             thumbnail: {
                 url: `attachment://${attachment}`,
             },

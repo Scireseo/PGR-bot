@@ -73,7 +73,7 @@ exports.run = (client, message, args) => {
         const attachment = ("0" + list_of_memories.indexOf(selectedMemory)).slice(-2).concat(".png");
         embed = {
             title: `${selectedMemory.name}(${rarity})`,
-            color: client.colors.memory,
+            // color: client.colors.memory,
             thumbnail: {
                 url: `attachment://${attachment}`,
             },

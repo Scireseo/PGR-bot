@@ -148,7 +148,7 @@ exports.run = (client, message, args) => {
         function generateEmbed(){
             let generated_embed = {
                 title: `${selected_character.name}(${selected_character.code_name})`,
-                color: client.colors.character,
+                // color: client.colors.character,
                 // author: {
                 //     "name": `Translated by ${translatorDetails.username}#${translatorDetails.discriminator}`,
                 //     "icon_url": translatorDetails.avatar
