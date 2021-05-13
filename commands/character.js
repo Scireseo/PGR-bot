@@ -183,7 +183,7 @@ exports.run = (client, message, args) => {
                 }
             });
             react_collector.on('end', () => {
-                sent_message.reactions.map(reaction => reaction.remove(sent_message.author.id));
+                sent_message.reactions.removeAll()
             })
         })
         .catch(err => {
