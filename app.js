@@ -19,6 +19,8 @@ client.misc = require ("./json/misc.json");
 client.colors = { weapon: "11728383", memory: "16508579", character: "16756158" };
 client.rarities = { weapon: [6, 5], memory: [6, 5], character: ["S", "A", "B"]};
 client.global_timeout = 120000;
+client.discordLink = 'https://discord.gg/GChBufF';
+
 client.on('ready', () => {
     client.user.setActivity('~help for commands!');
     console.log(`logged in as ${client.user.tag}! I am currently in ${client.guilds.cache.size} servers!`);
