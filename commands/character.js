@@ -6,7 +6,7 @@ exports.run = (client, message, args) => {
     console.log("[args 1]", args);
     let embed = {};
     let list_of_characters = Object.values(client.characters);
-    if(args === "List"){
+    if(args === "list"){
         let rarity_index = 0;
         let max_index = client.rarities.character.length - 1;
         function generateEmbed(){
@@ -40,8 +40,8 @@ exports.run = (client, message, args) => {
         });;
     }
     let selected_character = list_of_characters.filter(character => 
-        character.name.includes(args) || character.code_name.includes(args) || 
-        character.name.concat(" ", character.code_name).includes(args));
+        character.name.toLowerCase().includes(args) || character.code_name.toLowerCase().includes(args) || 
+        character.name.toLowerCase().concat(" ", character.code_name.toLowerCase()).includes(args));
     if(args === "" || selected_character.length === 0) return message.channel.send("The character that you're looking for does not exist. Be sure to check the list by typing the command `~character list`!");
     if(selected_character.length > 1){
         selected_character = selected_character.map((character, index) => `${index + 1}.) ${character.name}(${character.code_name})`).join("\r\n");
