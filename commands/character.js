@@ -2,7 +2,8 @@ exports.run = (client, message, args) => {
     const general_functions = require('../helpers/general');
     args = args.map(arg => arg.includes("-") ? arg.split("-").map(a=> general_functions.titleCase(a)).join("-") : general_functions.titleCase(arg))
     args = args.join(" ");
-    // console.log("[args 1]", args);
+    args = args.toLowerCase();
+    console.log("[args 1]", args);
     let embed = {};
     let list_of_characters = Object.values(client.characters);
     if(args === "List"){
@@ -125,11 +126,11 @@ exports.run = (client, message, args) => {
                 value: selected_character.base_CRIT + `(**${selected_character.max_CRIT}**)`,
                 inline:true,
             },
-            {
-                name: "For any further questions, please ask in this server",
-                value: client.discordLink,
-                inline: false,
-            }
+            // {
+            //     name: "For any further questions, please ask in this server",
+            //     value: client.discordLink,
+            //     inline: false,
+            // }
         ],
         [selected_character_skills[0], selected_character_skills[1]],
         [selected_character_skills[2], selected_character_skills[3]],

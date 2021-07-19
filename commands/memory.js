@@ -110,11 +110,11 @@ exports.run = (client, message, args) => {
                     value: selectedMemory.base_CRIT + `(**${selectedMemory.max_CRIT}**)`,
                     inline: true,
                 },
-                {
-                    name: "For any further questions, please ask in this server",
-                    value: client.discordLink,
-                    inline: false,
-                }
+                // {
+                //     name: "For any further questions, please ask in this server",
+                //     value: client.discordLink,
+                //     inline: false,
+                // }
             ]
         }
         if (!selectedMemory.effect_3) {

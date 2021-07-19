@@ -94,11 +94,11 @@ exports.run = (client, message, args) => {
                     value: selected_weapon.base_CRIT + `(**${selected_weapon.max_CRIT}**)`,
                     inline: true,
                 },
-                {
-                    name: "For any further questions, please ask in this server",
-                    value: client.discordLink,
-                    inline: false,
-                }
+                // {
+                //     name: "For any further questions, please ask in this server",
+                //     value: client.discordLink,
+                //     inline: false,
+                // }
             ]
         }
         message.channel.send({ 
